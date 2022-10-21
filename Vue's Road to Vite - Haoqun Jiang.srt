@@ -85,7 +85,7 @@ earlier this year
 
 18
 00:00:55,266 --> 00:00:58,899
-我们把好的老家的coi项目
+我们把好的老家coi项目
 we put the good oldville coi project
 
 19
@@ -175,7 +175,7 @@ a customized with create view option
 
 36
 00:01:51,466 --> 00:01:54,399
-旁边还有两个简约的
+旁边还有2个简约的
 in the job John alongside the 2 minimalistic
 
 37
@@ -225,7 +225,7 @@ vapac to create view and vit
 
 46
 00:02:24,100 --> 00:02:26,700
-究竟有哪些不同的方法？
+到底有哪些不同的方法
 exactly what are the different approaches
 
 47
@@ -415,7 +415,7 @@ you don't have to configure anything additionally
 
 84
 00:04:09,500 --> 00:04:12,733
-此外，当它涉及到热模型的更换
+此外，当它涉及到热模型更换
 besides when it comes to the hot model replacement
 
 85
@@ -540,7 +540,7 @@ have chosen the wrong one at first
 
 109
 00:05:35,100 --> 00:05:38,766
-比如es linksof loader
+像es linksof loader
 like the es linksof loader
 
 110
@@ -585,12 +585,12 @@ that's the case for view loader
 
 118
 00:06:03,366 --> 00:06:07,133
-尽管它的名字里有世界加载器的字样
+尽管它的名字里有世界装载器的字样
 even though it has the world loader in its name
 
 119
 00:06:08,500 --> 00:06:11,100
-用户仍然需要使用视图加载器
+用户仍然必须使用视图加载器
 users still have to use the view loader
 
 120
@@ -645,7 +645,7 @@ we believe that wheat is mature
 
 130
 00:06:41,200 --> 00:06:44,966
-我们相信小麦已经足够成熟，并且已经为严肃的用例做好了准备
+我们相信小麦已经足够成熟，并且已经为严肃的使用案例做好了准备
 enough and more than ready for serious use cases
 
 131
@@ -900,7 +900,7 @@ integration with other tools easier
 
 181
 00:09:46,933 --> 00:09:50,966
-要求，并且类型脚本可以识别
+要求，而且类型脚本可以识别
 asking towards and the type script can recognize the
 
 182
@@ -910,7 +910,7 @@ few single file components earlier
 
 183
 00:09:54,200 --> 00:09:57,966
-这在将来会减少问题。
+而这在将来会有更少的问题。
 and that would be less problematic in the future
 
 184
@@ -975,7 +975,7 @@ and next year 2023
 
 196
 00:10:37,933 --> 00:10:40,533
-适合非礼服14的下降支持
+适合于非礼服14的下降支持
 fits what dropped support for non dress 14
 
 197
@@ -990,7 +990,7 @@ predictable release cadence
 
 199
 00:10:49,733 --> 00:10:50,899
-也使得
+也使
 also makes
 
 200
@@ -1080,7 +1080,7 @@ so the migration pathis smoother
 
 217
 00:11:42,966 --> 00:11:45,666
-在从Bill CIA到Vita的过渡中
+在从Bill CIA到veet的过渡中
 in a transition from Bill CIA to veet
 
 218
@@ -1770,7 +1770,7 @@ and keep only one copy of it
 
 355
 00:19:13,166 --> 00:19:17,533
-我们希望在Daryl测试之后再推出这个功能。
+我们希望在Daryl测试之后再发布这个功能。
 we'd like to ship this feature after Daryl testing
 
 356
@@ -1815,7 +1815,7 @@ is an interruptability with newer packages
 
 364
 00:19:46,400 --> 00:19:48,766
-而且我们想在视图插件中做一些事情
+而我们想在视图插件中做一些事情
 and we want to do something
 
 365
