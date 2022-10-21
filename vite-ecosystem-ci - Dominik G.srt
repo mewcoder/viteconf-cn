@@ -1,0 +1,570 @@
+1
+00:00:03,100 --> 00:00:05,800
+嘿嘿，我是多米尼克-G，这是
+hey hey I'm Dominic g and this
+
+2
+00:00:06,266 --> 00:00:08,133
+是深层生态系统中心
+is deep ecosystem ci
+
+3
+00:00:09,400 --> 00:00:10,766
+深度生态系统
+the deep ecosystem
+
+4
+00:00:12,200 --> 00:00:14,166
+是很多的项目
+is a lot of projects
+
+5
+00:00:14,500 --> 00:00:16,466
+许多依赖深度生态系统的软件包
+many packages that depend on deep
+
+6
+00:00:16,666 --> 00:00:19,299
+框架，用它来构建很棒的东西
+frameworks use it to build awesome things
+
+7
+00:00:19,566 --> 00:00:24,299
+我们今天看到了很多很酷的演讲
+we've seen so many cool presentations today and
+
+8
+00:00:25,566 --> 00:00:27,866
+所有这些都是通过beat实现的
+all of that is made possible by beat
+
+9
+00:00:28,500 --> 00:00:29,866
+它正在快速成长
+it's growing fast
+
+10
+00:00:30,100 --> 00:00:32,366
+为了继续繁荣发展
+and to continue to thrive
+
+11
+00:00:32,566 --> 00:00:34,799
+我们需要一个稳定的基础来工作
+we need a stable base to work with
+
+12
+00:00:36,700 --> 00:00:39,333
+持续集成保证了这一点
+this is ensured by continuous integration
+
+13
+00:00:40,500 --> 00:00:42,966
+V中的每一个变化都经过测试
+every change in v is tested
+
+14
+00:00:43,366 --> 00:00:46,333
+在V的测试和playwright上用CI构建。
+with a ci build on v tests and playwright
+
+15
+00:00:47,466 --> 00:00:50,166
+但它仍然发生在屏幕上
+but it still happened on screen
+
+16
+00:00:52,666 --> 00:00:55,933
+只能运行下游的测试
+it's only possible to run downstream tests
+
+17
+00:00:56,500 --> 00:00:58,166
+周发布之后
+after week was released
+
+18
+00:00:59,333 --> 00:01:00,166
+还是说
+or is it
+
+19
+00:01:01,133 --> 00:01:02,866
+使用Vitacosystem ci
+with vitacosystem ci
+
+20
+00:01:03,666 --> 00:01:06,699
+我们可以在发布前运行下游测试
+we are able to run downstream tests before
+
+21
+00:01:06,700 --> 00:01:07,766
+我们发布杂草
+we release weed
+
+22
+00:01:08,366 --> 00:01:09,999
+这意味着我们可以得到
+and that means we get
+
+23
+00:01:10,166 --> 00:01:14,199
+这意味着我们可以立即得到反馈，减少下游的失败。
+immediate feedback and less fails happen downstream
+
+24
+00:01:16,400 --> 00:01:19,700
+为了做到这一点，我们将一个典型的维护者设置自动化了
+to do that we automate a typical maintainer set up
+
+25
+00:01:20,866 --> 00:01:22,699
+链接项目
+links projects
+
+26
+00:01:23,066 --> 00:01:25,666
+并安装测试，然后
+and installs tests and then
+
+27
+00:01:25,700 --> 00:01:28,400
+报告给上游项目
+reports back tothe upstream project
+
+28
+00:01:30,800 --> 00:01:32,800
+我们还支持很多工具
+we also support a lot of tools that
+
+29
+00:01:32,800 --> 00:01:34,300
+我们也支持很多工具，这些工具是肉体生态系统的
+are the meat ecosystem
+
+30
+00:01:34,333 --> 00:01:36,566
+项目使用的工具，如pmpm
+project use like pmpm
+
+31
+00:01:36,566 --> 00:01:37,366
+纱线
+yarn
+
+32
+00:01:38,366 --> 00:01:39,166
+deno
+deno
+
+33
+00:01:40,133 --> 00:01:41,333
+bit lfs
+bit lfs
+
+34
+00:01:42,533 --> 00:01:44,399
+并通过自定义脚本，你可以
+and through custom scripts you can
+
+35
+00:01:44,533 --> 00:01:46,266
+基本上建立一切
+basically build everything
+
+36
+00:01:47,700 --> 00:01:49,133
+也支持嵌套
+also nesting is supported
+
+37
+00:01:49,133 --> 00:01:51,799
+这对于复杂的设置是很重要的，比如
+which is important for complex setups like
+
+38
+00:01:52,133 --> 00:01:53,766
+插头和膨胀以及汗水套件
+plug and swelled and sweat kit
+
+39
+00:01:59,366 --> 00:02:02,166
+几乎不可能一直手动运行这个程序
+almost impossible to run this manually all the time
+
+40
+00:02:02,166 --> 00:02:04,599
+所以我们使用了一个喷气式的行动
+so we use a jet up action
+
+41
+00:02:05,000 --> 00:02:07,600
+矩阵来并行地运行所有的测试
+matrix to run all the tests in parallel
+
+42
+00:02:07,900 --> 00:02:09,966
+并获得预定的反馈
+and get scheduled feedback
+
+43
+00:02:10,100 --> 00:02:11,466
+我们可以手动触发它
+we can trigger it manually
+
+44
+00:02:11,466 --> 00:02:14,599
+感谢Softy Red的杰出贡献
+and thanks to an awesome contribution by softy red
+
+45
+00:02:16,533 --> 00:02:19,699
+vtpr上的评论就可以了
+comment on vtpr is all it takes
+
+46
+00:02:19,866 --> 00:02:21,799
+来测试该PR中的代码
+to test the code in that PR
+
+47
+00:02:22,100 --> 00:02:24,466
+与大多数vdecosystem ci
+with most of the vdecosystem ci
+
+48
+00:02:25,333 --> 00:02:26,133
+这就是
+this is
+
+49
+00:02:27,166 --> 00:02:28,533
+我相信我们创造了
+I believe we create
+
+50
+00:02:28,533 --> 00:02:29,466
+它是
+it's
+
+51
+00:02:30,366 --> 00:02:33,299
+一个很好的方法来确保
+a great way to ensure the
+
+52
+00:02:33,966 --> 00:02:36,599
+变化做他们想做的事
+changes do what they intend to
+
+53
+00:02:36,600 --> 00:02:38,866
+而且不会产生令人不快的副作用
+and don't have unpleasant side effect
+
+54
+00:02:40,266 --> 00:02:43,466
+我们可以在每个节拍的提交上运行它
+we can run it on every beat commit
+
+55
+00:02:43,866 --> 00:02:49,599
+分支标签或发布的mpm rapper street上运行。
+branch tag or releases on the mpm rapper street also
+
+56
+00:02:50,966 --> 00:02:53,933
+将报告返回到discord频道
+report come back to a discord channel
+
+57
+00:02:54,400 --> 00:02:56,066
+这样我们就有一个地方
+so we have a place
+
+58
+00:02:57,066 --> 00:02:58,866
+烹饪维护者和
+cooking maintainers and
+
+59
+00:02:58,966 --> 00:03:02,299
+谈论失败，看看需要做什么
+talk about fails and see what needs to be done
+
+60
+00:03:02,533 --> 00:03:03,666
+来解决这个问题
+to fix that
+
+61
+00:03:04,933 --> 00:03:08,799
+而且，当推动时，我们仍然可以在本地检查出
+and when push comes to show we can still check out
+
+62
+00:03:09,600 --> 00:03:11,700
+生态系统CI项目
+ecosystem ci project locally
+
+63
+00:03:12,533 --> 00:03:13,333
+使用
+use
+
+64
+00:03:14,200 --> 00:03:15,000
+好的
+the nice
+
+65
+00:03:15,566 --> 00:03:17,766
+设置节点来分析
+set node to analyze
+
+66
+00:03:18,100 --> 00:03:21,733
+准确地找到引入故障的漫画。
+the fail and find the exact comic that introduced it
+
+67
+00:03:23,700 --> 00:03:25,366
+算起来，他们已经
+countly they're already
+
+68
+00:03:26,066 --> 00:03:27,399
+许多伟大的项目
+many great projects
+
+69
+00:03:28,133 --> 00:03:29,766
+使用生态系统CI
+using ecosystem ci
+
+70
+00:03:30,200 --> 00:03:33,266
+但要加入自己的项目也不难
+but it's not hard to add your own
+
+71
+00:03:34,933 --> 00:03:36,999
+只是有一点冲突而已
+it's just a little bit of conflict
+
+72
+00:03:37,300 --> 00:03:39,666
+告诉我们你的rapo和
+telling us about your rapo and
+
+73
+00:03:39,766 --> 00:03:42,733
+构建和测试所需的脚本，以及
+the scripts needed for building and testing and
+
+74
+00:03:42,866 --> 00:03:44,699
+其余的都是
+the rest is
+
+75
+00:03:45,100 --> 00:03:47,500
+剩下的就由生态系统的CI自动完成
+done automatically by ecosystem ci
+
+76
+00:03:49,766 --> 00:03:53,399
+这不仅有利于吃，也有利于游戏
+this benefits not only eat which games
+
+77
+00:03:54,133 --> 00:03:56,599
+减少机场和石膏的反馈
+less airport and plaster feedback
+
+78
+00:03:57,766 --> 00:04:00,333
+而且还有更多的覆盖面
+and also a lot more coverage
+
+79
+00:04:00,566 --> 00:04:02,066
+覆盖面也比
+than would be possible by
+
+80
+00:04:02,133 --> 00:04:03,999
+覆盖面要比只维护单一的测试食物多得多
+maintaining just a single test food
+
+81
+00:04:04,800 --> 00:04:06,133
+但它也有好处
+but it's also benefit
+
+82
+00:04:06,666 --> 00:04:10,299
+它也有利于使用它的项目，因为
+it also benefits the projects that use it because
+
+83
+00:04:10,900 --> 00:04:11,700
+你
+you
+
+84
+00:04:12,766 --> 00:04:15,666
+在Bug进入V版之前就能及早得到通知
+get notified of bugs early before
+
+85
+00:04:16,666 --> 00:04:18,466
+它们进入V版并
+they enter a v release and
+
+86
+00:04:18,900 --> 00:04:20,400
+可能会影响到你的用户步骤
+might hit your user step
+
+87
+00:04:20,466 --> 00:04:21,866
+使用码头防御系统
+use a pier defendancy
+
+88
+00:04:22,333 --> 00:04:27,599
+或者你对更新节拍有信心，因为
+or you aim confidence for updating beat because
+
+89
+00:04:29,300 --> 00:04:30,966
+的一致性，我已经
+the consistency I already
+
+90
+00:04:31,300 --> 00:04:33,166
+运行并通过你的胸部套装
+ran and passed your chest suit
+
+91
+00:04:34,200 --> 00:04:36,600
+主要的好处之一是
+one of the main benefits is that
+
+92
+00:04:36,600 --> 00:04:38,466
+它也允许你升级
+it also allows you to upgrade
+
+93
+00:04:38,566 --> 00:04:40,066
+到一个新的
+to a new
+
+94
+00:04:40,700 --> 00:04:42,966
+小麦的主要版本，以更快的方式
+wheat major release in faster way
+
+95
+00:04:43,333 --> 00:04:47,999
+因为当一致性CI在vpita上运行并且
+because when a consistency ci runs on a vpita and
+
+96
+00:04:48,133 --> 00:04:49,699
+你参与其中
+you participate it in that
+
+97
+00:04:51,300 --> 00:04:52,166
+升级后
+upgrading after
+
+98
+00:04:52,666 --> 00:04:54,999
+小麦已经发布了它的最终版本
+wheat has released its final version
+
+99
+00:04:55,966 --> 00:04:56,766
+是
+is
+
+100
+00:04:57,533 --> 00:04:58,966
+没心没肺，单打独斗
+heartless and singles
+
+101
+00:05:01,600 --> 00:05:03,500
+所以对于
+so for
+
+102
+00:05:04,466 --> 00:05:06,566
+维持杂草生态系统的增长
+sustaining growth in the weed ecosystem
+
+103
+00:05:06,566 --> 00:05:09,299
+请与我们在生态系统的CI上进行合作
+please collaborate on the ecosystem ci with us
+
+104
+00:05:11,066 --> 00:05:14,199
+并继续发挥其威力，建立一些
+and continue to be awesome and build things
+
+105
+00:05:14,500 --> 00:05:16,366
+我们今天甚至没有带来的东西
+we don't even bring about today
+
+106
+00:05:16,766 --> 00:05:18,566
+非常感谢你们
+thank you so much for
+
+107
+00:05:19,100 --> 00:05:20,966
+很棒，而且
+being awesome and
+
+108
+00:05:21,933 --> 00:05:22,966
+也感谢Lob
+also thanks lob
+
+109
+00:05:22,966 --> 00:05:25,166
+patak和subscriber red在肉食方面的工作。
+patak and subscriber red for working on meat
+
+110
+00:05:25,166 --> 00:05:26,599
+生态系统CI的工作
+ecosystem ci with me
+
+111
+00:05:27,100 --> 00:05:28,600
+还有那些可爱的人
+and the lovely people
+
+112
+00:05:28,600 --> 00:05:30,900
+和可爱的人们提供了很棒的照片
+on unspatched for providing awesome photos
+
+113
+00:05:33,100 --> 00:05:34,866
+这个世界击败了生态系统CI
+this world beat ecosystem ci
+
+114
+00:05:35,200 --> 00:05:38,066
+和多米尼克感谢你的关注，再见
+and Dominic thanks for watching goodbye
+

@@ -1,0 +1,2345 @@
+1
+00:00:01,500 --> 00:00:02,500
+大家好
+hey everybody
+
+2
+00:00:02,566 --> 00:00:03,666
+我的名字是Natemore
+my name is natemore
+
+3
+00:00:03,666 --> 00:00:05,799
+我很高兴今天能在这里谈论
+and I'm thrilled to be here today to talk
+
+4
+00:00:05,800 --> 00:00:07,200
+关于岛上的建筑
+about island's architecture
+
+5
+00:00:07,200 --> 00:00:08,900
+阿斯特罗和你
+astro and you
+
+6
+00:00:09,766 --> 00:00:11,666
+很荣幸能与大家分享
+it is such an honor to share
+
+7
+00:00:12,200 --> 00:00:13,200
+虚拟舞台
+the virtual stage
+
+8
+00:00:13,200 --> 00:00:15,200
+与这样一个令人难以置信的人的阵容
+with such an incredible lineup of people
+
+9
+00:00:16,100 --> 00:00:19,266
+我非常非常兴奋地向你们介绍astro
+and I'm really really excited to introduce you to astro
+
+10
+00:00:19,533 --> 00:00:22,399
+它是一个新的工具，用于建立更快的网站
+it's a new tool for building faster websites
+
+11
+00:00:22,866 --> 00:00:25,299
+astro one pointo在几周前推出。
+astro one pointo launched a few weeks ago
+
+12
+00:00:25,466 --> 00:00:26,133
+但它已经
+but it's been
+
+13
+00:00:26,133 --> 00:00:28,299
+在幕后进行了一年多的工作
+well over a year of work behind the scenes
+
+14
+00:00:28,300 --> 00:00:29,700
+让一切准备就绪
+to get everything ready
+
+15
+00:00:29,900 --> 00:00:30,733
+为了这一刻
+for this moment
+
+16
+00:00:32,566 --> 00:00:34,866
+astro背后有一个不可思议的团队
+there is an incredible team behind astro
+
+17
+00:00:34,966 --> 00:00:37,266
+的维护者和核心维护者
+of maintainers and core maintainers
+
+18
+00:00:37,400 --> 00:00:40,166
+我真的鼓励你去看看我们的社区
+and I really encourage you to check out our community
+
+19
+00:00:41,266 --> 00:00:42,366
+我非常
+I'm super
+
+20
+00:00:42,400 --> 00:00:44,600
+兴奋地展示我们一直在做的事情
+excited to show off what we've been working on
+
+21
+00:00:44,966 --> 00:00:46,999
+并谈谈小岛的架构
+and chat about island's architecture
+
+22
+00:00:47,266 --> 00:00:48,699
+它是一种非常有趣的
+it's a really interesting
+
+23
+00:00:48,700 --> 00:00:52,133
+它是一种非常有趣的方式来解决当前框架中出现的性能瓶颈问题。
+way to solve performance bottlenecks that come up with
+
+24
+00:00:52,400 --> 00:00:55,000
+遇到的性能瓶颈。
+the current crop of frameworks
+
+25
+00:00:56,133 --> 00:00:59,099
+总的来说，我认为 astro 是一种非常有趣的
+and overall I think astro is a really fun
+
+26
+00:00:59,100 --> 00:01:01,166
+总的来说，我认为 astro 是一种非常有趣的、平易近人的网站建设方式
+approachable way to build websites
+
+27
+00:01:01,166 --> 00:01:02,266
+你一定会喜欢的
+that you're going to love
+
+28
+00:01:04,533 --> 00:01:05,333
+对不起，我刚才没听清你的名字
+sorry I didn't catch your name earlier
+
+29
+00:01:05,333 --> 00:01:08,066
+一个典型的网站是这样的
+so a typical website looks something like this
+
+30
+00:01:08,333 --> 00:01:11,399
+你可以看到，我们已经把事情分解为
+and you can see we've kind of broken things down
+
+31
+00:01:11,400 --> 00:01:12,300
+组成的
+into components
+
+32
+00:01:12,300 --> 00:01:13,766
+这确实是大多数
+that's really the way that most
+
+33
+00:01:13,766 --> 00:01:15,499
+开发人员的工作方式
+developers work these days
+
+34
+00:01:15,900 --> 00:01:19,400
+很多组件都是互动的
+and a lot of these components are interactive
+
+35
+00:01:19,400 --> 00:01:21,366
+但其中大部分实际上是静态的
+but most of them are actually static
+
+36
+00:01:21,533 --> 00:01:24,099
+所以有一些组件
+so there are some pieces that
+
+37
+00:01:24,300 --> 00:01:25,933
+需要客户端的javascript
+require clientside javascript
+
+38
+00:01:25,933 --> 00:01:26,933
+但在我看来
+but in my mind
+
+39
+00:01:26,933 --> 00:01:29,499
+但在我看来，这些组件中的大多数都不需要客户端的javascript。
+most of these don't need clientside javascript
+
+40
+00:01:30,666 --> 00:01:32,666
+如果采用传统的方法
+with a traditional approach
+
+41
+00:01:33,566 --> 00:01:36,999
+所有的东西都是一个javascript单体的情况下
+where everything is kind of one javascript monolith
+
+42
+00:01:37,733 --> 00:01:40,266
+你可以在服务器端渲染这个
+you might render this on the server side
+
+43
+00:01:40,400 --> 00:01:42,800
+然后再在客户端进行水化
+and then also hydrated on the client
+
+44
+00:01:43,966 --> 00:01:46,466
+这是一个很好的开发者体验
+it's a nice developer experience
+
+45
+00:01:46,666 --> 00:01:48,966
+在这里，代码是同构的
+where the code is isomorphic
+
+46
+00:01:48,966 --> 00:01:50,766
+而且你只需要写一次
+and you're only writing things once
+
+47
+00:01:51,266 --> 00:01:52,066
+但
+but
+
+48
+00:01:52,200 --> 00:01:54,733
+它在两个地方运行，而且
+it's running in 2 places and
+
+49
+00:01:55,066 --> 00:01:57,999
+你最终会有几百KB的javascript
+you end up with hundreds of kilobytes of javascript
+
+50
+00:01:58,166 --> 00:02:00,499
+其中一些运行在服务器上
+some of which runs on the server
+
+51
+00:02:00,500 --> 00:02:03,866
+然后它也在客户端运行
+and thenit also runs on the client
+
+52
+00:02:03,966 --> 00:02:05,066
+甚至对于
+even for
+
+53
+00:02:05,133 --> 00:02:08,599
+非交互式的作品，也不需要任何
+non interactive pieces that really don't need any
+
+54
+00:02:08,966 --> 00:02:10,466
+客户端上的javascript
+javascript on the client
+
+55
+00:02:12,133 --> 00:02:13,366
+因此，对于Astro
+so with astro
+
+56
+00:02:13,366 --> 00:02:16,099
+我们正在使用一种叫做 "岛屿结构 "的技术
+we're using a technique called island's architecture
+
+57
+00:02:16,300 --> 00:02:19,500
+你可能也听说过部分水化这个词
+and you may have also heard the term partial hydration
+
+58
+00:02:20,066 --> 00:02:23,366
+所以这是一个非常相似的基于组件的体验
+so it's a very similar component based experience
+
+59
+00:02:23,366 --> 00:02:24,599
+甚至使用相同的
+even using the same
+
+60
+00:02:24,600 --> 00:02:26,666
+框架，你已经知道并喜欢这些框架
+frameworks that you already know and love
+
+61
+00:02:26,933 --> 00:02:30,599
+但网站的互动部分被分解为
+but interactive pieces of the site are broken down
+
+62
+00:02:30,766 --> 00:02:32,533
+分成我们所说的岛屿
+into what we call islands
+
+63
+00:02:32,700 --> 00:02:36,200
+所以岛屿基本上是
+so islands are basically
+
+64
+00:02:36,566 --> 00:02:40,999
+在你的静态内容中的微小应用
+tiny applications inside of your static content
+
+65
+00:02:41,400 --> 00:02:44,500
+在Astro中岛屿是递归的
+and in astro islands are recursive
+
+66
+00:02:44,600 --> 00:02:47,866
+岛屿的子代实际上是
+and the children of islands are actually
+
+67
+00:02:48,166 --> 00:02:50,133
+不是你的javascript包的一部分
+not part of your javascript bundle
+
+68
+00:02:50,266 --> 00:02:52,499
+而是嵌入在HTML中
+but are embedded in the HTML
+
+69
+00:02:53,366 --> 00:02:55,666
+这相当于将javascript的总体数量减少了90
+what this amounts to is up to a 90
+
+70
+00:02:55,666 --> 00:02:57,999
+这相当于在整体上减少了90％的javascript
+percent reduction in javascript overall
+
+71
+00:02:59,733 --> 00:03:01,566
+因此，建立伟大的网站
+so building great websites
+
+72
+00:03:01,566 --> 00:03:02,999
+这就是我们在这里的目的
+that's what we're all here for
+
+73
+00:03:03,266 --> 00:03:06,299
+而且它每年都会变得更容易
+and it gets easier every year
+
+74
+00:03:06,500 --> 00:03:07,733
+但在我看来
+but in my mind
+
+75
+00:03:07,766 --> 00:03:10,899
+选择正确的工具从未如此困难
+choosing the right tool has never been more difficult
+
+76
+00:03:11,766 --> 00:03:12,933
+你可以
+you can
+
+77
+00:03:13,366 --> 00:03:16,266
+用静态网站生成器建立一个静态网站
+build a static site with a static site generator
+
+78
+00:03:16,266 --> 00:03:17,966
+如Hugo或levindi
+like Hugo or levindi
+
+79
+00:03:18,166 --> 00:03:19,766
+但这样你就真的
+but then you're really
+
+80
+00:03:19,933 --> 00:03:22,766
+手滚动你自己的客户端javascript
+hand rolling your own client side javascript
+
+81
+00:03:24,100 --> 00:03:26,966
+你可以建立一个传统的单页应用程序
+you can build a traditional single page application
+
+82
+00:03:27,000 --> 00:03:29,366
+但这有很多弊端
+but that comes with a lot of downsides
+
+83
+00:03:29,366 --> 00:03:29,999
+比如
+like
+
+84
+00:03:30,000 --> 00:03:32,100
+糟糕的SEO和性能
+poor SEO and performance
+
+85
+00:03:33,166 --> 00:03:36,499
+你可以用Jamstack模式来减轻这些问题的影响
+you can mitigate some of that with the jamstack pattern
+
+86
+00:03:36,500 --> 00:03:38,066
+你可以通过jamstack模式来缓解一些问题，在这里你要渲染
+where you're rendering
+
+87
+00:03:38,533 --> 00:03:41,399
+渲染服务器，然后将其作为一个
+the server and then enhancing it as a
+
+88
+00:03:41,666 --> 00:03:43,599
+在客户端的单页应用
+single page application on the client
+
+89
+00:03:44,400 --> 00:03:47,533
+或者你可以完全依靠服务器并在请求时
+or you can fully lean into the server and
+
+90
+00:03:47,800 --> 00:03:49,700
+在请求时渲染你的页面
+render your pages at request time
+
+91
+00:03:51,066 --> 00:03:53,799
+所有这些都会带来非常有趣的权衡
+all these come with really interesting trade offs
+
+92
+00:03:53,933 --> 00:03:57,399
+所以静态网站的设计是为了提高客户端的速度
+so static sites are designed for speed on the client
+
+93
+00:03:57,500 --> 00:03:59,466
+但正如我所提到的，你的
+but like I mentioned your
+
+94
+00:03:59,466 --> 00:04:01,199
+和滚动你自己的javascript
+and rolling your own javascript
+
+95
+00:04:01,200 --> 00:04:03,766
+甚至可能建立一个构建管道
+and maybe even setting up a build pipeline
+
+96
+00:04:03,966 --> 00:04:06,699
+它有时是很难操作的
+it's pretty difficult to work with sometimes
+
+97
+00:04:07,500 --> 00:04:10,900
+而spas是为交互性设计的
+and spas are designed for interactivity
+
+98
+00:04:11,133 --> 00:04:14,699
+它们对SEO或性能没有好处
+they are not good for SEO or performance
+
+99
+00:04:14,900 --> 00:04:18,566
+但对于长时间的会议来说，它们可以是非常好的。
+but for long sessions they can be really great
+
+100
+00:04:20,000 --> 00:04:22,800
+jamstack让内容工作变得非常容易。
+jamstack makes it really easy to work with content
+
+101
+00:04:22,933 --> 00:04:26,099
+但我们优先考虑的是我们自己的开发者体验
+but we're prioritizing our own developer experience
+
+102
+00:04:26,266 --> 00:04:28,199
+而不是客户端的性能
+over the client side performance
+
+103
+00:04:30,400 --> 00:04:33,400
+与服务器端渲染的应用程序
+and with server side rendered applications
+
+104
+00:04:33,566 --> 00:04:34,866
+他们的规模
+they scale
+
+105
+00:04:35,000 --> 00:04:35,800
+但
+but
+
+106
+00:04:36,200 --> 00:04:38,766
+但随着规模的扩大，它也有自己的问题
+with scale comes its own set problems
+
+107
+00:04:39,800 --> 00:04:41,933
+因此，这就是我们建立Astro的原因
+so this is why we built astro
+
+108
+00:04:42,133 --> 00:04:44,866
+它是为所有人设计的网络框架
+it's the web framework designed for everybody
+
+109
+00:04:45,800 --> 00:04:47,966
+它很好地平衡了
+it strikes a really good balance
+
+110
+00:04:47,966 --> 00:04:49,299
+在所有的权衡之间
+between all the trade offs
+
+111
+00:04:49,300 --> 00:04:51,066
+上一代工具所做的交易之间取得了很好的平衡
+the last generation of tools made
+
+112
+00:04:51,766 --> 00:04:54,666
+但对于新手来说，它也是非常平易近人的。
+but it's also really approachable for newcomers
+
+113
+00:04:55,000 --> 00:04:57,533
+而且还有强大的
+and there are still powerful
+
+114
+00:04:57,533 --> 00:05:00,333
+的功能供高级用户使用。
+features for advanced users to take advantage of
+
+115
+00:05:01,200 --> 00:05:04,900
+在我看来，这就是现代开发者的体验
+in my mind it's the modern developer experience
+
+116
+00:05:05,200 --> 00:05:05,766
+与
+with
+
+117
+00:05:05,766 --> 00:05:07,899
+我认为这是现代开发者的体验，我们应该以这种方式来建设网站
+the way we should have been building websites this
+
+118
+00:05:07,900 --> 00:05:08,700
+始终如一
+whole time
+
+119
+00:05:10,200 --> 00:05:13,733
+所以Astro从一开始就为速度而设计。
+so astro has been designed for speed from the ground up
+
+120
+00:05:14,066 --> 00:05:16,399
+我们有一个性能的痴迷
+we have a performance obsession
+
+121
+00:05:16,866 --> 00:05:17,666
+我们
+we
+
+122
+00:05:18,066 --> 00:05:21,533
+真正使用岛屿的架构方法
+really use the island's architecture approach
+
+123
+00:05:21,700 --> 00:05:23,800
+来提取你的用户界面
+to extract your user interface
+
+124
+00:05:23,800 --> 00:05:25,966
+到小的独立组件中
+into small isolated components
+
+125
+00:05:26,200 --> 00:05:28,866
+而不是在服务器上渲染一切
+so instead of rendering everything on the server
+
+126
+00:05:29,133 --> 00:05:32,999
+将其发送到客户端并再次进行水化
+sending it to the client and hydrating again
+
+127
+00:05:33,333 --> 00:05:37,766
+我们只把互动的部分发送到客户端
+we are only sending the interactive parts to the client
+
+128
+00:05:38,166 --> 00:05:40,899
+最终的结果是，未使用的javascript
+the end result is that unused javascript
+
+129
+00:05:40,933 --> 00:05:42,399
+不会出现在客户端
+never ends up in the client
+
+130
+00:05:42,733 --> 00:05:44,299
+而且你的网站加载速度更快
+and your site loads faster
+
+131
+00:05:44,366 --> 00:05:46,333
+你会有更快的时间来互动
+you'll have a faster time to interactive
+
+132
+00:05:46,333 --> 00:05:48,366
+以及更好的Lighthouse指标
+and much better lighthouse metrics
+
+133
+00:05:48,700 --> 00:05:52,166
+我们使用所谓的 "水合指令 "来实现这一点。
+we do this using what we call hydration directives
+
+134
+00:05:52,333 --> 00:05:54,199
+所以这是真正的懒惰加载
+so this is really lazy loading
+
+135
+00:05:54,200 --> 00:05:55,933
+作为框架的一个核心功能
+as a core feature of the framework
+
+136
+00:05:56,100 --> 00:05:58,133
+这并不是你必须考虑的事情
+and it's not something you have to think about
+
+137
+00:05:58,133 --> 00:06:00,933
+或以特殊方式编写代码来利用它。
+or right code in a special way to take advantage of
+
+138
+00:06:01,500 --> 00:06:02,900
+我们有客户端负载
+we have client load
+
+139
+00:06:03,200 --> 00:06:04,366
+是一个高优先级的
+which is a high priority
+
+140
+00:06:04,366 --> 00:06:06,466
+并立即加载一个组件
+and loads a component immediately
+
+141
+00:06:06,800 --> 00:06:10,000
+我们有客户端空闲，这是一个中等优先级
+we have client idle which is a medium priority
+
+142
+00:06:10,166 --> 00:06:13,299
+我们会在待处理的工作完成后，立即预加载你的组件。
+and we'll preload your component as soon as
+
+143
+00:06:13,300 --> 00:06:14,533
+待完成的工作
+pending work is done
+
+144
+00:06:15,300 --> 00:06:17,866
+然后，我们有客户端可见，这是非常有趣的
+and then we have client visible which is really fun
+
+145
+00:06:18,066 --> 00:06:20,533
+然后我们有客户端可见，这非常有趣，它将只在你的组件
+and this will load your component only
+
+146
+00:06:20,700 --> 00:06:23,866
+当它出现在屏幕上并实际可见时，才会加载你的组件。
+when it comes in and is actually visible on screen
+
+147
+00:06:26,333 --> 00:06:28,166
+astro是为内容而设计的
+astro was designed for content
+
+148
+00:06:28,700 --> 00:06:31,400
+所以内容是网络的基础
+so content is really the foundation of the web
+
+149
+00:06:31,866 --> 00:06:32,666
+我们
+we
+
+150
+00:06:33,166 --> 00:06:36,099
+我们使建立静态网站变得有趣和简单
+make building static sites fun and easy
+
+151
+00:06:36,466 --> 00:06:42,166
+我们支持HTML标记的页面，并支持mdx。
+we support pages in HTML Mark down mdx
+
+152
+00:06:42,300 --> 00:06:46,266
+我们的文件系统路由与Next js非常相似
+we have really similar file system routing to next js
+
+153
+00:06:46,800 --> 00:06:52,400
+我们通过内置的获取支持使其变得非常容易
+and we make it so easy with built in fetch support to
+
+154
+00:06:52,666 --> 00:06:55,099
+调用任何CMS或端点
+call any CMS or endpoint
+
+155
+00:06:55,266 --> 00:06:57,266
+使用一个熟悉的网络API
+using a familiar web API
+
+156
+00:06:59,766 --> 00:07:03,366
+我们在建造天体时也考虑到了互动性，所以
+we also built astro with interactivity in mind so
+
+157
+00:07:03,766 --> 00:07:04,566
+你不应该
+you shouldn't
+
+158
+00:07:04,700 --> 00:07:06,533
+必须选择你的
+have to choose your
+
+159
+00:07:06,800 --> 00:07:09,400
+元框架的基础上，你喜欢使用
+meta framework based on the framework that you like
+
+160
+00:07:09,400 --> 00:07:10,200
+使用的框架
+to use
+
+161
+00:07:10,700 --> 00:07:13,733
+在astro中，我们是不考虑框架的
+with astro we are framework agnostic
+
+162
+00:07:13,766 --> 00:07:15,499
+所以你可以使用你喜欢的
+so you can use your favorite
+
+163
+00:07:15,766 --> 00:07:17,599
+或者你可以选择一个不同的
+or you can pick a different one
+
+164
+00:07:17,600 --> 00:07:19,466
+并把它放在每个不同的页面上
+and put it on every different page
+
+165
+00:07:20,366 --> 00:07:22,399
+你可以使用你已经喜欢的工具
+you can use the tools you already love
+
+166
+00:07:22,400 --> 00:07:27,533
+我们与Tan Wind Postss SAS整合得非常好。
+and we integrate really well with tan wind postss SAS
+
+167
+00:07:27,533 --> 00:07:31,066
+所有的V生态系统所期望的东西。
+all of the things that the v ecosystem expects
+
+168
+00:07:33,266 --> 00:07:35,933
+astro不仅仅是一个静态网站生成器
+astro is not just a static site generator
+
+169
+00:07:36,066 --> 00:07:37,866
+我们真的设计了它来扩展
+we really designed it to scale
+
+170
+00:07:38,166 --> 00:07:39,599
+所以你可以从
+so you can go from
+
+171
+00:07:39,600 --> 00:07:42,100
+构建时渲染的静态网站
+static sites that are rendered at build time
+
+172
+00:07:42,366 --> 00:07:45,199
+并切换到服务器模式
+and switch into server mode
+
+173
+00:07:45,300 --> 00:07:46,966
+在那里你会根据要求进行渲染
+where you're rendering on request
+
+174
+00:07:47,533 --> 00:07:49,166
+使用 astro ad
+with astro ad
+
+175
+00:07:49,266 --> 00:07:52,199
+你只需一个命令就可以部署到netify上。
+you're only one command away from deploying to netify
+
+176
+00:07:52,300 --> 00:07:56,300
+verselle cloud flair deno，甚至更多。
+verselle cloud flair deno and even more
+
+177
+00:07:58,466 --> 00:07:58,966
+好了
+all right
+
+178
+00:07:58,966 --> 00:08:02,099
+这是一个很好的介绍，也是关于astro的一些背景。
+that was a great intro and some background on astro
+
+179
+00:08:02,100 --> 00:08:04,133
+但现在我想一起建立一些东西
+but now I want to build something together
+
+180
+00:08:04,800 --> 00:08:08,200
+因此，让我们使用我们的Astro项目的脚手架
+so let's scaffold out our astro project using our
+
+181
+00:08:08,200 --> 00:08:09,666
+创建 astro cli
+create astro cli
+
+182
+00:08:10,333 --> 00:08:12,133
+你所要做的就是运行
+all you have to do is run
+
+183
+00:08:12,266 --> 00:08:14,299
+pnpm create astro
+pnpm create astro
+
+184
+00:08:17,866 --> 00:08:20,499
+并创建一个名为feed comp的文件夹
+and let's create a folder named feed comp
+
+185
+00:08:21,900 --> 00:08:23,766
+我将从一个空项目开始
+and I'm going to start with an empty project
+
+186
+00:08:23,766 --> 00:08:25,266
+我们可以一起走过它
+and we can walk through it together
+
+187
+00:08:26,933 --> 00:08:29,133
+我们将安装依赖性
+and we will install dependency
+
+188
+00:08:29,500 --> 00:08:31,466
+但不创建一个git rifo
+but not create a git rifo
+
+189
+00:08:32,133 --> 00:08:34,666
+然后它会问我们如何设置类型脚本
+and it asks us how we want to set up type script
+
+190
+00:08:34,666 --> 00:08:35,899
+这很好，因为
+which is cool because
+
+191
+00:08:35,900 --> 00:08:38,133
+astro实际上是默认的类型脚本
+astro is actually type script by default
+
+192
+00:08:38,133 --> 00:08:40,599
+所以你根本不需要做任何设置
+so there's never any setup that you have to do
+
+193
+00:08:41,500 --> 00:08:43,666
+在这种情况下，我打算用严格的方式。
+in this case I'm going to go with strict
+
+194
+00:08:45,066 --> 00:08:47,333
+我们得到一些关于如何继续的指示
+and we get some instructions on how to continue
+
+195
+00:08:47,666 --> 00:08:50,566
+让我们看一下生成的文件
+so let's take a look at the files that got generated
+
+196
+00:08:50,666 --> 00:08:52,699
+我们有一个公共目录
+we have a public directory
+
+197
+00:08:52,700 --> 00:08:53,566
+这里是任何
+and this is where any
+
+198
+00:08:53,566 --> 00:08:56,166
+static assets that astro is not going to touch will go
+static assets that astro is not going to touch will go
+
+199
+00:08:56,166 --> 00:08:58,466
+这些将被复制到最终的构建中。
+these will just be copied over to the final build
+
+200
+00:08:59,100 --> 00:09:00,566
+我们有一个源代码
+we have a source
+
+201
+00:09:00,566 --> 00:09:01,533
+页目录
+pages directory
+
+202
+00:09:01,533 --> 00:09:03,733
+这是我们基于文件的路由启动的地方
+which is where our file based routing kicks in
+
+203
+00:09:03,933 --> 00:09:06,099
+然后我们有一个 astro 配置文件
+and then we have an astro config file
+
+204
+00:09:06,366 --> 00:09:07,666
+这个文件最酷的地方是
+what's cool about this is
+
+205
+00:09:07,666 --> 00:09:09,166
+你可能不需要打开这个文件
+you probably don't need to open this file
+
+206
+00:09:09,166 --> 00:09:09,933
+我们有一个命令
+we have a command
+
+207
+00:09:09,933 --> 00:09:12,366
+我们有一个命令行工具，可以为你编辑你的配置
+line tool that will edit your config for you
+
+208
+00:09:13,366 --> 00:09:15,999
+但如果我们看一下index dot astro页面
+but if we look at the index dot astro page
+
+209
+00:09:16,133 --> 00:09:17,766
+它看起来很像HTML
+it looks a lot like HTML
+
+210
+00:09:18,000 --> 00:09:19,466
+而这是因为天体的
+and that's because astro
+
+211
+00:09:19,700 --> 00:09:23,166
+有一种特殊的语法，是HTML的超集
+has a special syntax that is a superset of HTML
+
+212
+00:09:23,300 --> 00:09:24,600
+所以dot astro
+so dot astro
+
+213
+00:09:24,700 --> 00:09:27,500
+你可以在HTML中做的任何事情都可以在这里做
+anything you can do in HTML you can do here
+
+214
+00:09:27,666 --> 00:09:30,399
+但显然我们建立自己的语法是有原因的
+but obviously we've built our own syntax for a reason
+
+215
+00:09:30,700 --> 00:09:34,000
+我们想要的东西是一个真正伟大的混合体。
+we wanted something that was a really great mix of
+
+216
+00:09:34,266 --> 00:09:35,766
+初学者的hdml
+hdml for beginners
+
+217
+00:09:35,766 --> 00:09:38,599
+又有jsx的强大功能的东西
+and something that had the power of jsx
+
+218
+00:09:38,600 --> 00:09:40,766
+表达式的强大功能给专家。
+like expressions for experts
+
+219
+00:09:41,500 --> 00:09:44,733
+所以在我们开始之前，我将会把一个
+so before we get started I'm just going to drop a
+
+220
+00:09:45,133 --> 00:09:47,499
+样式表到我们的公共目录
+style sheet into our public directory
+
+221
+00:09:47,700 --> 00:09:50,966
+然后我们就可以用一个普通的
+and then we can just use a regular
+
+222
+00:09:51,466 --> 00:09:52,666
+链接标签
+link tag
+
+223
+00:10:00,100 --> 00:10:01,900
+主CSS
+main CSS
+
+224
+00:10:02,766 --> 00:10:04,933
+这样看起来就会好一点
+and that's looking a little bit better
+
+225
+00:10:05,000 --> 00:10:06,566
+你可以在Astro中使用的最强大的东西之一
+one of the most powerful things you can
+
+226
+00:10:06,800 --> 00:10:09,900
+最强大的东西之一是我们所说的 "前台事务"。
+use in astro is what we refer to as front matter
+
+227
+00:10:09,900 --> 00:10:14,066
+所以这里的区域是任何服务器端的javascript
+so this area up here is any server side javascript
+
+228
+00:10:14,200 --> 00:10:16,500
+来设置你的模板
+that is going to set up your template
+
+229
+00:10:16,766 --> 00:10:21,133
+因此，我们可以使用像顶层的权重和获取的东西
+so we can use things like top level of weight and fetch
+
+230
+00:10:23,666 --> 00:10:25,366
+和调用任何
+and call any
+
+231
+00:10:26,066 --> 00:10:28,099
+API，我们可能有
+API that we might have
+
+232
+00:10:30,800 --> 00:10:31,666
+和
+and
+
+233
+00:10:33,000 --> 00:10:36,133
+然后我们可以使用类似jsx的表达式
+then we can use a jsx like expression
+
+234
+00:10:36,666 --> 00:10:39,533
+来映射我们所有的发言人
+to map over all our speakers
+
+235
+00:10:41,900 --> 00:10:45,200
+我只是要把发言者的名字放在页面上
+and I'm just gonna put the speaker name on the page
+
+236
+00:10:45,700 --> 00:10:49,266
+你就可以看到今天发言的所有人
+and you can see everybody that is speaking today
+
+237
+00:10:49,266 --> 00:10:52,199
+但在天体中我们可以做的另一件事是
+but one other thing we can do in an astrophile is
+
+238
+00:10:52,200 --> 00:10:53,366
+使用范围风格
+use scope style
+
+239
+00:10:53,366 --> 00:10:54,533
+所以每一种风格
+so every style
+
+240
+00:10:54,533 --> 00:10:56,099
+样式都会是范围性的
+in an astrophile is gonna be scope
+
+241
+00:10:56,100 --> 00:10:57,533
+到该文件中，默认情况下
+to that file by default
+
+242
+00:10:57,733 --> 00:11:00,866
+所以如果我在这里添加一些CSS
+so if I add some CSS here
+
+243
+00:11:02,133 --> 00:11:03,966
+这实际上只是一个范围
+this will actually just be scoped
+
+244
+00:11:03,966 --> 00:11:06,366
+所以这不会从文件中渗出。
+so this is not gonna bleed out of the file at all
+
+245
+00:11:08,533 --> 00:11:09,666
+我们可以做的另一件事
+another thing we can do
+
+246
+00:11:09,666 --> 00:11:11,733
+我提到了基于组件的工作流程
+I mention that component based workflow
+
+247
+00:11:11,733 --> 00:11:13,933
+所以我们可以把它提取到
+so we can extract this to
+
+248
+00:11:14,100 --> 00:11:15,300
+一个组件目录
+a components directory
+
+249
+00:11:15,300 --> 00:11:17,666
+这并不特别，只是惯例
+which isn't special as just convention
+
+250
+00:11:17,866 --> 00:11:19,599
+但我要把这个标题称为
+but I'm gonna call this title
+
+251
+00:11:22,400 --> 00:11:23,066
+嘿
+hey
+
+252
+00:11:23,066 --> 00:11:24,866
+我就把我的h移过去
+I'll just move my h one over
+
+253
+00:11:26,100 --> 00:11:27,700
+和我的样式
+and my styles
+
+254
+00:11:30,566 --> 00:11:32,533
+所以现在我们可以在这里导入
+so now up here we can import
+
+255
+00:11:33,333 --> 00:11:35,399
+我们的标题组件
+our title component
+
+256
+00:11:36,800 --> 00:11:38,466
+然后渲染它
+and then render it
+
+257
+00:11:43,066 --> 00:11:44,499
+像其他组件一样
+like any other component
+
+258
+00:11:45,333 --> 00:11:46,699
+所以我认为将这些扬声器提取到它们自己的组件中会很酷
+so I think it would be cool
+
+259
+00:11:46,700 --> 00:11:49,866
+将这些扬声器提取为自己的组件
+to extract these speakers to their own component
+
+260
+00:11:49,866 --> 00:11:51,466
+所以让我们制作一个扬声器
+so let's make a speaker
+
+261
+00:11:51,766 --> 00:11:52,566
+卡
+card
+
+262
+00:11:53,900 --> 00:11:56,366
+我们要在前台设置一些东西
+and we're gonna set up some stuff in the front matter
+
+263
+00:11:56,366 --> 00:11:57,966
+所以我们要抓取
+so we're gonna grab the
+
+264
+00:11:58,200 --> 00:12:01,266
+至少从我们的天体道具中获取名称
+name at least out of our astro props
+
+265
+00:12:01,500 --> 00:12:02,533
+并输入这些
+and to type these
+
+266
+00:12:02,533 --> 00:12:05,499
+我们所要做的就是写一个叫做props的接口
+all we have to do is write an interface called props
+
+267
+00:12:06,300 --> 00:12:07,866
+这个接口将有一个名字
+this will have a name
+
+268
+00:12:08,133 --> 00:12:09,499
+是一个字符串
+which is a string
+
+269
+00:12:10,166 --> 00:12:13,533
+和项目，后者是
+and projects which is
+
+270
+00:12:14,800 --> 00:12:16,333
+一个字符串的数组
+an array of strings
+
+271
+00:12:17,166 --> 00:12:21,466
+所以，如果我们跳回到这里，导入我们的扬声器卡
+so if we jump back here and import our speaker card
+
+272
+00:12:22,333 --> 00:12:24,966
+我们可以将其替换为
+we can replace this with
+
+273
+00:12:26,333 --> 00:12:31,666
+我们可以用一个组件来代替它，这个组件只是把扬声器作为道具传入。
+a component that just passes in the speaker as props
+
+274
+00:12:31,933 --> 00:12:35,066
+现在我们就有了这个很棒的列表，上面有每个人
+now we have this awesome list of everybody
+
+275
+00:12:35,333 --> 00:12:36,499
+今天的发言
+speaking today
+
+276
+00:12:36,566 --> 00:12:39,733
+我意识到我忘了把它包装成
+and I'm actually realizing I forgot to wrap this
+
+277
+00:12:39,733 --> 00:12:41,699
+用一个无序的列表
+in an unordered list
+
+278
+00:12:42,666 --> 00:12:43,999
+所以我们要这么做
+so we're gonna do that
+
+279
+00:12:44,300 --> 00:12:46,300
+我们的样式也变得更好了
+and our styling gets a little better
+
+280
+00:12:46,600 --> 00:12:49,300
+我还想把我们的样式整理一下
+I also want to clean up our styles a little bit
+
+281
+00:12:50,100 --> 00:12:52,566
+比几分钟后长一点
+a little longer than a few minutes later
+
+282
+00:12:53,000 --> 00:12:54,566
+所以这看起来好多了
+so this looks a lot better
+
+283
+00:12:54,566 --> 00:12:56,399
+希望能给你一个很好的感觉
+and hopefully gives you a good sense of
+
+284
+00:12:56,400 --> 00:12:58,700
+感受到处理数据是多么容易
+just how easy it is to work with data
+
+285
+00:12:58,733 --> 00:13:01,966
+并将其纳入一些带有样式的标记中
+and pipe it into some markup with styles
+
+286
+00:13:02,066 --> 00:13:02,933
+在Astro中
+in astro
+
+287
+00:13:03,700 --> 00:13:06,333
+现在我想这是 astro 的一个秘密的超级能力
+now I think this is a secret superpower of astro
+
+288
+00:13:06,466 --> 00:13:07,999
+你可以在不接触客户端javascript的情况下，获得真正的进展。
+that you can get really far without
+
+289
+00:13:08,000 --> 00:13:10,133
+就能达到很高的境界，而不需要接触客户端的javascript
+ever touching client side javascript
+
+290
+00:13:10,200 --> 00:13:12,733
+但我确实答应过要讲讲这个岛的架构
+but I did promise to talk on island's architecture
+
+291
+00:13:12,800 --> 00:13:14,066
+所以我们现在就开始吧
+so let's do that now
+
+292
+00:13:14,200 --> 00:13:14,933
+所以 astro
+so astro
+
+293
+00:13:14,933 --> 00:13:17,133
+实际上是把小岛的架构模式
+actually brings the island's architecture pattern
+
+294
+00:13:17,133 --> 00:13:18,466
+到每个公司的工作中
+to every firm work
+
+295
+00:13:18,533 --> 00:13:20,399
+而你所要做的就是添加
+and all you have to do is add
+
+296
+00:13:20,900 --> 00:13:25,266
+pnpm 运行 astro 添加你选择的框架
+pnpm run astro add the framework of your choice
+
+297
+00:13:25,300 --> 00:13:26,966
+在这种情况下，我将选择pre act
+in this case I'm going to choose pre act
+
+298
+00:13:26,966 --> 00:13:29,199
+因为我最近非常喜欢pre x信号
+because I really like pre x signals lately
+
+299
+00:13:29,400 --> 00:13:31,966
+所以我们要运行 astro 添加 pre act
+so we're going to run astro add pre act
+
+300
+00:13:32,800 --> 00:13:35,800
+这将安装我们需要的依赖项
+and this will install our dependencies that we need
+
+301
+00:13:36,366 --> 00:13:37,999
+而且我们还会问我们
+and we'll also ask us
+
+302
+00:13:38,333 --> 00:13:40,733
+如果我们想更新我们的配置文件，我们会这样做
+if we want to update our config file which we do
+
+303
+00:13:41,866 --> 00:13:43,199
+这就是它的全部内容了
+and that's all there is to it
+
+304
+00:13:43,200 --> 00:13:46,933
+我们可以开始添加一个preact组件了
+we can get started and add a preact component
+
+305
+00:13:48,600 --> 00:13:51,733
+我们只是要输出一个按钮
+and we're just going to export a button
+
+306
+00:13:52,333 --> 00:13:54,366
+除了一些孩子之外
+that except some children
+
+307
+00:13:59,933 --> 00:14:01,599
+但这并不十分有趣
+but that's not very interesting
+
+308
+00:14:01,600 --> 00:14:03,566
+除非它在我们点击它的时候做些什么
+unless it does something when we click it
+
+309
+00:14:03,733 --> 00:14:06,733
+所以我们要创建一个存储文件
+so we're going to create a store file
+
+310
+00:14:07,533 --> 00:14:09,299
+这将使用新的
+and this will use the new
+
+311
+00:14:09,500 --> 00:14:11,966
+preact信号，这非常酷
+preact signals which are very cool
+
+312
+00:14:12,666 --> 00:14:16,166
+我们将导出一个名为菜单的信号
+and we'll export a signal called menu
+
+313
+00:14:17,733 --> 00:14:19,933
+的信号，开始时是关闭的
+that starts out closed
+
+314
+00:14:20,100 --> 00:14:23,333
+我们还将输出一个切换信号
+and we're also going to export a toggle
+
+315
+00:14:25,300 --> 00:14:28,733
+所以这将切换菜单的值
+so this will switch the value of menu
+
+316
+00:14:34,700 --> 00:14:38,066
+的值切换为打开或关闭
+to open or closed
+
+317
+00:14:38,366 --> 00:14:40,199
+然后，它还将
+and then it's also going to
+
+318
+00:14:40,266 --> 00:14:41,133
+记录
+log
+
+319
+00:14:41,966 --> 00:14:43,866
+我们已经谈了一些
+that we've talked something
+
+320
+00:14:44,700 --> 00:14:45,933
+与当前状态
+with the current state
+
+321
+00:14:47,600 --> 00:14:51,266
+现在，如果我们返回到我们的按钮组件，我们可以导入
+now if we go back to our button component we can import
+
+322
+00:14:52,666 --> 00:14:53,466
+幼儿
+toddle
+
+323
+00:14:56,600 --> 00:14:57,700
+并
+and
+
+324
+00:14:58,866 --> 00:15:00,966
+将其设置为
+set this to be the
+
+325
+00:15:02,366 --> 00:15:03,599
+点击处理程序
+click handler
+
+326
+00:15:07,166 --> 00:15:10,566
+并在这个文件中导入我们的按钮
+and back in this file will import our button
+
+327
+00:15:13,933 --> 00:15:16,533
+我们可以像其他组件一样使用它
+we can use it like any other component
+
+328
+00:15:17,700 --> 00:15:18,566
+除了
+except that
+
+329
+00:15:18,766 --> 00:15:21,466
+你可以看到，我们在这里有这些水化指令
+you can see we have these hydration directives here
+
+330
+00:15:21,466 --> 00:15:24,933
+所以这些操作的每一个组件都是用来发送
+so each of these ops are component into sending
+
+331
+00:15:25,333 --> 00:15:26,699
+到客户端的javascript
+javascript to the client
+
+332
+00:15:26,766 --> 00:15:28,733
+这真的很好，因为你可以精细地
+this is really nice because you have granular
+
+333
+00:15:28,766 --> 00:15:31,399
+控制哪些内容最终会出现在客户端
+control over what actually ends up in the client
+
+334
+00:15:32,366 --> 00:15:35,166
+实际上，我只想说这里的菜单
+I'm actually gonna just say menu here
+
+335
+00:15:36,866 --> 00:15:42,099
+我们已经得到了它，所以如果我们检查我们的控制台
+andwe've got it so if we check our console
+
+336
+00:15:44,666 --> 00:15:46,499
+我们应该能看到
+we should be able to see
+
+337
+00:15:46,966 --> 00:15:49,333
+这个日志切换了很多
+that this log toggle a bunch
+
+338
+00:15:49,600 --> 00:15:51,500
+所以这个切换是有效的
+so that toggle is working
+
+339
+00:15:51,600 --> 00:15:53,733
+现在我们可以把它连接到
+and now we can hook it up to
+
+340
+00:15:54,966 --> 00:15:55,966
+一个菜单
+a menu
+
+341
+00:15:57,133 --> 00:15:59,266
+所以我将创建一个菜单组件
+so I'm going to create a menu component
+
+342
+00:16:00,733 --> 00:16:02,366
+导入菜单
+imports bolt the menu
+
+343
+00:16:03,533 --> 00:16:04,699
+和切换
+and toggle
+
+344
+00:16:08,933 --> 00:16:11,133
+并接受一些子程序
+and also take some children
+
+345
+00:16:13,100 --> 00:16:14,200
+这很有趣
+and this is interesting
+
+346
+00:16:14,200 --> 00:16:17,066
+所以我们要根据菜单的状态，以不同的方式呈现
+so we're going to render differently based on
+
+347
+00:16:17,066 --> 00:16:18,733
+菜单的状态
+the state of the menu
+
+348
+00:16:19,366 --> 00:16:22,399
+所以如果菜单的点值
+so if menu dot value
+
+349
+00:16:23,933 --> 00:16:27,799
+是关闭的，我们将不返回任何东西
+is closed we're gonna return nothing
+
+350
+00:16:28,366 --> 00:16:30,099
+否则，我们将返回
+otherwise we're gonna return
+
+351
+00:16:32,733 --> 00:16:33,866
+在一个侧面
+in a side
+
+352
+00:16:40,566 --> 00:16:42,666
+如果我们点击这个，我们就会切换到
+and if we click on this we're gonna toggle
+
+353
+00:16:42,666 --> 00:16:44,599
+所以这将是背景墙
+so this is this will be the backdrop
+
+354
+00:16:45,800 --> 00:16:46,866
+和
+and
+
+355
+00:16:47,533 --> 00:16:50,699
+这将是主要内容
+this will be the main content
+
+356
+00:16:52,100 --> 00:16:55,366
+而这里将停止传播
+and here will stop propagation
+
+357
+00:16:56,100 --> 00:16:58,700
+这样，切换就不会被触发了。
+so that the toggle doesn't get triggered
+
+358
+00:17:06,066 --> 00:17:06,999
+大家好
+hey everybody
+
+359
+00:17:07,133 --> 00:17:08,299
+我的名字是Nate Mole
+my name is nate mole
+
+360
+00:17:08,566 --> 00:17:11,533
+让我们在这里渲染那个菜单组件
+so let's renderthat menu component here
+
+361
+00:17:11,533 --> 00:17:13,699
+并确保给它注水
+and make sure to hydrate it
+
+362
+00:17:14,333 --> 00:17:17,733
+这可以接受一个数组
+and this can take an array
+
+363
+00:17:18,966 --> 00:17:23,399
+5个项目的数组，这里的第二个参数
+of 5 items and the second argument here
+
+364
+00:17:23,866 --> 00:17:25,733
+第二个参数实际上是一个地图函数
+is actually a map function
+
+365
+00:17:27,400 --> 00:17:28,200
+对不起，我刚才没听清你的名字，我是Bo
+sorry I didn't catch your name earlier I'm bo
+
+366
+00:17:28,400 --> 00:17:29,500
+它需要
+that takes
+
+367
+00:17:30,366 --> 00:17:31,699
+一个地图回调
+a map callback
+
+368
+00:17:32,800 --> 00:17:35,300
+所以我们可以直接返回
+so we can just return
+
+369
+00:17:36,766 --> 00:17:37,566
+夏威夷
+Hawaii
+
+370
+00:17:38,566 --> 00:17:41,099
+与第一页加一
+with page I plus one
+
+371
+00:17:41,566 --> 00:17:43,799
+我们将它包在一个列表中
+and we'll wrap it in a list
+
+372
+00:17:47,933 --> 00:17:49,599
+现在，当我们点击这个
+and now when we click this
+
+373
+00:17:49,600 --> 00:17:51,966
+一个飞出的菜单应该从左边出现
+a flyout menu should come from the left
+
+374
+00:17:52,966 --> 00:17:54,299
+它完全做到了这一点
+which it totally does
+
+375
+00:17:54,300 --> 00:17:56,200
+所以这是一个岛
+so this is an island
+
+376
+00:17:56,533 --> 00:17:57,899
+而这个按钮是一个岛
+and this button is an island
+
+377
+00:17:57,900 --> 00:18:01,200
+它们通过一个共享的信号进行通信
+and they are communicating through a shared signal
+
+378
+00:18:01,200 --> 00:18:01,866
+一切
+everything
+
+379
+00:18:01,866 --> 00:18:05,933
+静态的都会留在你的天体中
+and that is static is going to stay in your astrophile
+
+380
+00:18:06,133 --> 00:18:07,966
+而一切动态的
+and everything that's dynamic
+
+381
+00:18:07,966 --> 00:18:09,599
+或需要一些逻辑的东西
+or requires a bit of logic
+
+382
+00:18:09,900 --> 00:18:12,900
+都会在你的jsx文件中。
+is going to be in your jsx files
+
+383
+00:18:12,900 --> 00:18:14,933
+而你明确地选择加入
+and you're explicitly opting in
+
+384
+00:18:15,100 --> 00:18:18,666
+向浏览器发送javascript，所以
+to sending that javascript to the browser so
+
+385
+00:18:19,166 --> 00:18:20,266
+你可以认为
+you can kind of think of
+
+386
+00:18:20,466 --> 00:18:22,166
+岛屿就像甜甜圈
+islands like donuts
+
+387
+00:18:22,266 --> 00:18:26,099
+有一个外环，有一些互动性
+there's an outer ring that has some interactivity
+
+388
+00:18:26,200 --> 00:18:29,366
+但它里面的一切实际上都是从客户端的HTML中恢复的
+but everything inside of it is actually revived from
+
+389
+00:18:29,366 --> 00:18:31,266
+客户端的HTML
+the client side HTML
+
+390
+00:18:31,366 --> 00:18:33,599
+所以这意味着你的javascript包是
+so this means your javascript bundles are
+
+391
+00:18:33,666 --> 00:18:34,766
+真的非常小
+really really small
+
+392
+00:18:35,400 --> 00:18:37,333
+还有一件很酷的事情我们可以做
+and there's one other cool thing we can do
+
+393
+00:18:37,366 --> 00:18:40,766
+我们实际上可以从Astro传入槽位
+we can actually pass in slots from astro
+
+394
+00:18:40,933 --> 00:18:42,499
+到我们的组件
+to our components
+
+395
+00:18:42,533 --> 00:18:44,333
+而我们这样做的方法是
+and the way we do that is
+
+396
+00:18:44,366 --> 00:18:46,733
+就像你在任何其他astro文件中那样
+just like you would in any other astro file
+
+397
+00:18:46,866 --> 00:18:50,099
+我们要在这里有一个片段
+we're gonna have a fragment here
+
+398
+00:18:50,933 --> 00:18:52,966
+叫做title
+that's called title
+
+399
+00:18:55,766 --> 00:18:57,933
+现在，我们有一个槽
+and now that we have a slot
+
+400
+00:18:58,066 --> 00:19:00,066
+是一个组件的孩子
+that is a child of a component
+
+401
+00:19:00,100 --> 00:19:02,966
+我们在这里接收标题作为一个道具
+we receive the title as a prop here
+
+402
+00:19:03,300 --> 00:19:06,566
+然后我将创建一个标题
+and then I'm just going to create a header
+
+403
+00:19:07,600 --> 00:19:08,333
+我们叫它
+we'll call it
+
+404
+00:19:08,333 --> 00:19:09,133
+导航
+nav
+
+405
+00:19:14,933 --> 00:19:16,733
+我们将使用这个标题
+and we'll use that title
+
+406
+00:19:17,000 --> 00:19:19,466
+然后是一个关闭按钮
+and then just a close button
+
+407
+00:19:20,133 --> 00:19:21,066
+寺庙切换
+temple toggle
+
+408
+00:19:21,066 --> 00:19:23,699
+所以现在当我们点击这个菜单时，我们应该得到
+so now when we click on the menu we should get
+
+409
+00:19:23,800 --> 00:19:24,566
+一个标题
+a title
+
+410
+00:19:24,566 --> 00:19:26,766
+和一个关闭按钮，以及我们所有的页面
+and a close button and all our pages
+
+411
+00:19:26,766 --> 00:19:28,866
+而点击这里却什么也做不了
+and clicking here does nothing
+
+412
+00:19:29,100 --> 00:19:31,766
+点击外面或点击关闭按钮
+clicking outside or clicking the close button
+
+413
+00:19:31,800 --> 00:19:32,800
+完全有效
+totally works
+
+414
+00:19:32,966 --> 00:19:33,566
+总结一下
+to wrap up
+
+415
+00:19:33,566 --> 00:19:35,799
+我认为看看以下内容会非常有趣
+I thought it would be really interesting to look at
+
+416
+00:19:36,300 --> 00:19:37,900
+这背后发生了什么？
+what's going on behind the scenes here
+
+417
+00:19:37,900 --> 00:19:40,066
+那么，这究竟是如何工作的呢？
+so how is this actually working
+
+418
+00:19:40,700 --> 00:19:43,900
+我们必须要看一下我们的HTML。
+and we have to look at our HTML for that
+
+419
+00:19:44,200 --> 00:19:48,466
+所以有一个样式和一个脚本，我们正在注入
+so there's a style and a script that we're injecting
+
+420
+00:19:48,466 --> 00:19:50,733
+这就是整个Astro的运行时间
+this is the entire astro run time
+
+421
+00:19:50,733 --> 00:19:51,933
+它真的很小
+it's really tiny
+
+422
+00:19:52,933 --> 00:19:53,766
+而且
+and
+
+423
+00:19:55,200 --> 00:19:58,100
+我们有这些astro岛的自定义元素
+we have these astro island custom elements
+
+424
+00:19:58,300 --> 00:19:59,933
+所以这些基本上是
+so these are basically
+
+425
+00:19:59,966 --> 00:20:02,799
+加载一些块状的javascript
+loading some chunks of javascript
+
+426
+00:20:03,000 --> 00:20:04,933
+和一个特定的出口
+with a specific export
+
+427
+00:20:05,500 --> 00:20:08,300
+和一个渲染器，它基本上协调了如何
+and a renderer which basically coordinates how
+
+428
+00:20:08,300 --> 00:20:10,666
+渲染器，它基本上协调了客户端上的东西是如何被补水的
+something is rehydrated on the client
+
+429
+00:20:11,000 --> 00:20:15,566
+我们有一些道具和水化方法
+and we have some props and the hydration method
+
+430
+00:20:16,100 --> 00:20:18,266
+然后在这里面我们什么都没有
+and then inside of this we have nothing
+
+431
+00:20:18,566 --> 00:20:21,099
+但如果我禁用javascript
+but if I disabled javascript
+
+432
+00:20:21,166 --> 00:20:22,699
+我们在这里有一些模板元素
+we have some template elements here
+
+433
+00:20:22,700 --> 00:20:25,566
+因为我们的组件并没有呈现任何东西
+because our component didn't render anything
+
+434
+00:20:25,800 --> 00:20:28,800
+但我们知道，当我们渲染东西时，我们必须传入一些
+butwe knew that we have to pass in some
+
+435
+00:20:28,866 --> 00:20:31,499
+槽的内容，当我们渲染东西的时候
+slotted content when we do render something
+
+436
+00:20:31,700 --> 00:20:35,133
+所以这些对应的是有槽的内容
+so these correspond to the slotted content
+
+437
+00:20:35,333 --> 00:20:37,166
+所以我们的标题将是
+so our title is just going to be
+
+438
+00:20:37,266 --> 00:20:38,066
+的
+the
+
+439
+00:20:39,100 --> 00:20:42,933
+而默认的槽是我们的列表
+and the default slot is our list
+
+440
+00:20:44,000 --> 00:20:47,133
+这些将在javascript启动时被清理掉
+and these will be cleaned up when javascript starts
+
+441
+00:20:47,133 --> 00:20:48,999
+但它们会被保存在内存中
+but they'll be held in memory
+
+442
+00:20:49,133 --> 00:20:52,733
+在水合作用继续进行之前，它们基本上都被送回框架内作为子女。
+and before hydration can continue they are essentially
+
+443
+00:20:53,133 --> 00:20:56,133
+递回给框架，充当儿童
+passed back to the framework to act as children
+
+444
+00:20:57,300 --> 00:20:59,500
+这里也是如此
+and same thing here
+
+445
+00:21:00,566 --> 00:21:01,566
+但有一点不同
+but a little different
+
+446
+00:21:01,566 --> 00:21:03,699
+所以我们有天体槽元素
+so we have the astro slot element
+
+447
+00:21:03,700 --> 00:21:07,100
+天体槽元素告诉我们，在这个元素下面的一切
+the astro slot element tells us that everything
+
+448
+00:21:07,100 --> 00:21:08,300
+下面的元素
+below this element
+
+449
+00:21:08,400 --> 00:21:09,966
+应被视为静态的
+should be treated as static
+
+450
+00:21:10,200 --> 00:21:11,600
+而这就是允许我们在
+and this is what allows us to nest
+
+451
+00:21:11,600 --> 00:21:13,266
+岛屿中的岛屿
+islands within islands
+
+452
+00:21:13,300 --> 00:21:15,700
+也可以相互混合框架
+and also mix frameworks with each other
+
+453
+00:21:16,400 --> 00:21:16,900
+最后
+finally
+
+454
+00:21:16,900 --> 00:21:19,533
+我只是想分享我最喜欢的天体功能
+I just wanted to share my favorite astro feature
+
+455
+00:21:19,533 --> 00:21:21,733
+这就是我们强大的社区
+which is our awesome community
+
+456
+00:21:22,200 --> 00:21:24,733
+我们有一个欣欣向荣的对话社区
+we have a thriving discord community
+
+457
+00:21:24,766 --> 00:21:27,366
+有大量有创造力的人和
+with tons of creative people and
+
+458
+00:21:27,400 --> 00:21:28,866
+很多人愿意提供帮助
+lots of people willing to help out
+
+459
+00:21:28,866 --> 00:21:30,733
+所以，如果你喜欢你今天看到的东西
+so if you liked what you saw today
+
+460
+00:21:30,733 --> 00:21:33,933
+一定要来看看我们在宇航员建造聊天室的情况。
+definitely come check us out at astronaut build chat
+
+461
+00:21:33,933 --> 00:21:35,866
+非常感谢您邀请我
+thank you so much for having me
+
+462
+00:21:35,966 --> 00:21:37,133
+我的名字叫Nate More
+my name's nate more
+
+463
+00:21:37,133 --> 00:21:39,966
+你可以在twitter上关注我，也可以在underscore more上关注我。
+you can follow me on twitter and underscore more
+
+464
+00:21:40,266 --> 00:21:41,099
+和
+and
+
+465
+00:21:41,166 --> 00:21:44,666
+我只想说，我们对自己的决定感到非常高兴
+I just gotta say we are so happy with our decision to
+
+466
+00:21:44,766 --> 00:21:46,666
+成为Vit生态系统的一部分
+be part of the vit ecosystem
+
+467
+00:21:46,866 --> 00:21:49,066
+这真的是最好的地方了
+it is really the best place to be
+
+468
+00:21:49,300 --> 00:21:51,333
+所以再次感谢你们，请查看
+so thank you again please check out
+
+469
+00:21:51,733 --> 00:21:52,766
+天文网络建设
+astro com build
+

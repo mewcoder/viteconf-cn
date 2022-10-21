@@ -1,0 +1,3805 @@
+1
+00:00:04,333 --> 00:00:05,999
+大家好 大家好
+hello hello everyone
+
+2
+00:00:06,066 --> 00:00:08,933
+我是琪雅，希望你们玩得开心。
+I'm Kia I hope you guys are having fun
+
+3
+00:00:08,933 --> 00:00:10,666
+非常感谢你们邀请我
+thank you so much for having me
+
+4
+00:00:11,133 --> 00:00:13,799
+对我来说，能在这里工作是一件非常有意义的事情。
+it's a really huge owning for me to be here
+
+5
+00:00:13,800 --> 00:00:16,566
+我想感谢所有beatcomp
+and I would like to sunk all of the beatcomp
+
+6
+00:00:16,566 --> 00:00:18,933
+组织者，感谢他们让这一切发生
+organizers and stuff for making this happen
+
+7
+00:00:19,266 --> 00:00:20,899
+我知道这有多热
+I know how hot it is
+
+8
+00:00:21,100 --> 00:00:23,300
+组织一个活动
+to organize an event up
+
+9
+00:00:23,533 --> 00:00:24,566
+这种规模
+this size
+
+10
+00:00:24,733 --> 00:00:27,366
+所以非常感谢你们的肉搏会。
+so thank you so much for having meat beatcomp
+
+11
+00:00:27,366 --> 00:00:28,666
+并感谢你们所有人
+and thank you all
+
+12
+00:00:28,700 --> 00:00:30,700
+感谢大家参加这个大型活动
+for joining this big event
+
+13
+00:00:30,933 --> 00:00:32,499
+今天我的演讲是
+today my talk is
+
+14
+00:00:32,866 --> 00:00:34,733
+深入探讨beat press
+deep dive into beat press
+
+15
+00:00:35,133 --> 00:00:37,599
+对于那些不知道beat press是什么的人来说
+for those who don't know what beat press is
+
+16
+00:00:37,600 --> 00:00:41,100
+beat press是一个以节拍为动力的静态网站生成器
+beat press is a beat powered static side generator
+
+17
+00:00:41,200 --> 00:00:43,500
+它可以建立任何类型的静态网站
+it can build any kind of static website
+
+18
+00:00:43,500 --> 00:00:44,666
+在这次演讲中
+and with this talk
+
+19
+00:00:44,666 --> 00:00:47,266
+我将尝试介绍beat press可以做什么
+I'll try to introduce what beat press can do
+
+20
+00:00:47,366 --> 00:00:48,899
+更重要的是
+and more importantly
+
+21
+00:00:48,900 --> 00:00:51,933
+beat press是如何做所有的事情的
+how beat press does all of the things it does
+
+22
+00:00:52,300 --> 00:00:54,100
+然而，在进入讲座之前
+however before going to the talk
+
+23
+00:00:54,100 --> 00:00:56,533
+请允许我介绍一下自己
+please let me introduce myself a bit
+
+24
+00:00:57,000 --> 00:00:57,933
+我是Kia
+I'm Kia
+
+25
+00:00:58,000 --> 00:01:01,100
+我是一名网页设计师，也是一名开发人员
+I'm a web designer and also a developer
+
+26
+00:01:01,166 --> 00:01:03,166
+我是viewjs法庭的成员
+I'm viewjs court team member
+
+27
+00:01:03,266 --> 00:01:07,166
+目前专注于很明显的深度加法
+and currently focusing on well obviously deep plus
+
+28
+00:01:08,066 --> 00:01:09,999
+我在global brain工作
+I'm walking at global brain
+
+29
+00:01:10,000 --> 00:01:13,166
+这是在日本最大的betro资本之一
+which is the one of the largest betro capital in Japan
+
+30
+00:01:13,333 --> 00:01:14,599
+我们在世界各地都有办事处
+we have offices around
+
+31
+00:01:14,700 --> 00:01:17,866
+我们在世界各地都有办事处，并在各地进行创业公司的投资。
+world and doing the startup investments everywhere
+
+32
+00:01:18,100 --> 00:01:19,366
+我很确定有
+I'm pretty sure there's
+
+33
+00:01:19,566 --> 00:01:22,199
+我敢肯定，有很多创业公司的成员也会参加这个活动。
+lots of startups members joining this event as well
+
+34
+00:01:22,200 --> 00:01:25,300
+所以，如果你有任何关于你的业务的很酷的想法
+so if you have any cool ideas about your business
+
+35
+00:01:25,300 --> 00:01:27,500
+请随时在Twitter或其他地方联系我
+please feel free to hit me on twitter or
+
+36
+00:01:27,500 --> 00:01:28,300
+其他地方
+somewhere else
+
+37
+00:01:28,300 --> 00:01:30,066
+我一定会帮助你的
+and i'mma be able to help
+
+38
+00:01:30,466 --> 00:01:31,199
+好的
+okay
+
+39
+00:01:31,200 --> 00:01:34,333
+关于我的事情已经够多了，让我们深入了解一下小麦加。
+enough about me let's dive into wheat plus
+
+40
+00:01:34,866 --> 00:01:38,099
+那么，什么才是真正意义上的beat press呢？
+so what is beat press in the false place
+
+41
+00:01:38,600 --> 00:01:39,400
+节拍新闻
+beat press
+
+42
+00:01:39,533 --> 00:01:43,366
+是一个由节拍和视图驱动的静态网站生成器
+is a beat and view powered static site generator
+
+43
+00:01:43,366 --> 00:01:46,199
+所以你可以用beat建立任何静态网站
+so you can build any static website with beat
+
+44
+00:01:46,200 --> 00:01:47,800
+超快的死亡服务器
+super fast death server
+
+45
+00:01:48,300 --> 00:01:49,000
+而且
+and
+
+46
+00:01:49,000 --> 00:01:51,500
+它可以用markdown写内容
+it can write content in markdown
+
+47
+00:01:51,500 --> 00:01:51,966
+好
+well
+
+48
+00:01:51,966 --> 00:01:52,366
+我认为
+I think
+
+49
+00:01:52,366 --> 00:01:54,966
+许多静态生成器都能做到这一点
+many static side generator out there can do this
+
+50
+00:01:54,966 --> 00:01:57,799
+但我的意思是用markdown写内容
+but I mean writing contents in markdown
+
+51
+00:01:57,800 --> 00:01:59,733
+是一种基本的事情
+is kind of basic thing that
+
+52
+00:01:59,766 --> 00:02:02,333
+所有的静态生成器都能做到
+all of the static side generator can do
+
+53
+00:02:02,366 --> 00:02:04,199
+但是Beat Press也可以
+but beat press can too
+
+54
+00:02:04,400 --> 00:02:05,900
+而且更重要的是
+and more importantly
+
+55
+00:02:05,900 --> 00:02:09,000
+它可以在markdown火里面使用视图组件
+it can use view component inside markdown fire
+
+56
+00:02:09,500 --> 00:02:10,866
+所以如果你看了适当的
+so if you view the proper
+
+57
+00:02:10,866 --> 00:02:12,899
+你可能已经知道了beat press
+you might already know about beat press
+
+58
+00:02:13,000 --> 00:02:14,400
+是非常相似的
+which is very similar
+
+59
+00:02:14,566 --> 00:02:14,933
+或
+or
+
+60
+00:02:14,933 --> 00:02:17,399
+也许我应该说，它与 "拍打 "几乎是一回事。
+maybe I should say it's pretty much the same thing as
+
+61
+00:02:18,000 --> 00:02:19,133
+beat press，但
+beat press but
+
+62
+00:02:19,666 --> 00:02:21,333
+它是建立在webpack之上的
+it was built on top of webpack
+
+63
+00:02:21,666 --> 00:02:23,733
+而vpress是建立在v之上的
+where v press is built on v
+
+64
+00:02:24,266 --> 00:02:24,933
+重点是
+the point is
+
+65
+00:02:24,933 --> 00:02:27,599
+你可以在markdown中使用view组件
+that you can use view component inside markdown
+
+66
+00:02:27,600 --> 00:02:28,900
+并渲染输出
+and render output
+
+67
+00:02:28,900 --> 00:02:31,466
+这些视图组件将在南部被渲染
+those view component will get southern side rendered
+
+68
+00:02:31,466 --> 00:02:32,599
+并成为研究对象
+and become study
+
+69
+00:02:32,666 --> 00:02:34,933
+hml CSS和javascript
+hml CSS and javascript
+
+70
+00:02:35,100 --> 00:02:35,900
+在最后
+at the end
+
+71
+00:02:37,266 --> 00:02:40,466
+所以现在让我们来看看作为你的vtres的基本用途
+so now let's see the basic use as your vtres
+
+72
+00:02:40,500 --> 00:02:41,166
+在本讲座中
+in this talk
+
+73
+00:02:41,166 --> 00:02:44,333
+我不打算解释每个功能的
+I'm not planning to explain each features of
+
+74
+00:02:44,333 --> 00:02:45,733
+的每个功能，而是
+wheat press but rather
+
+75
+00:02:45,733 --> 00:02:47,533
+我们要谈的是小麦压榨机如何
+we like to talk about how wheat press
+
+76
+00:02:47,533 --> 00:02:49,099
+做所有这些功能
+do all of those features
+
+77
+00:02:50,200 --> 00:02:54,733
+但它是如何与节拍发生兴趣的，以及它是如何使用节拍的
+but and how it interests with beat and how it uses beat
+
+78
+00:02:54,733 --> 00:02:57,066
+他们完成了静态方面的生成
+they accomplish static side generation
+
+79
+00:02:57,133 --> 00:02:58,999
+但要做到这一点，我们需要有基本的
+but to do so we need to have basic
+
+80
+00:02:59,100 --> 00:03:01,100
+我们需要对beat press能做什么有基本的了解
+understanding of what beat press can do
+
+81
+00:03:01,200 --> 00:03:02,900
+所以让我们快速浏览一下
+so let's quickly go through
+
+82
+00:03:02,900 --> 00:03:05,266
+beat press提供的基本功能
+the basic features that beat press offers
+
+83
+00:03:05,600 --> 00:03:09,200
+最基本的beat press设置是这样的
+the very minimum beat press setup will look like this
+
+84
+00:03:09,366 --> 00:03:11,133
+首先，你创建你的项目文件夹
+first you create your project folder
+
+85
+00:03:11,133 --> 00:03:14,166
+然后放上邻近的软件包和索引MD
+then put package adjacent and index MD
+
+86
+00:03:14,266 --> 00:03:17,533
+你可以看到索引MD是一个根文件
+as you can see the index MD is a root file
+
+87
+00:03:17,700 --> 00:03:20,533
+你现在可以在这个Mark中写任何东西
+and you you write anything in this Mark now
+
+88
+00:03:21,000 --> 00:03:23,600
+然后你安装peak press p npm
+and then you install peak press p npm
+
+89
+00:03:23,600 --> 00:03:27,200
+然后通过npx v d press命令运行b press。
+then run b press through like npx v d press command
+
+90
+00:03:27,866 --> 00:03:30,266
+然后你会得到这个网站
+and then you get thiswebsite
+
+91
+00:03:30,266 --> 00:03:32,133
+在你的电脑上运行后
+after running on your orc machine
+
+92
+00:03:33,000 --> 00:03:35,600
+你可以看到那个MACDON文件已经过去了
+you kind of see that macdon file got past
+
+93
+00:03:35,866 --> 00:03:38,066
+有一个标题是server one和level
+there's a heading server one and level
+
+94
+00:03:38,066 --> 00:03:39,566
+2与它的内容
+2 with its contents
+
+95
+00:03:39,666 --> 00:03:40,066
+甚至
+even
+
+96
+00:03:40,066 --> 00:03:41,766
+甚至是这个单一的macdon文件
+even this single macdon file
+
+97
+00:03:41,766 --> 00:03:43,799
+它也有这个概要的特点
+it comes with this outline features
+
+98
+00:03:43,800 --> 00:03:46,400
+在这里你可以看到在页面的右边
+where you can see at the right side of the page
+
+99
+00:03:46,400 --> 00:03:47,133
+我们有
+we have
+
+100
+00:03:47,133 --> 00:03:49,899
+在页面的右上方有明暗开关
+light and darkmore switch on top right of the page
+
+101
+00:03:50,266 --> 00:03:51,166
+所以顺便说一下
+so by the way
+
+102
+00:03:51,166 --> 00:03:54,333
+即使是没有冲突的单一标记文件，它也看起来
+even just no conflict single markdown file it looks
+
+103
+00:03:54,600 --> 00:03:56,266
+很好的奶油色和美丽
+pretty cream and beautiful
+
+104
+00:03:56,266 --> 00:03:58,699
+所以，也许这在你的简历上效果很好
+so maybe this works pretty well on your resume
+
+105
+00:03:58,766 --> 00:04:00,499
+网站上也是如此简单
+site was something simple like that
+
+106
+00:04:00,766 --> 00:04:03,966
+但在这种设置下，我们只有一个单页
+but with this set up we only have one single page
+
+107
+00:04:04,300 --> 00:04:06,600
+而这对大多数网站来说是不够的
+and that's not enough for most of the website
+
+108
+00:04:06,800 --> 00:04:07,966
+所以你可以按照
+so you can follow
+
+109
+00:04:07,966 --> 00:04:10,866
+通过添加冲突来定制你的网站
+customize your website by adding conflicts
+
+110
+00:04:11,800 --> 00:04:16,700
+要做到这一点，将config js放到vte press文件夹下。
+to do so place config js to under the vte press folder
+
+111
+00:04:16,700 --> 00:04:19,333
+在这个文件中，你可以添加许多配置，如
+and in this file you can add many configs such as
+
+112
+00:04:19,333 --> 00:04:22,199
+网站标题语言描述
+site title languages description
+
+113
+00:04:22,466 --> 00:04:24,499
+这些是网站的元数据
+these are the metadata for the website
+
+114
+00:04:24,600 --> 00:04:26,200
+你可以添加 nutwire config
+you can add nutwire config
+
+115
+00:04:26,200 --> 00:04:28,066
+这是网站的页眉
+which is the header of the website
+
+116
+00:04:28,200 --> 00:04:29,600
+你可以添加侧边栏
+and you can add sidebar
+
+117
+00:04:29,900 --> 00:04:32,566
+显示在页面的左侧
+which is shown on the left side of the page
+
+118
+00:04:32,666 --> 00:04:34,866
+做完所有的配置后
+and after doing all of the configuration
+
+119
+00:04:34,866 --> 00:04:37,133
+并在文件夹中添加更多的文件
+and adding more files inside folders
+
+120
+00:04:37,133 --> 00:04:38,933
+最后你会得到网站
+and finally you get website
+
+121
+00:04:39,000 --> 00:04:40,333
+像这样的东西
+something look like this
+
+122
+00:04:40,800 --> 00:04:42,100
+这就是境外
+this is the offshore
+
+123
+00:04:42,166 --> 00:04:44,299
+文档的网站
+documentation website for beat class
+
+124
+00:04:44,333 --> 00:04:45,133
+你可以看到
+as you can see
+
+125
+00:04:45,133 --> 00:04:47,533
+这里有一个侧边的导航按钮
+there's a sideburn navigation such button
+
+126
+00:04:47,533 --> 00:04:49,699
+和标题，你有不同的导航
+and header you have different navigation
+
+127
+00:04:50,100 --> 00:04:51,300
+你甚至可以添加广告
+you can even add ads
+
+128
+00:04:51,300 --> 00:04:52,966
+我把它隐藏在屏幕中
+I'm hiding it in the screen
+
+129
+00:04:52,966 --> 00:04:55,733
+但在右下角你可以看到
+but on the right bottom of the corner you can see
+
+130
+00:04:55,800 --> 00:04:58,000
+你可以把这样的广告
+you can put the advertisement that such
+
+131
+00:04:58,266 --> 00:05:00,999
+现在deep press带有这个默认的水槽
+now deep press comes with this default sink
+
+132
+00:05:01,100 --> 00:05:03,733
+它专注于创建文档网站
+which is focused on creating documentation website
+
+133
+00:05:04,200 --> 00:05:06,166
+这就是为什么Wheat Press提供的功能
+which is why wheat press offers features
+
+134
+00:05:06,166 --> 00:05:07,399
+所需要的
+that required by
+
+135
+00:05:07,400 --> 00:05:09,900
+大多数的文档网站都是默认的
+most of the documentation website by default
+
+136
+00:05:09,900 --> 00:05:11,366
+比如说有侧面
+such as having side was
+
+137
+00:05:11,366 --> 00:05:13,533
+和显示页面的轮廓
+and displaying the outline of the page
+
+138
+00:05:13,733 --> 00:05:15,066
+然而，但同样
+however but again
+
+139
+00:05:15,300 --> 00:05:18,100
+小麦网是一个静态的侧面生成器
+wheat press is a static side generator
+
+140
+00:05:18,100 --> 00:05:20,600
+而不是一个文档网站生成器
+and not a documentation website generator
+
+141
+00:05:20,866 --> 00:05:23,999
+所以它只是恰好是目前的主要用途
+so it just happens to be that the current main usage
+
+142
+00:05:24,366 --> 00:05:27,799
+是用来创建文档的，因为你知道markdown
+is for creating documentation because you know markdown
+
+143
+00:05:28,066 --> 00:05:30,666
+在建立文档方面是相当不错的，对吗？
+is quite good at building documentations right
+
+144
+00:05:30,800 --> 00:05:31,600
+但是
+but
+
+145
+00:05:32,400 --> 00:05:35,400
+默认的缝隙是集中在添加裂缝
+the default seam is focused on adding fissures
+
+146
+00:05:35,400 --> 00:05:37,400
+有关的文件网站
+related to documentation website
+
+147
+00:05:37,400 --> 00:05:38,266
+因为这
+because of that
+
+148
+00:05:38,300 --> 00:05:39,000
+但是
+but
+
+149
+00:05:39,000 --> 00:05:41,533
+它可以在里面使用任何视图组件
+it can use any view component inside it
+
+150
+00:05:41,566 --> 00:05:42,366
+事实上
+in fact
+
+151
+00:05:42,533 --> 00:05:45,699
+所有的默认缝隙都是用视图组件构建的
+all of the default seam is built with view component
+
+152
+00:05:46,066 --> 00:05:46,466
+所以
+so
+
+153
+00:05:46,466 --> 00:05:49,933
+我们是暴徒的例子，这并不是一个真正的文件
+we are mob example which is not really a documentation
+
+154
+00:05:49,933 --> 00:05:50,766
+的例子
+for example
+
+155
+00:05:50,866 --> 00:05:53,933
+我忘了说，但深度网站也是
+I forgot to mention but deep website is also
+
+156
+00:05:54,100 --> 00:05:55,266
+用beat press构建的
+built with beat press
+
+157
+00:05:55,500 --> 00:05:57,966
+而这是有意义的，因为Beat网站是
+and it makes sense because beat website is
+
+158
+00:05:58,333 --> 00:05:59,733
+deet文档网站
+deet documentation website
+
+159
+00:05:59,733 --> 00:06:01,266
+对，所以我们想使用beat press
+right so we want to use beat press
+
+160
+00:06:01,900 --> 00:06:03,133
+但在Beat网站上
+but on beat website
+
+161
+00:06:03,533 --> 00:06:06,133
+你看到的页面，如团队页面
+you see pages like team page
+
+162
+00:06:07,133 --> 00:06:09,666
+这个页面不是一个自定义页面
+well this page is not a custom page
+
+163
+00:06:09,666 --> 00:06:12,266
+而是包含在 vietpa 的默认场景中
+but rather included in vietpa's default scene
+
+164
+00:06:12,266 --> 00:06:15,399
+但要写这样的页面是很难的
+but it's quite hard to write this kind of page
+
+165
+00:06:15,666 --> 00:06:16,666
+用markdown编写
+with markdown
+
+166
+00:06:16,666 --> 00:06:17,399
+对
+right
+
+167
+00:06:17,400 --> 00:06:19,300
+所以我们用视图组件来做这个
+so we use view component for this
+
+168
+00:06:19,300 --> 00:06:22,600
+这个页面的源代码是这样的
+the source code of this page looks like this
+
+169
+00:06:23,600 --> 00:06:25,800
+这实际上是一个markdown文件
+this is actually a markdown file
+
+170
+00:06:25,966 --> 00:06:28,199
+在这里你没有发现任何markdown的语法
+there is no markdown syntax you find here
+
+171
+00:06:28,200 --> 00:06:30,900
+但你真的可以把markdown内容
+but you can really mix markdown content
+
+172
+00:06:30,900 --> 00:06:32,800
+和视图组件在一起
+and view component together
+
+173
+00:06:33,133 --> 00:06:33,999
+在这里你可以看到
+here you see
+
+174
+00:06:34,000 --> 00:06:37,466
+我们导入视图组件并使用它就像
+we import view components and using it just as if
+
+175
+00:06:37,466 --> 00:06:39,999
+这是一些单一的文件组件
+this is a few single file component
+
+176
+00:06:40,266 --> 00:06:42,733
+所以同样，第一个默认的模拟是专注于
+so again the first default sim is focused on
+
+177
+00:06:42,733 --> 00:06:44,399
+创建文档网站
+creating documentation website
+
+178
+00:06:44,933 --> 00:06:48,499
+你可以使用beat press来创建任何研究网站
+you can use beat press to create any study website
+
+179
+00:06:48,566 --> 00:06:50,599
+它不一定是一个文件
+it doesn't have to be a documentation
+
+180
+00:06:51,300 --> 00:06:52,966
+另一个例子是这个
+another example will be this one
+
+181
+00:06:52,966 --> 00:06:55,899
+这是我最近在我的公司建立的一个网站
+this is a website I build recently at my company
+
+182
+00:06:55,933 --> 00:06:58,699
+它没有使用任何beat press的默认场景
+it doesn't use any of beat press default scene
+
+183
+00:06:59,300 --> 00:07:01,666
+看起来是完全原创的
+the seeming is completely original
+
+184
+00:07:01,666 --> 00:07:03,366
+但它仍在使用deep press
+but it's still using deep press
+
+185
+00:07:03,500 --> 00:07:05,300
+所以如果你是一个
+so if you are a
+
+186
+00:07:05,300 --> 00:07:08,700
+视图开发人员，如果你想拥有静态网站
+view developer and if you want to have static website
+
+187
+00:07:08,766 --> 00:07:11,066
+并使用正确的视图内容
+and use view right content
+
+188
+00:07:11,466 --> 00:07:13,466
+deep press可能是你的选择之一
+deep press might be one of your choice
+
+189
+00:07:13,466 --> 00:07:15,733
+即使是对于那些不属于文件的东西
+even for things that are not a documentation
+
+190
+00:07:16,800 --> 00:07:17,866
+现在我希望你
+now I hope you
+
+191
+00:07:17,966 --> 00:07:21,499
+对Beatrice的功能有了基本的了解
+have a basic understanding of what Beatrice can do
+
+192
+00:07:21,866 --> 00:07:23,699
+现在让我们来看看
+now let's go into
+
+193
+00:07:23,800 --> 00:07:24,666
+如何
+how
+
+194
+00:07:24,933 --> 00:07:26,199
+Beatrice是如何行走的
+Beatrice walks
+
+195
+00:07:28,266 --> 00:07:28,666
+再一次
+again
+
+196
+00:07:28,666 --> 00:07:31,466
+我不打算介绍Beatrice的功能
+I'm not going through the features of beat press
+
+197
+00:07:31,466 --> 00:07:32,133
+而是
+but rather
+
+198
+00:07:32,133 --> 00:07:35,599
+而是要看看Beat Press如何实现这些功能
+looking to how beat press enables those features
+
+199
+00:07:35,700 --> 00:07:38,600
+以及它如何使用节拍来实现这些功能
+and how it uses beat to do so
+
+200
+00:07:38,666 --> 00:07:41,099
+喜欢做任何beat press做的事情
+like to do anything that beat press does
+
+201
+00:07:41,300 --> 00:07:45,066
+现在，beat press已经深深地融入到视图中，因为
+now beat press is deeply integrated to view because
+
+202
+00:07:45,166 --> 00:07:46,699
+beat press的整个要点
+the whole point of beat press
+
+203
+00:07:47,066 --> 00:07:47,866
+是
+is
+
+204
+00:07:47,933 --> 00:07:50,866
+它的小麦和视图驱动的多余的发生器
+its wheat and viewpowered set excess generator
+
+205
+00:07:51,100 --> 00:07:51,766
+但是
+however
+
+206
+00:07:51,766 --> 00:07:55,133
+正如你已经知道的，小麦并没有被锁定在视图中
+as you already know wheat is not locked in the view
+
+207
+00:07:55,133 --> 00:07:56,999
+你可以将小麦用于许多
+you can use wheat with many
+
+208
+00:07:57,000 --> 00:07:59,600
+许多其他的javascript框架，如react
+many other javascript frameworks such as react
+
+209
+00:07:59,600 --> 00:08:01,300
+solid belt等。
+solid belt and such
+
+210
+00:08:01,300 --> 00:08:04,666
+对，所以通过学习beat press如何使用视图
+right so by learning how beat press uses view
+
+211
+00:08:04,766 --> 00:08:06,766
+你可以将同样的技术
+you may apply the same technique
+
+212
+00:08:06,900 --> 00:08:08,366
+也可以应用于其他框架
+for other frameworks too
+
+213
+00:08:08,566 --> 00:08:11,366
+这就是我希望你们能学到的东西
+and that's what I'm hoping you guys would learn
+
+214
+00:08:11,600 --> 00:08:12,000
+和
+and
+
+215
+00:08:12,000 --> 00:08:14,533
+你知道的，创造一些很棒的软件
+you know create some awesome software
+
+216
+00:08:14,733 --> 00:08:16,533
+并使世界变得更美好
+and make the world better
+
+217
+00:08:17,066 --> 00:08:19,266
+为了了解海滩是如何运作的，首先
+in order to understand how beach first works
+
+218
+00:08:19,366 --> 00:08:22,199
+你可以做的最精确的事情是查看
+the most precise thing you can do is look
+
+219
+00:08:22,200 --> 00:08:23,466
+源代码
+into the source code
+
+220
+00:08:26,700 --> 00:08:27,566
+这就是这个
+which is this
+
+221
+00:08:27,733 --> 00:08:28,166
+好的
+well
+
+222
+00:08:28,166 --> 00:08:31,366
+有很多文件，但你只需要看一下
+there are lots of files but you only have to look into
+
+223
+00:08:31,866 --> 00:08:32,766
+源码边界
+source border
+
+224
+00:08:32,933 --> 00:08:34,266
+但即使对我来说，它
+but even for me it
+
+225
+00:08:34,266 --> 00:08:36,199
+是一种压倒性的通过
+was kind of overwhelming to go through
+
+226
+00:08:36,366 --> 00:08:37,599
+像每个文件
+like each file
+
+227
+00:08:37,933 --> 00:08:39,466
+事实上，我正打算在我的文本编辑器上打开
+in fact I was planning to open
+
+228
+00:08:39,466 --> 00:08:41,499
+在我的文本编辑器上打开这个源边界
+this source border on my text editor
+
+229
+00:08:41,500 --> 00:08:42,566
+并向大家展示
+and show everyone
+
+230
+00:08:42,566 --> 00:08:44,333
+大量的源代码，并通过像
+a lot of source code and go through like
+
+231
+00:08:44,333 --> 00:08:45,466
+一行又一行
+lines by lines
+
+232
+00:08:45,900 --> 00:08:46,966
+但好在
+but well
+
+233
+00:08:47,400 --> 00:08:48,933
+这比我想象的要难
+it was harder than I thought
+
+234
+00:08:49,000 --> 00:08:50,933
+所以有很多的代码
+so there are lots of codes
+
+235
+00:08:51,100 --> 00:08:52,566
+所以我将挑选
+so instead I'll pick
+
+236
+00:08:52,600 --> 00:08:54,533
+重要部分的代码并解释
+important part of the code and explain
+
+237
+00:08:54,533 --> 00:08:56,666
+尽可能的简单
+as simple as much as I can
+
+238
+00:08:56,800 --> 00:08:58,766
+它变得有点抽象了
+it becomes a bit more abstract
+
+239
+00:08:58,800 --> 00:09:00,266
+但我希望你能得到更多
+but I hope you get more
+
+240
+00:09:00,266 --> 00:09:02,899
+清楚区别是什么
+glass idea of what difference is doing
+
+241
+00:09:02,900 --> 00:09:05,500
+在你知道它的作用之后
+and after you know what it does
+
+242
+00:09:05,533 --> 00:09:08,133
+如果你通过实际的源代码
+and if you go through the actual source code
+
+243
+00:09:08,366 --> 00:09:09,499
+你会得到更多
+you will get more
+
+244
+00:09:09,766 --> 00:09:10,299
+更好的
+better
+
+245
+00:09:10,300 --> 00:09:11,100
+理解
+understanding
+
+246
+00:09:11,266 --> 00:09:13,266
+所以我做了一个下降的片断，以便
+so I made the falling slice so
+
+247
+00:09:13,366 --> 00:09:14,099
+以便与
+to match
+
+248
+00:09:14,100 --> 00:09:17,000
+尽可能地与实际的源代码结构相一致
+the actual source code structure as much as possible
+
+249
+00:09:17,333 --> 00:09:18,999
+我希望你能更容易找到
+I hope you will make easier for you to
+
+250
+00:09:19,000 --> 00:09:20,700
+找到相应的代码
+locate corresponding code
+
+251
+00:09:21,100 --> 00:09:21,666
+一旦
+once after
+
+252
+00:09:21,666 --> 00:09:23,066
+解决幻灯片的问题
+you solve the slides
+
+253
+00:09:24,333 --> 00:09:25,799
+因此，核心组件
+so the core components
+
+254
+00:09:25,800 --> 00:09:27,566
+beatfress有两个大的
+beatfress has 2 big
+
+255
+00:09:27,766 --> 00:09:31,366
+组件，即客户端代码和底层代码
+components which is client side code and subside code
+
+256
+00:09:31,766 --> 00:09:34,366
+客户端代码是在客户端文件夹中
+client code is in the client folder
+
+257
+00:09:34,400 --> 00:09:36,966
+旁侧代码在节点文件夹中
+and savaside code is on node folder
+
+258
+00:09:37,266 --> 00:09:37,966
+客户端代码
+client code
+
+259
+00:09:37,966 --> 00:09:41,299
+Lonzon浏览器和Sovicide代码在Lonzon服务端。
+lonzon browsers and sovicide code lonzon service side
+
+260
+00:09:41,300 --> 00:09:43,500
+但它是一个静态网站生成器
+but it's a static site generator
+
+261
+00:09:43,500 --> 00:09:46,566
+因此，在生产环境中，没有拍子的压力。
+so in production environment there's no beat press
+
+262
+00:09:46,566 --> 00:09:49,933
+我应该说，也许在我的节拍萨瓦上有萨维尔。
+saville up on lombing my beat sava I should say maybe
+
+263
+00:09:50,333 --> 00:09:51,899
+但是，通常情况下，子集
+but so usually the subset
+
+264
+00:09:51,900 --> 00:09:55,333
+代码是指在你的岩石机器上运行的代码
+code means that code runs on your rock machine
+
+265
+00:09:56,466 --> 00:09:58,366
+在客户端的炮灰里面
+inside client fodder
+
+266
+00:09:58,500 --> 00:09:59,333
+我们有炮灰
+we have fodder
+
+267
+00:09:59,333 --> 00:10:01,533
+2种不同类型的客户端代码
+2 different types of client code
+
+268
+00:10:01,566 --> 00:10:04,199
+一个叫做app，另一个叫做c
+one is called app and the other it's c
+
+269
+00:10:04,966 --> 00:10:07,666
+应用程序代码是核心的拍拍贷代码
+app code is the core beat press code
+
+270
+00:10:07,666 --> 00:10:10,399
+它处理所有的基本功能，如路由
+it handles all basic features such as routing
+
+271
+00:10:10,400 --> 00:10:11,800
+带价格的热门模块
+hot module with price men
+
+272
+00:10:11,800 --> 00:10:13,300
+深度工具整合
+depth tools integration
+
+273
+00:10:13,500 --> 00:10:15,400
+和管理网站的元数据
+and managing the site metadata
+
+274
+00:10:15,666 --> 00:10:17,466
+加载上下文等
+loading context and such
+
+275
+00:10:17,866 --> 00:10:21,666
+另一方面，缝合代码在本例中被命名为缝合
+seam code in other hand is in this case named seam
+
+276
+00:10:21,666 --> 00:10:22,466
+默认的
+default
+
+277
+00:10:22,600 --> 00:10:24,333
+是一个缝合的具体代码
+is a seam specific code
+
+278
+00:10:24,333 --> 00:10:25,533
+所有的冲突
+all of the conflict that
+
+279
+00:10:25,533 --> 00:10:28,566
+只有与接缝有关的冲突才会被用在这个代码中。
+only relates the seam will be used in this code only
+
+280
+00:10:28,900 --> 00:10:31,333
+因此，如果你想建立你自己的网站
+so if you want to build your own website
+
+281
+00:10:31,666 --> 00:10:33,366
+使用场景的结果切割
+result cut using the scene
+
+282
+00:10:33,566 --> 00:10:34,866
+这些都不是simka
+none of this simka
+
+283
+00:10:34,866 --> 00:10:35,799
+将会被学习
+will be learning
+
+284
+00:10:35,933 --> 00:10:38,499
+所以我们可以完全删除这个文件夹
+so we can completely delete this folder
+
+285
+00:10:38,566 --> 00:10:40,966
+这样就可以毫无问题地行走了
+and this press would walk without a problem
+
+286
+00:10:41,600 --> 00:10:44,766
+现在了解一些应用程序如何工作的最佳方式
+now best way to understand how some application works
+
+287
+00:10:44,766 --> 00:10:45,966
+是通过目标
+is the goal through
+
+288
+00:10:46,066 --> 00:10:48,999
+一步一步地从入口处开始
+step by step from the entry point
+
+289
+00:10:49,000 --> 00:10:50,133
+我的意思是
+by that I mean
+
+290
+00:10:50,133 --> 00:10:52,699
+如果我们想创建一个启动兴奋的发电机
+if we want to create a start excite generator
+
+291
+00:10:53,300 --> 00:10:55,766
+我们需要在开始时做什么，比如
+what we need to do at the beginning like
+
+292
+00:10:55,866 --> 00:10:57,299
+我们如何开始我们的深度
+how do we start the depths of our
+
+293
+00:10:57,300 --> 00:10:58,100
+或如何
+or how
+
+294
+00:10:58,200 --> 00:10:59,600
+我们可以建立一个代码
+can we build a code
+
+295
+00:10:59,800 --> 00:11:00,600
+好的
+well
+
+296
+00:11:00,733 --> 00:11:02,199
+我们需要cli命令
+we need cli command
+
+297
+00:11:02,333 --> 00:11:02,999
+我们需要有
+we need to have
+
+298
+00:11:03,000 --> 00:11:06,400
+一些命令来开始建立网站，这意味着
+some command to start building the website that means
+
+299
+00:11:06,800 --> 00:11:08,566
+beat press实际上是
+beat press is actually
+
+300
+00:11:09,166 --> 00:11:10,966
+一个cli应用程序
+a cli application
+
+301
+00:11:12,166 --> 00:11:15,466
+所以Beat Press有几个命令，主要的命令是
+so beat press has several commands that main ones does
+
+302
+00:11:15,500 --> 00:11:17,366
+主要的有以下几个
+main ones are these ones
+
+303
+00:11:17,666 --> 00:11:19,599
+wheat press depth and wheat pressed
+wheat press depth and wheat pressed
+
+304
+00:11:19,600 --> 00:11:20,400
+建立
+built
+
+305
+00:11:20,700 --> 00:11:23,800
+死亡命令将启动一个使用小麦的死亡服务器
+death command will boot a death server using wheat
+
+306
+00:11:23,800 --> 00:11:26,666
+和wield命令将构建生产构建
+and wield command will build the production build
+
+307
+00:11:26,900 --> 00:11:28,133
+所以让我们来看看
+so let's check out
+
+308
+00:11:28,133 --> 00:11:31,099
+当我们执行这些命令时会发生什么
+what happens when we execute these commands
+
+309
+00:11:31,100 --> 00:11:34,366
+这些命令可能会在哪个文件中运行
+possible which file will these commands run
+
+310
+00:11:35,200 --> 00:11:38,566
+实际上，它在bean文件夹中，看起来像这样
+actually it's in the bean folder and it looks like this
+
+311
+00:11:40,000 --> 00:11:41,000
+好了，这就是它
+well that's it
+
+312
+00:11:41,066 --> 00:11:42,566
+这是一个简单的js文件
+it's a simple js file
+
+313
+00:11:42,566 --> 00:11:46,266
+它正在加载dist文件夹下的cli.js。
+and it's loading cli.js under dist folder
+
+314
+00:11:46,400 --> 00:11:49,866
+现在这个文件夹是生成编译文件的地方
+now this folder is where compiled file gets generated
+
+315
+00:11:49,866 --> 00:11:52,466
+因为speedpress是用脚本类型写的
+because speedpress is written in type script
+
+316
+00:11:52,666 --> 00:11:57,199
+所以实际的cli文件在souls known文件夹下。
+so the actual cli file is under souls known folder
+
+317
+00:11:57,466 --> 00:11:59,199
+让我们看看它是什么样子的
+and let's see how that looks
+
+318
+00:12:00,566 --> 00:12:01,866
+它看起来像这样
+it looks like this
+
+319
+00:12:02,566 --> 00:12:04,599
+好了，你不必担心这么多的
+well you don't have to worry so much about
+
+320
+00:12:04,600 --> 00:12:07,200
+细节，因为这些只是处理用户
+details because these are just handling users
+
+321
+00:12:07,200 --> 00:12:08,933
+cliinput和
+cliinput and
+
+322
+00:12:09,466 --> 00:12:10,799
+但现在我们可以看到
+but now we can see
+
+323
+00:12:10,800 --> 00:12:13,766
+此刻实际的命令在做什么
+what the actual command is doing at the moment
+
+324
+00:12:13,933 --> 00:12:17,499
+现在让我们看看死命令在做什么
+now let's see what's dead command is doing
+
+325
+00:12:17,500 --> 00:12:18,733
+它在做这个
+it's doing this
+
+326
+00:12:22,100 --> 00:12:22,800
+好的
+okay
+
+327
+00:12:22,800 --> 00:12:26,366
+所以第一行是dev命令，对吗？
+so the first line is the dev command right
+
+328
+00:12:26,366 --> 00:12:28,666
+它所做的主要事情是创建一个开发
+the main thing it does is creating a dev
+
+329
+00:12:28,666 --> 00:12:30,199
+服务器并启动它
+server and starting it
+
+330
+00:12:30,466 --> 00:12:31,499
+它看起来像
+it looks like
+
+331
+00:12:31,733 --> 00:12:32,499
+它还在做更多的事情
+it's doing more
+
+332
+00:12:32,500 --> 00:12:35,000
+但让我们把重点放在开发生存的迹象上。
+but let's focus on dev survival signs here
+
+333
+00:12:35,400 --> 00:12:38,400
+它创建新的郊区并启动
+it creates new suburb and starting
+
+334
+00:12:38,700 --> 00:12:43,166
+好的，那么这个创建发展的郊区是怎么来的？
+ok so where does this create dev suburb is coming from
+
+335
+00:12:43,400 --> 00:12:44,366
+它来自于
+it comes from
+
+336
+00:12:45,166 --> 00:12:48,499
+斜线节点萨瓦TS火
+slash node sava TS fire
+
+337
+00:12:49,700 --> 00:12:50,966
+它看起来像这样
+it looks like this
+
+338
+00:12:51,166 --> 00:12:53,066
+我没有在这里展示所有的东西
+I'm not showing everything here
+
+339
+00:12:53,066 --> 00:12:54,866
+但请跟着我，我将会
+but stay with me I'm gonna
+
+340
+00:12:55,333 --> 00:12:56,133
+我将
+I'll
+
+341
+00:12:56,166 --> 00:12:56,966
+通过它
+go through it
+
+342
+00:12:57,100 --> 00:12:57,900
+也许它是
+maybe it does
+
+343
+00:12:58,266 --> 00:13:00,299
+主要是做两件事
+mainly it does 2 things here
+
+344
+00:13:01,100 --> 00:13:01,900
+一
+one
+
+345
+00:13:01,900 --> 00:13:04,100
+它解决了冲突
+it resolves the conflict
+
+346
+00:13:05,066 --> 00:13:07,333
+因为我们需要应用任何冲突
+well because we need to apply any conflict
+
+347
+00:13:07,366 --> 00:13:08,699
+用户定义的
+users defined
+
+348
+00:13:08,700 --> 00:13:09,500
+以便
+so that
+
+349
+00:13:10,333 --> 00:13:13,266
+第一件事是解决冲突
+the first thing we do is to resolve the conflict
+
+350
+00:13:13,466 --> 00:13:16,899
+我不打算研究冲突在哪里，因为
+I'm not going to look into conflict far where because
+
+351
+00:13:17,100 --> 00:13:18,566
+它所做的一切就是
+all that all it does is
+
+352
+00:13:18,566 --> 00:13:20,766
+试图为冲突设置默认值
+tries to set default value for the conflict
+
+353
+00:13:20,766 --> 00:13:22,599
+如果有任何用户输入的信息
+if any user input is given
+
+354
+00:13:22,800 --> 00:13:24,066
+它就会使用这个值
+it will use that
+
+355
+00:13:24,066 --> 00:13:26,166
+并使用该值代替默认值
+and use that instead of the default one
+
+356
+00:13:26,333 --> 00:13:27,933
+但是因为有很多冲突
+but because there's lots of conflict
+
+357
+00:13:27,933 --> 00:13:29,699
+冲突雾是相当巨大的
+the conflict fog is quite huge
+
+358
+00:13:29,900 --> 00:13:31,566
+但它所做的很简单
+but what it does is simple
+
+359
+00:13:32,066 --> 00:13:34,299
+它只是降低了所有用户的配置
+it just lowells all users config
+
+360
+00:13:34,500 --> 00:13:36,700
+并设置了最终的配置对象
+and set up the final config object
+
+361
+00:13:36,900 --> 00:13:37,600
+的最终配置对象。
+that
+
+362
+00:13:37,600 --> 00:13:39,800
+在整个应用程序的代码中使用
+should be used throughout the app code
+
+363
+00:13:42,100 --> 00:13:44,100
+现在，下一个问题是
+now the next one is
+
+364
+00:13:44,266 --> 00:13:45,999
+它做的下一件事是这样的
+next thing it does is this
+
+365
+00:13:46,333 --> 00:13:48,733
+这实际上是它做的最后一件事
+which is actually the last thing it does
+
+366
+00:13:48,733 --> 00:13:50,699
+它创建了一个开发夏日
+it creates a dev summer
+
+367
+00:13:51,466 --> 00:13:53,733
+现在你可以看到，它正在调用一个创建
+now you can see that it's calling a creat
+
+368
+00:13:53,800 --> 00:13:55,666
+beat summer，这很重要
+beat summer which is important
+
+369
+00:13:55,700 --> 00:13:58,366
+从节拍来看，这实际上是它
+from beat this is actually it
+
+370
+00:13:58,666 --> 00:14:00,066
+它正在调用beat summer
+it's a calling beat summer
+
+371
+00:14:00,166 --> 00:14:02,866
+它在这个文件中没有做别的事情
+and there's nothing else it does in this file
+
+372
+00:14:03,266 --> 00:14:05,999
+我们应该关注的部分是这里
+the part we should be focusing is here
+
+373
+00:14:08,100 --> 00:14:10,666
+插件将传递到缝隙中
+plugins will pass into the sew
+
+374
+00:14:10,800 --> 00:14:14,366
+所以在这里你可以看到，这个插件被命名为
+so here you can see that this plugin is named
+
+375
+00:14:14,400 --> 00:14:16,100
+create v plugin
+create v plugin
+
+376
+00:14:16,466 --> 00:14:19,899
+因此，从本质上讲，Wheat Press只是一个Wheat插件
+so essentially wheat press is just a wheat plug in
+
+377
+00:14:20,000 --> 00:14:22,900
+它做所有的事情，作为小麦的插件
+it does all of the things as wheat plug in
+
+378
+00:14:23,166 --> 00:14:25,599
+现在你也可以看到它是如何
+and also now you can see how it's
+
+379
+00:14:25,866 --> 00:14:26,999
+Howie它是如何
+Howie how it is
+
+380
+00:14:27,000 --> 00:14:29,600
+它是以编程方式创建beatsuba的。
+is it create beatsuba programmatically right
+
+381
+00:14:29,600 --> 00:14:31,333
+你只要从beat中导入creasava
+you just import createsava
+
+382
+00:14:31,400 --> 00:14:33,000
+并运行它
+from beat and run it
+
+383
+00:14:33,133 --> 00:14:35,066
+你就可以创建你自己的节拍了
+and you can create your own beats up
+
+384
+00:14:35,466 --> 00:14:36,966
+所以，如果你想创建任何像
+so if you want to create any like
+
+385
+00:14:36,966 --> 00:14:39,733
+自定义命令，可以启动beatsaval
+custom command that can boot up beatsaval
+
+386
+00:14:40,266 --> 00:14:42,466
+这就是你现在要做的
+this is how you do it now
+
+387
+00:14:42,466 --> 00:14:45,599
+让我们进入创建按下插件的功能
+let's go into create the press plugin function
+
+388
+00:14:45,600 --> 00:14:47,100
+它的作用是什么？
+what does it do
+
+389
+00:14:48,200 --> 00:14:49,000
+现在
+now
+
+390
+00:14:51,366 --> 00:14:52,399
+这个功能
+this function
+
+391
+00:14:52,400 --> 00:14:56,466
+该插件功能来自于灵魂斜线鼻子插件
+the plugin function comes from soul slash nose plugin
+
+392
+00:14:56,466 --> 00:14:59,733
+边界 现在从这里开始，水槽变得有趣和
+border now from here sinks get interesting and
+
+393
+00:14:59,900 --> 00:15:01,366
+当然，更复杂的是
+more complicated of course
+
+394
+00:15:01,566 --> 00:15:03,099
+现在，这就是实际的Soulsco
+now this is the actual soulsco
+
+395
+00:15:03,100 --> 00:15:04,333
+但你可以看到
+but as you can see
+
+396
+00:15:04,333 --> 00:15:06,266
+而且我没有足够的空间来展示
+and I don't have enough space to show
+
+397
+00:15:06,700 --> 00:15:07,766
+旧的实际代码
+old actual code
+
+398
+00:15:07,766 --> 00:15:10,533
+所以让我们在这里删掉一些冷门的东西，使之简单化
+so let's cut off some cold here and make it simple
+
+399
+00:15:10,666 --> 00:15:13,066
+这里的主要目标是创建V
+the main goal here is to create v
+
+400
+00:15:13,066 --> 00:15:13,866
+插件
+plugging
+
+401
+00:15:13,900 --> 00:15:16,333
+所以这段代码看起来像这样
+so that code looks like this
+
+402
+00:15:17,733 --> 00:15:19,766
+现在v plugging是一个对象
+now v plugging is an object
+
+403
+00:15:19,800 --> 00:15:20,266
+有
+with
+
+404
+00:15:20,266 --> 00:15:22,133
+你可以添加很多配置
+lots of configuration you can add
+
+405
+00:15:22,166 --> 00:15:24,966
+你可以找到所有的文档和小麦的网站
+you can find all of the documentation and wheat website
+
+406
+00:15:25,200 --> 00:15:28,200
+沿着这条路线，他们有什么样的选择
+along which like what kind of options they had
+
+407
+00:15:28,200 --> 00:15:29,066
+但在这里
+but here again
+
+408
+00:15:29,066 --> 00:15:31,366
+让我们把注意力集中在对新闻界重要的事情上
+let's focus on what matters for beat press
+
+409
+00:15:31,866 --> 00:15:32,799
+当我们插入
+as we plug in
+
+410
+00:15:32,800 --> 00:15:34,400
+我们要做的是
+what we want to do is
+
+411
+00:15:34,766 --> 00:15:37,199
+将一个吉利姆的标记文件
+transform a gilliam markdown file
+
+412
+00:15:37,966 --> 00:15:39,333
+转换成我们
+to something that we
+
+413
+00:15:39,333 --> 00:15:40,166
+可以处理的
+can handle
+
+414
+00:15:40,500 --> 00:15:43,066
+因为在默认情况下，V对markdown没有任何作用
+because as the default v does nothing for markdown
+
+415
+00:15:43,066 --> 00:15:43,866
+野生的吧
+wild right
+
+416
+00:15:44,133 --> 00:15:46,733
+所以如果有一些markdown文件进来了
+so if some markdown comes in
+
+417
+00:15:46,900 --> 00:15:48,133
+我们需要做的是
+we need to do well
+
+418
+00:15:48,133 --> 00:15:50,066
+不管是什么节拍的新闻想做什么
+whatever beat press want to do with that
+
+419
+00:15:50,066 --> 00:15:50,966
+做什么
+wile to do
+
+420
+00:15:50,966 --> 00:15:54,366
+所以我们在录像带上有转换选项
+so we have transform option in vidfording
+
+421
+00:15:54,366 --> 00:15:55,899
+它应该是这样的
+which should look like this
+
+422
+00:15:57,333 --> 00:15:59,999
+在这里，我切断了不重要的寒冷
+here I am cutting off not that important cold
+
+423
+00:16:00,000 --> 00:16:01,933
+而只显示重要的部分
+and only shown the important ones
+
+424
+00:16:02,133 --> 00:16:03,199
+但在这里
+but here it
+
+425
+00:16:03,466 --> 00:16:06,899
+你可以看到，它正试图处理传入的文件
+you can see that it's trying to handle incoming file
+
+426
+00:16:06,966 --> 00:16:08,466
+false east 语句
+the false east statement
+
+427
+00:16:08,466 --> 00:16:10,799
+检查火的扩展名是否为点视图
+checks if the fire extension is dot view
+
+428
+00:16:10,800 --> 00:16:11,366
+不是
+not
+
+429
+00:16:11,366 --> 00:16:13,133
+好了，首先打败了Lendo的markdown
+well beat first lendo's markdown
+
+430
+00:16:13,133 --> 00:16:15,933
+但你也可以直接处理视图文件
+but you can also handle view file directly too
+
+431
+00:16:16,000 --> 00:16:17,900
+所以如果有任何bu文件进来
+so if any bu file comes in
+
+432
+00:16:17,900 --> 00:16:20,300
+不是macno fire而是view文件进来了
+not macno fire but the view file comes in
+
+433
+00:16:20,300 --> 00:16:21,366
+我们就会处理它
+we'll just handle it
+
+434
+00:16:21,466 --> 00:16:23,066
+我们也只是处理这个
+we just handle that too
+
+435
+00:16:23,500 --> 00:16:26,733
+你看，有一个处理客户端js的函数
+you see there is a process client js function
+
+436
+00:16:26,900 --> 00:16:29,733
+这是一个处理任何用户定义的
+this is the function that processes any user defined
+
+437
+00:16:29,733 --> 00:16:31,999
+在文件中工作的javascript代码
+javascript code working in the file
+
+438
+00:16:32,000 --> 00:16:33,666
+并添加到hashma中
+and add to the hashma
+
+439
+00:16:33,666 --> 00:16:37,133
+所以我们可以用这个函数来渲染渲染的输出
+so we can use that with rendering rendered output
+
+440
+00:16:37,133 --> 00:16:38,499
+在最后的输出上
+on the final output
+
+441
+00:16:38,566 --> 00:16:40,066
+但这并不是真正的大事情
+but it's not really the huge things
+
+442
+00:16:40,066 --> 00:16:42,099
+不要对这个问题太过担心
+don't worry so much about this
+
+443
+00:16:42,333 --> 00:16:44,966
+接下来的语句是寻找
+the next statement is looking for
+
+444
+00:16:45,166 --> 00:16:47,366
+MD的扩展，也就是markdown
+MD extension which is the markdown
+
+445
+00:16:47,366 --> 00:16:47,999
+在这种情况下
+in this case
+
+446
+00:16:48,000 --> 00:16:51,266
+传入的文件实际上是markdown文件
+incoming file is actually the markdown file
+
+447
+00:16:52,400 --> 00:16:55,100
+在这种情况下，我们需要暂停这个markdown文件
+in this case we need to pause the markdown file
+
+448
+00:16:55,100 --> 00:16:57,700
+以便以后处理该文件
+in order to process the file later on
+
+449
+00:16:57,700 --> 00:17:00,333
+我们如何做到这一点，就是暂停markdown文件
+how we do this is to pause markdown file
+
+450
+00:17:00,333 --> 00:17:01,866
+变成查看源代码
+into view source code
+
+451
+00:17:01,866 --> 00:17:05,066
+然后把它传递给海滩流水线
+and then pass it down to the beach pipeline
+
+452
+00:17:05,266 --> 00:17:09,566
+之后，我们就可以处理视图文件，查看其视图插件
+after that we can handle view file view its view plugin
+
+453
+00:17:09,733 --> 00:17:13,366
+所以我们在这里所要做的就是转换markdown文件
+so all we have to do here is transform markdown file
+
+454
+00:17:13,366 --> 00:17:14,366
+并使其成为
+and make it
+
+455
+00:17:14,566 --> 00:17:15,366
+视图文件
+view file
+
+456
+00:17:16,066 --> 00:17:19,533
+为了做到这一点，我们有这个markdown到view的函数
+to do that we have this markdown to view function
+
+457
+00:17:21,300 --> 00:17:25,133
+该函数返回view slc对象和view source对象
+which returns view slc object view source object
+
+458
+00:17:25,266 --> 00:17:28,666
+视图源对象通过进程客户端获得
+and the view source object get past the process client
+
+459
+00:17:28,666 --> 00:17:29,366
+js文件
+js file
+
+460
+00:17:29,366 --> 00:17:32,166
+就像我们用视图文件转换时一样
+as the same as we did when transforming with view file
+
+461
+00:17:32,600 --> 00:17:34,533
+实际上这就是B的关键部分
+actually this is the key part of b
+
+462
+00:17:34,533 --> 00:17:36,733
+另外它还能处理markdown
+plus it handles markdown
+
+463
+00:17:37,000 --> 00:17:40,600
+现在让我们来看看markdown to view文件有什么作用
+now let's go see what markdown to view file does
+
+464
+00:17:41,466 --> 00:17:44,666
+markdown to view命令的实际名称是
+the actual name of markdown to view command
+
+465
+00:17:44,666 --> 00:17:47,266
+的返回函数是由
+is the return function from
+
+466
+00:17:47,466 --> 00:17:49,733
+创建markdown到视图的渲染函数
+create markdown to view render function
+
+467
+00:17:49,733 --> 00:17:52,499
+现在，这个名字很长，但却被处理得很好
+now this long name but is quite processed
+
+468
+00:17:53,200 --> 00:17:56,400
+这个函数返回可以暂停markdown的函数
+this function returns function that can pause markdown
+
+469
+00:17:56,866 --> 00:17:59,266
+考虑到用户环境
+taking user context into account
+
+470
+00:17:59,466 --> 00:18:01,099
+现在它又是非常复杂的
+now again it's very complicated
+
+471
+00:18:01,100 --> 00:18:02,966
+而且看起来有很多事情要做
+and looks like many things are going on
+
+472
+00:18:02,966 --> 00:18:05,199
+但让我们来看看这个目标的一个重要部分
+but let's look at an important part of this goal
+
+473
+00:18:05,300 --> 00:18:07,333
+第一个名字是这样的
+the first one name is this
+
+474
+00:18:08,200 --> 00:18:10,400
+创建markdown渲染
+create markdown render
+
+475
+00:18:10,666 --> 00:18:11,399
+这个函数
+this function
+
+476
+00:18:11,400 --> 00:18:14,400
+是创建一个纯粹的markdown渲染函数
+is creating a pure markdown render function
+
+477
+00:18:14,400 --> 00:18:16,166
+以后可以实际使用
+that can later used actually
+
+478
+00:18:16,166 --> 00:18:17,766
+贷出markdown的康普顿
+lender the markdown Compton
+
+479
+00:18:17,933 --> 00:18:20,966
+这意味着将markdown转换成HTML
+which means convert markdown into HTML
+
+480
+00:18:21,133 --> 00:18:22,966
+让我们看看它是怎样的
+let's see how it looks like
+
+481
+00:18:23,666 --> 00:18:24,799
+这就是这个函数
+this is the function
+
+482
+00:18:24,933 --> 00:18:26,133
+这个函数看起来
+this function looks
+
+483
+00:18:27,133 --> 00:18:28,466
+非常简单，我要说的是
+very simple I will say
+
+484
+00:18:28,466 --> 00:18:31,533
+你可以看到，它正在创建一个新的markdown实例
+you can see that it's creating a new markdown instance
+
+485
+00:18:32,066 --> 00:18:33,533
+markdown eat instance
+markdown eat instance
+
+486
+00:18:33,533 --> 00:18:34,766
+和markdown hit
+and markdown hit
+
+487
+00:18:34,766 --> 00:18:37,699
+是非常著名的用于javascript的markdown possum
+is very famous markdown possum for javascript
+
+488
+00:18:37,800 --> 00:18:40,000
+我们可以把它用在它身上
+and we press use it to it
+
+489
+00:18:40,566 --> 00:18:43,999
+它所做的就是创建一个新的markdown hit实例
+all it does is creating a new markdown hit instance
+
+490
+00:18:44,000 --> 00:18:46,366
+并添加了很多的markdown插件
+and adds a lots of markdown plugins
+
+491
+00:18:46,366 --> 00:18:48,666
+正如你所看到的，它是一个很大的MD。
+as you can see it is a lot of MD
+
+492
+00:18:48,866 --> 00:18:50,166
+在它的调用中使用函数
+use function in its call
+
+493
+00:18:50,400 --> 00:18:52,666
+这些都是为markdown添加的插件游戏
+these are adding plug games to markdown
+
+494
+00:18:52,666 --> 00:18:53,466
+负鼠
+possum
+
+495
+00:18:53,500 --> 00:18:55,166
+许多插件都是常用的
+many plugins are usual
+
+496
+00:18:55,533 --> 00:18:56,366
+许多插件
+many plugins
+
+497
+00:18:56,366 --> 00:18:59,333
+我使用你的markdown插件并不特别打压
+I use your markdown plugins not special to beat press
+
+498
+00:18:59,333 --> 00:19:01,099
+比如说高亮线
+such as highlight line
+
+499
+00:19:01,266 --> 00:19:03,266
+高亮线插件高亮
+highlighting line plug highlight
+
+500
+00:19:03,266 --> 00:19:04,499
+行插
+the line plugging
+
+501
+00:19:04,766 --> 00:19:05,566
+插件
+plugin
+
+502
+00:19:05,600 --> 00:19:07,000
+突出显示冷块
+highlights the cold block
+
+503
+00:19:08,500 --> 00:19:09,800
+它是用西基
+it's using siki
+
+504
+00:19:09,900 --> 00:19:10,900
+作为一个插件
+as a plugin
+
+505
+00:19:11,133 --> 00:19:13,533
+我想在这里提到的特别的插件是
+the special one that I would like to mention here
+
+506
+00:19:13,533 --> 00:19:15,066
+是组件插件
+is component plugin
+
+507
+00:19:15,766 --> 00:19:18,399
+你可以看到，它是一个非常快速的插件。
+that you can see at the very fast plugin to be added
+
+508
+00:19:18,566 --> 00:19:21,999
+这个插件处理Marcon里面的视图组件
+this plugin handles view component inside marcon
+
+509
+00:19:22,000 --> 00:19:22,600
+火
+fire
+
+510
+00:19:22,600 --> 00:19:25,600
+它允许在Marcon里面调用视图组件
+it allows view component called inside marcon
+
+511
+00:19:25,600 --> 00:19:27,466
+文件上的内容。
+file on the excurate
+
+512
+00:19:27,766 --> 00:19:28,499
+这个插件
+this plugin
+
+513
+00:19:28,500 --> 00:19:31,966
+实际上是发布了一个不同的软件包，叫做MD
+is actually published a different package called MD
+
+514
+00:19:31,966 --> 00:19:33,566
+在超视图
+at hyper view
+
+515
+00:19:35,400 --> 00:19:37,766
+有很多不同的特定视图
+there's a lot of different view specific
+
+516
+00:19:37,966 --> 00:19:39,666
+以及在这里发布的插件
+and plugins published here
+
+517
+00:19:39,666 --> 00:19:42,199
+所以如果你打算创建一个使用
+so if you are planning to create soccer that uses
+
+518
+00:19:42,300 --> 00:19:44,700
+视图的markdown程序，请查看它。
+markdown procing with view please check it out
+
+519
+00:19:44,933 --> 00:19:47,366
+它使用很酷的技术来处理视图文件
+it uses cool technique to handle view file
+
+520
+00:19:47,366 --> 00:19:49,599
+而如果你想为其他的
+and if you are trying to create process for other
+
+521
+00:19:49,600 --> 00:19:51,300
+框架（如react）创建流程
+frameworks like react
+
+522
+00:19:51,466 --> 00:19:54,399
+我敢肯定，你可以在这个包上找到很酷的想法
+I'm pretty sure you can find cool ideas on this package
+
+523
+00:19:54,400 --> 00:19:57,333
+以便你也能应用于这些火焰标记
+so that you can apply to those flame marks as well
+
+524
+00:19:58,300 --> 00:20:00,700
+现在让我们回到插件的代码中来
+now let's get back to the plugin code
+
+525
+00:20:01,000 --> 00:20:03,166
+请记住这就是我们离开的地方
+remember here is where we left off
+
+526
+00:20:03,166 --> 00:20:05,299
+我们已经创建了markdown passer
+we've created markdown passer
+
+527
+00:20:05,500 --> 00:20:07,500
+还有很多事情要做
+there's still lots of things going on
+
+528
+00:20:07,533 --> 00:20:10,099
+但有几件事我想指出来
+but there are a few things that I want to point out
+
+529
+00:20:10,100 --> 00:20:12,800
+这是一个简单但有趣的技术应用
+which is simple but interesting technique to apply
+
+530
+00:20:12,966 --> 00:20:16,666
+当把markdown传递给实际的ismel输出时
+when passing the markdown to actual ismel output
+
+531
+00:20:17,866 --> 00:20:19,066
+在同一个文件中
+in same file
+
+532
+00:20:19,333 --> 00:20:23,566
+过去我们调用markdown函数，我们在这里创建了一个区域
+past we call markdown function we've created area here
+
+533
+00:20:23,800 --> 00:20:26,766
+现在这个hml变量包含了过去的
+now this hml variable contains past
+
+534
+00:20:26,800 --> 00:20:28,000
+markdown文件
+markdown file
+
+535
+00:20:28,866 --> 00:20:29,999
+而这里
+and here
+
+536
+00:20:30,400 --> 00:20:33,333
+我们实际上创建了视图源对象
+we actually creates view source object
+
+537
+00:20:33,333 --> 00:20:33,699
+记住
+remember
+
+538
+00:20:33,700 --> 00:20:36,500
+这就是我们从这个函数返回的对象
+this is the object we return from this function
+
+539
+00:20:36,666 --> 00:20:38,266
+这样它就能通过beat
+so that it gets past the beat
+
+540
+00:20:38,266 --> 00:20:40,266
+并由Beat处理这个对象
+and beat handles this object
+
+541
+00:20:40,266 --> 00:20:41,333
+作为一个视图火。
+as a view fire
+
+542
+00:20:41,800 --> 00:20:42,666
+有几件事
+there's a few thing
+
+543
+00:20:43,200 --> 00:20:44,500
+它没有
+it doesn't which
+
+544
+00:20:45,966 --> 00:20:47,166
+我没有经历过
+I didn't go through
+
+545
+00:20:47,966 --> 00:20:51,499
+比如它传递注入的页面数据代码之类的东西
+like it's passing the injected page data code and stuff
+
+546
+00:20:51,566 --> 00:20:53,166
+但重要的部分是
+but the important part is
+
+547
+00:20:53,766 --> 00:20:55,699
+有一个模板字符串
+that there is template string
+
+548
+00:20:56,600 --> 00:20:57,400
+这一个
+this one
+
+549
+00:20:57,933 --> 00:21:00,366
+所以这里做的是什么呢？
+so what's what is doing here
+
+550
+00:21:00,400 --> 00:21:06,133
+是通过模板标签内的HTML传递的
+is passing passing past HTML inside the template tag
+
+551
+00:21:06,300 --> 00:21:07,766
+因为在视图文件中
+because in view file
+
+552
+00:21:07,766 --> 00:21:11,866
+你把所有的HTML都包在模板标签里了
+you wrap all the HTML cold inside template tag
+
+553
+00:21:12,300 --> 00:21:13,700
+所以它在这里做了什么
+so what it does here
+
+554
+00:21:13,866 --> 00:21:17,666
+是试图创建一个实际的视图文件
+is that trying to create a actual view file
+
+555
+00:21:17,933 --> 00:21:20,133
+这对那些熟悉beat的人来说可能是显而易见的。
+this might be obvious for someone with
+
+556
+00:21:20,533 --> 00:21:21,999
+熟悉beat的人来说是显而易见的。
+familiar with beat
+
+557
+00:21:22,100 --> 00:21:24,466
+的人来说是显而易见的，但从这段代码中可以得到一个很好的启示
+but this is a good takeaway from this code
+
+558
+00:21:24,466 --> 00:21:25,066
+基本上
+basically
+
+559
+00:21:25,066 --> 00:21:28,299
+我们想尽可能地击败处理代码
+we want to beat the handle code as much as possible
+
+560
+00:21:28,566 --> 00:21:30,133
+而且我们知道
+and we know that
+
+561
+00:21:30,366 --> 00:21:31,999
+beat可以处理视图代码
+beat can handle view code
+
+562
+00:21:32,366 --> 00:21:35,199
+所以我们在这里所要做的就是把什么
+so all we need to do here is to convert what
+
+563
+00:21:35,200 --> 00:21:37,866
+转化为视图代码
+transform markdown fall into view code
+
+564
+00:21:38,100 --> 00:21:39,733
+转换成Beat能够理解的视图代码
+that beat can understand
+
+565
+00:21:40,066 --> 00:21:41,666
+这意味着如果你创建
+that means if you create
+
+566
+00:21:41,733 --> 00:21:43,999
+一些自定义的beat程序，通过
+some custom beat program that passes
+
+567
+00:21:44,000 --> 00:21:46,066
+我不知道它是否是markdown以外的东西
+I don't know if it's something other than markdown
+
+568
+00:21:46,066 --> 00:21:47,866
+这里有同样的逻辑目标
+the same logic goals here
+
+569
+00:21:47,966 --> 00:21:49,599
+你得到你想转换的文件
+you get the file you want to convert
+
+570
+00:21:49,600 --> 00:21:52,100
+然后将其转换为远处的格式
+then transform it to the far format
+
+571
+00:21:52,100 --> 00:21:54,100
+在这里，Beat可以理解
+where beat can understand
+
+572
+00:21:54,800 --> 00:21:57,533
+然后其他的事情就由beat来处理了
+then everything else will be handled by beat
+
+573
+00:21:57,600 --> 00:21:58,400
+只是
+just
+
+574
+00:21:59,600 --> 00:22:00,566
+记住这一点
+remember this
+
+575
+00:22:01,966 --> 00:22:03,333
+现在我们有能力
+now we're capable
+
+576
+00:22:03,500 --> 00:22:05,566
+处理markdown文件
+of handling markdown file
+
+577
+00:22:05,600 --> 00:22:09,333
+现在我们需要向客户报告索引 hml
+now we need to report index hml to the client
+
+578
+00:22:09,666 --> 00:22:10,899
+这是在这里
+which is down here
+
+579
+00:22:11,800 --> 00:22:13,700
+现在，在没有更多节拍的应用中
+now in no more beat application
+
+580
+00:22:13,700 --> 00:22:16,133
+你将会有index hml文件
+you would have index hml file
+
+581
+00:22:16,366 --> 00:22:18,766
+在你的项目文件夹下作为一个入口点
+under your project folder as an entry point
+
+582
+00:22:18,766 --> 00:22:22,133
+但在vtpls中我们没有index hml
+but in vtpls we don't have index hml
+
+583
+00:22:22,300 --> 00:22:25,600
+所以我们需要创建它并把它送回给客户
+so we need to create it and send it back to the client
+
+584
+00:22:25,600 --> 00:22:26,400
+所以
+so
+
+585
+00:22:26,600 --> 00:22:29,500
+我们用solve a metalware来交互响应
+we use solve a metalware to interact the response
+
+586
+00:22:29,500 --> 00:22:31,933
+并送回这个空的hml
+and send back this empty hml
+
+587
+00:22:32,733 --> 00:22:34,333
+记住这是死亡的夏天
+remember this is death summer
+
+588
+00:22:34,333 --> 00:22:36,099
+所以它不是一个生产构建
+so it's not a production build
+
+589
+00:22:36,400 --> 00:22:40,533
+所以我们所需要的是相当多的空索引hml内容
+so all we need is pretty much empty index hml content
+
+590
+00:22:40,533 --> 00:22:42,799
+和客户端可以失败的内容
+and the content that client can fail
+
+591
+00:22:42,800 --> 00:22:44,200
+在数据的西部
+in the west of the data
+
+592
+00:22:44,400 --> 00:22:48,066
+似乎是元数据，如网站的标题等。
+seems like metadata such as title of the
+
+593
+00:22:48,566 --> 00:22:49,533
+网站的标题之类的
+site and such
+
+594
+00:22:50,000 --> 00:22:52,800
+beat press创建了一个4 hml，其中包括
+beat press creates a 4 hml with
+
+595
+00:22:52,800 --> 00:22:55,300
+所有的内容都是在生产构建中呈现的
+all of the content rendered on production build
+
+596
+00:22:55,366 --> 00:22:57,666
+但在死亡之夏，我们不需要这样做
+but in death summer we don't need to do that
+
+597
+00:22:58,166 --> 00:23:00,166
+除此以外，还有其他事情
+and other thing other than this
+
+598
+00:23:00,166 --> 00:23:02,299
+beat press有更多的背景
+beat press has many more context
+
+599
+00:23:02,300 --> 00:23:05,333
+来处理诸如热模块替换之类的事情。
+to handle things like hot module replacement and
+
+600
+00:23:06,666 --> 00:23:09,999
+但在这里，我的时间有点不够用了，所以
+such but here I'm kind of going short of the time so
+
+601
+00:23:10,400 --> 00:23:12,000
+让我们转到客户端的代码
+let's move to the client side code
+
+602
+00:23:12,000 --> 00:23:12,700
+这里
+here
+
+603
+00:23:12,700 --> 00:23:15,066
+你可以随时查看源代码并学习
+you can always look into the source code and learn
+
+604
+00:23:15,066 --> 00:23:16,899
+更高级的技术。
+about more advanced technique after
+
+605
+00:23:17,266 --> 00:23:18,099
+以后
+later on
+
+606
+00:23:19,200 --> 00:23:22,766
+所以，一旦我们知道现在的服务器端是
+so once we know that now the server side is
+
+607
+00:23:23,800 --> 00:23:26,366
+返回这个索引hml
+returning this index hml
+
+608
+00:23:26,766 --> 00:23:29,266
+我们在客户端所做的
+the client side what we do
+
+609
+00:23:30,166 --> 00:23:31,966
+是比较直接的
+is more straightforward
+
+610
+00:23:31,966 --> 00:23:32,799
+我想说
+I would say
+
+611
+00:23:32,800 --> 00:23:35,166
+好吧，这个冰冷的东西本身是有点复杂的
+well the cold itself is a bit complicated
+
+612
+00:23:35,166 --> 00:23:38,766
+但它所做的是创建新的视图。
+but what it does is it creates new view up
+
+613
+00:23:39,166 --> 00:23:40,466
+这里你可以看到应用程序
+here you can see app that
+
+614
+00:23:40,500 --> 00:23:42,066
+mount方法，这是
+mount method which is
+
+615
+00:23:42,200 --> 00:23:45,000
+视图的方式，将视图组件安装到dom上
+view way of mounting view component to the dom
+
+616
+00:23:45,200 --> 00:23:48,600
+这没什么特别的，这是一个播放视图的应用程序
+it's nothing special this is a playing view app
+
+617
+00:23:48,600 --> 00:23:51,500
+没有创建拍子，也没有类似的东西。
+there's no create beat press up or something like that
+
+618
+00:23:51,566 --> 00:23:52,766
+它只是一个视图
+it's just a view
+
+619
+00:23:53,166 --> 00:23:54,699
+我们把所有的东西都包起来
+well we are wrapping everything
+
+620
+00:23:54,766 --> 00:23:56,733
+在浏览器中的每一个语句
+on in browser each statement here
+
+621
+00:23:56,733 --> 00:23:58,533
+因为beat fresh是
+because beat fresh is the
+
+622
+00:23:58,866 --> 00:23:59,533
+南侧
+southern side
+
+623
+00:23:59,533 --> 00:24:01,466
+我是说南边的渲染
+I mean southern side rendering
+
+624
+00:24:01,900 --> 00:24:04,900
+在生产模式下的应用，它将会运行
+application right in production mode it's gonna run
+
+625
+00:24:05,166 --> 00:24:09,166
+在太阳能尺寸上的光盘人，所以这只在债务上着陆
+disc man on solar size so this only lands on debts
+
+626
+00:24:11,266 --> 00:24:13,099
+然而，向上的内容
+however the up content
+
+627
+00:24:13,100 --> 00:24:14,933
+我们安装的向上的内容
+up contents that we mounting
+
+628
+00:24:15,133 --> 00:24:17,566
+有凹陷的厚重特征
+has depressed thick features
+
+629
+00:24:17,733 --> 00:24:19,333
+它看起来像这样
+and it looks like this
+
+630
+00:24:19,533 --> 00:24:21,933
+它正在创造一个客户端更响亮的声音
+it's creating an client side louder
+
+631
+00:24:22,100 --> 00:24:25,066
+添加默认的组件，如不磅组件
+adding default components such as not pound component
+
+632
+00:24:25,066 --> 00:24:27,399
+它正在注入一些深层的新闻特定数据
+it's injecting some deep press specific data
+
+633
+00:24:27,400 --> 00:24:29,133
+到子组件之类的
+to the child components and such
+
+634
+00:24:29,466 --> 00:24:30,166
+但从这里
+but from here
+
+635
+00:24:30,166 --> 00:24:33,166
+因为你已经在节拍上完成了所有繁重的工作
+because you've done all heavy lifting on beatside
+
+636
+00:24:33,300 --> 00:24:34,533
+在服务器端
+on server side
+
+637
+00:24:34,600 --> 00:24:35,400
+我的意思是
+I mean
+
+638
+00:24:35,800 --> 00:24:37,666
+这只是一个简单的客户端
+this is just a simple client side
+
+639
+00:24:38,000 --> 00:24:40,266
+我的意思是，比如说
+by that I mean for example
+
+640
+00:24:40,266 --> 00:24:43,499
+我们不在客户端上传递马克，因为
+we don't pass Mark down on client sidebecause
+
+641
+00:24:43,866 --> 00:24:45,866
+因为它已经在南侧完成了
+it's already done on south side
+
+642
+00:24:45,966 --> 00:24:47,899
+所以客户端的代码就像
+so the client code walks as if
+
+643
+00:24:47,933 --> 00:24:51,166
+有一个固定的视图文件已经完成了
+there's a fixed view file written done
+
+644
+00:24:51,166 --> 00:24:51,966
+写入
+written
+
+645
+00:24:52,266 --> 00:24:54,266
+到实际的文件系统中
+to the actual file system
+
+646
+00:24:54,400 --> 00:24:57,600
+而这与从文件系统中加载这些固定视图文件是一样的
+and it's same as loading those fixed view file
+
+647
+00:24:57,700 --> 00:24:58,866
+从文件系统中
+from the file system
+
+648
+00:24:58,866 --> 00:24:59,666
+对
+right
+
+649
+00:25:00,800 --> 00:25:01,733
+而在最后
+and at last
+
+650
+00:25:02,566 --> 00:25:03,966
+这是个接缝文件
+this is the seam file
+
+651
+00:25:04,500 --> 00:25:05,800
+它正在滚动默认的
+it's rolling the default
+
+652
+00:25:05,800 --> 00:25:07,700
+缝作为默认的视图组件
+seam as the default view component
+
+653
+00:25:07,700 --> 00:25:08,900
+它看起来像这样
+which looks like this
+
+654
+00:25:09,166 --> 00:25:11,866
+这是比act文件更普通的视图文件
+this is even more plain view file than act file
+
+655
+00:25:11,866 --> 00:25:13,866
+这只是一个典型的视图组件
+this is just a typical view component
+
+656
+00:25:13,866 --> 00:25:16,566
+有很多槽和很多东西
+there's lots of slots and so many things
+
+657
+00:25:16,566 --> 00:25:18,966
+为什么呢，因为有很多自定义的东西
+why on because there are many customization
+
+658
+00:25:18,966 --> 00:25:20,899
+你可以用默认的缝隙来做
+you can do with the default seam
+
+659
+00:25:21,166 --> 00:25:22,499
+但它仍然只是一个
+but still it's just a
+
+660
+00:25:22,666 --> 00:25:23,699
+播放污垢
+playing defile
+
+661
+00:25:23,933 --> 00:25:25,666
+这是一个默认的缝隙
+this is a default seam
+
+662
+00:25:25,666 --> 00:25:28,466
+所以从这里开始，这些代码都不重要了
+so from here on none of these codes matter
+
+663
+00:25:28,466 --> 00:25:30,766
+如果你想先拥有自己的自定义节拍
+if you would like to have your own custom beat first
+
+664
+00:25:30,766 --> 00:25:34,366
+缝隙中没有包括核心功能
+seam no core feature is included here
+
+665
+00:25:34,566 --> 00:25:35,133
+所以
+so
+
+666
+00:25:35,133 --> 00:25:36,999
+如果你不太关心
+if you don't care so much about how
+
+667
+00:25:37,300 --> 00:25:38,333
+默认接缝是如何创建的
+default seam is created
+
+668
+00:25:38,333 --> 00:25:40,333
+你就可以忽略所有的场景
+you can just ignore all of the scene
+
+669
+00:25:40,333 --> 00:25:41,733
+hydrant default folder
+hydrant default folder
+
+670
+00:25:41,733 --> 00:25:44,566
+而你可以直接查看app文件夹，看看它在做什么。
+and you can just look into app folder and see
+
+671
+00:25:44,733 --> 00:25:45,766
+它在做什么
+what it's doing
+
+672
+00:25:47,266 --> 00:25:49,966
+现在，抱歉我跳过了客户端的很多沙子
+now sorry I skipped lots of sands on client side
+
+673
+00:25:49,966 --> 00:25:50,766
+但我有点
+but I'm kind of
+
+674
+00:25:51,666 --> 00:25:53,199
+越来越少的时间，所以
+getting short on time so
+
+675
+00:25:53,266 --> 00:25:55,466
+但我希望你能得到一些关于beat
+but I hope you are getting some idea on how beat
+
+676
+00:25:55,466 --> 00:25:58,399
+按键是如何运行的，以及它是如何与beat整合的。
+press walks and how it's integrated with beat
+
+677
+00:25:58,666 --> 00:26:02,299
+所以让我们进入VED的最后一个大命令
+so let's go into the final big command that ved has
+
+678
+00:26:02,300 --> 00:26:03,100
+这就是
+which is
+
+679
+00:26:03,133 --> 00:26:04,099
+构建命令
+build command
+
+680
+00:26:04,366 --> 00:26:07,866
+这个命令将建立一个最终的静态hml文件
+this command will build a final static hml file
+
+681
+00:26:07,866 --> 00:26:09,399
+当它被切除时
+when it gets excubed
+
+682
+00:26:09,900 --> 00:26:12,533
+这就是构建功能的样子
+this is how build function looks like
+
+683
+00:26:13,000 --> 00:26:15,200
+再说一遍，这很复杂
+once again well it's complicated
+
+684
+00:26:15,300 --> 00:26:16,366
+现在，对于构建
+now for build
+
+685
+00:26:16,600 --> 00:26:18,966
+我们要做的和以前差不多
+what we want to do is pretty much the same as before
+
+686
+00:26:18,966 --> 00:26:20,466
+我们想暂停markdown
+we want to pause markdown
+
+687
+00:26:20,466 --> 00:26:23,399
+并最终将其输出到HTML
+and finally output it on HTML
+
+688
+00:26:23,733 --> 00:26:27,299
+而不是从v的深度返回输出的hmm
+and instead of returning the output hmm from v depths
+
+689
+00:26:27,300 --> 00:26:28,666
+或者我们想输出它
+or we want to output it
+
+690
+00:26:28,766 --> 00:26:31,299
+到文件系统中作为一个静态文件
+to file system as a static file
+
+691
+00:26:31,666 --> 00:26:33,533
+要做到这一点，我们需要渲染它
+to do so we need to render it
+
+692
+00:26:33,733 --> 00:26:35,733
+这就是为什么我们在这个构建命令中加入了渲染函数
+and that's why we have render function
+
+693
+00:26:35,733 --> 00:26:37,399
+在这个构建命令中
+inside this build command
+
+694
+00:26:38,400 --> 00:26:40,400
+渲染函数看起来像这样
+the render function looks like this
+
+695
+00:26:40,566 --> 00:26:41,666
+这里它
+here it
+
+696
+00:26:41,666 --> 00:26:45,566
+通过传入文件的方式获得渲染对象
+gets the render object by passing in the file pass
+
+697
+00:26:45,900 --> 00:26:47,966
+因为我们要渲染所有的页面，对吗？
+because we want to render all pages right
+
+698
+00:26:47,966 --> 00:26:51,133
+所以在承诺的所有函数中
+so instead inside promised all function
+
+699
+00:26:51,133 --> 00:26:53,199
+我们传递所有的页面
+we pass all of the pages
+
+700
+00:26:54,566 --> 00:26:56,533
+现在是实际的渲染函数
+now the actual render function
+
+701
+00:26:56,566 --> 00:27:00,733
+在节点中建立渲染TS文件
+inside node builds render TS file
+
+702
+00:27:01,466 --> 00:27:04,166
+在这里，我们定义了我们如何借出权力
+here we define how we lend the giving power
+
+703
+00:27:04,166 --> 00:27:05,266
+和以往一样
+again as always
+
+704
+00:27:05,366 --> 00:27:08,933
+有很多事情要做，但重要的部分是这样的
+lots of things going on but an important part is this
+
+705
+00:27:09,900 --> 00:27:10,533
+现在
+now
+
+706
+00:27:10,533 --> 00:27:14,866
+它看起来更简单，只是把HTML渲染成一个字符串
+it seems more simple it just rendering HTML as a string
+
+707
+00:27:15,133 --> 00:27:17,333
+body标签中的内容变量
+the content variable inside the body tag
+
+708
+00:27:17,333 --> 00:27:18,499
+是从文件中得到的内容
+is the content got
+
+709
+00:27:18,500 --> 00:27:20,166
+从文件中渲染出来的内容
+rendered from the file
+
+710
+00:27:20,266 --> 00:27:23,733
+你可以看到它被包裹在id为app的dip中
+as you can see it's wrapped inside dip with id of app
+
+711
+00:27:24,000 --> 00:27:28,266
+这意味着这就是视图将被安装的dip
+which means this is the dip that view will mount on
+
+712
+00:27:29,166 --> 00:27:30,399
+一旦我们得到这个
+once we get this
+
+713
+00:27:31,000 --> 00:27:32,666
+hml的字符串
+string of hml
+
+714
+00:27:32,900 --> 00:27:34,000
+我们需要做的是
+we need to do is
+
+715
+00:27:34,000 --> 00:27:37,333
+我们需要做的是把它渲染到文件系统上
+what we need to do is to render it to the file system
+
+716
+00:27:37,866 --> 00:27:42,133
+并且我们使用1
+and we use 1/1 module from node to do that
+
+717
+00:27:42,400 --> 00:27:44,800
+null
+well I've skipped so many coals for example
+
+718
+00:27:44,800 --> 00:27:48,100
+null
+it also output like js and CSS chunks
+
+719
+00:27:48,400 --> 00:27:49,300
+null
+so it creates
+
+720
+00:27:49,300 --> 00:27:51,933
+null
+and also it creates like sub folders and such
+
+721
+00:27:51,933 --> 00:27:53,666
+null
+but I think we get the idea
+
+722
+00:27:53,666 --> 00:27:55,399
+null
+of what we're trying to do here
+
+723
+00:27:55,566 --> 00:27:56,333
+null
+we're just
+
+724
+00:27:56,333 --> 00:27:57,733
+null
+trying to lender a file
+
+725
+00:27:58,066 --> 00:27:59,066
+null
+into a string
+
+726
+00:27:59,066 --> 00:28:02,066
+null
+and this save it as playing a Gemini file
+
+727
+00:28:04,133 --> 00:28:05,333
+null
+now if you find
+
+728
+00:28:05,600 --> 00:28:07,100
+null
+anything that interest you
+
+729
+00:28:07,100 --> 00:28:09,700
+null
+please go into the actual source code of beat press
+
+730
+00:28:09,900 --> 00:28:12,500
+null
+and by focusing on how it uses beat
+
+731
+00:28:12,500 --> 00:28:14,800
+null
+and how it handles incoming files
+
+732
+00:28:15,166 --> 00:28:16,966
+null
+we will learn so much about
+
+733
+00:28:17,200 --> 00:28:17,800
+null
+how
+
+734
+00:28:17,800 --> 00:28:19,133
+null
+beat pliing walks
+
+735
+00:28:19,466 --> 00:28:21,733
+null
+I've picked important part of the code
+
+736
+00:28:21,766 --> 00:28:25,299
+null
+but at the same time I'd skipped lots of sense as well
+
+737
+00:28:25,666 --> 00:28:26,166
+null
+but
+
+738
+00:28:26,166 --> 00:28:27,799
+null
+I hope you got some idea
+
+739
+00:28:27,933 --> 00:28:29,166
+null
+on what big plugin
+
+740
+00:28:29,300 --> 00:28:31,366
+null
+would look like and I hope
+
+741
+00:28:31,466 --> 00:28:33,799
+null
+it made you more familiar on writing
+
+742
+00:28:33,866 --> 00:28:34,766
+null
+beat plugin
+
+743
+00:28:34,900 --> 00:28:38,166
+null
+because beat press is a stand alone cli application
+
+744
+00:28:38,166 --> 00:28:39,333
+null
+but as I shown
+
+745
+00:28:39,533 --> 00:28:43,166
+null
+beat press is wiggly actually is a beat plugin
+
+746
+00:28:44,000 --> 00:28:47,500
+null
+and also it's one of the official big project that
+
+747
+00:28:47,733 --> 00:28:49,133
+null
+view community manages
+
+748
+00:28:49,133 --> 00:28:51,266
+null
+so if you're looking for a weight
+
+749
+00:28:51,300 --> 00:28:53,133
+长久以来健康创建的节拍插件
+long health create beat plugin
+
+750
+00:28:53,366 --> 00:28:57,333
+或者寻找一个关于节拍插件可以做什么的想法
+or looking for an idea of what beat plugin can do
+
+751
+00:28:57,500 --> 00:28:59,533
+我认为beat press是其中一个软件
+I think beat press is one of the software
+
+752
+00:28:59,533 --> 00:29:00,966
+你可能想了解一下它
+you might want to look into it
+
+753
+00:29:01,533 --> 00:29:04,199
+这也是一个很好的索菲亚，可以让你的文档更丰富。
+also it's good Sofia to ride your documentation
+
+754
+00:29:04,266 --> 00:29:08,099
+或创建静态网站也是如此。
+or create static website too so yeah
+
+755
+00:29:08,400 --> 00:29:10,100
+请看一下v press
+please check out the v press
+
+756
+00:29:11,133 --> 00:29:13,166
+非常感谢您的观看
+thank you so much for watching
+
+757
+00:29:13,166 --> 00:29:16,666
+如果你有任何问题，我是Kia，我们只是想打个招呼。
+I'm Kia if you have any question we just want to say hi
+
+758
+00:29:16,666 --> 00:29:19,866
+我在微博上一直是开放的，请告诉我。
+I'm always open on twitter sojust let me know
+
+759
+00:29:20,266 --> 00:29:23,666
+非常感谢，我希望你继续享受
+thanks so much and I hope you keep enjoying the
+
+760
+00:29:23,800 --> 00:29:24,900
+其他的活动
+rest of the event
+
+761
+00:29:25,333 --> 00:29:26,299
+非常感谢
+thanks so much
+

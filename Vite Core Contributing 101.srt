@@ -1,0 +1,2085 @@
+1
+00:00:13,866 --> 00:00:14,766
+我不打算从
+I'm not to start with
+
+2
+00:00:14,766 --> 00:00:17,766
+说说我是如何在OK源中做出贡献的故事
+a story of how I got into contributing in ok source
+
+3
+00:00:18,066 --> 00:00:19,466
+所以在2020年的时候
+so back in 2020
+
+4
+00:00:19,600 --> 00:00:22,966
+我得到了我的第一个Futangian PSA front m wbp opera
+I got my first futangian PSA front m wbp opera
+
+5
+00:00:23,066 --> 00:00:24,599
+但当时我有一个问题
+but at the time I have an issue
+
+6
+00:00:24,600 --> 00:00:26,200
+在那里我试图找到
+where I'm trying to find
+
+7
+00:00:26,500 --> 00:00:27,733
+技术来学习
+technologies to learn
+
+8
+00:00:27,733 --> 00:00:28,933
+但我总是
+but I always
+
+9
+00:00:28,933 --> 00:00:31,733
+没有时间把它放在副业上
+don't have the time to put it in the side projects
+
+10
+00:00:31,866 --> 00:00:32,866
+所以我在想
+so I was thinking
+
+11
+00:00:33,333 --> 00:00:34,933
+什么东西可以更省力
+what could be less effort
+
+12
+00:00:35,000 --> 00:00:37,733
+但又能得到同样的游戏回报
+but have thissame game in return
+
+13
+00:00:37,766 --> 00:00:41,099
+因此，当我走进开放源码项目的时候
+so that's when I walk into open source projects and
+
+14
+00:00:41,400 --> 00:00:44,400
+我贡献的第一个项目是V Pluginso Belt
+the first one I contribute to is v pluginso belt
+
+15
+00:00:44,500 --> 00:00:45,366
+它是一个
+which is a
+
+16
+00:00:45,400 --> 00:00:46,533
+的插件。
+plugin from v
+
+17
+00:00:47,600 --> 00:00:48,200
+和
+and
+
+18
+00:00:48,200 --> 00:00:51,400
+我很喜欢它，我在世界和一个表格中使用它。
+I quite like it I use it at world and a form
+
+19
+00:00:51,766 --> 00:00:53,666
+但后来我做了一个修正
+but then I made a fix
+
+20
+00:00:53,666 --> 00:00:54,466
+然后
+and then
+
+21
+00:00:54,500 --> 00:00:56,166
+我发现的是，fick
+what I find is that fick
+
+22
+00:00:56,166 --> 00:00:58,899
+我可以为每个使用该软件包的人做出贡献
+I may contribute to everyone who's using the package
+
+23
+00:00:58,900 --> 00:00:59,666
+和
+and
+
+24
+00:00:59,666 --> 00:01:00,699
+我觉得有一种
+I kind of feel a
+
+25
+00:01:01,466 --> 00:01:03,533
+很好的了解了这一点
+great knowing about that
+
+26
+00:01:03,800 --> 00:01:08,400
+从那以后，我就一直在做开源的工作。
+and from there on I've been working on open sources so
+
+27
+00:01:08,600 --> 00:01:12,166
+今天的主题可以是贡献一个或一个
+the topic for today can be contributing one or one
+
+28
+00:01:12,166 --> 00:01:12,366
+其中
+which
+
+29
+00:01:12,366 --> 00:01:12,733
+我已经有了
+I've got
+
+30
+00:01:12,733 --> 00:01:14,699
+味道和技巧以及你需要知道的一切
+taste and tricks and everything you need to know
+
+31
+00:01:14,700 --> 00:01:17,333
+关于在开源世界中的贡献
+about contributing in the world of open source
+
+32
+00:01:18,533 --> 00:01:22,566
+关于我，我是来自马来西亚的Brdu。
+so a little bit about me I'm brdu and from Malaysia
+
+33
+00:01:22,566 --> 00:01:25,499
+我目前是feed和sabel的核心团队成员。
+I am currently a core team member on feed and sabel
+
+34
+00:01:25,566 --> 00:01:28,599
+我也是Astro的一个核心成员。
+I'm also a core resident in astro
+
+35
+00:01:29,100 --> 00:01:30,133
+我一直在与
+I've been doubling with
+
+36
+00:01:30,200 --> 00:01:32,400
+我已经和open swords合作了2年了
+open swords for about 2 years right now
+
+37
+00:01:32,466 --> 00:01:33,266
+而且
+and
+
+38
+00:01:33,333 --> 00:01:36,566
+我也学会了自然，可以花几个小时
+I also learned nature could spend like hours
+
+39
+00:01:36,933 --> 00:01:39,099
+观察天空什么的
+watching sky or something
+
+40
+00:01:39,600 --> 00:01:40,766
+但没有进一步的废话
+but without further ado
+
+41
+00:01:41,566 --> 00:01:42,666
+跳到
+jump next to
+
+42
+00:01:42,666 --> 00:01:43,533
+主要观点
+the main point
+
+43
+00:01:43,600 --> 00:01:45,100
+这就是开放源码
+which is open source
+
+44
+00:01:45,133 --> 00:01:48,199
+所以你可能会注意到任何一个开放源码社区
+so you may notice any open source community
+
+45
+00:01:48,200 --> 00:01:51,166
+我们都有这个缩写，叫做OSS
+we have this acronym called oss
+
+46
+00:01:51,166 --> 00:01:52,699
+那么什么是OSS呢？
+so what is oss
+
+47
+00:01:52,933 --> 00:01:55,533
+OSS是开放源码软件的缩写
+oss stands for open source software
+
+48
+00:01:55,900 --> 00:01:57,666
+就是你可以直接阅读的软件
+which is software that you can read
+
+49
+00:01:57,666 --> 00:01:59,266
+直接阅读源代码
+the source code directly
+
+50
+00:01:59,266 --> 00:02:00,899
+来了解它是如何工作的
+to understand how it works
+
+51
+00:02:01,266 --> 00:02:02,899
+而且很多时候
+and often times
+
+52
+00:02:03,000 --> 00:02:06,133
+时，该软件还与一种叫做
+when the software is also related to something called
+
+53
+00:02:06,766 --> 00:02:10,066
+foss，也就是免费的f星。
+foss which is f that stars for free
+
+54
+00:02:10,066 --> 00:02:11,899
+所以自由和开放的软件
+so free and open software
+
+55
+00:02:12,166 --> 00:02:13,366
+它说你读了一个kps
+it says you read a kps
+
+56
+00:02:13,366 --> 00:02:15,499
+开放源码总是容易传播
+open source always easily distributed
+
+57
+00:02:15,500 --> 00:02:16,200
+免费的
+free
+
+58
+00:02:16,200 --> 00:02:18,733
+但有时你也可以看到付费软件
+but sometimes you can see paid software as well
+
+59
+00:02:19,500 --> 00:02:20,300
+比如说
+for example
+
+60
+00:02:20,900 --> 00:02:23,366
+付费许可证或商业许可证
+paid licenses or commercial licenses
+
+61
+00:02:23,933 --> 00:02:25,699
+但你可以清楚地注意到一个问题
+but you could clear notice a problem
+
+62
+00:02:26,566 --> 00:02:28,966
+如果它是免费的，或者说它是自己维持的
+if it's free or does it sustain itself
+
+63
+00:02:29,333 --> 00:02:30,799
+所以这是个大问题
+so this is a big deal
+
+64
+00:02:31,800 --> 00:02:34,000
+有时你会注意到像
+and sometimes you notice like
+
+65
+00:02:34,900 --> 00:02:36,333
+一个问题，得到在起床
+an issue that gets on get up
+
+66
+00:02:36,333 --> 00:02:39,066
+有人问是否需要维护项目
+where someone's asking if projects to maintain
+
+67
+00:02:39,066 --> 00:02:39,999
+有时这是真的
+sometimes it's true
+
+68
+00:02:40,000 --> 00:02:42,466
+因为该项目工作得很好，就像这样
+because the project is working fine as this
+
+69
+00:02:42,466 --> 00:02:43,399
+而且没有
+and there isn't
+
+70
+00:02:43,666 --> 00:02:45,266
+任何需要维护的东西
+anything that needs to be maintained
+
+71
+00:02:45,266 --> 00:02:47,166
+因此，它是完全正确的
+so that it's perfectly fine
+
+72
+00:02:47,266 --> 00:02:49,966
+但有时它实际上是被放弃了
+but sometimes it actually is abandoned
+
+73
+00:02:50,300 --> 00:02:51,800
+因为项目的维护者
+because the project maintainers
+
+74
+00:02:51,800 --> 00:02:54,500
+没有足够的资源来继续进行这个项目
+doesn't have the resources to continue on the project
+
+75
+00:02:54,533 --> 00:02:55,899
+而被遗弃，就像这样
+and is left as this
+
+76
+00:02:55,900 --> 00:02:58,366
+这也是一个问题
+and this is also an issue
+
+77
+00:02:58,600 --> 00:03:01,500
+这也是一个在开源领域经常出现的问题。
+that comes up often in the or of open source
+
+78
+00:03:02,466 --> 00:03:05,199
+因此，我们如何帮助，所以从
+so how do we help so from
+
+79
+00:03:05,533 --> 00:03:07,699
+我目前的经验是
+my experience touch far is that
+
+80
+00:03:07,800 --> 00:03:10,400
+从我的经验来看，我们可以帮助的事情基本上是有的。
+there is basically treat things that we could help
+
+81
+00:03:10,933 --> 00:03:12,699
+所以可以这样说
+so the way to
+
+82
+00:03:12,866 --> 00:03:14,133
+总结一下，就是
+summarize it is that
+
+83
+00:03:14,133 --> 00:03:14,966
+与代码
+with code
+
+84
+00:03:15,066 --> 00:03:16,999
+社区和资金
+community and funding
+
+85
+00:03:17,000 --> 00:03:19,166
+所以在这个演讲中，我想深入探讨这3点
+so in this talk I like to deep dive into these
+
+86
+00:03:19,166 --> 00:03:22,499
+3点，并提供信息，说明你如何能够
+3 points and provide information on how you could
+
+87
+00:03:22,500 --> 00:03:24,600
+在这些领域工作并为之做出贡献
+work in this areas and contribute to them
+
+88
+00:03:26,300 --> 00:03:28,266
+因此，贡献代码
+so contributing code
+
+89
+00:03:28,466 --> 00:03:31,133
+在他们的项目中，我们做的第一件事将是
+the first thing we do in their project will be
+
+90
+00:03:31,300 --> 00:03:32,333
+制作报告
+making about reports
+
+91
+00:03:32,333 --> 00:03:34,933
+所以，如果你发现了一个问题，你就会创建有关报告
+so if you find an issue you create about report
+
+92
+00:03:35,266 --> 00:03:37,166
+但需要注意的是
+but something important to notice is that
+
+93
+00:03:37,500 --> 00:03:38,866
+确保这实际上是
+making sure that is actually
+
+94
+00:03:38,966 --> 00:03:39,766
+以上
+above
+
+95
+00:03:39,933 --> 00:03:42,066
+有时你可能只有一个问题
+sometimes you may only have a question
+
+96
+00:03:42,100 --> 00:03:44,200
+或者你不确定你是否在做这件事
+or you're uncertain if you're doing it
+
+97
+00:03:44,366 --> 00:03:45,333
+正确的方式
+the right way
+
+98
+00:03:45,966 --> 00:03:49,066
+有时它实际上是一个配置问题，即
+sometimes it is actually a configuration issue where
+
+99
+00:03:49,066 --> 00:03:50,533
+在你的项目中你没有
+in your project you are not
+
+100
+00:03:50,733 --> 00:03:53,366
+正确使用该项目
+using the project correctly
+
+101
+00:03:53,800 --> 00:03:54,600
+所以
+so
+
+102
+00:03:54,866 --> 00:03:57,933
+知道它是否在上面，可以节省大量的时间
+knowing if it's above or not saves a lot of time
+
+103
+00:03:58,166 --> 00:03:59,333
+而且在这一点上
+and in that
+
+104
+00:03:59,466 --> 00:04:02,933
+在这一点上，你也要遵循模板，所以每个
+point you will also want follow the template so each
+
+105
+00:04:03,333 --> 00:04:06,199
+储存库可能会或可能不会尝试
+repositories may or may not have attempted
+
+106
+00:04:06,400 --> 00:04:07,766
+时都会尝试。
+when falling an issue
+
+107
+00:04:07,966 --> 00:04:10,966
+如果他们这样做，对所有的问题都很重要
+if they do its important for all the issues
+
+108
+00:04:11,000 --> 00:04:11,700
+和
+and
+
+109
+00:04:11,700 --> 00:04:14,400
+达到通过他们和下降的指示，以
+reach through them and fall instructions to
+
+110
+00:04:14,700 --> 00:04:15,100
+的结果
+the result
+
+111
+00:04:15,100 --> 00:04:17,000
+将创造一个最小的复制
+will create a minimum reproduction
+
+112
+00:04:17,300 --> 00:04:20,566
+但有时对维护者来说，重要的是
+but sometimes it is important for maintainers to
+
+113
+00:04:20,600 --> 00:04:23,533
+容易重现的问题，这样他们就可以很容易地解决它。
+easily reproduce issues so that they can easily hit it
+
+114
+00:04:23,766 --> 00:04:25,499
+迅速做出修复，而不是
+make fix quickly instead of
+
+115
+00:04:25,666 --> 00:04:26,766
+让每个人
+having everyone
+
+116
+00:04:27,600 --> 00:04:30,066
+手动实现你自己的中心
+manually implementing your own center
+
+117
+00:04:30,300 --> 00:04:31,700
+因此，这是功能和代码
+so this is functional and code
+
+118
+00:04:31,700 --> 00:04:33,800
+但是，从这里得到的主要收获是
+but the main takeaway from this is that
+
+119
+00:04:34,000 --> 00:04:35,900
+它为贡献者节省了时间
+it save times for contributors
+
+120
+00:04:35,900 --> 00:04:37,900
+不仅仅是维护者，还有
+not only to maintainers but
+
+121
+00:04:38,266 --> 00:04:40,766
+任何有兴趣帮助这个项目的人
+anyone who is interested in helping in the project
+
+122
+00:04:40,766 --> 00:04:42,333
+也将受益于
+will also benefit from
+
+123
+00:04:42,733 --> 00:04:43,766
+如果你遵循
+if you follow
+
+124
+00:04:43,800 --> 00:04:44,766
+这些指南
+these guides
+
+125
+00:04:45,400 --> 00:04:47,600
+但这些网站正在创建酒吧报告
+but the sites are creating bar reports
+
+126
+00:04:47,600 --> 00:04:49,533
+还有一些你可以做的事情，那就是
+there's something else you can do which is
+
+127
+00:04:49,733 --> 00:04:51,566
+直接进行自我修复
+directly making to fix yourself
+
+128
+00:04:52,066 --> 00:04:54,266
+因此，当你开始进行修复时
+so when you start making a fix
+
+129
+00:04:54,800 --> 00:04:55,800
+它可能是
+it could be
+
+130
+00:04:56,266 --> 00:04:59,133
+在一个小项目中，或者在一个大项目中
+on a small project or can be in a big project
+
+131
+00:04:59,133 --> 00:05:00,666
+或小项目，你可能需要
+or small project you may take
+
+132
+00:05:01,166 --> 00:05:04,166
+30分钟或一个多小时
+30 minutes or an hour plus
+
+133
+00:05:04,533 --> 00:05:04,899
+来
+to
+
+134
+00:05:04,900 --> 00:05:06,766
+消化所有东西并进行修复
+digest everything and make the fix
+
+135
+00:05:06,900 --> 00:05:09,500
+但有时在一个大项目中，这可能是困难的
+but sometimes in a big project it could be hard
+
+136
+00:05:09,500 --> 00:05:11,000
+这也是可以理解的
+which is understandable
+
+137
+00:05:11,300 --> 00:05:13,000
+时至今日，我还没有真正
+to this day I don't really
+
+138
+00:05:13,133 --> 00:05:15,333
+我不太了解警察的一切
+understand everything in a v cop base
+
+139
+00:05:15,400 --> 00:05:16,600
+但这并不重要
+but that is fine
+
+140
+00:05:16,933 --> 00:05:19,666
+开始的简单方法是阅读
+and an easy way to start off is to read
+
+141
+00:05:19,666 --> 00:05:20,766
+贡献指南
+the contributing guide
+
+142
+00:05:20,766 --> 00:05:21,666
+你应该有
+you should have
+
+143
+00:05:21,933 --> 00:05:23,299
+所有你需要的信息
+all the information you need
+
+144
+00:05:23,300 --> 00:05:25,000
+在本地设置该项目
+to set up the project locally
+
+145
+00:05:25,000 --> 00:05:26,866
+测试它和
+to test it and
+
+146
+00:05:27,000 --> 00:05:31,200
+来进行你所遇到的修改，以及在哪里可以找到它。
+to make changes that you meet and where to find it and
+
+147
+00:05:31,733 --> 00:05:35,799
+我还发现从修复about开始是最容易的。
+I've also found it easiest to start with fixing about
+
+148
+00:05:35,866 --> 00:05:38,966
+因为about通常触及一个非常具体的领域
+since about usually touches a very specific domain
+
+149
+00:05:39,100 --> 00:05:40,600
+所以你只需要修复
+so you only have to fix
+
+150
+00:05:40,900 --> 00:05:44,700
+也许是一个特定的文件，也许只是一个目录
+maybe a specific file or maybe just a directory
+
+151
+00:05:44,933 --> 00:05:46,699
+所以你不需要阅读整个
+so you don't have to read the entire
+
+152
+00:05:46,700 --> 00:05:48,466
+拷贝来进行自己的修复
+copies to make your own fix
+
+153
+00:05:48,466 --> 00:05:51,133
+而仅仅是某一小段代码
+but onlya certain small piece of code
+
+154
+00:05:51,133 --> 00:05:53,766
+通常这就足以让你获得
+and usually this is enough for you to gain
+
+155
+00:05:54,133 --> 00:05:57,099
+获得关于该因素的上下文软
+gain context on the factor soft
+
+156
+00:05:57,133 --> 00:06:00,066
+并发送一个PR或完整的请求
+and send a PR or full request
+
+157
+00:06:00,566 --> 00:06:02,133
+但有时，如果你不能遵循
+but sometimes if you can't follow
+
+158
+00:06:02,333 --> 00:06:02,866
+事实上
+indeed
+
+159
+00:06:02,866 --> 00:06:05,366
+我们在这个法庭上有一个贡献渠道，其中
+we have a contributing channel in this court where
+
+160
+00:06:05,666 --> 00:06:06,699
+所有的贡献者
+all the contributors
+
+161
+00:06:06,700 --> 00:06:09,166
+包括核心维护者都在那里提供帮助
+including the core maintainers are there to help
+
+162
+00:06:09,733 --> 00:06:10,166
+和
+and
+
+163
+00:06:10,166 --> 00:06:13,166
+但同样重要的是要理解，有时
+but it's also important to understand that sometimes
+
+164
+00:06:13,866 --> 00:06:15,399
+人们很忙，而且
+people are busy and
+
+165
+00:06:15,566 --> 00:06:17,333
+他们可能不会很快完全得到一些
+they may not get entirely few soon
+
+166
+00:06:17,333 --> 00:06:19,733
+所以你可能要自己去摸索
+soyou may have to feel things on yourself
+
+167
+00:06:19,733 --> 00:06:20,599
+但我认为
+but I think
+
+168
+00:06:20,900 --> 00:06:23,500
+最终这导致了最后的一点，即
+ultimately this leads to the final point where
+
+169
+00:06:23,566 --> 00:06:24,133
+这
+this
+
+170
+00:06:24,133 --> 00:06:26,299
+一个自我学习的经验，其中
+a self learning experience where
+
+171
+00:06:26,900 --> 00:06:29,933
+你在这个世界上更加独立。
+you're more independent on your own in the world
+
+172
+00:06:29,933 --> 00:06:30,866
+开放源代码
+open source
+
+173
+00:06:31,000 --> 00:06:32,900
+但你也会在一天结束时
+but you also at the end of day
+
+174
+00:06:33,133 --> 00:06:35,066
+为维护者节省时间，因为
+save time for maintainers since
+
+175
+00:06:35,366 --> 00:06:37,699
+因为从长远来看，你是在帮他们的忙。
+you're doing them a favor in the long run
+
+176
+00:06:40,733 --> 00:06:41,899
+你可以做的另一件事是
+another thing you could do is
+
+177
+00:06:41,900 --> 00:06:43,533
+通过对报告征收三倍的费用
+by triharging about reports
+
+178
+00:06:43,533 --> 00:06:45,933
+所以在右边的图片上
+so on the image on the right
+
+179
+00:06:45,933 --> 00:06:48,333
+你可以看到，有一堆的问题
+you could see that there is a bunch of issues
+
+180
+00:06:48,333 --> 00:06:49,133
+哪些是没有
+which is not
+
+181
+00:06:49,333 --> 00:06:50,199
+还没有被查看
+being viewed yet
+
+182
+00:06:50,200 --> 00:06:51,333
+而这是一个
+and this is a
+
+183
+00:06:51,366 --> 00:06:54,566
+开源项目的常见问题是
+common problem in being open source projects is that
+
+184
+00:06:54,933 --> 00:06:57,499
+有这么多的问题，但却没有那么多的
+there are so many problems but there's so little
+
+185
+00:06:57,533 --> 00:06:59,133
+时间去了解
+time to understand
+
+186
+00:06:59,300 --> 00:07:00,933
+这究竟是一个问题
+is that actually a problem
+
+187
+00:07:00,933 --> 00:07:03,933
+还是它已经被固定为一个陷阱
+or it's already fixed as a trap
+
+188
+00:07:03,933 --> 00:07:06,533
+这有点像回到了第一点，即
+which kind of brings back to point number one where
+
+189
+00:07:06,700 --> 00:07:07,366
+你应该
+you should
+
+190
+00:07:07,366 --> 00:07:08,499
+了解它在哪里
+understand where it's above
+
+191
+00:07:08,566 --> 00:07:09,366
+或不
+or not
+
+192
+00:07:10,000 --> 00:07:12,200
+但如果你对树的问题感兴趣的话
+but if you're interested in tree are doing issues
+
+193
+00:07:12,200 --> 00:07:13,933
+这是一个非常有帮助的事情
+which is a very helpful thing to do
+
+194
+00:07:13,933 --> 00:07:16,099
+因为他们作为防御的第一个迹象
+because they act as the first signs of defense
+
+195
+00:07:16,100 --> 00:07:16,666
+在
+before
+
+196
+00:07:16,666 --> 00:07:18,666
+问题到达维护者手中之前的第一道防线
+the issue reached to the hands on the maintainers
+
+197
+00:07:18,666 --> 00:07:20,266
+因为有时一个问题是
+because sometimes an issue is
+
+198
+00:07:20,500 --> 00:07:21,200
+无效的
+invalid
+
+199
+00:07:21,200 --> 00:07:23,333
+或选择或复制
+or elects or reproduction
+
+200
+00:07:23,966 --> 00:07:27,099
+在我们深入研究之前，这些问题可能很容易被撇开。
+these could be easy to skim off before we dive deeper
+
+201
+00:07:27,100 --> 00:07:27,900
+到它
+into it
+
+202
+00:07:28,200 --> 00:07:28,800
+而且
+and
+
+203
+00:07:28,800 --> 00:07:31,066
+通过所有这些问题也有助于
+going through all these issues also helps
+
+204
+00:07:31,266 --> 00:07:32,366
+了解教育工作者
+understand educators
+
+205
+00:07:32,366 --> 00:07:35,699
+有时你会发现一个非常具体的问题
+sometimes you find a very specific issue
+
+206
+00:07:35,800 --> 00:07:37,366
+或5个或更多的问题
+or 5 or more issues
+
+207
+00:07:37,366 --> 00:07:39,133
+彼此之间有某种联系
+that are kind of related to each other
+
+208
+00:07:39,566 --> 00:07:42,966
+这样你就有了关于具体问题的背景
+so you have like context on specific issues
+
+209
+00:07:43,066 --> 00:07:44,166
+在那里你可以解决
+where you can fix
+
+210
+00:07:44,166 --> 00:07:46,666
+而不是只解决一个非常具体的问题。
+in a holistic way instead of fixing just
+
+211
+00:07:46,866 --> 00:07:48,566
+一个非常具体的事情
+one very specific thing
+
+212
+00:07:48,666 --> 00:07:49,366
+还有
+and also
+
+213
+00:07:49,366 --> 00:07:51,366
+对问题进行分类有助于你
+triagging issues helps you
+
+214
+00:07:51,766 --> 00:07:53,866
+了解决策背后的背景
+understand the context behind decisions
+
+215
+00:07:54,066 --> 00:07:56,299
+例如，如果维护者决定
+for example if maintainers decide to
+
+216
+00:07:56,733 --> 00:07:58,266
+拒绝一项提议
+reject a proposal
+
+217
+00:07:58,266 --> 00:07:59,266
+或拒绝
+or reject
+
+218
+00:07:59,300 --> 00:08:01,566
+也许是因为它是故意的
+about maybe because it's intentional
+
+219
+00:08:01,866 --> 00:08:03,933
+或者说这是个很好的理由
+or maybe that's like a very good reason
+
+220
+00:08:04,366 --> 00:08:06,466
+它是出于对其产品的嘲弄
+it is out of scoop of its product
+
+221
+00:08:06,500 --> 00:08:07,500
+所以知道如何添加
+so knowing how to add
+
+222
+00:08:07,500 --> 00:08:09,733
+在某些情况下，这样做是非常有帮助的
+in certain cases like this is very helpful
+
+223
+00:08:09,766 --> 00:08:11,199
+因为你可以想
+because you could think
+
+224
+00:08:11,366 --> 00:08:13,266
+维护者的思维方式，这
+the way maintainers think and that
+
+225
+00:08:13,533 --> 00:08:14,666
+有助于释放一些
+helps to release some
+
+226
+00:08:14,666 --> 00:08:16,566
+他们所承担的责任
+responsibilities that they have
+
+227
+00:08:17,366 --> 00:08:18,199
+当然
+and of course
+
+228
+00:08:18,733 --> 00:08:21,299
+这个选项需要在项目中体验
+this option needs to experience in a project
+
+229
+00:08:21,300 --> 00:08:24,000
+方向和他们在整个项目中的理念。
+direction and their philosophy in the whole
+
+230
+00:08:25,166 --> 00:08:27,533
+和另一件事来做和
+and another thing to do and
+
+231
+00:08:27,733 --> 00:08:30,333
+对代码的贡献是审查代码的变化
+contributing to code is reviewing code changes
+
+232
+00:08:30,333 --> 00:08:31,766
+所以基本上当
+so basically when
+
+233
+00:08:32,333 --> 00:08:34,499
+在项目中，你可能有完整的请求
+in the project you might have full request
+
+234
+00:08:34,500 --> 00:08:36,266
+与一堆的变化
+with a bunch of changes
+
+235
+00:08:36,300 --> 00:08:38,266
+审查代码需要时间
+reviewing tr takes time stupiers
+
+236
+00:08:38,266 --> 00:08:39,533
+你需要确保
+you need to make sure that
+
+237
+00:08:39,733 --> 00:08:41,733
+什么变化是正确的
+what change is correct
+
+238
+00:08:41,866 --> 00:08:42,799
+而且它不会
+and it doesn't
+
+239
+00:08:42,966 --> 00:08:44,199
+破坏其他东西
+break anything else
+
+240
+00:08:44,200 --> 00:08:46,133
+所以如果你是审查PRS的新手
+so if you're new to reviewing prs
+
+241
+00:08:46,133 --> 00:08:48,066
+从小事做起是个好地方
+starting small is a good place to start
+
+242
+00:08:48,200 --> 00:08:49,000
+或例子
+or example
+
+243
+00:08:49,766 --> 00:08:51,899
+微观变化文件
+micro changes documentation
+
+244
+00:08:52,500 --> 00:08:53,300
+或
+or
+
+245
+00:08:53,400 --> 00:08:54,600
+小的修复，谁
+small fixes who
+
+246
+00:08:55,066 --> 00:08:56,166
+是非常具体的
+are very specific
+
+247
+00:08:56,166 --> 00:08:59,266
+较大的外套，容易消化
+larger in the coat which is easily digestible
+
+248
+00:08:59,733 --> 00:09:00,333
+但也
+but also
+
+249
+00:09:00,333 --> 00:09:02,866
+提出意见也会给你带来很大的帮助
+making comments also brings you to a long way
+
+250
+00:09:03,066 --> 00:09:06,166
+只是对你可能发现的具体问题进行评论
+just making comments on specific issues you may find
+
+251
+00:09:06,166 --> 00:09:10,199
+例如，尝试在当地测试PRS，你会发现
+for example try to test prs locally and you find
+
+252
+00:09:10,300 --> 00:09:11,700
+问题，也可能没有
+problems or maybe not
+
+253
+00:09:12,133 --> 00:09:13,899
+但这表明你把
+but this shows that you put
+
+254
+00:09:13,933 --> 00:09:15,933
+努力去审查PRS
+effort into reviewing prs
+
+255
+00:09:16,133 --> 00:09:19,666
+所以发表评论会让它对维护者来说更可信。
+so making comments kind of makes it more credible to
+
+256
+00:09:20,000 --> 00:09:20,900
+维护者
+the maintainers
+
+257
+00:09:20,900 --> 00:09:23,800
+知道你确实付出了努力
+knowing that you actually put effort into it
+
+258
+00:09:24,200 --> 00:09:24,900
+除非
+unless
+
+259
+00:09:24,900 --> 00:09:27,333
+这也是上一点的内容，即
+this also counts up to the previous point which is
+
+260
+00:09:27,700 --> 00:09:28,600
+学习接触
+learning the contact
+
+261
+00:09:28,600 --> 00:09:30,766
+决策者背后的联系，而维护者可能
+behind the decisions that maintainers may
+
+262
+00:09:30,766 --> 00:09:33,099
+有时你会遇到维护者拒绝修改的情况
+sometimes you have changes that maintainers reject
+
+263
+00:09:33,100 --> 00:09:34,366
+或者是他们要求
+or maybe they request
+
+264
+00:09:34,866 --> 00:09:36,999
+对其进行特定的焦化修改
+specific coke changes to it
+
+265
+00:09:37,666 --> 00:09:40,533
+这可以帮助你了解你的项目所使用的特定模式
+this helps you understand specific patterns that
+
+266
+00:09:40,666 --> 00:09:41,799
+你的项目使用的具体模式
+your project uses
+
+267
+00:09:41,900 --> 00:09:43,100
+再往前走，你就开始
+further along you start
+
+268
+00:09:43,300 --> 00:09:45,666
+了解你应该遵循的具体模式
+understanding specific patterns that you should follow
+
+269
+00:09:45,666 --> 00:09:48,066
+而且你可以对它进行Venus处理
+and you can Venus along to it
+
+270
+00:09:48,066 --> 00:09:50,366
+当你开始审查PRS时也是如此
+and when you start reviewing prs as well
+
+271
+00:09:50,933 --> 00:09:52,199
+并最终
+and ultimately
+
+272
+00:09:53,300 --> 00:09:54,266
+从以前的观点来看
+from the previous points
+
+273
+00:09:54,266 --> 00:09:56,799
+你实际上是在应用你的经验
+you are actually applying your experience
+
+274
+00:09:56,866 --> 00:09:58,599
+查看你的PRS时
+when view your prs
+
+275
+00:09:58,800 --> 00:10:02,933
+因此，从分流问题到制造问题或
+so from triaging issues making issues or
+
+276
+00:10:03,533 --> 00:10:05,099
+只是做一个修复
+just making a fix
+
+277
+00:10:05,400 --> 00:10:08,866
+这些都有助于最终审查PRS
+these are all helpful in ultimately reviewing the prs
+
+278
+00:10:08,866 --> 00:10:10,766
+编写的代码，这些代码将进入
+that is code that's going into
+
+279
+00:10:10,900 --> 00:10:12,100
+主项目的代码
+the main project
+
+280
+00:10:13,400 --> 00:10:15,333
+所以要总结一下
+so to kind of summarize the
+
+281
+00:10:16,066 --> 00:10:17,599
+贡献的观点
+contribution point of view
+
+282
+00:10:17,666 --> 00:10:20,533
+你可以看到，在很长一段时间内
+you can kind of see that for a long
+
+283
+00:10:20,666 --> 00:10:22,366
+责任开始上升
+responsibility start to rise
+
+284
+00:10:22,366 --> 00:10:23,099
+所以
+so
+
+285
+00:10:23,100 --> 00:10:26,466
+这或多或少像是一个光谱，当你成为
+this is more or less like a spectrum when you become
+
+286
+00:10:26,766 --> 00:10:29,199
+贡献者到指导者
+a contributor to a mentator
+
+287
+00:10:29,500 --> 00:10:32,466
+所以你的责任越大，你就越
+so the more responsible you can get the more
+
+288
+00:10:33,366 --> 00:10:34,366
+你就越重要
+important you are
+
+289
+00:10:34,800 --> 00:10:38,333
+但在下一个问题上，我们有一个社区
+but on the next point we have the community
+
+290
+00:10:38,600 --> 00:10:39,333
+所以
+so
+
+291
+00:10:39,333 --> 00:10:40,999
+社区也是另一个非常
+community is also another very
+
+292
+00:10:41,000 --> 00:10:42,866
+在一个项目中非常重要的方面
+important aspect in a project
+
+293
+00:10:42,900 --> 00:10:44,266
+如果没有社区的存在
+without a community there
+
+294
+00:10:44,533 --> 00:10:46,099
+该项目基本上是
+the project is basically
+
+295
+00:10:46,366 --> 00:10:47,566
+没有人使用它
+no one uses it
+
+296
+00:10:47,966 --> 00:10:48,699
+所以
+so
+
+297
+00:10:48,700 --> 00:10:51,933
+第一件重要的事情是提出正确的问题
+the first important thing is asking the right questions
+
+298
+00:10:52,200 --> 00:10:52,800
+所以当你
+so when you
+
+299
+00:10:52,800 --> 00:10:55,066
+时，你不会真的只是
+go in and comedy you don't really just
+
+300
+00:10:55,133 --> 00:10:57,733
+去github或者随便去哪里
+go on github or just go anywhere
+
+301
+00:10:57,900 --> 00:11:00,133
+重要的是要知道在哪里，因为
+it is important to know where as that
+
+302
+00:11:00,133 --> 00:11:02,066
+你应该提出问题
+you are supposed to ask questions
+
+303
+00:11:02,100 --> 00:11:04,133
+以及你应该提供的信息
+and also the information that you should give
+
+304
+00:11:04,200 --> 00:11:05,133
+有时
+sometimes
+
+305
+00:11:05,200 --> 00:11:06,400
+你给它太长了
+you give it too long
+
+306
+00:11:06,766 --> 00:11:08,266
+太过口头化
+it's too verbals
+
+307
+00:11:08,533 --> 00:11:09,999
+人们并不真的喜欢
+people don't really feel like
+
+308
+00:11:10,200 --> 00:11:11,100
+检查它，因为
+checking it because
+
+309
+00:11:11,100 --> 00:11:14,400
+因为这就像一篇文章，我花了很多精力去了解一个问题
+it's like an essay and I've put a lot of effort to
+
+310
+00:11:15,133 --> 00:11:16,166
+了解一个问题
+understand a question
+
+311
+00:11:16,300 --> 00:11:20,100
+但要尽量短小精悍，以提供
+but try to be short andconcise got to give
+
+312
+00:11:20,333 --> 00:11:21,666
+所有需要的信息
+all the information needed
+
+313
+00:11:21,666 --> 00:11:23,333
+以便有人能读一遍
+so that someone can read it once
+
+314
+00:11:23,333 --> 00:11:24,933
+他们就可以回答一次
+and they can answer it once
+
+315
+00:11:25,166 --> 00:11:27,399
+这样就能节省双方的时间
+so it saves time in both parties
+
+316
+00:11:27,700 --> 00:11:29,500
+保持一个简短的房子，以
+of keeping a short house done to
+
+317
+00:11:30,000 --> 00:11:31,566
+减少连接性的流程
+reduce a connective flow
+
+318
+00:11:31,566 --> 00:11:34,366
+当他们试图了解你的问题是什么
+when they try to understand what your problem is
+
+319
+00:11:34,900 --> 00:11:35,966
+还有
+and also
+
+320
+00:11:36,000 --> 00:11:38,466
+信号尽量不要在
+signal try not to spam in
+
+321
+00:11:38,866 --> 00:11:40,066
+渠道
+the channels
+
+322
+00:11:40,133 --> 00:11:41,099
+有时
+and sometimes
+
+323
+00:11:41,400 --> 00:11:43,066
+不是每个人都有时间来
+not everyone has a time to
+
+324
+00:11:43,133 --> 00:11:45,299
+检查你的问题或你的问题
+check out your problem or your question
+
+325
+00:11:45,800 --> 00:11:46,500
+这很重要
+it's important
+
+326
+00:11:46,500 --> 00:11:47,733
+请随时支付
+feel free to always pay
+
+327
+00:11:47,766 --> 00:11:49,799
+再来一次，比如在几个小时后，这样
+again like in a couple of hours so that
+
+328
+00:11:50,000 --> 00:11:51,500
+每个人都有机会
+everyone has a chance to
+
+329
+00:11:51,533 --> 00:11:53,899
+在时机成熟的时候再重新审视这个问题
+revisit that again when the time comes
+
+330
+00:11:53,966 --> 00:11:55,799
+在你提出问题的时候
+and while you're asking out questions
+
+331
+00:11:55,800 --> 00:11:56,733
+和有用的提示
+and helpful tip
+
+332
+00:11:56,733 --> 00:11:57,333
+那么我有
+then I had
+
+333
+00:11:57,333 --> 00:11:59,966
+在过去，尽量在同一时间回答他们的问题
+in the past as try to answer them at the same time
+
+334
+00:11:59,966 --> 00:12:00,566
+所以
+so
+
+335
+00:12:00,566 --> 00:12:02,366
+在你问问题之前，你可以
+before you ask questions you can
+
+336
+00:12:02,500 --> 00:12:04,933
+看看是否有其他人有问题
+thearound see if anyone else have problems
+
+337
+00:12:04,933 --> 00:12:06,499
+你可以试着回答他们
+you can try to answer them
+
+338
+00:12:06,766 --> 00:12:07,699
+如果你能做到最好
+the best if you can
+
+339
+00:12:07,700 --> 00:12:11,300
+并提供想法，即使你不确定如何解决它
+and give ideas even if you're not sure how to fix it
+
+340
+00:12:11,533 --> 00:12:13,566
+这也是一个很好的方法，可以
+and that is a great way to
+
+341
+00:12:13,866 --> 00:12:16,866
+邀请别人来回答你的问题
+invite others to answer your question as well
+
+342
+00:12:17,066 --> 00:12:19,399
+这就像一个双向的街头服饰
+this is like a 2 way streetwear
+
+343
+00:12:19,766 --> 00:12:20,999
+每个人都在互相帮助
+everyone is helping each other
+
+344
+00:12:21,566 --> 00:12:22,933
+和其他任何一天
+and any other day
+
+345
+00:12:23,000 --> 00:12:26,200
+一些问题实际上是一个问题的房间，其中
+something questions actually room to a problem where
+
+346
+00:12:26,266 --> 00:12:28,266
+文件是一个问题
+documentation is a problem
+
+347
+00:12:28,600 --> 00:12:29,766
+需要澄清的问题
+needs to be clarified
+
+348
+00:12:30,400 --> 00:12:32,100
+和所有这些导致
+and all these leads to
+
+349
+00:12:33,100 --> 00:12:35,300
+了解痛点或项目
+understanding the pain points or the project
+
+350
+00:12:35,600 --> 00:12:37,900
+因此，这是一个非常重要的事情，其中
+so this is a very important thing where
+
+351
+00:12:38,666 --> 00:12:41,866
+用户自己的项目不比维护者多
+the users auto project no more than the maintainers
+
+352
+00:12:42,666 --> 00:12:43,399
+因此，对于打
+so for beat
+
+353
+00:12:43,400 --> 00:12:46,200
+这里有一些链接，击败用户或支持
+here are like a few links that beat users or support
+
+354
+00:12:46,200 --> 00:12:48,933
+你可以打电话给聊天VHS com死亡，这是
+you can call chat VHS com death which is
+
+355
+00:12:49,166 --> 00:12:51,899
+一个链接，我们可以看到迪斯科的帮助
+a link to discord we can see for help
+
+356
+00:12:52,066 --> 00:12:53,699
+或者我们也可以询问和
+or we can also ask and
+
+357
+00:12:53,700 --> 00:12:57,000
+可以在VHS中讨论，在我们的repo中讨论。
+can have discussion in theVHS in our repo
+
+358
+00:12:57,500 --> 00:13:00,500
+你也可以查看VHS在开发中的文档
+you can also check out the documentation at VHS on dev
+
+359
+00:13:00,600 --> 00:13:01,400
+和
+and
+
+360
+00:13:01,500 --> 00:13:02,466
+文档
+the documentation
+
+361
+00:13:02,466 --> 00:13:05,133
+也可以在VHS repo中进行修改。
+changes could also be made on the VHS repo
+
+362
+00:13:05,666 --> 00:13:07,399
+因此，下一个问题将是资金
+and so the next one will be funding
+
+363
+00:13:07,400 --> 00:13:10,066
+所以资金也是另一个重要方面
+so funding is also another important aspect
+
+364
+00:13:10,133 --> 00:13:12,733
+即使你只是为它提供资金
+even if you're only contributing money to it
+
+365
+00:13:12,966 --> 00:13:13,766
+是
+is
+
+366
+00:13:13,766 --> 00:13:16,399
+对任何项目来说，要维持你的主题，就必须要有战斗力
+fighter for any project to sustain your subject
+
+367
+00:13:16,400 --> 00:13:19,100
+春天的层级总是花自己的空闲时间
+spring tiers are always spending their own free time
+
+368
+00:13:19,266 --> 00:13:21,066
+工作，所以
+working on it so
+
+369
+00:13:21,166 --> 00:13:23,333
+一种方法是使用赞助
+one way is to use sponsorship
+
+370
+00:13:23,366 --> 00:13:26,599
+以每月或一次性的方式来赞助他们
+to sponsor them on a monthly basis or one time basis
+
+371
+00:13:26,600 --> 00:13:29,600
+这包括得到一半的赞助商或PATREON
+this includes a get half sponsors or patreon
+
+372
+00:13:29,733 --> 00:13:31,999
+除此之外，一些公司还提供
+and besides that some companies also offer
+
+373
+00:13:32,000 --> 00:13:35,133
+资助的百分比，这样的话，你就可以在世界范围内进行开源。
+a percentage of the world walking open source so that
+
+374
+00:13:35,366 --> 00:13:36,466
+例如，你可以工作
+for example you can work
+
+375
+00:13:36,466 --> 00:13:39,399
+70%在主公司的工作上
+70 percent on the maincompany work
+
+376
+00:13:39,533 --> 00:13:40,333
+和30
+and 30
+
+377
+00:13:40,400 --> 00:13:41,466
+开源的
+open source one
+
+378
+00:13:41,666 --> 00:13:42,933
+在一天结束的时候
+at the end of day
+
+379
+00:13:43,000 --> 00:13:44,933
+这对双方都有好处，因为
+a benefits both sides where
+
+380
+00:13:45,100 --> 00:13:46,133
+公司可能
+the company may
+
+381
+00:13:46,166 --> 00:13:48,533
+需要开放源码的专业知识
+need the expertise of the open source
+
+382
+00:13:48,966 --> 00:13:50,299
+项目来工作
+project to work
+
+383
+00:13:50,300 --> 00:13:51,766
+在主要公司中也是如此
+on the main company as well
+
+384
+00:13:51,933 --> 00:13:54,066
+但这也是另一条双向的道路
+but this is also another 2 way street
+
+385
+00:13:54,066 --> 00:13:55,266
+帮助每个人
+where helps everyone
+
+386
+00:13:55,333 --> 00:13:58,066
+同时也是一种普遍的服务工作
+and also sound the universal work of services
+
+387
+00:13:58,066 --> 00:13:59,966
+这有点像赞助
+which is kind of like sponsorship
+
+388
+00:14:00,133 --> 00:14:01,599
+但你会得到一些回报
+but you get something in return
+
+389
+00:14:01,666 --> 00:14:04,566
+比如说你需要维护者的支持，你可以得到
+say you need support from the maintainers you can get
+
+390
+00:14:04,566 --> 00:14:05,666
+直接帮助他们
+direct help on them
+
+391
+00:14:05,766 --> 00:14:09,299
+这也是支持这些项目的另一种方式
+which is also another way to support these project
+
+392
+00:14:09,300 --> 00:14:11,000
+维护者的最终媒体
+maintainers the ultimate media
+
+393
+00:14:11,000 --> 00:14:13,666
+你在笔上使用的项目也得到了维护
+project that you use on the pen is also maintained
+
+394
+00:14:13,666 --> 00:14:16,199
+这也有助于你使用的产品
+which also helps with the product that you used
+
+395
+00:14:16,200 --> 00:14:17,533
+构建在它上面的产品
+to build on top of it
+
+396
+00:14:17,766 --> 00:14:20,066
+所以它也会帮助你获得回报
+so it will help you in a return as well
+
+397
+00:14:21,466 --> 00:14:22,933
+总结一下上面的内容
+to kinda summarize the top
+
+398
+00:14:23,100 --> 00:14:25,366
+这是我做的一个方便的清单
+here's a handy list that I've made
+
+399
+00:14:25,533 --> 00:14:28,699
+汇编了我们目前所做的每一项工作的要点
+compiling every points that we have tasked far
+
+400
+00:14:28,800 --> 00:14:31,566
+但你可以在未来再次使用参考
+but you can use to reference in the future again
+
+401
+00:14:32,400 --> 00:14:34,466
+最重要的是要有乐趣
+and most importantly have fun
+
+402
+00:14:34,500 --> 00:14:35,333
+项目工作
+work on projects
+
+403
+00:14:35,333 --> 00:14:37,999
+你是否有兴趣把它作为一种心态来做？
+are you interested in making it as a heartbeat
+
+404
+00:14:38,333 --> 00:14:40,499
+不要试图把自己逼得太紧
+don't try to push yourself too much
+
+405
+00:14:40,733 --> 00:14:42,466
+在需要的时候休息一下
+and take breaks where needed
+
+406
+00:14:42,766 --> 00:14:44,933
+不要倦怠，也不要
+don't burn out and also
+
+407
+00:14:45,200 --> 00:14:48,133
+尊重他人，他们也在努力
+be respectful to others who are also trying
+
+408
+00:14:48,166 --> 00:14:49,599
+贡献的人
+to contribute to
+
+409
+00:14:49,733 --> 00:14:50,766
+资源的人。
+the resource as well
+
+410
+00:14:51,300 --> 00:14:52,866
+这就是我的全部想法
+and that is all for my thought
+
+411
+00:14:52,900 --> 00:14:54,166
+谢谢你的聆听
+thank you for listening
+
+412
+00:14:54,166 --> 00:14:56,133
+我可以特别感谢在他们的旅程中帮助我的主宰者
+and I can give special thanks to the dominating
+
+413
+00:14:56,333 --> 00:14:58,966
+我可以特别感谢那些在他们的旅程中帮助我的epita和
+epita who helped me in their journey and
+
+414
+00:14:59,066 --> 00:15:00,333
+位的来源，如果没有他们的健康，我
+bit source where I've
+
+415
+00:15:00,400 --> 00:15:03,066
+没有他们的健康，我永远不会有今天的成就
+never been where I am today without their health
+
+416
+00:15:03,500 --> 00:15:05,333
+你可以在我的社交网站上找我
+and you could look for me on my socials
+
+417
+00:15:05,333 --> 00:15:09,133
+在github上，也就是bluey，或者在twitter上的blueview。
+on github which is bluey or on twitter blueview
+

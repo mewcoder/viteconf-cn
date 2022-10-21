@@ -1,0 +1,2350 @@
+1
+00:00:05,133 --> 00:00:06,866
+你好，非常感谢你
+hello and thank you very much
+
+2
+00:00:06,866 --> 00:00:08,999
+我的名字是卢卡斯-阿特金森
+my name is Lucas taken Atkinson
+
+3
+00:00:09,000 --> 00:00:11,800
+我代表 "滚动js "发言。
+and I'm speaking on behalf of roll up js
+
+4
+00:00:12,666 --> 00:00:13,366
+所以我认为这是
+so I think it is
+
+5
+00:00:13,366 --> 00:00:14,899
+我认为可以这样说，卷积
+fair to say that roll up
+
+6
+00:00:14,900 --> 00:00:16,800
+是一个基础，而
+is one of the foundations that
+
+7
+00:00:16,800 --> 00:00:18,133
+beat的基础之一。
+beat is built upon
+
+8
+00:00:18,300 --> 00:00:22,133
+当我被邀请时，至少有一个人
+and when I was invited there was at least one person
+
+9
+00:00:22,500 --> 00:00:24,100
+他希望我能够
+who expected me to
+
+10
+00:00:24,100 --> 00:00:26,333
+阐明这种关系的更多信息
+shed a little more light on this relationship
+
+11
+00:00:26,333 --> 00:00:29,766
+是的，我稍后会谈及这张床
+and yes I will talk about that bed later
+
+12
+00:00:30,300 --> 00:00:33,400
+首先我想谈的是另一件事
+first I want to talk about something else entirely
+
+13
+00:00:33,400 --> 00:00:34,466
+但他们是和我一起的
+but they are with me
+
+14
+00:00:34,500 --> 00:00:36,000
+这将是相关的
+it will be relevant
+
+15
+00:00:36,333 --> 00:00:37,899
+对维生素也是如此
+for vit as well
+
+16
+00:00:38,300 --> 00:00:39,566
+我想说的是
+what I want to talk about
+
+17
+00:00:39,566 --> 00:00:40,266
+是
+is
+
+18
+00:00:40,266 --> 00:00:43,999
+我们有一个非常老的滚筒包，已经有相当长一段时间了
+a very old roller pack that we had for quite some time
+
+19
+00:00:44,000 --> 00:00:45,400
+它就是这个
+and it is this one
+
+20
+00:00:46,166 --> 00:00:48,466
+大块的哈希值应该是基于输出的
+chunk hashes should be based on the output
+
+21
+00:00:48,466 --> 00:00:50,133
+这是从2009年5月开始的
+it's from may 2009
+
+22
+00:00:50,300 --> 00:00:51,933
+正如你所看到的，它仍然是开放的
+as you see it's still open
+
+23
+00:00:52,066 --> 00:00:54,099
+是的，它是一种关键
+and yes it is kind of critical
+
+24
+00:00:54,700 --> 00:00:56,166
+它是足够关键的
+it is critical enough
+
+25
+00:00:56,166 --> 00:00:59,799
+因此，一个著名的谷歌开发人员edocat
+so that one well known Google developer edocat
+
+26
+00:00:59,966 --> 00:01:01,466
+是真的做了一个伟大的
+was really making a great
+
+27
+00:01:01,466 --> 00:01:04,466
+的情况下，rollop的插件系统是优越的
+case that rollop's plugin system is superior
+
+28
+00:01:04,466 --> 00:01:05,766
+的替代品
+to the alternatives
+
+29
+00:01:05,900 --> 00:01:07,733
+是引用它作为
+was citing it as
+
+30
+00:01:08,333 --> 00:01:08,999
+的
+the
+
+31
+00:01:09,000 --> 00:01:12,200
+他发现roll up最重要的问题是
+the most important issue he found with roll up
+
+32
+00:01:12,200 --> 00:01:13,700
+散列发生在错误的时间
+hashing happens at the wrong time
+
+33
+00:01:13,700 --> 00:01:15,466
+这可能导致不好的兑现
+which can lead to bad cashing
+
+34
+00:01:16,500 --> 00:01:17,366
+和
+and
+
+35
+00:01:18,600 --> 00:01:20,166
+这到底是怎么回事？
+what is this all about
+
+36
+00:01:20,366 --> 00:01:20,766
+先生
+sir
+
+37
+00:01:20,766 --> 00:01:23,099
+要理解这一点，你需要了解
+to understand that you need to understand
+
+38
+00:01:23,300 --> 00:01:25,333
+基于内容的火名
+content based fire names
+
+39
+00:01:26,133 --> 00:01:27,533
+所以这个想法是
+so the idea is
+
+40
+00:01:27,533 --> 00:01:28,699
+我们使用
+that we use
+
+41
+00:01:28,700 --> 00:01:31,666
+火名有一些东西，我们称之为哈希值
+fire names that have something that we call a hash
+
+42
+00:01:31,666 --> 00:01:33,733
+的内容在其名称中
+of the content in its name
+
+43
+00:01:33,733 --> 00:01:37,066
+这样，它们就是其内容的唯一标识符。
+so that they are unique identifiers for their content
+
+44
+00:01:37,066 --> 00:01:38,099
+所以在这个例子中
+so in this example
+
+45
+00:01:38,100 --> 00:01:41,566
+我有一个可以动态导入其他块的块
+I have a chunk that dynamically imports to other chunks
+
+46
+00:01:42,066 --> 00:01:45,599
+如果我改变了右上角的块的内容
+if I were to change something in the upper right chunk
+
+47
+00:01:45,600 --> 00:01:47,533
+比方说，我们正在记录其他东西
+let's say we are logging something else
+
+48
+00:01:47,600 --> 00:01:50,066
+那么这将意味着该块的哈希值会
+then this would mean the hash of that chunk would
+
+49
+00:01:50,066 --> 00:01:52,566
+变化，这意味着左边的主块中的导入
+change that means the import
+
+50
+00:01:52,566 --> 00:01:54,933
+在左边的主块中也会改变
+in the main chunk on the left would also change
+
+51
+00:01:54,933 --> 00:01:56,066
+这也会导致
+which would also lead
+
+52
+00:01:56,066 --> 00:01:58,533
+主块的哈希值发生变化
+the hash of the main chunk to change
+
+53
+00:01:59,666 --> 00:02:00,466
+和
+and
+
+54
+00:02:01,166 --> 00:02:02,133
+就是这样
+that is it
+
+55
+00:02:03,333 --> 00:02:04,133
+所以
+so
+
+56
+00:02:04,266 --> 00:02:07,099
+为什么这很重要，为什么我们要这样做
+why is this important why do we want to do that
+
+57
+00:02:07,533 --> 00:02:10,899
+如果我们有财务上的唯一标识符
+if we have finances unique identifiers
+
+58
+00:02:10,933 --> 00:02:12,999
+我们就可以配置我们的服务
+we can configure our service
+
+59
+00:02:13,333 --> 00:02:13,866
+以
+to
+
+60
+00:02:13,866 --> 00:02:16,933
+使用非常长的兑现时间
+use very long cashing time
+
+61
+00:02:17,533 --> 00:02:19,599
+这样，浏览器的现金就会保留这些
+so that the browser cash retains the
+
+62
+00:02:19,600 --> 00:02:21,533
+文件基本上是无限期的
+files basically indefinitely
+
+63
+00:02:21,866 --> 00:02:24,566
+并且不需要再从服务器上调取它们
+and they don't need to be pulled again from the server
+
+64
+00:02:24,966 --> 00:02:28,699
+而我们仍然有能力在任何时候进行部署
+while we still have the ability to deploy at any time
+
+65
+00:02:28,700 --> 00:02:31,900
+因为改变内容就意味着改变下降
+because changing the content means changing the falling
+
+66
+00:02:32,300 --> 00:02:35,333
+的好处是，在这个例子中
+with the advantage that in this example the
+
+67
+00:02:35,400 --> 00:02:37,966
+在这个例子中，较低的骑行块没有变化
+lower ride chunk which is unchanged
+
+68
+00:02:38,066 --> 00:02:40,066
+仍然可以从现金中获取
+can still be taken from the cash
+
+69
+00:02:41,166 --> 00:02:44,299
+这听起来很简单，但是
+this sounds kind of straightforward but
+
+70
+00:02:44,666 --> 00:02:47,133
+如果你有循环引用会怎么样
+what happens if you have circular references
+
+71
+00:02:47,133 --> 00:02:48,933
+这并不罕见
+which is not too uncommon
+
+72
+00:02:49,700 --> 00:02:50,500
+所以
+so
+
+73
+00:02:51,266 --> 00:02:53,266
+想象一下，你正在使用
+imagine you are using
+
+74
+00:02:53,700 --> 00:02:55,266
+一些路由解决方案
+some routing solution
+
+75
+00:02:55,600 --> 00:03:00,733
+那么通常路由器会动态地导入
+then usually the router will dynamically import
+
+76
+00:03:00,766 --> 00:03:03,533
+当你改变页面时，其他块会被动态导入
+other chunks when you change pages
+
+77
+00:03:03,766 --> 00:03:05,999
+其他块是什么？
+are the other chunks or reference the routers
+
+78
+00:03:06,000 --> 00:03:07,866
+你有一个循环参考
+you have a circular reference
+
+79
+00:03:07,866 --> 00:03:10,066
+路由器和所有其他分块之间的循环参考。
+between the router and all other chunks
+
+80
+00:03:10,600 --> 00:03:11,566
+所以在我的例子中
+so in my example
+
+81
+00:03:11,566 --> 00:03:14,299
+我只是在我的两个块之间进行动态导入
+I'm just having dynamic imports between my 2 chunks
+
+82
+00:03:14,300 --> 00:03:16,366
+我怎样才能为它创建一个哈希值呢？
+how do I create a hash for that
+
+83
+00:03:16,533 --> 00:03:17,699
+当他们的
+when their
+
+84
+00:03:17,700 --> 00:03:18,766
+火的大陆
+continent of the fire
+
+85
+00:03:18,766 --> 00:03:20,966
+将取决于另一个文件的哈希值
+would depend on the hash of the other file
+
+86
+00:03:21,933 --> 00:03:23,166
+一种方法是
+one approach could be
+
+87
+00:03:23,266 --> 00:03:25,199
+说好吧，那我们就散列所有的东西
+to say okay then we hash everything
+
+88
+00:03:25,200 --> 00:03:27,733
+除了另一个文件的哈希值
+except the hash of the other file
+
+89
+00:03:28,700 --> 00:03:30,966
+然后把2个点卷起来
+and the way roll up 2 dots
+
+90
+00:03:30,966 --> 00:03:34,066
+这只是对原始文件的散列
+this is just hashing the original files
+
+91
+00:03:35,066 --> 00:03:37,699
+与原来的导入目标在一起
+with the original import targets in place
+
+92
+00:03:37,866 --> 00:03:40,699
+所以在我的例子中，我们使用表情符号作为哈希值
+so in my examples we are using emojis as hashes
+
+93
+00:03:40,700 --> 00:03:42,566
+因为它更容易看到
+because it's kind of easier to see
+
+94
+00:03:42,900 --> 00:03:43,733
+而且
+and
+
+95
+00:03:44,766 --> 00:03:46,766
+你不需要记住
+you don't have to memorize
+
+96
+00:03:47,966 --> 00:03:50,199
+数字和字母
+numbers and letters
+
+97
+00:03:51,533 --> 00:03:53,266
+然后我们所做的是
+and then what we do is
+
+98
+00:03:53,266 --> 00:03:56,533
+我们基本上是在创建一个哈希值的依赖图
+we're basically creating a dependency graph of hashes
+
+99
+00:03:56,966 --> 00:03:58,466
+在这个例子中，我们知道
+in this example we know
+
+100
+00:03:58,666 --> 00:03:59,733
+我们知道
+that the
+
+101
+00:03:59,733 --> 00:04:02,766
+苹果块参考了西兰花块
+apple chunk is kind of referencing the broccoli chunk
+
+102
+00:04:03,166 --> 00:04:05,866
+所以，苹果块的哈希值应该是苹果按
+so the hash of the apple chunk should be apple press
+
+103
+00:04:05,866 --> 00:04:08,199
+西兰花在我的例子中是鱼
+broccoli is fish in my example
+
+104
+00:04:08,300 --> 00:04:09,900
+而另一个区块的哈希值是
+while the hash of the other chunk is
+
+105
+00:04:09,900 --> 00:04:10,866
+西兰花加苹果
+broccoli plus apple
+
+106
+00:04:10,866 --> 00:04:12,999
+因为它发生在印度的错误矿石上。
+because it happens to the wrong ore in India
+
+107
+00:04:13,300 --> 00:04:15,933
+顺序相反，说是我的鱿鱼
+reverse order which say it's my squiddy
+
+108
+00:04:16,366 --> 00:04:17,166
+哈希
+hash
+
+109
+00:04:17,266 --> 00:04:18,399
+然后作为最后一步
+and then as a last step
+
+110
+00:04:18,400 --> 00:04:20,400
+我们将再次替换进口
+we are replacing the imports again
+
+111
+00:04:20,400 --> 00:04:22,166
+用实际的块状名称
+with the actual chunk names
+
+112
+00:04:22,766 --> 00:04:23,733
+现在，这些Chung
+now these Chung
+
+113
+00:04:23,733 --> 00:04:25,466
+这些哈希值确实很可疑
+these hashes are indeed very fishy
+
+114
+00:04:25,466 --> 00:04:26,566
+为什么会有猫腻呢？
+why are they fishy
+
+115
+00:04:26,733 --> 00:04:27,666
+因为
+because
+
+116
+00:04:28,766 --> 00:04:31,599
+我们希望在我们的数据集中有一个最小化的步骤
+we want to have a minification step in our set
+
+117
+00:04:31,600 --> 00:04:34,066
+在我们改变进口之前，不可能发生最小化
+a minification cannot happen before
+
+118
+00:04:34,066 --> 00:04:35,133
+我们改变进口
+we change the imports
+
+119
+00:04:35,133 --> 00:04:36,666
+因为，在减法之后
+because after midification
+
+120
+00:04:36,866 --> 00:04:38,133
+我们不会找到异国情调的人
+we would not find the impotic
+
+121
+00:04:38,133 --> 00:04:39,766
+而且所有的东西都在移动
+and everything has moved around
+
+122
+00:04:40,066 --> 00:04:42,066
+我们需要重新传递整个文件
+we need to repass the entire file
+
+123
+00:04:42,066 --> 00:04:44,599
+而且还可能有一些东西被遗漏了
+and it still may be possible that stuff is missing
+
+124
+00:04:44,600 --> 00:04:46,533
+或以完全不同的方式完成
+or done in an entirely different way
+
+125
+00:04:48,133 --> 00:04:49,866
+所以发生的情况是
+so what happens is
+
+126
+00:04:49,866 --> 00:04:51,933
+滚子把渲染块打成黑色
+that roller brands the render chunk black
+
+127
+00:04:51,933 --> 00:04:52,899
+并在这之后进行勾选
+and hook after that
+
+128
+00:04:52,900 --> 00:04:54,066
+这就改变了管道
+which changes the conduit
+
+129
+00:04:54,066 --> 00:04:55,766
+但它不能改变哈希值
+but it cannot change the hash
+
+130
+00:04:56,133 --> 00:04:59,466
+现在我们有不同的文件有相同的哈希值
+and now we have different files that have the same hash
+
+131
+00:04:59,466 --> 00:05:00,599
+这基本上
+which basically
+
+132
+00:05:00,900 --> 00:05:04,866
+破坏了我们对基于内容的所有假设
+breaks all assumptions we have for content based
+
+133
+00:05:05,366 --> 00:05:06,166
+兑现
+cashing
+
+134
+00:05:07,133 --> 00:05:09,999
+所以这个算法是很容易实现的
+so this algorithm is kind of easy to implement
+
+135
+00:05:10,000 --> 00:05:11,533
+它可以处理周期
+it handle cycles
+
+136
+00:05:11,733 --> 00:05:13,966
+但有一个问题是
+but one drawberg was that
+
+137
+00:05:13,966 --> 00:05:16,766
+我们在内容哈希中有原始文件的目标
+we had the original file aims in the content hashes
+
+138
+00:05:16,766 --> 00:05:18,133
+这很糟糕，因为
+which is bad because
+
+139
+00:05:18,333 --> 00:05:19,899
+如果我重新命名文件
+if I renamed the file
+
+140
+00:05:20,066 --> 00:05:22,733
+输出不会改变，但哈希值会改变
+the output would not change but the hash would change
+
+141
+00:05:23,533 --> 00:05:24,333
+和
+and
+
+142
+00:05:24,400 --> 00:05:25,000
+而
+the
+
+143
+00:05:25,000 --> 00:05:26,133
+大问题是
+big problem is that
+
+144
+00:05:26,133 --> 00:05:28,733
+大问题是，由插件进行的块状转换并不能
+chunk transformation by plugins are not
+
+145
+00:05:28,733 --> 00:05:30,866
+处于改变哈希值的位置
+in a position to change hashes
+
+146
+00:05:31,600 --> 00:05:34,000
+那么我们如何解决这个问题呢？
+so how can we solve this issue
+
+147
+00:05:35,600 --> 00:05:37,566
+好吧，让我们回到
+well let's go back
+
+148
+00:05:37,566 --> 00:05:38,499
+回到第一步
+to the first step
+
+149
+00:05:38,500 --> 00:05:40,933
+因为这就是我们在第3卷中要做的事情
+because that's what we're doing in roll up 3
+
+150
+00:05:41,600 --> 00:05:42,700
+所以假设
+so assume
+
+151
+00:05:43,600 --> 00:05:44,666
+你有
+you have
+
+152
+00:05:45,133 --> 00:05:46,799
+有2个机会互相参考
+2 chance reference each other
+
+153
+00:05:47,000 --> 00:05:48,866
+所以我说好吧
+so I said okay
+
+154
+00:05:49,133 --> 00:05:51,066
+我们希望有
+we want to have
+
+155
+00:05:51,200 --> 00:05:52,000
+a
+a
+
+156
+00:05:54,000 --> 00:05:57,066
+一个包含所有内容的哈希，但
+a hash that contains everything but
+
+157
+00:05:57,333 --> 00:05:58,966
+块的哈希值
+the chunk hash
+
+158
+00:05:59,166 --> 00:06:02,666
+我们想让它先运行渲染块
+and we want it toto run render chunk first
+
+159
+00:06:02,666 --> 00:06:04,799
+所以我们要做的是把所有东西都替换成
+so what we're doing is we're replacing everything with
+
+160
+00:06:04,800 --> 00:06:05,700
+占位符
+placeholders
+
+161
+00:06:06,066 --> 00:06:07,599
+这些占位符有编号
+the placeholders have numbered
+
+162
+00:06:07,600 --> 00:06:09,400
+数字对应于
+the number correspondence to the
+
+163
+00:06:09,700 --> 00:06:11,500
+所以左边的是第一块
+so the left is kind of chunk one
+
+164
+00:06:11,500 --> 00:06:13,300
+而右边的是第二块
+and the right one is chunk 2
+
+165
+00:06:14,166 --> 00:06:16,366
+然后我们直接运行chunk cook的趋势
+then we directly run the trend of chunk cook
+
+166
+00:06:16,366 --> 00:06:17,333
+它就会发挥它的魔力
+which does its magic
+
+167
+00:06:17,333 --> 00:06:19,266
+所以这个例子，它只是改变了憧憬
+so this example it just changes the longing
+
+168
+00:06:19,266 --> 00:06:20,399
+但它可以是任何东西
+but it could be anything
+
+169
+00:06:20,400 --> 00:06:21,900
+它甚至可以改变进口
+it could even change the import
+
+170
+00:06:21,900 --> 00:06:23,600
+或者完全删除导入的内容
+or remove the import entirely
+
+171
+00:06:24,166 --> 00:06:26,133
+因为我们不做任何假设
+and because we don't make assumptions
+
+172
+00:06:26,133 --> 00:06:27,733
+渲染的块是什么
+what rendered chunk does
+
+173
+00:06:27,866 --> 00:06:30,166
+下一步，我们只是做一个全文搜索
+the next step we're just doing a full text search
+
+174
+00:06:30,166 --> 00:06:32,799
+以找到输出中的所有占位符
+to find all placeholders in the output
+
+175
+00:06:33,800 --> 00:06:37,933
+所以我们找到了我们的依赖关系，所以我们看到了chunk one
+so then we find our dependencies so we see thechunk one
+
+176
+00:06:38,000 --> 00:06:39,333
+除了其中一个的内容
+except for the content of one
+
+177
+00:06:39,333 --> 00:06:41,999
+它也依赖于占位符2
+it also depends on placeholder 2
+
+178
+00:06:42,166 --> 00:06:43,099
+建议进一步
+advice further
+
+179
+00:06:43,166 --> 00:06:44,499
+另一个块的版本
+version for the other chunk
+
+180
+00:06:46,366 --> 00:06:47,166
+然后
+then
+
+181
+00:06:48,166 --> 00:06:48,566
+我们
+we
+
+182
+00:06:48,566 --> 00:06:49,966
+得到一个内容哈希值
+to get a content hash
+
+183
+00:06:49,966 --> 00:06:53,499
+我们用84个占位符替换或占位符
+we replace or placeholders with 84 placeholder
+
+184
+00:06:53,500 --> 00:06:56,200
+因为这些数字1 2他们是必需品
+because those numbers one 2 they are necessaries
+
+185
+00:06:56,600 --> 00:06:58,866
+他们不能依赖于
+they can't kind of depend on
+
+186
+00:06:59,600 --> 00:07:00,933
+一些竞赛条件
+some race conditions
+
+187
+00:07:00,933 --> 00:07:03,599
+所以我们就得到了一个稳定的、只有内容的哈希值
+so then we get a stable content only hash
+
+188
+00:07:04,066 --> 00:07:05,466
+而作为最后一步
+and as a last step
+
+189
+00:07:05,666 --> 00:07:09,533
+我们现在正在计算文件散列，这给了我一个
+we're now calculating the file hashes which gives me a
+
+190
+00:07:09,666 --> 00:07:11,366
+对和一个橙色的哈希值
+pair and an orange hash
+
+191
+00:07:12,200 --> 00:07:13,066
+和
+and
+
+192
+00:07:13,733 --> 00:07:15,999
+我们解决了这两个我们最初有
+we solve these 2 we originally had
+
+193
+00:07:16,300 --> 00:07:16,800
+所以是的
+so yes
+
+194
+00:07:16,800 --> 00:07:20,000
+我们有非常稳定的哈希值，只取决于内容
+we have very stable hashes that only depend on content
+
+195
+00:07:20,366 --> 00:07:21,066
+我们可以有
+we can have
+
+196
+00:07:21,066 --> 00:07:23,899
+在renderchang中进行任意的文件转换，即
+arbitrary file transformations in renderchang that
+
+197
+00:07:24,066 --> 00:07:26,366
+增加进口，删除进口和
+add imports remove imports and
+
+198
+00:07:27,466 --> 00:07:29,199
+由于这个特性
+due to the nature of this
+
+199
+00:07:29,200 --> 00:07:32,666
+现在我们的renderchang cook有了一个很酷的新功能
+we now have a cool new feature in our renderchang cook
+
+200
+00:07:32,666 --> 00:07:35,166
+中有了一个很酷的新功能，这也会让plugates受益。
+which will also benefit beat plugates
+
+201
+00:07:35,766 --> 00:07:39,133
+这就是我们可以获得整个块状图。
+which is we get the entire chunk graph available
+
+202
+00:07:39,333 --> 00:07:42,499
+所以有一个新的第四个参数来渲染chunk
+so there's a new 4th parameter to render chunk
+
+203
+00:07:43,133 --> 00:07:45,533
+的第四个参数，它基本上包含一个所有
+which basically contains a list of all
+
+204
+00:07:45,533 --> 00:07:46,966
+块的列表，以及它们的进口
+chunks with their imports
+
+205
+00:07:46,966 --> 00:07:48,666
+专家以及他们之间的关系
+experts and how they're related
+
+206
+00:07:49,133 --> 00:07:50,799
+现在这真的很酷
+and now this is really cool
+
+207
+00:07:50,966 --> 00:07:52,999
+而且你也得到了非常好的反馈
+and you also got very good feedback
+
+208
+00:07:53,000 --> 00:07:54,933
+从V的开发者那里
+from the v developers
+
+209
+00:07:55,366 --> 00:07:56,166
+说它
+that it
+
+210
+00:07:56,333 --> 00:07:59,499
+允许他们从小麦中去除大量的复杂性
+allows them to remove a lot of complexity from wheat
+
+211
+00:07:59,766 --> 00:08:00,999
+这很好
+and that's good
+
+212
+00:08:01,000 --> 00:08:01,933
+这让野草很高兴
+that makes weed happy
+
+213
+00:08:01,933 --> 00:08:04,566
+但问题是，我们并不是为了小麦而这样做的
+but the question is so we didn't do this for wheat
+
+214
+00:08:04,600 --> 00:08:06,666
+这样做是因为这是个严肃的银行
+did this because this is a serious bank
+
+215
+00:08:06,666 --> 00:08:09,766
+但是，我们的关系究竟是怎样的？
+but how is our relationship actually with beat
+
+216
+00:08:10,800 --> 00:08:11,733
+和
+and
+
+217
+00:08:12,533 --> 00:08:14,733
+更准确地说，我们对杂草的感觉如何
+more precisely how do we feel about weed
+
+218
+00:08:14,900 --> 00:08:16,666
+如果你从表面上看
+than if you look from the surface
+
+219
+00:08:17,600 --> 00:08:18,666
+问安德鲁
+asking Andrew
+
+220
+00:08:19,333 --> 00:08:20,733
+也许我们是
+maybe we are
+
+221
+00:08:20,733 --> 00:08:23,266
+被珠子的成功所淹没了
+slightly overwhelmed by the success of bead
+
+222
+00:08:23,266 --> 00:08:25,999
+这也给我们带来了很多新的问题。
+which also put a lot of new issues for row of
+
+223
+00:08:26,000 --> 00:08:27,566
+特别是对插件来说
+especially for the plugins
+
+224
+00:08:27,700 --> 00:08:29,566
+但如果你再深入一点
+but if you go a little deeper
+
+225
+00:08:32,000 --> 00:08:34,500
+有更多的东西，要理解这一点
+there is more to it and to understand this
+
+226
+00:08:34,766 --> 00:08:36,599
+问题是我们为什么
+the question is why did we
+
+227
+00:08:36,733 --> 00:08:38,766
+为什么我们要选择卷起来？
+choose roll up in the first place
+
+228
+00:08:39,566 --> 00:08:41,266
+所以我的理解是
+so to my understanding
+
+229
+00:08:42,733 --> 00:08:45,366
+一个关键原因是插件系统
+one key reason was the plugin system
+
+230
+00:08:46,100 --> 00:08:48,700
+所以，如果你重新使用一个现有的
+so if you reuse an existing
+
+231
+00:08:48,700 --> 00:08:50,900
+插件系统来解决你的问题
+plugin system that solves your purpose
+
+232
+00:08:50,900 --> 00:08:52,700
+你就能得到一个
+you get access to a
+
+233
+00:08:52,766 --> 00:08:54,566
+广泛的插件
+broad range of plugins
+
+234
+00:08:54,966 --> 00:08:55,599
+这意味着
+which means
+
+235
+00:08:55,600 --> 00:08:58,400
+用户将更有可能采用
+that users will be much more likely to adopt
+
+236
+00:08:58,400 --> 00:09:00,200
+你的解决方案，因为
+your solution because
+
+237
+00:09:00,500 --> 00:09:02,100
+他们已经有
+they already have
+
+238
+00:09:02,133 --> 00:09:04,499
+方法来适应他们的需求
+ways to adapt them to their needs
+
+239
+00:09:05,500 --> 00:09:06,566
+另一方面，如果你
+on the other hand if you
+
+240
+00:09:06,566 --> 00:09:08,266
+开发一个全新的插件系统
+develop an entirely new plugin system
+
+241
+00:09:08,266 --> 00:09:10,499
+就不会有插件，除了少数几个
+there will be no plugins except for a few
+
+242
+00:09:10,733 --> 00:09:13,066
+主的，那么用户就不会去
+main one and then users will not go
+
+243
+00:09:13,066 --> 00:09:16,399
+而且你还需要用户来编写新的插件
+and you also need the users to write new plugins
+
+244
+00:09:17,166 --> 00:09:18,266
+另一个原因显然是
+another reason apparently
+
+245
+00:09:18,266 --> 00:09:20,199
+是，滚筒的操作者略小
+was that roller operator slightly smaller
+
+246
+00:09:20,200 --> 00:09:22,200
+这也是我们引以为豪的地方
+which is something that we pride upon
+
+247
+00:09:22,200 --> 00:09:24,533
+我仍然认为rollop有一个最好的
+I still think that rollop has one of the best
+
+248
+00:09:24,533 --> 00:09:26,666
+我仍然认为rollop有一个最好的摇动树的算法
+tree shaking algorithms out there
+
+249
+00:09:27,300 --> 00:09:30,466
+也许除了封闭式编译器，但它看起来并不是
+maybe except for closure compiler but it didn't look
+
+250
+00:09:31,133 --> 00:09:33,566
+我们一直在努力使它变得更好。
+reasonably where they are and we are
+
+251
+00:09:34,066 --> 00:09:35,999
+我们一直在努力使它变得更好
+constantly working to make that better
+
+252
+00:09:36,733 --> 00:09:38,099
+而且我们有
+and we have
+
+253
+00:09:38,300 --> 00:09:41,166
+显然，你的代码拆分方法
+apparently a moment your code splitting approach
+
+254
+00:09:41,333 --> 00:09:42,799
+与es build相比
+compared to es build
+
+255
+00:09:43,900 --> 00:09:46,866
+因此，这正是我们想要滚动起来的地方
+so and this is exactly where we wanted roll up to be
+
+256
+00:09:47,533 --> 00:09:49,299
+我们为什么要在那里建立起一个滚动系统？
+why did we want roll up to be there
+
+257
+00:09:49,766 --> 00:09:52,199
+所以要多了解一点背景
+so a little more background going
+
+258
+00:09:52,600 --> 00:09:53,800
+进入我的个人历史
+into my personal history
+
+259
+00:09:53,800 --> 00:09:55,400
+因此，滚动起来是
+so roll up was
+
+260
+00:09:56,166 --> 00:09:57,933
+如你所知，是由Richeris开发的
+developed as you may know by richeris
+
+261
+00:09:57,933 --> 00:09:59,333
+它是在2015年
+it was in 2015
+
+262
+00:09:59,333 --> 00:10:01,766
+而在2017年，我
+and in 2017 I
+
+263
+00:10:01,766 --> 00:10:04,266
+碰巧创造了一些可怜的请求来改善树
+happened to create some poor requests to improve tree
+
+264
+00:10:04,266 --> 00:10:05,066
+晃动
+shaking
+
+265
+00:10:05,100 --> 00:10:08,466
+的原因，因为我对这个话题感兴趣，并且
+for reasons because I was interested in the topic and
+
+266
+00:10:08,666 --> 00:10:10,599
+在假释来源中寻找，我发现
+looking in paroleup sources I found
+
+267
+00:10:10,966 --> 00:10:12,733
+一些改进的潜力
+some potential for improvement
+
+268
+00:10:13,466 --> 00:10:15,699
+然后我就成了维护者
+and then I kind of became maintainer
+
+269
+00:10:15,700 --> 00:10:18,200
+这就像富人说好吧这是
+which was like rich saying okay this was
+
+270
+00:10:18,366 --> 00:10:19,766
+你在这里做的事情非常酷
+very cool what you did here
+
+271
+00:10:20,000 --> 00:10:22,200
+为什么不直接合并你自己的东西呢？
+why not just merge your own stuff
+
+272
+00:10:22,200 --> 00:10:24,466
+这里是版本库的轴心权利
+here are the axis rights of the repository
+
+273
+00:10:24,900 --> 00:10:25,500
+是的
+and yes
+
+274
+00:10:25,500 --> 00:10:27,933
+在那之后，他就不再合并我可怜的请求了
+after that point he no longer merged my poor request
+
+275
+00:10:27,933 --> 00:10:29,699
+所以我在两个月后才知道
+so I gathered after 2 months
+
+276
+00:10:29,700 --> 00:10:31,800
+也许我应该合并我自己可怜的请求
+maybe I should merge my own poor request
+
+277
+00:10:32,100 --> 00:10:34,400
+然后他也没有再发布任何东西
+and then he also did no longer release anything
+
+278
+00:10:34,400 --> 00:10:36,000
+所以我就说好吧，也许
+so I I said okay maybe
+
+279
+00:10:36,166 --> 00:10:37,866
+你能把出版权给我吗？
+can you give me the publishing rights
+
+280
+00:10:37,866 --> 00:10:39,866
+然后我就成了维护者
+and then I was basically maintainer
+
+281
+00:10:40,133 --> 00:10:41,133
+这就是历史
+and that's history
+
+282
+00:10:41,133 --> 00:10:42,666
+我觉得这对富人来说是好事
+I think it was good for rich
+
+283
+00:10:42,666 --> 00:10:43,099
+因为
+because
+
+284
+00:10:43,100 --> 00:10:46,100
+因为这时他已经在开发spelt了。
+he was already developing on spelt at this time
+
+285
+00:10:46,966 --> 00:10:47,699
+但当然
+but of course
+
+286
+00:10:47,700 --> 00:10:48,700
+作为一个维护者
+being a maintainer
+
+287
+00:10:48,700 --> 00:10:51,700
+意味着你必须做出战略决策
+means you have to make strategic decisions
+
+288
+00:10:51,700 --> 00:10:53,100
+卷轴应该放在哪里？
+where should roll up go
+
+289
+00:10:53,166 --> 00:10:55,066
+我们没有一个庞大的团队
+we do not have a large team
+
+290
+00:10:55,066 --> 00:10:57,533
+大多数贡献者都是单一时间的贡献者
+most contributors are single time contributors
+
+291
+00:10:57,533 --> 00:10:58,466
+他们想拥有
+who want to have
+
+292
+00:10:58,466 --> 00:11:00,133
+这个功能或那个功能
+this feature or that feature
+
+293
+00:11:00,700 --> 00:11:04,666
+一个叫Bedford的人在很长一段时间内都是固定的贡献者
+guy Bedford was for a longer time a regular contributor
+
+294
+00:11:04,666 --> 00:11:05,766
+那是非常好的
+that was very nice
+
+295
+00:11:08,100 --> 00:11:09,666
+所以问题是
+so the question is
+
+296
+00:11:09,733 --> 00:11:11,266
+应该专注于什么
+what should be focus on
+
+297
+00:11:12,333 --> 00:11:14,066
+所以要关注的一件事
+so one thing to focus on
+
+298
+00:11:14,600 --> 00:11:16,800
+我决定应该是核心改进
+I decided should be core improvements
+
+299
+00:11:16,800 --> 00:11:19,800
+我们不希望轻易地扩大卷起的范围
+we don't want to expand roll up scope lightly
+
+300
+00:11:20,266 --> 00:11:23,099
+坚持使用我们已经有的东西
+to stick with the stuff that we already have
+
+301
+00:11:24,800 --> 00:11:26,300
+如果我们增加一个新的功能
+and if we add a new feature
+
+302
+00:11:26,300 --> 00:11:27,866
+那么我们真的想确定
+then we really want to be sure
+
+303
+00:11:27,866 --> 00:11:28,933
+这
+that this
+
+304
+00:11:29,133 --> 00:11:31,666
+是一个我们要长期维护的功能
+is a feature we are going to maintain for a long time
+
+305
+00:11:31,666 --> 00:11:34,699
+所以海岸洪水是你认为我们添加的一个功能
+so coast flooding was one you think we added
+
+306
+00:11:34,700 --> 00:11:35,366
+还有
+and there are
+
+307
+00:11:35,366 --> 00:11:37,766
+我们添加了很多小功能，但它们更多的是
+lots of small features we added but they are more
+
+308
+00:11:37,933 --> 00:11:39,299
+使得这幅画
+making the picture
+
+309
+00:11:39,300 --> 00:11:40,800
+完善画面，而不是
+completing the picture than
+
+310
+00:11:40,800 --> 00:11:42,733
+真正扩展到新的领域
+really expanding into new areas
+
+311
+00:11:43,533 --> 00:11:46,599
+另一件事是我们不暴露内部的东西
+another thing is we do not expose internal stuff
+
+312
+00:11:46,933 --> 00:11:50,733
+例如，这是与wetpack的对比
+this is for instance and contrast to wetpack
+
+313
+00:11:50,900 --> 00:11:54,200
+它允许你把所有东西都塞进去
+which allows you to basically plug everything
+
+314
+00:11:54,200 --> 00:11:56,200
+这对于黑客来说是一种很酷的做法
+which is kind of cool for hacking
+
+315
+00:11:56,200 --> 00:11:57,666
+但这意味着
+but it means that
+
+316
+00:11:57,700 --> 00:12:00,100
+你不能轻易地做一个新的版本
+you cannot just easily do a new release
+
+317
+00:12:00,200 --> 00:12:01,466
+因为每一个变化
+because every change
+
+318
+00:12:01,466 --> 00:12:03,599
+每一个内部改动都不能破坏一些东西
+every internal change cannot break something
+
+319
+00:12:03,700 --> 00:12:06,866
+你不能重命名东西，你不能轻易改进东西
+you cannot rename stuff you cannot improve stuff easily
+
+320
+00:12:07,266 --> 00:12:08,966
+而我们并不想成为这样的人
+and we didn't want to be there
+
+321
+00:12:09,266 --> 00:12:10,699
+所以在默认情况下
+so by default
+
+322
+00:12:10,866 --> 00:12:12,666
+内部的东西是紧密的，而且是滚动的
+internal stuff is close and roll up
+
+323
+00:12:12,666 --> 00:12:15,099
+以使我们能够保持边缘状态
+to allow us to remain edge up
+
+324
+00:12:15,933 --> 00:12:17,899
+我们想关注的另一件事是
+another thing we wanted to focus in
+
+325
+00:12:18,300 --> 00:12:19,100
+是
+is
+
+326
+00:12:20,533 --> 00:12:21,666
+可配置性
+configurability
+
+327
+00:12:21,666 --> 00:12:22,399
+所以我们对
+so we make
+
+328
+00:12:22,400 --> 00:12:25,466
+所以我们对卷起的用途几乎不做任何假设
+very few assumptions about what roll up is used for
+
+329
+00:12:26,466 --> 00:12:28,566
+这意味着卷积被用于
+which means that roll up is used for
+
+330
+00:12:28,566 --> 00:12:29,999
+许多小众的使用案例
+many niche use cases
+
+331
+00:12:30,000 --> 00:12:31,700
+这对我们来说是非常重要的
+which is very important to us
+
+332
+00:12:32,266 --> 00:12:34,499
+因此，例如，你可以在浏览器中运行roll up
+so for instance you can run roll up in a browser
+
+333
+00:12:34,500 --> 00:12:35,866
+你不能这样做
+you cannot do this with
+
+334
+00:12:36,466 --> 00:12:38,399
+据我所知，许多其他的按钮都不能这样做
+many other buttons as far as I know
+
+335
+00:12:38,966 --> 00:12:41,066
+我们希望保留这种能力
+and we want to retain that ability
+
+336
+00:12:42,000 --> 00:12:44,966
+但最重要的是，我们有一个插件界面
+but most importantly we have the plugin interface
+
+337
+00:12:44,966 --> 00:12:46,799
+一个稳定的、有据可查的
+a stable well documented
+
+338
+00:12:47,166 --> 00:12:48,599
+一流的API
+first class API
+
+339
+00:12:50,466 --> 00:12:52,766
+这个列表中缺少的可能是
+what is missing on this list maybe
+
+340
+00:12:52,800 --> 00:12:54,800
+是开发经验
+is develop experience
+
+341
+00:12:55,366 --> 00:12:58,099
+是的，开发人员的经验是非常重要的
+and yes developer experience is very important
+
+342
+00:12:58,100 --> 00:13:00,100
+这对我们来说也很重要
+it's also very important to us
+
+343
+00:13:00,500 --> 00:13:03,000
+但问题是如果你想
+but the thing is if you want to
+
+344
+00:13:03,166 --> 00:13:05,333
+专注于开发人员的经验
+focus on developer experience
+
+345
+00:13:05,966 --> 00:13:06,899
+你需要
+you need
+
+346
+00:13:07,066 --> 00:13:10,266
+你需要对卷积的用途做出假设
+to make assumptions about what roll up is used for
+
+347
+00:13:10,266 --> 00:13:10,766
+而这
+and this
+
+348
+00:13:10,766 --> 00:13:13,799
+这与这里的其他一些目标有冲突
+kind of conflict with some of the other goals here
+
+349
+00:13:14,800 --> 00:13:16,600
+现在我希望是，也许
+now I hope was that maybe
+
+350
+00:13:17,333 --> 00:13:19,066
+与我们做出的其他决定
+with the other decisions we made
+
+351
+00:13:20,933 --> 00:13:23,566
+思想家们会介入并
+thought party developers will step in and
+
+352
+00:13:23,900 --> 00:13:25,100
+弥补这一差距
+close that gap
+
+353
+00:13:25,700 --> 00:13:27,133
+而且有一些成功
+and there was some success
+
+354
+00:13:27,133 --> 00:13:31,933
+所以，例如有tsdx，它是一个很好的工具，可以用于
+so for instance there was tsdx which is a nice tool for
+
+355
+00:13:32,800 --> 00:13:35,200
+0冲突类型的好的库捆绑
+0 conflict types good library bundling
+
+356
+00:13:35,500 --> 00:13:37,366
+我们类似的微型捆绑
+our similarly micro bundle
+
+357
+00:13:37,533 --> 00:13:38,666
+来自Jason Miller
+from Jason Miller
+
+358
+00:13:38,666 --> 00:13:40,499
+还有很多其他类似的工具
+and there are many other tools like this
+
+359
+00:13:41,366 --> 00:13:44,133
+有一件事我们也很自豪，那就是stencil
+one thing we're also very proud of a stencil
+
+360
+00:13:44,466 --> 00:13:46,299
+这是一个网络组件frayback
+which is a web component frayback
+
+361
+00:13:46,300 --> 00:13:48,066
+他们并没有真正宣传它
+they don't really advertise it
+
+362
+00:13:48,100 --> 00:13:51,400
+但Stencil在很大程度上是围绕着卷轴建立的
+but stencil is built very much around roll up
+
+363
+00:13:51,400 --> 00:13:52,700
+它在这里做着繁重的工作
+it's doing the heavy lifting here
+
+364
+00:13:52,700 --> 00:13:54,466
+你可以找到它，如果你的鸡巴深入到
+and you can find it if you dick deepen
+
+365
+00:13:54,466 --> 00:13:55,366
+那份文件
+that documentation
+
+366
+00:13:55,366 --> 00:13:57,699
+基本上roll up是它的核心所在
+that basically roll up is at its core
+
+367
+00:13:58,466 --> 00:14:02,199
+但是wmr，尤其是wheat在做什么？
+but what wmr and especially wheat were doing
+
+368
+00:14:02,200 --> 00:14:03,800
+这已经超出了我的恐惧
+this was beyond my horror
+
+369
+00:14:03,800 --> 00:14:05,000
+最疯狂的希望
+wildest hopes
+
+370
+00:14:06,400 --> 00:14:08,333
+当然我们也支持这个
+and of course we support this
+
+371
+00:14:08,333 --> 00:14:10,499
+那么你如何建立一个伙伴关系呢？
+so how do you create a partnership
+
+372
+00:14:10,666 --> 00:14:11,899
+所以我们开始
+so we started
+
+373
+00:14:12,100 --> 00:14:15,666
+包括Wheat和WM地区的开发者在早期的时候
+includingwheat and WM area developers early in
+
+374
+00:14:15,666 --> 00:14:18,199
+插件式API扩展，要求提供PDP
+plug in API extensions asking for pdp
+
+375
+00:14:18,200 --> 00:14:19,733
+说："好吧，这对你来说有用吗？
+saying okay does this work for you
+
+376
+00:14:19,733 --> 00:14:20,999
+你想用这个做什么
+what you want to do with this
+
+377
+00:14:22,800 --> 00:14:23,600
+但同时
+but also
+
+378
+00:14:23,733 --> 00:14:26,333
+小麦在API上进行了真正的扩展
+wheat was really expanding on the API
+
+379
+00:14:26,333 --> 00:14:27,599
+增加新的功能
+adding new features
+
+380
+00:14:27,600 --> 00:14:28,700
+我们开始
+and we started
+
+381
+00:14:28,766 --> 00:14:29,566
+基本上
+basically
+
+382
+00:14:29,900 --> 00:14:32,700
+移植他们的一些扩展到滚筒中
+porting some of their extensions into roller
+
+383
+00:14:32,933 --> 00:14:36,666
+所以一个例子是插件钩子的顺序属性
+so one example is the order attribute for plugins hooks
+
+384
+00:14:36,666 --> 00:14:39,066
+这是一种替代强制执行的方式
+which is kind of a replacement for enforce
+
+385
+00:14:39,066 --> 00:14:40,799
+因为我认为enforce实际上是
+because I think enforce is really
+
+386
+00:14:40,800 --> 00:14:42,733
+解决了一个错误层面的问题
+solving an issue at the wrong level
+
+387
+00:14:43,400 --> 00:14:44,366
+但其主要思想是
+but the main idea
+
+388
+00:14:44,366 --> 00:14:45,933
+是，人们应该能够
+is that people should be able to
+
+389
+00:14:45,933 --> 00:14:48,333
+乘坐滚筒式插件而不是小麦式插件
+ride roller plugins instead of wheat plugins
+
+390
+00:14:48,466 --> 00:14:50,599
+除非他们真的需要针对小麦
+unless they really need to target wheat
+
+391
+00:14:51,866 --> 00:14:53,566
+因此，这把我们带到了未来
+so this brings us to the future
+
+392
+00:14:53,566 --> 00:14:55,366
+你想从这里走到哪里？
+where do you want to go from here
+
+393
+00:14:56,333 --> 00:14:59,099
+当然，下一步是滚动3
+of course the next step is roll up 3
+
+394
+00:14:59,166 --> 00:15:01,666
+然后，这里还有更多的好功能
+and thenthere are more nice features here
+
+395
+00:15:01,666 --> 00:15:04,166
+我想提到的一件事是
+one thing maybe I want to mention is
+
+396
+00:15:04,900 --> 00:15:07,333
+每个大块的横幅照片变成一个序曲
+per chunk banner photo into a outro
+
+397
+00:15:07,333 --> 00:15:08,799
+所以有一个选项
+so there's an option
+
+398
+00:15:08,800 --> 00:15:11,300
+有一个选项，允许你在每个生成的块的顶部或底部注入代码
+that allows you to inject code at the top or
+
+399
+00:15:11,300 --> 00:15:13,366
+在每一个生成的块的顶部或底部注入代码
+bottom of each generated chunk
+
+400
+00:15:13,500 --> 00:15:15,866
+有了Roll Up 3，你现在就有能力
+and with roll up 3 you have now the ability
+
+401
+00:15:15,866 --> 00:15:19,366
+基本上，在你做这个之前，你可以查看该块的内容
+to basically look into that chunk before you do that
+
+402
+00:15:20,100 --> 00:15:22,600
+这是一个非常好的方法来添加导入
+and this is a really great way to add imports
+
+403
+00:15:22,600 --> 00:15:24,200
+出口什么的
+exports whatever
+
+404
+00:15:24,366 --> 00:15:25,699
+专门的日志记录
+specialized logging
+
+405
+00:15:25,700 --> 00:15:26,666
+这也将
+which will also
+
+406
+00:15:26,800 --> 00:15:28,766
+自动获得酱油地图的权利
+automatically get sauce maps right
+
+407
+00:15:28,766 --> 00:15:30,399
+这是一个重要的事情
+which is an important thing
+
+408
+00:15:30,566 --> 00:15:32,999
+我真的建议你研究一下这个
+and I really recommend looking into this
+
+409
+00:15:33,166 --> 00:15:34,299
+如果你需要这个
+if you need this
+
+410
+00:15:34,933 --> 00:15:35,733
+嗯
+um
+
+411
+00:15:36,566 --> 00:15:39,099
+其他方面，Saucemap的处理也得到了改进
+otherwise saucemap handling has been improved
+
+412
+00:15:39,100 --> 00:15:41,533
+默认值已被改进，特别是
+default values have been improved especially
+
+413
+00:15:41,966 --> 00:15:44,499
+围绕漫画的相互操作
+around commanches inter operation
+
+414
+00:15:45,366 --> 00:15:48,133
+而且我们还将浏览器与其他的软件分开。
+and also we separate the browser built with
+
+415
+00:15:48,133 --> 00:15:51,333
+基本上削减了滚动安装的大小
+basically cuts roll ups install size
+
+416
+00:15:52,300 --> 00:15:53,666
+到一半以下
+to less than half
+
+417
+00:15:54,600 --> 00:15:55,400
+和
+and
+
+418
+00:15:55,900 --> 00:15:57,733
+我们为什么要从这里开始呢？
+why do we want to go from here
+
+419
+00:15:58,366 --> 00:16:01,966
+正如我所说，我们希望继续关注我们的优势
+so as I said we want to keep focusing on our strengths
+
+420
+00:16:02,000 --> 00:16:05,600
+这当然是3个摇晃和代码优化
+this is of course 3 shaking and code optimization
+
+421
+00:16:06,000 --> 00:16:07,766
+还有代码拆分
+and also code splitting
+
+422
+00:16:08,133 --> 00:16:09,799
+所以我承诺的一件事是
+so one thing I promised
+
+423
+00:16:09,800 --> 00:16:11,500
+下一步要做的事情
+really to work on next
+
+424
+00:16:11,500 --> 00:16:13,000
+是增加一个选项
+is to add an option
+
+425
+00:16:13,000 --> 00:16:15,166
+来定义一个最小分块大小的目标
+to define a minimum chunk size target
+
+426
+00:16:15,166 --> 00:16:17,133
+这是许多人的要求
+this was requested by many people
+
+427
+00:16:17,133 --> 00:16:18,199
+因为很明显，一个
+because apparently one
+
+428
+00:16:18,200 --> 00:16:20,666
+问题是，我们有很多非常小的分块
+issue is that we have a lot of very small chunks
+
+429
+00:16:21,600 --> 00:16:22,400
+和
+and
+
+430
+00:16:23,066 --> 00:16:26,466
+我想实现的解决方案是合并小块的
+the solution I want to implement is to merge small
+
+431
+00:16:26,466 --> 00:16:28,266
+块没有副作用
+chunks do not have side effects
+
+432
+00:16:28,266 --> 00:16:31,133
+合并到具有类似依赖性的大块中
+into larger chunks with similar dependencies
+
+433
+00:16:32,500 --> 00:16:35,066
+滚子已经知道一个小块是否有副作用了
+roller already knows if a chunk has side effects
+
+434
+00:16:35,066 --> 00:16:36,866
+所以分析是存在的
+so the analysis is there
+
+435
+00:16:36,866 --> 00:16:37,799
+我们只需要
+we just need to
+
+436
+00:16:37,800 --> 00:16:40,300
+实现一个很好的算法来计算出
+implement a nice algorithm to figure out
+
+437
+00:16:40,733 --> 00:16:41,499
+如何做到这一点
+how to do that
+
+438
+00:16:41,500 --> 00:16:43,966
+这样你就没有什么开销了
+so that you have very little overhead from this
+
+439
+00:16:46,000 --> 00:16:47,933
+当然，另一个问题是
+another question of course is
+
+440
+00:16:48,600 --> 00:16:50,600
+我们是否想让卷起的速度更快
+do we want to make roll up faster
+
+441
+00:16:51,200 --> 00:16:53,000
+当然我们也想这样做
+and of course we want to do that
+
+442
+00:16:53,100 --> 00:16:56,200
+事情是这样的，在小麦的文档中说
+the thing is like in the wheat documentation it says
+
+443
+00:16:56,366 --> 00:16:58,366
+我们不排除使用用于生产的
+we won't rule out the possibility of using
+
+444
+00:16:58,366 --> 00:16:59,599
+为生产而构建的
+es built for production
+
+445
+00:16:59,600 --> 00:17:02,566
+构建的可能性，当它在未来稳定了这些功能之后
+builds when it stabilizes these features in the future
+
+446
+00:17:02,733 --> 00:17:06,133
+所以es build真的是在为我们的下一年做准备
+so es built is really breathing up our next year
+
+447
+00:17:06,300 --> 00:17:09,866
+我们想继续作为小麦的构建工具。
+and we want to stay the built tool for a wheat
+
+448
+00:17:09,900 --> 00:17:10,800
+绝对
+definitely
+
+449
+00:17:11,366 --> 00:17:11,866
+所以是的
+so yes
+
+450
+00:17:11,866 --> 00:17:13,966
+我们很愿意开始将滚筒
+we are open to start converting roller
+
+451
+00:17:13,966 --> 00:17:15,866
+部分最终转换为本地代码
+parts to native code eventually
+
+452
+00:17:16,666 --> 00:17:19,366
+如果我们这样做的话，可能不会是去
+and if we do that it will probably not be go
+
+453
+00:17:19,366 --> 00:17:20,799
+它可能会生锈
+it will likely be rusted
+
+454
+00:17:20,800 --> 00:17:22,600
+因为这个工具已经非常成熟了
+because the tooling is very mature
+
+455
+00:17:22,600 --> 00:17:26,366
+然后我们可以使用swc作为我们的传递器
+and then we could use swc as our passer
+
+456
+00:17:26,933 --> 00:17:30,399
+这显然暴露了很多我们需要的东西
+which apparently exposes much of what we need
+
+457
+00:17:31,066 --> 00:17:32,299
+作为板条箱
+as crates
+
+458
+00:17:33,133 --> 00:17:33,966
+而且
+and
+
+459
+00:17:34,600 --> 00:17:35,966
+不，当然，我们
+no but of course we
+
+460
+00:17:35,966 --> 00:17:38,066
+需要新的贡献者来完成这个任务
+would need new contributors to pull this off
+
+461
+00:17:38,066 --> 00:17:41,333
+所以，如果你能流利地使用Rust，并且也许
+so if you are fluent and rust and maybe
+
+462
+00:17:41,333 --> 00:17:42,866
+我知道一点javascript
+I know a little javascript
+
+463
+00:17:42,866 --> 00:17:44,533
+那我们就可以谈谈
+then maybe we can talk
+
+464
+00:17:45,266 --> 00:17:48,499
+我们很高兴能在这个项目上开始新的合作。
+very happy to start new collaborations on this one
+
+465
+00:17:49,300 --> 00:17:52,100
+这就是我想谈的内容
+and this is what I wanted to talk about
+
+466
+00:17:52,866 --> 00:17:54,933
+非常感谢您的聆听
+thank you very much for listening
+
+467
+00:17:57,000 --> 00:17:59,066
+也许你学到了一些别的东西
+maybe you learned something otherwise
+
+468
+00:17:59,600 --> 00:18:00,266
+也许我可以
+maybe I could
+
+469
+00:18:00,266 --> 00:18:02,699
+用我们的儿童汽车收藏来取悦你
+entertain you with our kids car collection
+
+470
+00:18:04,066 --> 00:18:04,866
+茜拉
+Sierra
+

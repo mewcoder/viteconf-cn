@@ -1,0 +1,5965 @@
+1
+00:00:23,933 --> 00:00:24,733
+和
+and
+
+2
+00:00:24,766 --> 00:00:26,099
+我们正在直播
+we are live
+
+3
+00:00:26,100 --> 00:00:28,266
+欢迎大家来到
+welcome everybody to
+
+4
+00:00:29,333 --> 00:00:33,466
+我想你们中的大多数人都看到了一些熟悉的面孔。
+this amazing panel i think most of you all see some
+
+5
+00:00:33,600 --> 00:00:35,533
+熟悉的面孔
+familiar faces here
+
+6
+00:00:35,800 --> 00:00:37,666
+我是你们今天的共同主持人
+what i'm what you're co host today
+
+7
+00:00:37,800 --> 00:00:39,800
+我叫Tracy，你可以在Twitter上关注我。
+my name is tracy you can follow me on twitter
+
+8
+00:00:39,966 --> 00:00:43,366
+我是Lady Lee的首席执行官，是一家名为Des dot labs的咨询公司。
+at lady lee i'm the ceo of a consultancy called des dot labs
+
+9
+00:00:43,400 --> 00:00:45,066
+今天我有一个
+and today i have a
+
+10
+00:00:45,400 --> 00:00:48,700
+他是一个软件开发人员，在这个点
+who is a software developer here at this dot
+
+11
+00:00:48,733 --> 00:00:52,733
+我们非常非常兴奋地在今天的会议结束时
+and we are so so excited to close out
+
+12
+00:00:53,466 --> 00:00:56,899
+我们很高兴能在今天的会议上结束这个精彩的小组讨论
+the day with this amazing panel
+
+13
+00:00:57,400 --> 00:00:59,000
+所以感谢大家
+so thanks all for
+
+14
+00:00:59,600 --> 00:01:00,966
+谢谢大家一整天的支持
+hanging in there all day
+
+15
+00:01:00,966 --> 00:01:03,866
+你知道，也许我们可以快速地转一转
+and you know maybe we can just go around really quickly
+
+16
+00:01:03,933 --> 00:01:06,699
+并做快速的名字介绍
+and do quick name introductions
+
+17
+00:01:07,200 --> 00:01:08,000
+对于那些你不知道的
+for those of you don't know
+
+18
+00:01:08,000 --> 00:01:10,866
+这就是我们的团队，我从伊万开始说起
+this is the beat team and i'll start with evan
+
+19
+00:01:11,566 --> 00:01:14,299
+你好，我是Evan，我是
+hello i'm evan and i'm
+
+20
+00:01:15,466 --> 00:01:18,366
+作者和团队领导的节拍
+the author and team lead for beat
+
+21
+00:01:21,100 --> 00:01:22,166
+你好，我是新加坡人
+hello i singapore
+
+22
+00:01:23,533 --> 00:01:24,333
+好的
+okay
+
+23
+00:01:24,600 --> 00:01:24,866
+你好
+hello
+
+24
+00:01:24,866 --> 00:01:25,766
+我是好请讲
+i'm好请讲
+
+25
+00:01:26,500 --> 00:01:28,600
+来自Beat和View Gs团队
+from the beat and view gs team
+
+26
+00:01:28,600 --> 00:01:31,766
+所以我在view gs组织工作
+so i work for the view gs organization
+
+27
+00:01:31,766 --> 00:01:35,733
+你可能在github上认识我，叫苏打茶。
+full time and you may know me on github as soda tea
+
+28
+00:01:36,000 --> 00:01:37,600
+我的工作地点在中国
+i'm based in china
+
+29
+00:01:40,100 --> 00:01:40,900
+好的
+okay
+
+30
+00:01:41,000 --> 00:01:45,500
+我是Ethany傻瓜，我是一个Wid编码成员，也是
+and it's ethany fool here and i'm a wid coding member and also
+
+31
+00:01:45,500 --> 00:01:46,733
+我创建了一些
+i create a few
+
+32
+00:01:47,533 --> 00:01:51,866
+的插件和工具，如维塔斯和滑块。
+wid pluggings and tools like vitas and slider
+
+33
+00:01:52,533 --> 00:01:54,666
+是的，谢谢Patak
+and yeah thanks patak
+
+34
+00:01:55,366 --> 00:01:55,999
+是的
+yeah
+
+35
+00:01:56,000 --> 00:01:59,000
+我是Matthias，我也被称为Patak。
+i'm matthias i also known as patak and
+
+36
+00:01:59,166 --> 00:02:01,099
+我也是这个团队的一员
+i'm also part of the team
+
+37
+00:02:01,100 --> 00:02:03,966
+我在Starblitz工作，在那里我得到了像
+and i work at starblitz where i get to spend like
+
+38
+00:02:04,066 --> 00:02:05,699
+我在Starblitz工作，最近在那里花了很多时间。
+full time in bit lately
+
+39
+00:02:08,133 --> 00:02:09,466
+你好，约翰，你好
+hello john hello
+
+40
+00:02:09,666 --> 00:02:16,666
+我是Tier，我是A V和Sabel的成员，也是Corresident Astro的成员。
+i'm tier i'm t member of a v and sabel and corresident astro i'm
+
+41
+00:02:17,000 --> 00:02:18,733
+是的，我们也可以开放源代码
+yeah we can open source as well
+
+42
+00:02:19,066 --> 00:02:19,899
+和
+and
+
+43
+00:02:20,533 --> 00:02:21,966
+下一个和谐Shini
+next harmony shini
+
+44
+00:02:23,133 --> 00:02:26,266
+是的，你好，我是克里斯托弗，又名
+yeah hello i'm christopher aka
+
+45
+00:02:26,533 --> 00:02:28,599
+又名Chinigami
+as known as chinigami
+
+46
+00:02:29,000 --> 00:02:32,400
+我也是V团队的一员
+and i'm also a member of the v team and
+
+47
+00:02:32,733 --> 00:02:36,166
+当我有时间的时候总是在工作，在我的空闲时间里
+always working when i have time in my free time
+
+48
+00:02:36,666 --> 00:02:38,966
+在小麦和耶
+at wheat and yeah
+
+49
+00:02:39,900 --> 00:02:40,966
+你拿着东西
+and you take stuff
+
+50
+00:02:44,133 --> 00:02:47,699
+哦，非常感谢你的介绍
+oh thank you so much for the introductions
+
+51
+00:02:47,900 --> 00:02:50,366
+我们可以直接进入小组讨论了
+and we can get right into the panel
+
+52
+00:02:55,166 --> 00:02:56,933
+好的，第一个问题是
+okay so the first question is
+
+53
+00:02:57,400 --> 00:02:59,766
+会议对你来说是怎样的？
+how was the conference for you
+
+54
+00:03:01,566 --> 00:03:03,366
+让我们继续，并从以下方面开始
+let's go ahead and start with
+
+55
+00:03:04,266 --> 00:03:06,599
+情绪化 是情绪化
+emotional was it emotional
+
+56
+00:03:07,600 --> 00:03:08,766
+令人惊讶 是的
+surprising yeah
+
+57
+00:03:09,166 --> 00:03:11,066
+说实话，相当相当惊讶
+quite quite surprising to be honest
+
+58
+00:03:12,066 --> 00:03:14,999
+我还记得我们第一次观看时的咳嗽声。
+i kind of remember when we had the first view cough right
+
+59
+00:03:15,800 --> 00:03:18,800
+那是当面的，这个是虚拟的，但还是
+that was in person this one's virtual but still
+
+60
+00:03:19,333 --> 00:03:20,699
+当他第一次
+when that he has first
+
+61
+00:03:20,800 --> 00:03:23,600
+他第一次来的时候，跟我说了这个想法。
+came and flowed the idea with me saying okay
+
+62
+00:03:23,600 --> 00:03:26,566
+我们想做一个V字形的咳嗽，我很怀疑，我当时想
+we want to do a v cough i was quite skeptical i was like
+
+63
+00:03:27,800 --> 00:03:28,800
+你确定吗？
+are you sure like
+
+64
+00:03:28,800 --> 00:03:31,333
+也许我们没有足够的人感兴趣
+maybe we don't have enough people that's interested
+
+65
+00:03:32,566 --> 00:03:33,366
+但是
+but
+
+66
+00:03:33,900 --> 00:03:35,900
+然后当他们开始
+then when they start
+
+67
+00:03:35,900 --> 00:03:37,000
+真正开始工作的时候
+actually started working on it
+
+68
+00:03:37,000 --> 00:03:40,766
+我看到越来越多的这些框架作者加入了
+i see more and more of these framework authors getting on board
+
+69
+00:03:41,100 --> 00:03:44,800
+越来越多的框架作者加入到会谈中来，实际上在整个过程中，他们都在为之努力。
+with talks and actually in the whole process leading up to it
+
+70
+00:03:44,800 --> 00:03:46,200
+马蒂亚斯是那种
+mathias was kind of
+
+71
+00:03:46,733 --> 00:03:50,333
+给了我一些会谈的预告，你知道吗？
+giving me spoilers of the talks you know
+
+72
+00:03:50,400 --> 00:03:52,700
+我越来越兴奋了，因为
+i get more and more excited about it because
+
+73
+00:03:53,733 --> 00:03:56,533
+这其实很有趣，因为你知道当你
+it's actually interesting because you know when you are
+
+74
+00:03:58,133 --> 00:03:59,933
+我们没有积极跟踪
+we are not actively keeping track of
+
+75
+00:04:00,200 --> 00:04:02,200
+每个人在生态系统中都在做什么
+what everyone's doing in the ecosystem
+
+76
+00:04:02,333 --> 00:04:04,499
+但现在同时每个人都在
+but now at the same time everyone's
+
+77
+00:04:04,933 --> 00:04:07,299
+同时向你展示他们一直在做的所有事情
+showing you all the things they've been working on at
+
+78
+00:04:07,300 --> 00:04:08,200
+同时
+the same time
+
+79
+00:04:09,066 --> 00:04:10,533
+它给你带来了更大的
+it gives you a much more
+
+80
+00:04:11,866 --> 00:04:13,066
+影响，你知道
+impact you know
+
+81
+00:04:13,266 --> 00:04:16,399
+你会感觉到你创造的东西的影响，而且
+you feel the impact of the thing you created and
+
+82
+00:04:16,933 --> 00:04:19,499
+看到所有这些
+it's truly amazing to see all these
+
+83
+00:04:19,800 --> 00:04:21,466
+人在上面建造东西
+people building stuff on top of the
+
+84
+00:04:21,500 --> 00:04:22,300
+是的
+yes
+
+85
+00:04:27,166 --> 00:04:27,566
+是的
+yeah
+
+86
+00:04:27,566 --> 00:04:31,299
+任何其他评论 任何其他情感想法
+any other comments any other emotional thoughts
+
+87
+00:04:31,366 --> 00:04:32,466
+来自Zay
+from zay
+
+88
+00:04:36,733 --> 00:04:38,766
+没有，就像Evan说的那样
+no yeah like evan said
+
+89
+00:04:39,300 --> 00:04:42,866
+这真的很有趣，很多这些曼陀罗
+it has been really interesting that a lot of these mantanas
+
+90
+00:04:43,000 --> 00:04:43,800
+选择
+choose
+
+91
+00:04:43,933 --> 00:04:47,533
+Vitcomf是他们做这个宣布的地方
+vitcomf to be their place where they do this announcement
+
+92
+00:04:47,900 --> 00:04:49,666
+就像我们今天看到的那样
+eh like we we saw today
+
+93
+00:04:49,800 --> 00:04:51,466
+伊恩从一本故事书中
+ian from a storybook
+
+94
+00:04:51,733 --> 00:04:54,266
+说，在故事书的第七点O
+saying that in the storybook seven point o
+
+95
+00:04:54,700 --> 00:04:56,500
+将会有这样的情况
+there is going to be like
+
+96
+00:04:56,600 --> 00:04:59,333
+网络包不再需要了
+the web pack was not going to be needed anymore
+
+97
+00:04:59,333 --> 00:05:02,866
+所以只有当你在Vitap中时才会有Vit。
+so it's going to be vit only if you are in a vitap
+
+98
+00:05:03,100 --> 00:05:05,200
+所以这是个重大的消息
+so like that's huge announcement
+
+99
+00:05:05,866 --> 00:05:08,133
+我们看到了，他们知道与Vit一起工作
+we saw like they know working with vit
+
+100
+00:05:08,466 --> 00:05:09,266
+或
+or
+
+101
+00:05:10,266 --> 00:05:11,533
+Lucas来自Rodap
+lucas from rodap
+
+102
+00:05:11,533 --> 00:05:14,866
+特别是选择这种饮食方式来发布Rodap 3
+choose this diet in particular to release rodap three
+
+103
+00:05:14,933 --> 00:05:17,299
+这对我们来说是很重要的
+that is like enormous for us
+
+104
+00:05:17,300 --> 00:05:19,866
+就像我们现在需要开始在rodap 4上工作一样
+like that we need to start working on rodap 4 now
+
+105
+00:05:20,100 --> 00:05:23,900
+但正如七号所说的那样，有很多事情
+but as seven said like there there is like a lot of
+
+106
+00:05:24,266 --> 00:05:25,599
+今天发生的事情
+things happening today
+
+107
+00:05:25,900 --> 00:05:28,133
+我们需要几周的时间来解读
+it will take us like weeks to unpack
+
+108
+00:05:28,300 --> 00:05:29,533
+所有发生的事情，就在
+everything that happens just
+
+109
+00:05:29,566 --> 00:05:31,733
+就像在过去的12个小时里
+like in the in the past twelve hours
+
+110
+00:05:33,766 --> 00:05:35,599
+听起来有很多工作要做
+a lot more work it sounds like
+
+111
+00:05:38,800 --> 00:05:40,666
+这当然是一种祝福
+which is a blessing of course
+
+112
+00:05:40,800 --> 00:05:43,000
+对开放商来说是福也是祸
+a blessing and a curse for opensores
+
+113
+00:05:44,000 --> 00:05:44,800
+嗯
+well
+
+114
+00:05:45,366 --> 00:05:48,966
+你谈到了一些大的展览，但还有谁对这些展览有意见？
+mts you kind of talked about a few of the big
+
+115
+00:05:49,300 --> 00:05:54,133
+种类的展示，但还有人对以下方面有意见吗？
+kind of showcases but anyone else has comments on
+
+116
+00:05:54,500 --> 00:05:56,733
+任何一种像你感到兴奋的事情，当它
+any kind of like things you're excited about when it
+
+117
+00:05:56,733 --> 00:05:58,599
+展示会或
+comes to the showcase or
+
+118
+00:05:59,066 --> 00:06:02,399
+任何其他你觉得有趣的公告
+any other announcements that you found interesting
+
+119
+00:06:03,600 --> 00:06:05,500
+是的，所以
+yeah so
+
+120
+00:06:06,133 --> 00:06:08,199
+我在想，目前大约
+i'm thinking currently about
+
+121
+00:06:08,733 --> 00:06:10,299
+一年半前
+one and a half year ago
+
+122
+00:06:10,800 --> 00:06:14,800
+甚至你也对那个团队大喊大叫
+even you made that team shout out
+
+123
+00:06:15,133 --> 00:06:17,933
+为寻找一个团队的节拍和
+for looking for a team for beat and
+
+124
+00:06:18,866 --> 00:06:19,666
+是的
+yeah
+
+125
+00:06:20,400 --> 00:06:21,200
+i
+i
+
+126
+00:06:24,866 --> 00:06:28,399
+是的，我举起了我的手，我真的真的很高兴能加入这个生态系统。
+raised my hand for that and i'm really really happy to be
+
+127
+00:06:28,533 --> 00:06:32,466
+在这个生态系统中，等等，现在
+in this ecosystem now and so on and now
+
+128
+00:06:32,800 --> 00:06:34,900
+认为有一个会议
+think that there's a conference
+
+129
+00:06:35,666 --> 00:06:40,366
+带来了所有这些框架维持我们和来自世界各地的
+bringing all of this framework maintain us and from every
+
+130
+00:06:41,666 --> 00:06:43,399
+世界各地的人在一起
+side of the world together
+
+131
+00:06:44,333 --> 00:06:46,933
+工作 是的，我们在一些培训中谈到
+to work yeah we talked
+
+132
+00:06:48,100 --> 00:06:49,566
+在一些培训中谈到
+in some trainings about
+
+133
+00:06:50,266 --> 00:06:51,166
+在过去
+in the past
+
+134
+00:06:52,066 --> 00:06:56,299
+他们的框架是，但现在它更像是
+their framework was but now it's more like
+
+135
+00:06:56,533 --> 00:06:58,466
+所有的框架都在一起了
+all frameworks coming together
+
+136
+00:06:58,533 --> 00:07:00,266
+捆绑和杂草和
+bundles and weed and
+
+137
+00:07:01,066 --> 00:07:05,366
+很高兴看到大家都在一起了
+it's so nice to see that everyone is coming together
+
+138
+00:07:07,200 --> 00:07:09,333
+是的，这让我非常高兴
+yeah that makes me really happy
+
+139
+00:07:14,666 --> 00:07:15,366
+还有
+还有
+
+140
+00:07:15,366 --> 00:07:18,399
+有什么意见吗？
+any comments beyond any comments
+
+141
+00:07:21,800 --> 00:07:22,333
+是的
+yeah
+
+142
+00:07:22,333 --> 00:07:23,799
+我想我必须要
+i think i have to
+
+143
+00:07:24,166 --> 00:07:26,933
+给予材料一个巨大的支持，因为
+give a huge shotout to materials because
+
+144
+00:07:27,066 --> 00:07:29,999
+我认为他是这个世界上唯一的人
+i think he's the only person in this
+
+145
+00:07:31,400 --> 00:07:34,266
+在这整个前线和世界中
+in this whole front and world to
+
+146
+00:07:34,700 --> 00:07:37,466
+掌握了海滩生态系统的全貌
+get the whole picture of the beach ecosystem
+
+147
+00:07:39,366 --> 00:07:43,666
+这是我第一次看到这么多的
+it's the first time that i've seen so many
+
+148
+00:07:45,266 --> 00:07:48,599
+包我们的团队在一周内
+packages our teams around the week to
+
+149
+00:07:49,800 --> 00:07:51,700
+一起出现，并且
+show up together and
+
+150
+00:07:52,800 --> 00:07:56,000
+我很高兴看到这个公告
+i'm very excited to see the announcement
+
+151
+00:07:57,500 --> 00:08:03,266
+在我的时间里，所以它是在昨天晚上，卷起维持卢卡斯
+in my time so it's last night that the roll up maintain lucas
+
+152
+00:08:03,966 --> 00:08:04,766
+那
+that
+
+153
+00:08:05,733 --> 00:08:10,133
+实际上，从技术上讲，他并不属于GT生态系统的一部分
+he actually technically he's not part of the gt ecosystem
+
+154
+00:08:10,200 --> 00:08:12,666
+因为他是一个通用的
+because he's a universal
+
+155
+00:08:13,733 --> 00:08:17,933
+工具的前端，但他选择了
+front end of tool but he choose to
+
+156
+00:08:18,866 --> 00:08:21,799
+用这个舞台来宣布
+use this stage to announce that the
+
+157
+00:08:21,966 --> 00:08:23,199
+抟土机是开放的
+roll up is open
+
+158
+00:08:23,300 --> 00:08:24,100
+为
+for
+
+159
+00:08:24,566 --> 00:08:25,366
+rasta
+rasta
+
+160
+00:08:26,066 --> 00:08:30,299
+改写，我想这对我来说是非常兴奋的。
+rewriting and i think that's very excited for me
+
+161
+00:08:32,666 --> 00:08:36,133
+是的，我很兴奋，在Rula树是一个相当大的消息
+yeah i'm quite excited in rula tree is quite a big news
+
+162
+00:08:36,133 --> 00:08:38,766
+我认为Steplets也在尝试
+and i think steplets as well trying
+
+163
+00:08:38,766 --> 00:08:41,599
+这么多的功能，只是一个小小的谈话
+so many features out and just one small talk
+
+164
+00:08:41,766 --> 00:08:43,133
+我迫不及待地想使用它
+i can't wait to use it
+
+165
+00:08:43,566 --> 00:08:45,099
+而且我认为
+and i think
+
+166
+00:08:45,300 --> 00:08:48,766
+我错过了很多会议，因为我必须要睡觉
+i missed quite a bit of the conference because i have to sleep
+
+167
+00:08:48,766 --> 00:08:50,966
+但我肯定会在下半场赶上他们的。
+but i'm definitely catching them in a second half
+
+168
+00:08:52,100 --> 00:08:53,166
+这真的很好
+it's really good
+
+169
+00:08:57,066 --> 00:08:59,999
+是的，我必须承认，我还没有完成所有我的
+yeah i have to confess that i haven't finished all my
+
+170
+00:09:00,200 --> 00:09:04,366
+我不得不承认，我还没有看完我所有的演讲，因为像顶部的内容是很疯狂的。
+other talks since like top hours of content is crazy
+
+171
+00:09:04,666 --> 00:09:08,133
+是的，由于绑在一起的圆顶，我正要离开，我刚刚醒来。
+and yeah due to the tying dome i was leaving and i just wake up
+
+172
+00:09:08,300 --> 00:09:12,100
+试图赶上会谈，所以我之前没有完成。
+and trying to catch up the talks so i didn't finish before
+
+173
+00:09:12,766 --> 00:09:14,499
+在我们进入这个小组之前
+before we go into this panel
+
+174
+00:09:14,766 --> 00:09:19,299
+但我想说的是，我对整个生态系统印象非常深刻。
+but yeah i'd like to say that i'm really impressive about
+
+175
+00:09:19,666 --> 00:09:25,466
+我想说的是，我真的对整个生态系统印象深刻，这些创新的灵感来自于社区内部的合作。
+the whole ecosystem the innovations created inspired by bits of
+
+176
+00:09:26,666 --> 00:09:30,133
+社区内部的合作，提出了很多想法
+the collaboration inside of the community that come up with
+
+177
+00:09:30,700 --> 00:09:32,900
+这么多的想法和
+so many ideas and to
+
+178
+00:09:33,966 --> 00:09:34,766
+像
+like
+
+179
+00:09:35,533 --> 00:09:40,099
+涉及我们的日常工作流程或开发人员的经验，以
+involve our daily workflows or developer experience to
+
+180
+00:09:40,700 --> 00:09:44,666
+所以是的，我真的对我们的社区印象深刻。
+push that much forward so yeah i'm really
+
+181
+00:09:45,200 --> 00:09:48,100
+我对我们的社区印象深刻
+impressed about the community we had
+
+182
+00:09:48,500 --> 00:09:51,200
+我对我们的社区留下了深刻的印象，因为我们的节奏和错误的节奏，是的
+for the beat and the wrong beat yeah
+
+183
+00:09:51,400 --> 00:09:52,200
+好的
+well
+
+184
+00:09:54,733 --> 00:09:56,099
+我只是
+and i will just
+
+185
+00:09:56,866 --> 00:09:59,066
+试着完成所有的谈话
+try to finish all the talks
+
+186
+00:09:59,700 --> 00:10:00,600
+今天晚些时候
+later today
+
+187
+00:10:01,700 --> 00:10:02,133
+是的
+yeah
+
+188
+00:10:02,133 --> 00:10:04,866
+我也一样，其实我错过了不少。
+same for me i actually missed quite a few of them
+
+189
+00:10:05,133 --> 00:10:07,866
+所以我也在努力追赶
+so i'm trying to catch up as well
+
+190
+00:10:08,966 --> 00:10:10,333
+但这是我的想法
+but that was the idea
+
+191
+00:10:10,500 --> 00:10:13,166
+它需要像这样工作，因为现在你喜欢
+it needs to work like that because now you like
+
+192
+00:10:13,666 --> 00:10:18,299
+整个亚洲和欧洲都有机会看到这些作品了
+all of asia and europe also has opportunity to see them all
+
+193
+00:10:19,566 --> 00:10:20,399
+这很好
+that's good
+
+194
+00:10:25,333 --> 00:10:26,699
+有一件事我很喜欢
+and one thing i like
+
+195
+00:10:26,966 --> 00:10:30,933
+聊天就像Shini说的那样，一直是这样的
+the chat as shini was saying like it has been like this
+
+196
+00:10:31,100 --> 00:10:33,566
+就像它已经有11个小时的
+like it has been like eleven hours of
+
+197
+00:10:34,000 --> 00:10:35,000
+像内容
+like content
+
+198
+00:10:35,900 --> 00:10:38,100
+一个持续的内容，来自
+a constant content from
+
+199
+00:10:38,333 --> 00:10:40,466
+就像很多社区一样，当
+like a lot of communities when
+
+200
+00:10:40,700 --> 00:10:42,100
+这很有趣，因为像
+it was interesting because like
+
+201
+00:10:42,100 --> 00:10:44,000
+我不知道，就像在实星
+i don't know like in the solid star
+
+202
+00:10:44,000 --> 00:10:45,533
+与Ryan的谈话
+talk with ryan
+
+203
+00:10:45,533 --> 00:10:48,399
+整个固体社区都来到了Withland
+the whole solid community came to withland
+
+204
+00:10:48,500 --> 00:10:50,566
+他们在那里谈话，然后像
+and they were talking there and then like the
+
+205
+00:10:50,700 --> 00:10:52,733
+在 "快狗 "里也是这样
+in the quick dog the same was there
+
+206
+00:10:52,866 --> 00:10:54,599
+或在下一个股票中，如
+or in the next stock like
+
+207
+00:10:55,266 --> 00:10:57,099
+景观社区也在那里，而且
+the view community was there and
+
+208
+00:10:57,500 --> 00:11:00,500
+就像在一个特定的渠道，它是像
+like in one particular channel it was like
+
+209
+00:11:00,933 --> 00:11:02,166
+疯狂的速度
+crazy how fast
+
+210
+00:11:02,466 --> 00:11:03,899
+文字是去
+the text was going
+
+211
+00:11:04,700 --> 00:11:06,933
+有多少人在那里互动
+of how many people were interacting there
+
+212
+00:11:10,300 --> 00:11:12,466
+是的，从这个角度来说，有很多事情要做。
+yeah branching off of that there's a lot going on
+
+213
+00:11:12,466 --> 00:11:13,566
+在一个会议期间
+during a conference
+
+214
+00:11:14,733 --> 00:11:16,566
+团队是如何合作的
+how does the team work together
+
+215
+00:11:16,566 --> 00:11:19,466
+我的意思是，由于时区和一切，你如何
+i mean with the time zones and everything how do you
+
+216
+00:11:20,100 --> 00:11:21,866
+团队是如何一起工作的？
+how does the team get to work together
+
+217
+00:11:22,933 --> 00:11:25,399
+是的，所以最初当我
+yeah so originally when i
+
+218
+00:11:26,066 --> 00:11:26,933
+开始组建团队时
+started the team
+
+219
+00:11:26,933 --> 00:11:29,333
+我们有意让整个
+we intentionally made the whole
+
+220
+00:11:29,533 --> 00:11:32,199
+类似于视图团队的工作方式。
+similar to how the view team works we
+
+221
+00:11:32,666 --> 00:11:33,666
+让它在结构上相当
+make it quite
+
+222
+00:11:34,533 --> 00:11:36,666
+在结构上很松散
+loose in terms of structure
+
+223
+00:11:36,966 --> 00:11:39,199
+团队成员只是决定
+team members just decide
+
+224
+00:11:39,200 --> 00:11:40,133
+什么是重要的
+what's important
+
+225
+00:11:40,133 --> 00:11:43,166
+足够让他们在游戏中投入时间的工作
+enough for them to work on to invest their time game
+
+226
+00:11:43,166 --> 00:11:44,366
+所以没有真正的
+so there's no really
+
+227
+00:11:44,766 --> 00:11:46,866
+严格的责任本身
+hard responsibilities per se
+
+228
+00:11:48,500 --> 00:11:50,933
+基本上，我没有，我没有到处去说嘿
+essentially i don't i don't go around and say hey
+
+229
+00:11:50,933 --> 00:11:51,933
+就像这是你的工作
+like this is your job
+
+230
+00:11:51,933 --> 00:11:53,066
+你需要做这个
+you need to do this
+
+231
+00:11:53,200 --> 00:11:54,400
+或类似的东西
+or anything like that
+
+232
+00:11:55,966 --> 00:11:57,866
+而其中一个原因是
+and one of the reasons
+
+233
+00:11:58,766 --> 00:12:00,799
+人们成为团队成员的原因之一
+people become team members similar
+
+234
+00:12:01,166 --> 00:12:05,333
+我试图在开放源码周围做的事情是
+to how i try to do things around open source is
+
+235
+00:12:07,400 --> 00:12:09,166
+积极的贡献者
+motivated contributors
+
+236
+00:12:09,166 --> 00:12:10,566
+通常会出现在
+typically will show up the
+
+237
+00:12:10,700 --> 00:12:12,000
+自己站出来
+step up by themselves
+
+238
+00:12:12,000 --> 00:12:14,500
+因为他们通常对这个项目充满热情
+because they are generally passionate about the project
+
+239
+00:12:14,500 --> 00:12:15,300
+所以
+so
+
+240
+00:12:15,800 --> 00:12:20,333
+他们有自然的动力去注意什么是重要的
+they have the natural drive to notice what's important
+
+241
+00:12:20,333 --> 00:12:22,366
+因为他们在思考如何改进项目
+because they are thinking about how to improve the project
+
+242
+00:12:22,366 --> 00:12:24,733
+所以他们注意到需要解决的问题
+so they notice the problems that needs to be solved
+
+243
+00:12:24,733 --> 00:12:25,799
+他们会努力去做
+and they work on it
+
+244
+00:12:26,200 --> 00:12:27,800
+我认为这对于
+and i think that's critical in
+
+245
+00:12:27,800 --> 00:12:30,366
+我认为这对建立一个能够自我驱动的团队至关重要
+building a team that can be self driven
+
+246
+00:12:30,866 --> 00:12:31,666
+在某种程度上
+in a way
+
+247
+00:12:32,066 --> 00:12:37,899
+因此，除此之外，我们试图通过每周的分流会议来做
+so outside ofthat we try to do by weekly triage meetings where
+
+248
+00:12:38,866 --> 00:12:39,666
+所以
+so
+
+249
+00:12:39,933 --> 00:12:44,166
+我们试图在我们不开会的时候，把问题分门别类地组织起来
+we try to organize in triage that issues when we're not meeting
+
+250
+00:12:44,466 --> 00:12:46,999
+把它们分为不同的优先类别
+put them into different priority categories
+
+251
+00:12:48,200 --> 00:12:49,333
+当一个问题进来的时候
+when an issue comes in
+
+252
+00:12:49,333 --> 00:12:52,066
+我们看到好吧，这是一个功能请求还是一个降压报告
+we see okay is this a feature request or a buck report
+
+253
+00:12:52,066 --> 00:12:55,399
+所以这些都是有法可依的，我们有一个工作流程。
+so these are kind of codified we have a workflow for that
+
+254
+00:12:55,666 --> 00:12:58,166
+因此，团队中的每个人都可以帮助
+so everyone anyone on the team can help
+
+255
+00:12:58,266 --> 00:13:00,933
+把问题放到正确的桶里
+to put the issues in the right buckets
+
+256
+00:13:01,000 --> 00:13:02,500
+所以我们有一个板块
+so we have a board
+
+257
+00:13:02,566 --> 00:13:04,499
+我们有一个板子，所有这些问题都被分类
+where all these issues are kind of sorted
+
+258
+00:13:04,500 --> 00:13:05,566
+分成不同的类别
+into different categories
+
+259
+00:13:05,566 --> 00:13:07,933
+所以在我们的团队会议上
+so during our team meetings is where
+
+260
+00:13:08,566 --> 00:13:12,199
+我们大多数人都会聚在一起，按照优先级来处理这些问题
+most of us would get together and go through these by priority
+
+261
+00:13:12,200 --> 00:13:13,000
+和
+and
+
+262
+00:13:14,333 --> 00:13:17,766
+通常，如果一个问题是没有争议的
+usually if if a issue is non controversial
+
+263
+00:13:18,800 --> 00:13:21,400
+团队成员就可以提出解决方案。
+team members can just whoever happens to work on
+
+264
+00:13:21,400 --> 00:13:23,600
+就可以提出一个解决方案，如果
+it can just propose a solution and if
+
+265
+00:13:24,000 --> 00:13:25,466
+另一个团队成员证明了这一点
+another team member proves it
+
+266
+00:13:26,300 --> 00:13:28,000
+我们就可以直接合并，然后去做
+we can just merge and go right
+
+267
+00:13:28,300 --> 00:13:29,000
+所以通常
+so typically
+
+268
+00:13:29,000 --> 00:13:31,466
+我们讨论的事情和会议是那些
+the things we discuss and meetings are the ones that
+
+269
+00:13:31,866 --> 00:13:33,933
+有相对较大的影响
+have relatively bigger impact
+
+270
+00:13:35,533 --> 00:13:39,333
+我们是否需要达成共识或直接从我这里获得投入？
+do we need to get a consensus or get input from me directly
+
+271
+00:13:40,600 --> 00:13:42,733
+来决定我们的行动说好吧，这是我们要做的事情
+to call our shots say okay this is what we're gonna do
+
+272
+00:13:42,733 --> 00:13:44,299
+这不是我们要做的事情
+this is not what we're gonna do
+
+273
+00:13:45,466 --> 00:13:48,733
+所以我认为到目前为止，这对我们来说是非常有效的
+so i think so far that's been working pretty well for us
+
+274
+00:13:48,900 --> 00:13:50,000
+而且很明显
+and obviously
+
+275
+00:13:51,500 --> 00:13:52,566
+这一切都很有效
+all of this kind of works
+
+276
+00:13:52,566 --> 00:13:55,299
+因为有马蒂亚斯，他不知疲倦地
+because there's matias who's just tirelessly
+
+277
+00:13:55,500 --> 00:13:58,266
+他不知疲倦地与团队以外的人接触
+sort of reaching out to people outside the team
+
+278
+00:13:58,400 --> 00:13:59,700
+并带来反馈
+and bringing feedback
+
+279
+00:14:00,100 --> 00:14:00,900
+所以
+so
+
+280
+00:14:01,300 --> 00:14:04,900
+他可以为我们提供内部信息，让我们做出更明智的决定。
+he can provide the inside for us to make more informed positions
+
+281
+00:14:05,000 --> 00:14:07,600
+所以，是的，这几乎是它的工作方式。
+so yeah that's pretty much how it works
+
+282
+00:14:10,566 --> 00:14:12,266
+我还想补充一点
+i would also like to add
+
+283
+00:14:12,666 --> 00:14:16,666
+所以是的，我真的很高兴我发生Evan是如何
+so yeah i'm really happily i occur how evan is
+
+284
+00:14:16,866 --> 00:14:19,399
+构建这个团队和
+structuring this team and
+
+285
+00:14:19,933 --> 00:14:23,933
+帕塔格领导的会议等等。
+patag is leading the meetings and so on and
+
+286
+00:14:24,900 --> 00:14:26,500
+在其中一次
+in one of the
+
+287
+00:14:26,966 --> 00:14:30,366
+在一次会议上，好像是半年前
+meetings likethink half a year ago also
+
+288
+00:14:30,700 --> 00:14:34,866
+我需要打一针或者给Anthony Fu，因为
+i need to make a shot or to anthony fu because
+
+289
+00:14:36,700 --> 00:14:40,333
+我们讨论了我认为是关于
+we had a discussion about i think about just
+
+290
+00:14:40,966 --> 00:14:46,733
+这就是我们使用的测试系统。
+and that's the test system we are using invited save
+
+291
+00:14:47,000 --> 00:14:48,266
+是真的很慢
+is really slow
+
+292
+00:14:48,566 --> 00:14:55,566
+是的，然后我们做了我认为是一个笑话，我们说
+and yeah then we made i think it came off of a joke that we said
+
+293
+00:14:56,733 --> 00:14:59,366
+像我们测试，然后
+something like we test and then
+
+294
+00:14:59,933 --> 00:15:01,766
+第二天的食物
+and food on the next day
+
+295
+00:15:02,200 --> 00:15:08,166
+创建了测试，并围绕它建立了一个完整的生态系统
+created the test and around that is a complete ecosystem
+
+296
+00:15:08,800 --> 00:15:11,800
+老板的子弹等等，安东尼也在
+boss bullet and so on and anthony is also
+
+297
+00:15:12,133 --> 00:15:15,466
+推广最近的积极项目
+pushing out the positive recent projects
+
+298
+00:15:16,166 --> 00:15:19,399
+像其他人一样，而且
+like no one elseand
+
+299
+00:15:20,100 --> 00:15:25,566
+我依靠他在我的Oatma酱项目中，我正在
+i'm depending on him on in my oatma sauce project i'm
+
+300
+00:15:25,966 --> 00:15:28,933
+依靠我的公司项目
+depending on my company projects
+
+301
+00:15:29,766 --> 00:15:32,333
+因此，即使是你也不例外
+and so not also even you
+
+302
+00:15:34,400 --> 00:15:37,200
+视图生态系统，但也包括安东尼。
+the view ecosystem but also anthony this
+
+303
+00:15:37,600 --> 00:15:39,933
+都有存储库
+all have has repositories
+
+304
+00:15:40,766 --> 00:15:45,599
+是的，它是一个巨大的生态系统。
+it's so it's yeah it's such a huge ecosystem
+
+305
+00:15:46,266 --> 00:15:47,066
+而且
+and
+
+306
+00:15:47,666 --> 00:15:52,299
+在过去的一半时间里，我没有在这里做任何这么多的事情。
+in the last half here i didn't do any so much in
+
+307
+00:15:52,800 --> 00:15:55,900
+杂草了，和以前一样，因为
+weed anymore and as before because
+
+308
+00:15:55,900 --> 00:15:59,933
+因为我成为了faker jazz的维护者。
+because i became the maintainer of faker jazz
+
+309
+00:16:00,866 --> 00:16:02,933
+和但是
+and but
+
+310
+00:16:03,533 --> 00:16:05,499
+甚至这也有帮助，因为
+even this is helping because
+
+311
+00:16:05,766 --> 00:16:10,799
+当我使用像v和view以及v test之类的东西时
+when i'm using stuff like v and view and v test and so on
+
+312
+00:16:11,733 --> 00:16:13,466
+我可以向Patak报告
+i can report back
+
+313
+00:16:14,700 --> 00:16:17,700
+向Patak报告我们是如何使用这些东西的，而且
+stuff to patak how we use that and
+
+314
+00:16:18,600 --> 00:16:19,400
+还有
+also
+
+315
+00:16:20,200 --> 00:16:21,000
+我们
+we
+
+316
+00:16:22,600 --> 00:16:23,533
+我们还讨论了
+discussed
+
+317
+00:16:24,200 --> 00:16:26,900
+一个关于劳动的例子和
+an example about labours and
+
+318
+00:16:27,666 --> 00:16:30,466
+git up如何管理
+git up how to manage
+
+319
+00:16:30,600 --> 00:16:32,800
+储存库等等。
+repository and so on and
+
+320
+00:16:33,466 --> 00:16:34,899
+所有这些项目
+all these projects
+
+321
+00:16:37,333 --> 00:16:38,166
+互相改进
+improve
+
+322
+00:16:38,500 --> 00:16:39,466
+彼此的关系
+by each other
+
+323
+00:16:40,166 --> 00:16:43,499
+是的，这也是非常非常酷的
+yeah and that's also really really cool
+
+324
+00:16:45,600 --> 00:16:46,400
+是的
+yeah
+
+325
+00:16:46,400 --> 00:16:48,600
+谢谢你，其实我觉得
+thank you and i actually i feel
+
+326
+00:16:49,166 --> 00:16:51,899
+其实我觉得自己的功劳太大了
+quite being over over credit
+
+327
+00:16:52,133 --> 00:16:57,399
+所以我想和维塔斯类似 我认为维塔斯不是一个人的作品
+so i guess similar to vit i think vitas is not a one man work
+
+328
+00:16:57,733 --> 00:16:59,999
+那就像...
+and that's like um
+
+329
+00:17:00,100 --> 00:17:02,933
+我想这是为社会创造的。
+i think that's created to the community and
+
+330
+00:17:03,000 --> 00:17:05,900
+我们有的东西或者说我们为海滩建立的基础
+the thing we had or the foundation we had for the beach
+
+331
+00:17:06,000 --> 00:17:07,766
+所以第一个想法
+so the the first idea
+
+332
+00:17:08,000 --> 00:17:11,066
+我们的团队提出的第一个要求是
+or the first demand that comes from our team to
+
+333
+00:17:11,133 --> 00:17:13,399
+说什么什么测试地狱
+say what what the test inferno
+
+334
+00:17:13,700 --> 00:17:15,600
+我们会建议和
+we would recommend and
+
+335
+00:17:16,100 --> 00:17:19,200
+核心的镁元素，就像嗯，这是
+the core magnesian to like um that's
+
+336
+00:17:19,600 --> 00:17:21,000
+维生素流淌的未知是
+vit runny unknown is
+
+337
+00:17:21,400 --> 00:17:24,533
+基于维生素提供的功能和最初的想法
+based on the feature vit provide and also the initial idea
+
+338
+00:17:25,100 --> 00:17:29,533
+我们的工作是解决Preya提供的SSR问题。
+we work sound knocks to solve the ssr issues that preya provide
+
+339
+00:17:30,166 --> 00:17:35,199
+所有这些都是为了使维塔斯成为一个可能的想法
+to all these things to make vitas possible as an idea
+
+340
+00:17:35,466 --> 00:17:36,366
+然后我们
+and then we
+
+341
+00:17:37,566 --> 00:17:39,766
+然后我们在Patak和许多人的帮助下组建了一个Vitas团队。
+have a kind of vitas team with the help of
+
+342
+00:17:40,166 --> 00:17:42,299
+在Patak和许多
+from patak and from many
+
+343
+00:17:43,000 --> 00:17:47,266
+我们的团队成员的帮助下，使这些事情发生，委员会
+our team members to make these things happens and the committee
+
+344
+00:17:48,100 --> 00:17:50,566
+他们推动了这些工具的发展
+they kind of push the tools forward
+
+345
+00:17:50,666 --> 00:17:53,099
+以达到我们目前的状态
+to be the current states that we
+
+346
+00:17:53,666 --> 00:17:55,099
+某种程度上是非常
+kind of being like very
+
+347
+00:17:55,800 --> 00:17:58,533
+满足的方式，能够
+satisfy ways to being able to
+
+348
+00:17:59,100 --> 00:18:01,866
+适应我们的需求与像更多
+fit our needs with the like more
+
+349
+00:18:02,466 --> 00:18:05,566
+与适合的生态系统合作
+collaborations with the fit ecosystem
+
+350
+00:18:05,700 --> 00:18:08,600
+我认为这就是我所做的事情
+and i think that's being just being what i am
+
+351
+00:18:09,100 --> 00:18:11,600
+其中一个例子，我们如何
+one of the examples that how we
+
+352
+00:18:12,133 --> 00:18:13,066
+团结这个
+united this
+
+353
+00:18:14,133 --> 00:18:15,333
+社区和
+community and
+
+354
+00:18:17,500 --> 00:18:22,300
+我想，这就是我们如何将这个社区联合起来并使之成为一个普遍性的社区。
+make things i think universals for each others
+
+355
+00:18:27,800 --> 00:18:30,133
+我也想把它关闭
+i would also like to shut out
+
+356
+00:18:30,133 --> 00:18:32,699
+就像我们给每个人都打了预防针
+like since we are giving shutouts to everybody
+
+357
+00:18:35,566 --> 00:18:41,133
+给雅恩和萨菲，就像萨菲也会在这里一样
+to yarn and to safi that is like safi shall be here also
+
+358
+00:18:42,533 --> 00:18:46,266
+就像Hin normalis在会议上在团队会议上一样
+that like hin normalis in the meetings in the team meetings
+
+359
+00:18:46,666 --> 00:18:48,666
+而且他们一直在做
+and like they have been doing
+
+360
+00:18:48,700 --> 00:18:52,300
+他们在Triashin和修复盒子方面做了如此惊人的工作
+such an amazing work with triashin and fixing box
+
+361
+00:18:52,300 --> 00:18:53,566
+就像在过去
+like in the past
+
+362
+00:18:53,933 --> 00:18:56,366
+六个月或一年的时间里，像
+six months or a year like
+
+363
+00:18:57,066 --> 00:19:00,166
+如果你把Chassim考虑进去，在第三位发生了什么？
+if you take chassim to account what happened in bit three
+
+364
+00:19:00,366 --> 00:19:01,533
+就像我们有八个
+like we had eight
+
+365
+00:19:01,866 --> 00:19:03,966
+八百个问题开放
+eight hundred issues open
+
+366
+00:19:04,500 --> 00:19:06,400
+和像他们开始的春天
+and like they started the spring
+
+367
+00:19:06,533 --> 00:19:09,266
+关闭它的时候，yarn发了一条微博说
+to close it yarn send a tweet saying
+
+368
+00:19:09,333 --> 00:19:10,199
+我将
+i will
+
+369
+00:19:11,000 --> 00:19:14,900
+把开放的问题减少到我不知道像什么
+take the open issues down to i don't know like what
+
+370
+00:19:15,000 --> 00:19:16,666
+一百期，我不知道什么时候
+one hundred i don't know whenever
+
+371
+00:19:17,066 --> 00:19:18,499
+有一天你会达到
+you are going to reach someday
+
+372
+00:19:18,566 --> 00:19:21,966
+但它从八百个变成了四百个
+but it went from eight hundred to four hundred
+
+373
+00:19:23,166 --> 00:19:26,099
+两个月的时间里，那是
+shass in like two months and that was
+
+374
+00:19:27,066 --> 00:19:28,899
+就像沙士一样令人印象深刻
+like shads just impressive
+
+375
+00:19:29,400 --> 00:19:32,266
+就像苏达也参与到了其中一样
+like also soda got involved there would like
+
+376
+00:19:33,166 --> 00:19:35,566
+这就像一个人的领导
+which like the lead of a one
+
+377
+00:19:36,966 --> 00:19:39,066
+去通过所有的问题
+to go through all of the issues
+
+378
+00:19:39,133 --> 00:19:42,933
+而这就像我是惊人的像去像每一个每一个
+and that just like i'm amazing like going like every every
+
+379
+00:19:42,966 --> 00:19:46,199
+单一问题和信用像一个精神
+single issue and credit like a mental
+
+380
+00:19:46,700 --> 00:19:49,766
+它不像我被称为它，但像一个地图
+and it's not like that i was called it but like a map
+
+381
+00:19:49,966 --> 00:19:53,566
+的类别是什么，我们应该关注的事情
+of categories of what are the things that we should focus on
+
+382
+00:19:53,700 --> 00:19:55,966
+与月球前进，这也是非常有用的
+with moon forward that is also really helpful
+
+383
+00:19:59,700 --> 00:20:03,900
+这是非常鼓舞人心的，因为我刚刚给了这个讲座关于
+this is so inspiring because i just gave this talk about
+
+384
+00:20:04,333 --> 00:20:06,066
+如何为开放源码做贡献
+how to contribute to open source
+
+385
+00:20:06,066 --> 00:20:09,333
+今天我正在谈论这一切，并且
+and was talking about all this today and
+
+386
+00:20:10,066 --> 00:20:11,799
+我想你知道像
+i think you know like
+
+387
+00:20:12,100 --> 00:20:15,766
+你刚才提到的一些东西，Mateus是很好的方法，其他的人有可能参与进来。
+some of the stuff you just mentioned mateus are great ways that
+
+388
+00:20:15,900 --> 00:20:18,133
+其他人有可能参与进来，你知道
+other people could potentially get involved you know
+
+389
+00:20:18,133 --> 00:20:19,966
+你不需要考虑
+you don't have to think about
+
+390
+00:20:20,533 --> 00:20:21,333
+我不是
+i'm not
+
+391
+00:20:21,333 --> 00:20:24,999
+你不必考虑我没有安东尼那么好，也不必创造所有这些东西
+never as good as anthony and creating all these things
+
+392
+00:20:25,200 --> 00:20:28,766
+但你知道还有很多其他的方式可以让你成为
+but you know there's so many other ways you can become
+
+393
+00:20:29,100 --> 00:20:29,700
+所以
+so
+
+394
+00:20:29,700 --> 00:20:33,866
+对开放源码项目的成功至关重要，比如Beat。
+critical to the success of open source projects such as beat so
+
+395
+00:20:34,866 --> 00:20:36,666
+我想还有人要讲
+i think somebody else was going to talk
+
+396
+00:20:36,666 --> 00:20:37,666
+但我听到
+though did i hear
+
+397
+00:20:37,666 --> 00:20:40,499
+有人取消了静音，想做其他评论
+somebody unmute and want to make other comments
+
+398
+00:20:42,300 --> 00:20:44,100
+我只想说谢谢你
+i'll just try and say thank you
+
+399
+00:20:44,366 --> 00:20:45,166
+在这一点上
+at that point
+
+400
+00:20:46,766 --> 00:20:48,766
+这个房间里有这么多的爱
+there's so much love in this room
+
+401
+00:20:50,600 --> 00:20:52,500
+不，这真的很好，还有
+no it's really great and also
+
+402
+00:20:52,500 --> 00:20:55,500
+我还得说，你知道的，你知道的，你知道的。
+i have to say you know cutus and shout out to
+
+403
+00:20:55,866 --> 00:20:56,999
+听见你的方式
+kind of hearing the way
+
+404
+00:20:57,366 --> 00:21:01,299
+Evan你决定用你们两个人的方式来组织团队
+evan you kind of decided to structure the team with both of you
+
+405
+00:21:01,300 --> 00:21:02,166
+和节拍
+and beat
+
+406
+00:21:02,900 --> 00:21:05,000
+你知道这很惊人
+you know it's amazing what
+
+407
+00:21:05,666 --> 00:21:07,899
+惊人的是，现金和它的人谁走到一起
+cash and it people who come together
+
+408
+00:21:08,766 --> 00:21:13,766
+想解决困难问题的人，在没有政治的情况下可以做到这一点。
+who want to solve hard problems can do with lack of politics
+
+409
+00:21:14,366 --> 00:21:15,199
+所以
+so
+
+410
+00:21:15,966 --> 00:21:18,699
+很高兴看到能够发生的创新
+it's great to see the innovation that has been able to happen
+
+411
+00:21:18,700 --> 00:21:21,066
+你知道有点像在企业门外
+you know kind of like outside corporate doors
+
+412
+00:21:21,800 --> 00:21:24,533
+如果我可以这么说的话，在企业的开放源码之外
+outside of corporate open source if i could say that
+
+413
+00:21:27,500 --> 00:21:31,666
+所以我想你知道那种去，你知道你们都有
+so i guess you know kind of going to that you know you all have
+
+414
+00:21:31,900 --> 00:21:35,266
+提供了很多非常了不起的例子，说明
+provided a lot of really amazing examples on how
+
+415
+00:21:35,533 --> 00:21:36,899
+这里的团队成员
+team members here
+
+416
+00:21:37,500 --> 00:21:39,900
+有你知道能够帮助
+haveyou know been able to help
+
+417
+00:21:41,566 --> 00:21:43,099
+成功的例子
+vet be successful
+
+418
+00:21:43,100 --> 00:21:46,333
+但其他人如何能参与其中呢？
+but how can others get involved you know
+
+419
+00:21:46,600 --> 00:21:51,100
+对于坐在那里听着的开发者来说，现在想要
+for that developer sitting there listening right now wanting to
+
+420
+00:21:51,600 --> 00:21:55,100
+想做下一件事，比如他们能做什么来帮助兽医？
+wanting to do the next thing like what can they do to help vet
+
+421
+00:21:56,933 --> 00:21:57,999
+好吧，我认为
+well i think
+
+422
+00:21:59,500 --> 00:22:00,866
+有不同的方式
+there are different ways of
+
+423
+00:22:00,900 --> 00:22:02,966
+成为社区的一部分并作出贡献
+being part of the community and contributing
+
+424
+00:22:02,966 --> 00:22:03,766
+所以
+so
+
+425
+00:22:04,466 --> 00:22:06,599
+我总是说，即使只是
+i always say even just
+
+426
+00:22:07,000 --> 00:22:09,866
+上网聊天，互相帮助
+going on discord and help each other out
+
+427
+00:22:09,866 --> 00:22:11,666
+回答别人的问题
+answering other people's questions
+
+428
+00:22:11,966 --> 00:22:13,599
+也是一种贡献
+is a form of contribution
+
+429
+00:22:15,100 --> 00:22:17,733
+所以分享知识分享经验
+so share a knowledge share experience
+
+430
+00:22:18,300 --> 00:22:21,566
+回答问题，也许我也会堆叠溢出，所以这些都是
+answering questions maybe i'll stack overflow also so these are
+
+431
+00:22:22,200 --> 00:22:25,400
+任何人都可以做的最低限度的事情
+the lowest kind of hanging fruits anyone can do
+
+432
+00:22:26,400 --> 00:22:27,933
+如果你想走得更远
+if you want to go a bit
+
+433
+00:22:27,933 --> 00:22:30,766
+贡献自己的力量
+further and directly contribute to v yourself
+
+434
+00:22:31,166 --> 00:22:33,499
+你可以看一下我们的期刊列表
+you can take a look at our issue list
+
+435
+00:22:33,500 --> 00:22:35,866
+我们总是有大量的新问题涌入
+we always have tons of new issues coming in
+
+436
+00:22:35,866 --> 00:22:37,699
+所以帮助我们分流它们
+so help us triage them
+
+437
+00:22:39,100 --> 00:22:41,866
+你知道，如果这样的话，通常
+you know if so typically
+
+438
+00:22:42,100 --> 00:22:44,766
+我们花了很多时间来解决这个问题。
+we try it we spend a lot of time figuring out with
+
+439
+00:22:44,866 --> 00:22:47,199
+如何重现一个问题，所以帮助我们
+how to reproduce a problem so help us
+
+440
+00:22:47,600 --> 00:22:49,166
+你知道你可以帮助我们
+you know you can help us with
+
+441
+00:22:50,066 --> 00:22:53,533
+证实好吧，这也发生在我的系统上
+verifying okay this is happening on my system as well
+
+442
+00:22:53,533 --> 00:22:55,499
+这是发生的，你知道
+this is happening you know
+
+443
+00:22:55,666 --> 00:22:58,766
+也许可以减少再现的范围，使之更容易
+maybe reducing the scope of the reproduction to make it easier
+
+444
+00:22:58,766 --> 00:23:00,366
+让我们更容易确定问题所在
+for us to identify the problem
+
+445
+00:23:00,366 --> 00:23:02,933
+或者即使你自己发现了这个问题
+or even if you identify the fix yourself
+
+446
+00:23:03,166 --> 00:23:05,099
+你知道的，提交一份报告来修复它
+you know submit a pr to fix it
+
+447
+00:23:06,066 --> 00:23:06,866
+所以
+so
+
+448
+00:23:07,733 --> 00:23:09,466
+这些都是一种自然的进步，对吗？
+these are kind of natural progression right
+
+449
+00:23:09,466 --> 00:23:12,566
+所以你可以从帮助别人开始
+so you can start with just helping other people out
+
+450
+00:23:12,733 --> 00:23:14,766
+然后帮助三根问题
+and then helping trirogen issues
+
+451
+00:23:14,800 --> 00:23:17,566
+一旦你做了一段时间，你就会对它有所了解。
+and once you do that for a while you kind of get a hand of it
+
+452
+00:23:17,566 --> 00:23:18,566
+你也可以
+you can also
+
+453
+00:23:19,366 --> 00:23:21,966
+跟随阿拉娜的问题，看看它是如何被解决的
+follow alana issue to see how it got fixed
+
+454
+00:23:22,933 --> 00:23:24,133
+跟踪整个过程
+to follow through the process
+
+455
+00:23:24,133 --> 00:23:26,533
+看看其他人是如何提交报告的
+see how other people have submitted a pr
+
+456
+00:23:26,933 --> 00:23:29,699
+所以你可以从中学习，然后你就可以自己做了。
+so you learn from it and then you can do it yourself
+
+457
+00:23:30,600 --> 00:23:32,500
+我认为这不仅仅适用于V
+i think this kind of applies not just to v
+
+458
+00:23:32,500 --> 00:23:34,900
+也适用于任何类型的开源项目，对吗？
+but to any kind of open source project right
+
+459
+00:23:34,900 --> 00:23:35,700
+所以
+so
+
+460
+00:23:36,133 --> 00:23:38,699
+如果你不知道如何进入，你就必须学习
+if you don't know how to get in you kind of have to learn
+
+461
+00:23:38,700 --> 00:23:39,766
+你就得学习一下
+around a little bit
+
+462
+00:23:39,900 --> 00:23:41,566
+看看别人是怎么做的
+just see how other people are doing it
+
+463
+00:23:41,600 --> 00:23:43,600
+这就是我进入开源项目的原因
+that's how i got into open source
+
+464
+00:23:43,600 --> 00:23:45,666
+这也是我学习写代码的原因
+that's how i learned to write code actually
+
+465
+00:23:45,666 --> 00:23:47,966
+我是通过阅读github上其他人的代码来学习的
+i learned by just reading other people's code on github
+
+466
+00:23:47,966 --> 00:23:48,566
+因为一切
+because everything
+
+467
+00:23:48,566 --> 00:23:50,199
+是开放的，所以
+is open right so
+
+468
+00:23:52,900 --> 00:23:55,600
+所有求爱者所做的事情也都是开放的
+all the things that courting numbers are doing are also open
+
+469
+00:23:55,600 --> 00:23:56,400
+对，你可以
+right you can
+
+470
+00:23:56,666 --> 00:24:00,399
+你可以看看你知道的人们提交的PSR，以吃
+take a look at you know the prs people have submitted to eat
+
+471
+00:24:00,600 --> 00:24:02,400
+看看他们是如何使用它的
+see how they're working with it
+
+472
+00:24:02,966 --> 00:24:06,066
+这也有助于你熟悉代码库。
+that helps you familiarize with the code base as well
+
+473
+00:24:07,333 --> 00:24:08,966
+所以是的
+so yeah
+
+474
+00:24:09,700 --> 00:24:12,133
+事实上，很多人都是这样开始的
+that's in fact how a lot of people got
+
+475
+00:24:13,500 --> 00:24:16,666
+我们大部分的核心团队成员都是通过提交小的PRS开始的
+most of our core team members started by submitting small prs
+
+476
+00:24:16,666 --> 00:24:17,666
+你知道，mythia提交的第一个项目
+you know the first pr
+
+477
+00:24:17,666 --> 00:24:19,899
+mythia提交的第一个项目只是修改了一个标题
+mythia submitted was just fixing a title
+
+478
+00:24:21,100 --> 00:24:23,366
+然后他就越来越多地参与进来
+and then he got more and more involved
+
+479
+00:24:23,366 --> 00:24:25,499
+并最终成为团队成员。
+and eventually become a team member right
+
+480
+00:24:25,500 --> 00:24:26,300
+所以
+so
+
+481
+00:24:27,066 --> 00:24:31,733
+你从小事做起，坚持做下去，我们就会
+you start with small things do it consistently and we will
+
+482
+00:24:32,266 --> 00:24:34,766
+你知道那些与项目互动的团队成员
+you know the team members who interact with the project
+
+483
+00:24:34,766 --> 00:24:36,699
+每天都会注意到，你一直在那里
+daily will notice that you've been there
+
+484
+00:24:36,700 --> 00:24:38,866
+你一直在贡献，所以
+you've been contributing so
+
+485
+00:24:39,733 --> 00:24:42,066
+所以我们有一个提名过程，在这个过程中
+so we have a nomination process where
+
+486
+00:24:42,200 --> 00:24:44,300
+团队的现有成员可以说，嘿
+team current team members can say hey
+
+487
+00:24:44,466 --> 00:24:45,733
+这个人最近
+this person has been
+
+488
+00:24:46,133 --> 00:24:48,466
+最近做了很好的工作，我们认为
+doing great work lately and we think
+
+489
+00:24:48,733 --> 00:24:50,566
+他或她应该加入我们的团队。
+he or she should be on the team and
+
+490
+00:24:50,966 --> 00:24:52,566
+我们会这样做，所以
+we'll do that so
+
+491
+00:24:53,300 --> 00:24:56,800
+这就是典型的过程，在这个过程之外，如果你对v本身的工作不感兴趣的话
+that's the typical process and outside of it if you're
+
+492
+00:24:57,200 --> 00:25:00,300
+如果你对v本身的工作不直接感兴趣
+not directly interesting working on v itself
+
+493
+00:25:00,300 --> 00:25:02,266
+你可以创造出拔苗助长，对吗？
+you can create pluckings right
+
+494
+00:25:03,100 --> 00:25:04,700
+所以，因为事实上
+so because in fact
+
+495
+00:25:04,700 --> 00:25:07,100
+很多人们想要解决的问题
+a lot of problems that people are trying to solve
+
+496
+00:25:07,100 --> 00:25:10,566
+可能不适合在VED核心里面解决，因为
+may not be suitable to be solved inside ved core because
+
+497
+00:25:11,100 --> 00:25:12,400
+我们确实有一个
+we do have a
+
+498
+00:25:13,133 --> 00:25:14,899
+范围问题，因为
+scope problem where
+
+499
+00:25:16,200 --> 00:25:18,766
+因为VID在整个网络工具领域有太多的接触
+because vid has so much exposure to the whole
+
+500
+00:25:18,933 --> 00:25:20,733
+网络工具场景，对吗？
+web tooling scene now right
+
+501
+00:25:21,100 --> 00:25:23,266
+有时我们有一种倾向，说好的
+sometimes we have a tendency of saying okay
+
+502
+00:25:23,266 --> 00:25:24,966
+我们希望Feed能做到这一点
+we wish feed could do this
+
+503
+00:25:24,966 --> 00:25:28,066
+但也许这样做并不是最好的主意，因为这是有可能的
+but maybe it's not the best idea to do it because it's possible
+
+504
+00:25:28,266 --> 00:25:29,999
+因为它可以通过构建或插入来实现
+by just building or plugging for it
+
+505
+00:25:30,666 --> 00:25:31,299
+在这种情况下
+in that case
+
+506
+00:25:31,300 --> 00:25:34,700
+你可以用一个插件来解决你自己的问题，发布它
+you can solve your own problem with a plugging publish it
+
+507
+00:25:34,700 --> 00:25:36,666
+这样其他人就可以重复使用你的工作
+so that other people can reuse your work
+
+508
+00:25:36,666 --> 00:25:38,366
+我认为这也是一个很好的方法
+i think that's also a great way
+
+509
+00:25:38,466 --> 00:25:40,266
+对生态系统的贡献
+of contributing to the ecosystem
+
+510
+00:25:45,400 --> 00:25:47,066
+有一件事
+one thing that
+
+511
+00:25:47,700 --> 00:25:49,800
+补充一下Evans所说的
+adding up what evans said
+
+512
+00:25:51,300 --> 00:25:53,400
+在杂草中，特别是像
+in weed in particular like
+
+513
+00:25:53,666 --> 00:25:57,099
+贡献的质量，比如问题，比如
+the quality of contributions like issues like
+
+514
+00:25:57,100 --> 00:25:58,666
+问题的报告方式
+how the issues are reported
+
+515
+00:25:58,666 --> 00:26:01,299
+和PRS像他们中的大多数
+and the prs like most of them
+
+516
+00:26:01,666 --> 00:26:02,899
+是来自于
+are coming from
+
+517
+00:26:02,933 --> 00:26:05,533
+其他项目的维护者，因为像
+the maintainers of the other projects because like
+
+518
+00:26:05,533 --> 00:26:06,899
+如果它也增长了很多
+if it also grows a lot
+
+519
+00:26:06,900 --> 00:26:09,100
+伴随着所有其他项目的参与
+with all the other projects that are involved
+
+520
+00:26:09,400 --> 00:26:12,200
+所以大家说的这个事情，就像
+so this thing that everyone say about like
+
+521
+00:26:12,333 --> 00:26:16,066
+去杂草丛生的地方，看看其他人是如何做PRS的
+go to weed and check how others are like doing the prs
+
+522
+00:26:16,066 --> 00:26:17,266
+或者他们是如何甚至
+or how they are even
+
+523
+00:26:17,366 --> 00:26:18,499
+一个结构在
+a structure in
+
+524
+00:26:19,100 --> 00:26:22,000
+他们的想法，不喜欢他们是如何在问题的百分比
+their thoughts no like how they are percent in the problem
+
+525
+00:26:22,466 --> 00:26:25,066
+这是一个学习的好地方，因为
+it is a great place to learn that because
+
+526
+00:26:25,133 --> 00:26:26,866
+你将会看到一个来自
+you're going to see a pr from
+
+527
+00:26:27,066 --> 00:26:29,099
+富有的人从雷亚姆那里进行
+rich carries from rayam from
+
+528
+00:26:29,100 --> 00:26:30,766
+像从快速的人从
+like the people from quick from
+
+529
+00:26:30,933 --> 00:26:34,999
+像丹尼尔-罗伊，来自诺克斯，像他们一样，他们都是伟大的
+like daniel roy from knox like they like they are all great
+
+530
+00:26:35,000 --> 00:26:39,466
+开源狐狸，所以你会学到很多东西
+open source fox so you're going to learn a lot
+
+531
+00:26:39,866 --> 00:26:42,499
+跟随他们，就像天堂一样疯狂
+by following them like heaven is insane
+
+532
+00:26:43,666 --> 00:26:44,966
+没错，是的
+exactly yeah
+
+533
+00:26:44,966 --> 00:26:46,399
+所以我认为
+so i think
+
+534
+00:26:46,500 --> 00:26:51,266
+我看到很多初学者或刚开始接触开源的人的情况是
+what i see a lot from beginners or newcomers to open source is
+
+535
+00:26:51,466 --> 00:26:52,899
+首先，你不知道
+first of all you don't know
+
+536
+00:26:53,133 --> 00:26:53,999
+从哪里开始
+where to start
+
+537
+00:26:54,366 --> 00:26:55,666
+第二
+and the second
+
+538
+00:26:55,666 --> 00:26:58,899
+有时，也许你第一次尝试提交一份报告。
+is sometimes maybe you try for the first time you submit a pr
+
+539
+00:26:58,900 --> 00:26:59,700
+但
+but
+
+540
+00:27:00,466 --> 00:27:03,499
+有一些小东西，这是一种常见的
+there are little things that's kind of common
+
+541
+00:27:04,133 --> 00:27:06,266
+礼仪开放源码的地方
+etiquetteopen source where
+
+542
+00:27:06,966 --> 00:27:08,199
+比如当你提交一份报告时
+like when you submit a pr
+
+543
+00:27:08,200 --> 00:27:11,100
+有一些事情你应该避免，比如不要
+there are certain things you should avoid like don't
+
+544
+00:27:11,266 --> 00:27:13,366
+使用格式化器来格式化
+use a formatter to format
+
+545
+00:27:13,366 --> 00:27:14,533
+整个文件
+the whole file
+
+546
+00:27:14,533 --> 00:27:17,066
+做出不相关的改变，你知道这些小事情
+with unrelated changes you know these small things
+
+547
+00:27:17,466 --> 00:27:18,333
+然后还有
+and then also
+
+548
+00:27:18,800 --> 00:27:21,600
+如何最好地解释你所要解决的问题
+how to best explain the problem you're trying to solve
+
+549
+00:27:22,500 --> 00:27:24,100
+比如如何让它
+like how to make it
+
+550
+00:27:24,600 --> 00:27:25,400
+更加容易
+easier
+
+551
+00:27:25,400 --> 00:27:28,866
+让维护者做出是否合并的决定
+for the maintainer to make the decision to whether merge it
+
+552
+00:27:28,866 --> 00:27:31,399
+事实上，作为一个维护者，我自己
+or not in fact as a maintainer myself
+
+553
+00:27:31,400 --> 00:27:34,466
+很多时候，我最大的纠结是，我得到了一个 "好心人"。
+my biggest struggle a lot of times is i get a pr
+
+554
+00:27:34,666 --> 00:27:36,199
+的意图是好的
+with good intentions
+
+555
+00:27:36,900 --> 00:27:40,966
+但有时可能只是没有真正解释问题
+but sometimes maybe it just didn't really explain the problem
+
+556
+00:27:41,066 --> 00:27:43,333
+足够好，所以我很难
+well enough so i was having a hard time
+
+557
+00:27:43,866 --> 00:27:45,466
+所以我很难理解为什么需要这样做
+understanding why this is needed
+
+558
+00:27:46,266 --> 00:27:48,499
+所以，通常情况下，最好是你知道
+so usually it's better to you know
+
+559
+00:27:48,566 --> 00:27:52,499
+有一个很好的解释，说明要解决的问题是什么
+have a good explainer of what problem is trying to solve
+
+560
+00:27:52,733 --> 00:27:53,766
+我们是如何遇到这个问题的
+how we ran into it
+
+561
+00:27:53,766 --> 00:27:57,699
+为什么这个问题只能在项目核心中解决？
+why is why this can only be solved inside the project core
+
+562
+00:27:57,866 --> 00:27:59,799
+这就是我们试图解决它的方法
+and this is how we are trying to solve it
+
+563
+00:28:00,000 --> 00:28:02,333
+也许你已经解释了其他的解决方案，对吗？
+maybe other solutions you've explained right
+
+564
+00:28:02,333 --> 00:28:03,933
+如果你看一下我们一些框架的PRS
+if you look at the prs from
+
+565
+00:28:05,300 --> 00:28:06,933
+我们的一些框架
+some of our framework
+
+566
+00:28:07,700 --> 00:28:08,733
+合作者
+collaborators
+
+567
+00:28:09,733 --> 00:28:10,899
+在你的基础上构建东西
+for building stuff on top of you
+
+568
+00:28:10,900 --> 00:28:14,066
+通常他们发送的pr是非常高质量的
+usually the pr they sent are very high quality
+
+569
+00:28:14,400 --> 00:28:15,666
+因为他们通常
+because they usually
+
+570
+00:28:15,700 --> 00:28:17,166
+很好地解释了问题
+very well explain the problem
+
+571
+00:28:17,166 --> 00:28:18,666
+他们遇到的问题，并解释
+they're running into and explain
+
+572
+00:28:18,666 --> 00:28:20,866
+为什么他们认为这是正确的解决方案
+why they think this is the right solution
+
+573
+00:28:21,300 --> 00:28:25,400
+这使得我们更容易考虑，比如好的
+and that makes it a lot easier for usto consider like okay
+
+574
+00:28:26,366 --> 00:28:28,066
+这是有意义的，而且
+this makes sense and
+
+575
+00:28:28,200 --> 00:28:31,166
+因此，这也减少了来回奔波的次数。
+so it also reduces the amount of back and forth needed
+
+576
+00:28:31,266 --> 00:28:33,099
+因此，它也减少了来回奔波的次数，所以总体来说
+to get feature merch so overall
+
+577
+00:28:33,100 --> 00:28:34,900
+总的来说，就是让整个过程更快
+just makes the whole process faster
+
+578
+00:28:35,133 --> 00:28:35,766
+所以有一个
+so there's a
+
+579
+00:28:35,766 --> 00:28:38,699
+通过观察别人的工作，肯定能学到很多东西
+definitely a lot to learn just by watching other people work
+
+580
+00:28:38,966 --> 00:28:41,799
+我认为这就是开放源代码的伟大之处
+and i think that's the great thing about open source
+
+581
+00:28:42,066 --> 00:28:43,199
+在github上的好处是
+on github is
+
+582
+00:28:43,533 --> 00:28:46,899
+你知道整个过程都是开放给你学习的
+you know all the whole process is open for you to learn
+
+583
+00:28:55,066 --> 00:28:56,866
+我觉得这真的很了不起
+that's really amazing i think
+
+584
+00:28:59,166 --> 00:29:00,733
+我嘲笑Matia的
+i laugh at matia's
+
+585
+00:29:00,933 --> 00:29:02,766
+因为你知道
+little fix because you know
+
+586
+00:29:02,766 --> 00:29:05,266
+我总是说，我认为每个维护者都是
+i always say and i think every single maintainer is
+
+587
+00:29:05,333 --> 00:29:08,266
+我相信你们团队中的所有人都在想，我们可以从哪里开始？
+i'm sure all of you all on the team are like where can we start
+
+588
+00:29:08,300 --> 00:29:10,133
+也许你可以帮助我们解决 "码头权 "的问题
+maybe you could help with the docksright
+
+589
+00:29:10,133 --> 00:29:12,199
+这是一个我们经常听到的事情
+it's a very common thing that we hear
+
+590
+00:29:12,666 --> 00:29:15,733
+你知道所有的开源项目都需要
+that you know all open source projects need and
+
+591
+00:29:16,166 --> 00:29:18,399
+如果我们看一下，让我们看一个例子
+if we look at let's see as an example
+
+592
+00:29:18,400 --> 00:29:19,333
+现在就像
+now right like
+
+593
+00:29:19,533 --> 00:29:21,499
+那个小项目
+that small little pr
+
+594
+00:29:21,533 --> 00:29:23,999
+把它变成了更惊人的东西，而且
+turned it to something so much more amazing and
+
+595
+00:29:24,533 --> 00:29:25,599
+这就是你知道的
+it's you know
+
+596
+00:29:25,600 --> 00:29:29,200
+这就是小事，不要低估小事和
+it's the small things and don't discount the small things and
+
+597
+00:29:29,266 --> 00:29:31,299
+你的能力是可以参与其中的
+your ability to be able to be involved that way
+
+598
+00:29:31,300 --> 00:29:32,866
+所以我现在很兴奋
+so i'm excited now
+
+599
+00:29:32,866 --> 00:29:35,933
+我需要进入V的生态系统，找出我可以做的事情
+i need to go into the v ecosystem and figure out what i can do
+
+600
+00:29:35,933 --> 00:29:38,899
+你知道我在这场战斗中得到了很大的启发
+you know i'm so inspired by this battle
+
+601
+00:29:40,100 --> 00:29:42,933
+但接下来的问题
+but moving on to the next question
+
+602
+00:29:43,966 --> 00:29:45,499
+JEN要问的是
+jen's about to ask like
+
+603
+00:29:45,966 --> 00:29:49,066
+每个人都在等待的大问题
+the big question that everyone's waiting for
+
+604
+00:29:50,933 --> 00:29:54,133
+是的，那么下一个问题是什么？
+yeah so what is next for beat
+
+605
+00:30:00,000 --> 00:30:00,800
+是的，那是
+yeah that's
+
+606
+00:30:00,966 --> 00:30:03,899
+是的，这是个很重要的问题，说实话
+a quite a loaded question and to be honest
+
+607
+00:30:04,800 --> 00:30:06,800
+说实话，我们并没有打算做这种像
+to be honest we don't have this like
+
+608
+00:30:07,066 --> 00:30:11,499
+说实话，我们并没有打算做那种大乐队的事情，因为
+big band kind of thing that we're planning to do because
+
+609
+00:30:12,200 --> 00:30:13,966
+因为在这个时候，我们认为
+at this moment we think
+
+610
+00:30:14,300 --> 00:30:16,733
+我们已经在本质上达到了
+v has essentially reached a
+
+611
+00:30:16,900 --> 00:30:19,566
+临界质量，有很多更多的
+critical mass where there are a lot more
+
+612
+00:30:19,933 --> 00:30:22,066
+有更多的东西被建立在它的上面
+things that's being built on top of it
+
+613
+00:30:22,333 --> 00:30:23,133
+所以
+so
+
+614
+00:30:23,800 --> 00:30:26,533
+我想这是一个时期，我们正在努力
+i think it's a period where we're trying to
+
+615
+00:30:26,966 --> 00:30:31,466
+稳定下来，让人们在上面进行迭代。
+stabilize and let people iterate on top and
+
+616
+00:30:32,866 --> 00:30:35,466
+因为VED已经经历了它自己的移动
+because ved has gone through its own moving
+
+617
+00:30:35,466 --> 00:30:37,133
+因为VED已经经历了它自己的移动和破坏的阶段，现在
+fast and break things phase now
+
+618
+00:30:37,133 --> 00:30:37,999
+而现在
+and now
+
+619
+00:30:38,000 --> 00:30:41,133
+因为Ved已经经历了它自己的快速发展和破坏阶段，现在其他人正在它上面进行迭代，所以我们不得不
+other people are iterating on top of it so we kind of have to
+
+620
+00:30:41,366 --> 00:30:45,166
+已经开始考虑我们如何确保我们所做的事情
+had started thinking about how we make sure that things
+
+621
+00:30:45,166 --> 00:30:48,299
+我们所做的事情不会影响到在它上面的建设。
+we do don't affect things as being a build on top of it
+
+622
+00:30:49,000 --> 00:30:52,266
+这就是为什么我们也投资于像生态系统这样的东西。
+which is why we also invested in things like the ecos ecosystem
+
+623
+00:30:52,266 --> 00:30:53,766
+ci，它
+ci which
+
+624
+00:30:54,466 --> 00:30:55,799
+确保一切
+make sure that everything
+
+625
+00:30:55,800 --> 00:30:58,900
+我们所做的一切都不会意外地破坏上面的东西。
+we land doesn't break things accidentally on top
+
+626
+00:31:00,066 --> 00:31:00,866
+所以
+so
+
+627
+00:31:01,566 --> 00:31:03,366
+所以我认为现在
+so i think right now
+
+628
+00:31:03,366 --> 00:31:06,766
+就在这个非常时刻，这个重点实际上只是
+like for this very moment this focus is in fact just
+
+629
+00:31:06,766 --> 00:31:07,899
+确保小麦
+making sure wheat
+
+630
+00:31:08,400 --> 00:31:11,000
+能够很好地作为评论层的作用
+can serve well as the commentating layer
+
+631
+00:31:11,366 --> 00:31:12,799
+确保我们
+making sure that we
+
+632
+00:31:14,566 --> 00:31:16,166
+确保你知道
+making sure that you know
+
+633
+00:31:16,533 --> 00:31:18,566
+它是它是因为有
+it's it's because there are
+
+634
+00:31:18,566 --> 00:31:20,666
+还有很多小事情需要我们去解决
+still a lot of little things that we need to fix
+
+635
+00:31:20,666 --> 00:31:21,466
+和
+and
+
+636
+00:31:22,166 --> 00:31:24,933
+我们正试图利用这个机会
+we're trying to take this moment to also
+
+637
+00:31:25,066 --> 00:31:28,499
+收集人们在它上面的反馈，看看
+gather feedback from people building on top of it to see
+
+638
+00:31:28,700 --> 00:31:30,666
+接下来我们可以做什么？
+what is the next thing that we can
+
+639
+00:31:32,366 --> 00:31:34,933
+显著改善他们所有人的情况，因为
+significantly improve for all of them because
+
+640
+00:31:35,733 --> 00:31:37,533
+说实话，从我个人的
+to be honest from my personalized
+
+641
+00:31:37,766 --> 00:31:40,266
+我已经解决了大部分的问题
+perspective i've solved most of the problems
+
+642
+00:31:40,566 --> 00:31:42,299
+我一开始就想用Beat来解决
+i started out to solve with beat
+
+643
+00:31:42,533 --> 00:31:45,599
+作为一个用户，我对它超级满意
+like i'm super happy with it as a user myself
+
+644
+00:31:46,166 --> 00:31:46,999
+但现在
+but now
+
+645
+00:31:47,000 --> 00:31:49,566
+我们有更多的用户，而不仅仅是建立的人
+we have more users than just people building
+
+646
+00:31:49,566 --> 00:31:51,266
+现在，我们有更多的用户，而不仅仅是直接使用V来构建应用程序的人
+directly using v to build apps now
+
+647
+00:31:51,266 --> 00:31:52,999
+我们有这些框架作者
+we have these framework authors
+
+648
+00:31:53,166 --> 00:31:56,366
+而且我们面临着很多不同的需求
+and we are facing a lot of different needs
+
+649
+00:31:56,466 --> 00:31:57,999
+把我们拉向不同的方向
+pulling us in different directions
+
+650
+00:31:58,000 --> 00:32:00,166
+我们需要一个时间来考虑
+and we need a time to sort of
+
+651
+00:32:00,500 --> 00:32:03,333
+思考什么是重叠的东西？
+think about what is that overlapping things that
+
+652
+00:32:03,566 --> 00:32:07,133
+我们可以让所有这些框架一起受益。
+we could benefit all of these frameworks together yeah
+
+653
+00:32:07,166 --> 00:32:09,799
+我想Mattes可能已经有了一些东西，他已经有了
+and i think mattes may have something that he's already had
+
+654
+00:32:09,900 --> 00:32:12,266
+他已经有了自己的想法，他想把他推到前面去
+he already has in mind that he wants to push him before
+
+655
+00:32:14,200 --> 00:32:19,133
+我觉得就像你说的，我们做的很多事情都是这样的
+now i think that it's like you said like a lot of what we did
+
+656
+00:32:19,500 --> 00:32:24,800
+自从有了两个人之后，我们做的很多事情都是在看里面的东西，并试图像
+since with two has been like looking inside and trying to like
+
+657
+00:32:25,066 --> 00:32:28,766
+让它... ...我不知道如何减少盒子的数量
+make it i don't know reduce the box like
+
+658
+00:32:28,766 --> 00:32:33,333
+试图从一些碎布蛋转移到其他金属或
+trying to move like from some rag eggs to like other metals or
+
+659
+00:32:34,100 --> 00:32:37,066
+我知道，我认为向前发展，会有很多的
+i know i think that moving forward there will be a lot of
+
+660
+00:32:37,666 --> 00:32:40,599
+比如说移动到卷起来，不会被
+moving to roll up for example that will not be
+
+661
+00:32:41,166 --> 00:32:43,166
+外界感觉不到那么多
+felt that much outside
+
+662
+00:32:43,200 --> 00:32:46,766
+但在内部，这将使6个更容易维护
+but internally it will make six more maintainable
+
+663
+00:32:47,200 --> 00:32:50,266
+我们可以替换一些部件，比如
+we could replace some parts maybe like
+
+664
+00:32:50,400 --> 00:32:51,966
+代替pos css
+instead of pos css
+
+665
+00:32:51,966 --> 00:32:54,599
+我们可以使用包裹团队的照明CSS。
+we could use lighting css from the parcel team
+
+666
+00:32:55,133 --> 00:32:58,466
+有一个来自Devon的Pock在那里转悠
+there was a pock going around there from devon
+
+667
+00:33:00,500 --> 00:33:02,966
+所以是的，我不知道我怎么想的
+so yeah i don't know like i think
+
+668
+00:33:03,200 --> 00:33:07,400
+一段时间内，它仍然是一种更多的内省
+for a while it will still be kind of like more introspective
+
+669
+00:33:08,366 --> 00:33:11,966
+变化和提供基础
+changes and giving the base that
+
+670
+00:33:12,366 --> 00:33:15,599
+你说的是需要别人来创新的 是的
+you say is needed for others to innovate on yeah
+
+671
+00:33:15,600 --> 00:33:17,933
+有一件事我们一直在
+one thing we've been
+
+672
+00:33:18,400 --> 00:33:20,800
+我们一直在考虑一个潜在的事情，但这是
+one potential thing we've been thinking about but this is
+
+673
+00:33:21,900 --> 00:33:23,400
+我们一直在考虑一个潜在的问题，但这是更进一步的问题
+a bit more further down the road
+
+674
+00:33:23,466 --> 00:33:25,966
+我们最终想解决的一个瓶颈是
+one of the bottleneck that we want to solve eventually
+
+675
+00:33:25,966 --> 00:33:27,799
+从长远来看是
+in the long term is the
+
+676
+00:33:28,700 --> 00:33:30,900
+开发过程中的请求量
+the amount of requests during development
+
+677
+00:33:30,900 --> 00:33:33,200
+当你有成千上万的请求时
+when you have like thousands of requests
+
+678
+00:33:33,366 --> 00:33:36,099
+他们只是在网络层面上的拥挤
+they're just congesting at the network level
+
+679
+00:33:36,100 --> 00:33:38,800
+这一点，v to self是无法解决的
+which v to self is not able to solve
+
+680
+00:33:39,700 --> 00:33:41,700
+只是由于急切的性质与
+just due to the eager nature vs
+
+681
+00:33:41,866 --> 00:33:45,066
+本机的ESM导入，但可能有潜在的
+native esm imports but there could be potential
+
+682
+00:33:45,766 --> 00:33:47,533
+的方法来解决这个问题，例如
+ways to work around it for example
+
+683
+00:33:47,666 --> 00:33:49,533
+用潮湿的捆绑物
+with wet bundles
+
+684
+00:33:49,766 --> 00:33:54,166
+但这些都是非常早期的规格，而且是大量涌入的规格
+but these are kind of specs that are really early and influx
+
+685
+00:33:54,866 --> 00:33:57,266
+但我们最近已经开始
+but we've recently started
+
+686
+00:33:58,933 --> 00:34:02,099
+我们最近开始与浏览器的人接触，他们是直接在浏览器上工作的人。
+got in contact with the browser folks who's
+
+687
+00:34:02,666 --> 00:34:04,999
+我们最近开始与直接在浏览器上工作的人接触，我们正试图
+directly working on the browsers and we're trying to
+
+688
+00:34:05,666 --> 00:34:09,466
+交换意见，看看未来浏览器的哪些功能
+exchange notes and see what future features in
+
+689
+00:34:09,733 --> 00:34:11,466
+浏览器中的哪些功能可以使我们受益
+the browser could definishly benefit
+
+690
+00:34:11,466 --> 00:34:14,299
+我们可以利用这些功能来
+feat that we could leverage to
+
+691
+00:34:15,200 --> 00:34:16,066
+改进
+improve
+
+692
+00:34:17,100 --> 00:34:18,866
+另一件事是
+and the other thing is
+
+693
+00:34:19,366 --> 00:34:22,699
+是啊是啊，所以我们最近一直在做相当多的
+yeah yeah so so we've been recently doing quite a bit of
+
+694
+00:34:23,366 --> 00:34:26,566
+与从事浏览器工作的人进行沟通，以了解
+communication with people working on browsers to see where
+
+695
+00:34:26,666 --> 00:34:29,933
+有什么潜在的方法可以解决这个问题？
+what are the potential ways to address the spot on act
+
+696
+00:34:30,000 --> 00:34:32,766
+我想这可能是我最想解决的事情之一。
+i think that is probably one of the things i
+
+697
+00:34:33,600 --> 00:34:36,566
+我想这可能是我最想解决的问题之一，但在短期内
+i want to solve them most but in the short term
+
+698
+00:34:36,766 --> 00:34:39,666
+但在短期内，这是很困难的，所以我们有点儿
+it's quite difficult so we're kind of
+
+699
+00:34:40,200 --> 00:34:42,800
+所以我们把希望寄托在浏览器的未来规格上
+setting our hopes on future specs in the browser
+
+700
+00:34:42,800 --> 00:34:45,333
+所以我们把希望寄托在浏览器的未来规格上，希望能直接帮助我们解决这个问题
+directly that maybe can help us with that
+
+701
+00:34:52,733 --> 00:34:54,333
+你们其他人呢？
+what about the rest of y'all any
+
+702
+00:34:55,600 --> 00:34:57,666
+任何希望和未来
+any hopes and futures
+
+703
+00:34:58,066 --> 00:34:59,599
+你们有什么希望吗？
+that you're all are hoping for
+
+704
+00:35:02,366 --> 00:35:04,999
+我想，对不起
+i think sorry
+
+705
+00:35:05,700 --> 00:35:06,933
+你可以继续下去
+you can go ahead so down
+
+706
+00:35:07,733 --> 00:35:08,166
+好的
+okay
+
+707
+00:35:08,166 --> 00:35:13,333
+所以我认为它的主要特点是快速和精简，所以
+so i think the main characteristics of it is fast and lean so
+
+708
+00:35:14,133 --> 00:35:19,599
+我认为胜利会在这两方面走得更极端
+i think victory will go more extreme on these two sides
+
+709
+00:35:19,866 --> 00:35:22,733
+例如，在胜利中，我们削减的
+for example in victory we cut the
+
+710
+00:35:23,566 --> 00:35:25,899
+发表的大小在三分之一
+published size in a third
+
+711
+00:35:26,200 --> 00:35:29,600
+和实际上与卷起三
+and actually with the roll up three
+
+712
+00:35:30,166 --> 00:35:31,933
+发布，而在这个四
+release and in this four
+
+713
+00:35:31,933 --> 00:35:35,866
+我们可以进一步削减安装尺寸，因为
+we can further cut the install size because
+
+714
+00:35:36,166 --> 00:35:41,699
+Roll up将他们的浏览器绑定从mpm包中移除，而
+roll up removed their browser bond from the mpm package and
+
+715
+00:35:43,533 --> 00:35:44,366
+另一方面
+on the other
+
+716
+00:35:44,400 --> 00:35:48,533
+另一方面，Beat是非常简单的，所以嗯
+hand beat is very simple so um
+
+717
+00:35:49,100 --> 00:35:52,500
+现在，当我们更多地关注我们内部的
+now as we looking more inside our
+
+718
+00:35:53,366 --> 00:35:55,666
+内部复杂的城市，所以
+internal complex city so
+
+719
+00:35:56,100 --> 00:36:01,200
+许多新的选项将被放入实验性标志中，并且
+many of the new options will go into the experimental flag and
+
+720
+00:36:02,533 --> 00:36:04,799
+这将保持新的功能
+that will keep the new features
+
+721
+00:36:06,100 --> 00:36:08,900
+更容易开始，而且
+easier to start with and
+
+722
+00:36:09,466 --> 00:36:15,333
+我们可能会找到一种方法，将其整合到现有的选项中去
+we might find a way to integrate it into the existing options
+
+723
+00:36:15,866 --> 00:36:18,699
+而不会让新用户感到困惑
+without confusing new users
+
+724
+00:36:18,966 --> 00:36:21,133
+而这正是我所期待的
+and that's what i was looking forward
+
+725
+00:36:23,766 --> 00:36:26,966
+是的，我认为你对我来说，主要是冲上去的。
+yeah i think your mostly for me is punching up
+
+726
+00:36:26,966 --> 00:36:30,166
+所以一切都会保持不变，但会更好
+so everything will stay the same but better
+
+727
+00:36:30,733 --> 00:36:32,699
+比如说像rollock free
+so like rollock free for example
+
+728
+00:36:32,700 --> 00:36:35,500
+我们内部有变化，但你会有一些变化。
+we change internally but you would a few it
+
+729
+00:36:35,566 --> 00:36:37,366
+这将是一个透明的变化
+it would be a transparent change
+
+730
+00:36:37,700 --> 00:36:41,500
+有一些改进，从预先捆绑，我们
+and there's some improvements from pre bundling that we
+
+731
+00:36:41,900 --> 00:36:43,966
+我想我们希望从
+i guess we want to bring back from
+
+732
+00:36:44,200 --> 00:36:46,600
+早期的V树阿尔法时代
+the early v tree alpha days
+
+733
+00:36:47,100 --> 00:36:50,533
+Maya的变化不应该影响你，它应该只是工作。
+maya always change shouldn't affect you it should just work
+
+734
+00:36:51,333 --> 00:36:52,133
+神奇地
+magically
+
+735
+00:36:52,133 --> 00:36:55,366
+所以你会得到盒装后的性能，你不需要
+so you'll get the performance after box you don't have to
+
+736
+00:36:55,700 --> 00:36:57,666
+乱七八糟的冲突或什么的
+mess around conflicts or anything
+
+737
+00:36:58,000 --> 00:37:01,166
+所以我想是的，到目前为止有一种未来的V。
+so i guess yeah there's kind of future v so far
+
+738
+00:37:06,266 --> 00:37:06,466
+是的
+yeah
+
+739
+00:37:06,466 --> 00:37:08,599
+是啊，我有点同意，而且
+yeah i kind i kinda agreed and
+
+740
+00:37:09,166 --> 00:37:10,666
+对于我这样的人
+for my kind person
+
+741
+00:37:10,800 --> 00:37:13,400
+个人的观点，我觉得
+personal perspective i feel that
+
+742
+00:37:14,366 --> 00:37:17,799
+作为委员会，我们已经有了这个生态系统
+as the committee we already have the ecosystem
+
+743
+00:37:17,800 --> 00:37:18,966
+我们已经有了那种
+we already have that kind of
+
+744
+00:37:18,966 --> 00:37:22,866
+被批准，一个节拍本身是非常灵活的
+being approved that a beat itself is being very flexible
+
+745
+00:37:23,100 --> 00:37:27,700
+既然我们有这么多的工具在上面，而且
+and since there we have so many tools on top of it and
+
+746
+00:37:28,000 --> 00:37:32,733
+我觉得禁忌本身我们应该有点限制我们的范围，以
+i think forbid itself we should kind limit our scope to
+
+747
+00:37:33,466 --> 00:37:35,999
+不引入那种真正的像
+not introducing that really like
+
+748
+00:37:37,733 --> 00:37:39,599
+像新的功能，但我们
+like new features but we
+
+749
+00:37:39,900 --> 00:37:43,200
+现在可以像把创新留给前面的工作，我们
+could now like leave the innovations to the front work and we
+
+750
+00:37:43,333 --> 00:37:46,533
+我们不能已经看到，我们得到了很多新的
+we can't already see that we got a lot of new
+
+751
+00:37:46,900 --> 00:37:47,700
+我们有一个朋友
+we got a friend
+
+752
+00:37:47,700 --> 00:37:48,900
+我们得到了朋友的作品
+we got the friend works
+
+753
+00:37:48,966 --> 00:37:51,999
+有很多新功能和新想法的大拇指
+with a lot thumbs of new features and new ideas
+
+754
+00:37:52,200 --> 00:37:56,466
+而且已经在这个谈话中进行了，所以
+and already going on in this talk and so
+
+755
+00:37:57,200 --> 00:38:01,533
+可以感觉到，对于维生素本身，我们应该继续做我们的
+can feel that for vit itself we should keep doing our
+
+756
+00:38:02,066 --> 00:38:06,899
+工作，以像优化和使事情更快，或像
+jobs to like optimize and to make things even faster or like
+
+757
+00:38:07,366 --> 00:38:10,566
+改进事情本身，所以
+improve the things itself so
+
+758
+00:38:11,300 --> 00:38:13,600
+我不觉得我们不会有像
+i can't feel that we won't have like
+
+759
+00:38:15,000 --> 00:38:16,800
+那周要展示的主题演讲
+keynote to showcase that week
+
+760
+00:38:16,900 --> 00:38:19,700
+我们不能有一大堆的新功能出现
+we can't have a ton of new features coming in that
+
+761
+00:38:19,700 --> 00:38:21,133
+让人兴奋
+get people excited
+
+762
+00:38:21,266 --> 00:38:24,466
+但我认为我内心的工作是保持事情
+but i think the works inside of me to keep things
+
+763
+00:38:25,333 --> 00:38:29,999
+稳定，并保持事物的可维护性和快速性是
+stable and to keep things like very maintainable and fast is
+
+764
+00:38:30,300 --> 00:38:32,900
+仍然是一项重要的工作，以
+still a crucial job to
+
+765
+00:38:33,900 --> 00:38:34,700
+使它
+make it
+
+766
+00:38:35,800 --> 00:38:37,666
+让整个社区都能
+for the whole community to
+
+767
+00:38:38,800 --> 00:38:39,600
+使用一个东西
+use a thing
+
+768
+00:38:43,900 --> 00:38:44,100
+哦
+oh
+
+769
+00:38:44,100 --> 00:38:45,500
+这是有道理的，虽然
+that makes sense although
+
+770
+00:38:45,666 --> 00:38:47,266
+我知道每个人在你说话的时候
+i know everybody whenever you talk
+
+771
+00:38:47,266 --> 00:38:49,699
+ANTHONY都在等待测试，以弄清楚
+anthony is waiting on beta breath to figure out
+
+772
+00:38:49,866 --> 00:38:52,799
+你被告知你接下来要创建什么图书馆，所以
+what library are told you're gonna create next so
+
+773
+00:38:53,266 --> 00:38:54,333
+我们很兴奋
+we're excited
+
+774
+00:38:54,333 --> 00:38:56,999
+我觉得任何想看这个的人都应该
+i feel like anybody who wants to see that we gotta just
+
+775
+00:38:57,000 --> 00:38:58,166
+继续关注你的github
+keep watching your github
+
+776
+00:38:59,200 --> 00:39:02,200
+但你知道我喜欢这个 我是说我听到的关于V的事情
+but you know i love that i mean the things that i hear
+
+777
+00:39:02,300 --> 00:39:05,600
+关于V和那种你们如何稳定和
+about v and kind of how you all are stabilizing and
+
+778
+00:39:05,900 --> 00:39:07,900
+试图让它变得可维护，并且
+trying to make it maintainable and
+
+779
+00:39:08,000 --> 00:39:11,066
+不做破坏性修改或很少做破坏性修改
+no breaking changes or very little breaking changes
+
+780
+00:39:12,300 --> 00:39:14,533
+这些都是非常了不起的目标，我
+are really amazing goals and i
+
+781
+00:39:15,500 --> 00:39:19,066
+你知道，我觉得这也是视图所做的，所以令人惊讶的是
+you know i feel like that's also what view has done so surprise
+
+782
+00:39:19,066 --> 00:39:22,566
+令人惊讶的是，非常相似的团队在做同样的事情
+surprise very similar team working on the same thing
+
+783
+00:39:22,666 --> 00:39:25,099
+但伊万，我知道你知道这些年来，你知道
+but evan i know you know over the years you know
+
+784
+00:39:25,100 --> 00:39:26,333
+每当我和你谈起观点
+whenever i talk to you about view
+
+785
+00:39:26,333 --> 00:39:27,299
+它总是像
+it's always like
+
+786
+00:39:27,400 --> 00:39:30,200
+只是提高性能和改善事情，而且
+just improving performance and improving things and
+
+787
+00:39:30,266 --> 00:39:32,466
+你知道的，就是不断地改进引擎盖下的东西
+you know constantly like improving things under the hood
+
+788
+00:39:32,466 --> 00:39:33,599
+所以我很高兴听到
+so it's great to hear
+
+789
+00:39:34,066 --> 00:39:36,133
+嗯，有点像一样的
+um kind of like the same
+
+790
+00:39:37,733 --> 00:39:39,466
+我首先有一个经验
+i have first an experience on
+
+791
+00:39:39,600 --> 00:39:41,733
+只是一个项目要经历不同的阶段
+just a project going through different phases
+
+792
+00:39:41,733 --> 00:39:43,066
+因为当你
+because when you're
+
+793
+00:39:43,400 --> 00:39:45,566
+刚开始的时候，你可以
+just starting out you can
+
+794
+00:39:45,566 --> 00:39:48,933
+做任何你想做的事情，然后当你只有早期采用者的时候
+do whatever you want then when you have only early adopters
+
+795
+00:39:49,300 --> 00:39:53,166
+你就可以把大的变化、大的改进
+you can ship big changes big improvements
+
+796
+00:39:53,400 --> 00:39:55,600
+而不太在意
+with while caring less about
+
+797
+00:39:56,000 --> 00:39:59,500
+破坏建立在它上面的东西，因为早期采用者
+disrupting things built on top of it because early adopters
+
+798
+00:40:00,066 --> 00:40:01,066
+通常是
+are typically
+
+799
+00:40:01,466 --> 00:40:03,566
+因为早期采用者通常对这种事情更加开放，但是
+more open to that kind of thing but
+
+800
+00:40:03,733 --> 00:40:06,299
+当你达到一个临界质量时，你有很多的
+when you reach a critical mass you have a lot of
+
+801
+00:40:06,800 --> 00:40:08,700
+你有更多的观众
+you have a wider audience
+
+802
+00:40:08,700 --> 00:40:09,700
+你有一些人
+you have people
+
+803
+00:40:09,766 --> 00:40:13,133
+他们只是在生产中使用你的东西来建造东西
+who are just using your thing to build stuff in production
+
+804
+00:40:13,133 --> 00:40:13,933
+和
+and
+
+805
+00:40:14,700 --> 00:40:16,933
+有一大群用户，他们
+there are big group of users who
+
+806
+00:40:17,066 --> 00:40:17,933
+对他们来说，首要任务是
+for them first
+
+807
+00:40:17,933 --> 00:40:21,066
+稳定性是他们的首要任务，他们不希望事情突然中断。
+priority is stability they don't want things to suddenly break
+
+808
+00:40:22,866 --> 00:40:25,066
+而在某一时刻
+and there will be a point where
+
+809
+00:40:25,866 --> 00:40:27,766
+你解决了这个问题
+you are solving the problem
+
+810
+00:40:27,766 --> 00:40:31,299
+足够好的时候，稳定性在某种程度上成为
+well enough that stability in a way becomes
+
+811
+00:40:31,666 --> 00:40:33,199
+一个真正重要的价值
+a really important value
+
+812
+00:40:33,666 --> 00:40:35,866
+的重要价值
+for the thing to uphold
+
+813
+00:40:36,000 --> 00:40:38,600
+所以我认为壮举是在一个
+so i think feat is in a
+
+814
+00:40:39,333 --> 00:40:40,666
+过渡时期
+transition period where
+
+815
+00:40:41,566 --> 00:40:45,699
+我们想从本质上把我们的焦点带回来一点儿
+we want to essentially bring back our focus a little bit
+
+816
+00:40:46,500 --> 00:40:48,066
+而不是考虑好
+instead of thinking about okay
+
+817
+00:40:48,066 --> 00:40:50,399
+下一件大事是什么 下一个新事物是什么
+what's the next big thing what's the next new thing
+
+818
+00:40:50,900 --> 00:40:52,166
+我们会说好吧
+we're going to say okay
+
+819
+00:40:52,366 --> 00:40:54,199
+如何使目前的事情变得更好
+how to make the current things better
+
+820
+00:40:54,766 --> 00:40:58,399
+如何让它保持同样的工作方式，但更快更精简
+how to keep it working the same way but faster leaner
+
+821
+00:40:58,700 --> 00:41:02,266
+更强壮，更稳定的引擎。
+and more robust and more stable under the hood
+
+822
+00:41:02,866 --> 00:41:03,666
+我认为
+i think
+
+823
+00:41:04,133 --> 00:41:06,733
+这将是重点，至少现在是这样的
+that would be the focus for at least for now
+
+824
+00:41:07,766 --> 00:41:08,933
+非常感谢您
+thank you so much
+
+825
+00:41:09,000 --> 00:41:10,800
+我们的时间快到了
+and we are just about out of time
+
+826
+00:41:10,800 --> 00:41:13,900
+但最后一个问题，是否会有另一个Vitcomf？
+but one last question will there be another vitcomf
+
+827
+00:41:16,333 --> 00:41:17,133
+我不知道
+i don't know
+
+828
+00:41:19,500 --> 00:41:21,066
+你喜欢这一次吗？
+do you enjoy this one
+
+829
+00:41:21,900 --> 00:41:22,700
+肯定的
+sure
+
+830
+00:41:22,900 --> 00:41:25,200
+我听说下一个是V测试冲突
+i heard the next one as v test conflict
+
+831
+00:41:25,666 --> 00:41:26,466
+哦
+oh
+
+832
+00:41:26,900 --> 00:41:27,900
+等等，等等，我们
+wait wait we
+
+833
+00:41:28,266 --> 00:41:29,266
+一年做一次
+do one one year
+
+834
+00:41:29,266 --> 00:41:31,866
+维塔斯来了一年，一年的维塔斯会议
+vitas come one year one year vid conf
+
+835
+00:41:32,666 --> 00:41:34,266
+我想是的
+i think yeah
+
+836
+00:41:34,733 --> 00:41:35,999
+是的，去吧，去吧
+yeah go go go
+
+837
+00:41:36,533 --> 00:41:37,766
+是的，我想
+yeah i think
+
+838
+00:41:38,400 --> 00:41:40,200
+我想在十分钟内
+in guys like in ten minutes
+
+839
+00:41:40,200 --> 00:41:43,133
+我们又重新开始了，而且还会有另一个
+we were starting over again and there would be another
+
+840
+00:41:43,600 --> 00:41:44,400
+是的
+yeah
+
+841
+00:41:48,566 --> 00:41:49,366
+哈
+哈
+
+842
+00:41:50,533 --> 00:41:51,666
+哈哈哈
+哈哈哈
+
+843
+00:41:52,566 --> 00:41:54,166
+好了，请大家继续关注
+well stay tuned everyone
+
+844
+00:41:54,766 --> 00:41:56,966
+谢谢大家参加这个讨论会
+thank you all for joining this panel
+
+845
+00:41:56,966 --> 00:41:59,599
+感谢大家参加veecomp
+thank you everyone for joining veecomp
+
+846
+00:41:59,600 --> 00:42:02,200
+今天的会议真是太精彩了
+today it was absolutely amazing
+
+847
+00:42:02,600 --> 00:42:06,000
+如果你还没有回去，或者你错过了一些讲座
+if you haven't gone back and or if you miss some of the talks
+
+848
+00:42:06,000 --> 00:42:08,366
+我的意思是有一些非常惊人的公告
+i mean there has just been some really amazing announcements
+
+849
+00:42:08,366 --> 00:42:11,666
+最近，你知道故事书中的Dino
+lately you know storybook dino
+
+850
+00:42:11,700 --> 00:42:14,600
+你知道故事书中的恐龙和其他许多人都发表了一些非常重要的声明
+both made some really big announcements as well as many others
+
+851
+00:42:14,600 --> 00:42:16,866
+所以我们会在下一次见到你
+so we will see you next time
+
+852
+00:42:16,866 --> 00:42:18,599
+感谢大家的加入
+thank you all for joining
+
+853
+00:42:18,600 --> 00:42:20,533
+也非常感谢你的团队
+and thank you so much for your team for
+
+854
+00:42:21,200 --> 00:42:22,966
+感谢你们的团队今天来到这里，并且在你们的时区这么早起床
+being here today and being up
+
+855
+00:42:22,966 --> 00:42:25,466
+在你们的时区这么早，非常感谢你们
+so early on your time zones thank you so much
+
+856
+00:42:26,200 --> 00:42:27,466
+谢谢你，再见
+thank you bye
+
+857
+00:42:27,733 --> 00:42:28,533
+谢谢你
+thank you
+
+858
+00:42:28,533 --> 00:42:30,366
+谢谢你，再见
+thank you bye bye
+
+859
+00:42:30,733 --> 00:42:31,533
+100
+100
+
+860
+00:42:48,933 --> 00:42:49,333
+帮助
+help
+
+861
+00:42:49,333 --> 00:42:51,299
+下面再给大家介绍一下
+below again everyone
+
+862
+00:42:51,366 --> 00:42:53,666
+我们做到了第一个12小时的结束
+we made it to the end of the first 12
+
+863
+00:42:53,700 --> 00:42:56,200
+那些小组讨论不是很好吗？
+hours weren't those panels so good
+
+864
+00:42:56,333 --> 00:43:00,299
+但整个会议是不是真的很精彩？
+but wasn't really just the whole conference so amazing
+
+865
+00:43:00,600 --> 00:43:01,900
+这是很好的做法
+this was so well done
+
+866
+00:43:01,900 --> 00:43:04,566
+大家给马太斯鼓鼓掌吧
+everybody give a round of applause to mattaius
+
+867
+00:43:04,566 --> 00:43:07,366
+和所有在幕后工作的了不起的人
+and all of the amazing folks that were behind the scenes
+
+868
+00:43:07,366 --> 00:43:08,566
+并把它放在一起
+and that put this together
+
+869
+00:43:08,566 --> 00:43:10,866
+他们只是做了这样一个令人难以置信的工作
+they've just done such an incredible job
+
+870
+00:43:11,366 --> 00:43:12,533
+无论你是
+and whether you are
+
+871
+00:43:12,533 --> 00:43:13,566
+刚刚起床
+just getting up
+
+872
+00:43:13,566 --> 00:43:16,566
+还是像我一样要去睡觉，这里已经很晚了
+or maybe heading to bed like me it is very late here
+
+873
+00:43:16,966 --> 00:43:20,366
+继续在微博上发帖，让我们知道你最喜欢的讲座
+keep posting on twitter let us know your favorite talks
+
+874
+00:43:20,366 --> 00:43:22,333
+你可以用vitcomp或
+you can use at vitcomp or
+
+875
+00:43:22,533 --> 00:43:23,899
+标签vitcomph
+hashtag vitcomph on
+
+876
+00:43:23,900 --> 00:43:26,500
+twitter，让我们知道你喜欢什么
+twitter and let us just know what you liked
+
+877
+00:43:26,666 --> 00:43:27,899
+你喜欢什么
+what you enjoyed
+
+878
+00:43:28,000 --> 00:43:29,000
+我们有
+and we had
+
+879
+00:43:29,066 --> 00:43:32,899
+我们和你们在一起非常开心，这一切都将重新开始。
+so much fun being with you and this is all going to start again
+
+880
+00:43:34,000 --> 00:43:36,000
+马特奥应该马上就到了
+mateo should be in here in just a second
+
+881
+00:43:36,000 --> 00:43:37,766
+他显然刚从小组中出来
+he obviously just got off the panel
+
+882
+00:43:37,766 --> 00:43:39,899
+但他将会加入我的行列
+but is going to be coming in and joining me
+
+883
+00:43:40,100 --> 00:43:41,666
+但只要继续发帖，让大家知道
+but just keep posting and letting
+
+884
+00:43:41,666 --> 00:43:44,266
+大家都知道你想和我们一起回到这里
+everybody know that you want to be back here with us
+
+885
+00:43:44,266 --> 00:43:45,199
+明年再来
+again next year
+
+886
+00:43:45,666 --> 00:43:47,399
+并展示所有这些支持
+and showing all of this support
+
+887
+00:43:47,600 --> 00:43:50,500
+我很高兴看到所有这些惊人的工具
+i was so excited to see all of these amazing tools
+
+888
+00:43:50,500 --> 00:43:52,733
+和人们在一起。
+and the people that beat really brings together
+
+889
+00:43:52,733 --> 00:43:57,399
+让这个社区感觉就像一个大家庭 我喜欢我们如何能够
+and makes this community feel like a family i love how we can
+
+890
+00:43:57,500 --> 00:44:00,800
+你没有任何框架战争，只是我们所有的人
+doesn't you don't have any framework wars it's just all of us
+
+891
+00:44:01,166 --> 00:44:04,666
+一起享受和参与一切
+enjoying and being a part of everything together
+
+892
+00:44:05,133 --> 00:44:07,999
+我喜欢这个会议给我们带来的东西
+and i loved what this conference did to us
+
+893
+00:44:08,900 --> 00:44:10,500
+我喜欢这次会议对我们社区的影响，看到大家在
+the community and seeing everybody in
+
+894
+00:44:10,500 --> 00:44:12,133
+聊天时看到大家都很开心
+the chat was just so amazing
+
+895
+00:44:12,866 --> 00:44:15,133
+我知道Patrick Armantea
+i know patrick armantea
+
+896
+00:44:15,300 --> 00:44:17,700
+我知道Patrick Armantea花了很多时间，比如说做discord
+spent a lot of time like doing the discord
+
+897
+00:44:17,700 --> 00:44:20,366
+把所有的表格都设置好，就像一个时间表一样
+having all of the forms set up that was like a schedule
+
+898
+00:44:20,366 --> 00:44:23,466
+一切都想得很周到，做得很好
+everything was just so well thought out and done so well
+
+899
+00:44:23,533 --> 00:44:25,666
+我们希望每个人都喜欢它，并且
+and we hope everyone enjoyed it and
+
+900
+00:44:26,266 --> 00:44:27,366
+没有看到很多的问题
+didn't see a lot of issues
+
+901
+00:44:27,366 --> 00:44:29,366
+但感谢所有的版主，他们在外面帮助保持
+but thank you to all the moderators that were out
+
+902
+00:44:29,366 --> 00:44:30,399
+感谢所有在现场帮助保持
+there helping keep
+
+903
+00:44:30,400 --> 00:44:33,966
+感谢所有在那里帮助保持聊天清洁的版主，感谢大家对我的帮助。
+chat clean and thank you everyone for being kind to
+
+904
+00:44:34,700 --> 00:44:35,966
+我是说
+i mean did
+
+905
+00:44:36,000 --> 00:44:38,333
+每个人都有机会检查所有的小组，我知道
+everybody get a chance to check out all the panels i know
+
+906
+00:44:38,333 --> 00:44:39,699
+我们有一个框架小组
+we had a framework panel
+
+907
+00:44:39,700 --> 00:44:42,466
+我们有刚刚发生的 "脚 "小组
+we had the feet panel that just happened
+
+908
+00:44:42,466 --> 00:44:44,533
+然后今天早些时候有一个小组
+and then there was a panel earlier today
+
+909
+00:44:45,200 --> 00:44:47,900
+那是非常激动人心的，还有12个小时
+that was very exciting twelve more hours
+
+910
+00:44:47,900 --> 00:44:48,600
+再过十二个小时
+twelve more hours
+
+911
+00:44:48,600 --> 00:44:50,700
+我知道人们正在改变，还有12个小时
+i know people are changing twelve more hours
+
+912
+00:44:50,700 --> 00:44:52,600
+所以我们还有12个小时要走
+so we have twelve more hours to go
+
+913
+00:44:52,600 --> 00:44:53,700
+这有点疯狂和
+it's kind of crazy and
+
+914
+00:44:53,700 --> 00:44:56,600
+激动人心的是，所有这一切都将在原地重新开始。
+exciting that all of this is going to start over again in place
+
+915
+00:44:56,600 --> 00:44:57,733
+所以如果你刚起床
+so if you're just getting up
+
+916
+00:44:57,766 --> 00:45:00,566
+你没有错过加入聊天，实际上
+you haven't missed outjoin in the chat and actually
+
+917
+00:45:00,566 --> 00:45:02,699
+我想在这之后会有一个讨论的阶段
+i think there's going to be a discord stage of it
+
+918
+00:45:02,700 --> 00:45:03,933
+在那之后，不幸的是
+after that unfortunately
+
+919
+00:45:03,933 --> 00:45:04,999
+我得去睡觉了
+i have to go to bed
+
+920
+00:45:05,100 --> 00:45:06,333
+所以我不会加入的
+so i won't be joining that
+
+921
+00:45:06,333 --> 00:45:09,466
+但如果你有兴趣的话，请加入beatland的对话。
+but if you're interested get in the beatland discord
+
+922
+00:45:10,366 --> 00:45:13,966
+我想我们有一个东西，我们可以把它放在下面。
+i think we have a thing that we can put below for the
+
+923
+00:45:14,133 --> 00:45:15,133
+链接来加入
+link to join
+
+924
+00:45:16,600 --> 00:45:19,666
+我不记得那是什么了，我什么都不会。
+don't remember what it is i'm failing on everything
+
+925
+00:45:19,666 --> 00:45:22,366
+我以为Mateos现在已经在这里了
+and i thought mateos would be in here by now
+
+926
+00:45:22,366 --> 00:45:25,399
+但现在我们在这里，我只是在吐槽，所以
+but here we are i'm just spitballing now so
+
+927
+00:45:27,900 --> 00:45:30,733
+我希望每个人都有一个惊人的时间，我们走吧
+i hope everyone had an amazing time there we go
+
+928
+00:45:30,733 --> 00:45:32,333
+我想我们现在有他了
+i think we have him now
+
+929
+00:45:32,800 --> 00:45:33,900
+但你是静音的
+you're muted though
+
+930
+00:45:37,966 --> 00:45:38,866
+他就在那里
+there he is
+
+931
+00:45:38,966 --> 00:45:39,766
+我在这里
+i'm here
+
+932
+00:45:39,866 --> 00:45:41,066
+好的，嘿
+okay hey
+
+933
+00:45:41,066 --> 00:45:41,966
+情况如何
+how's it going
+
+934
+00:45:42,166 --> 00:45:44,399
+我很好，我很好，我们是现场直播吗？
+i'm fine i'm fine are we live right
+
+935
+00:45:44,466 --> 00:45:45,966
+我不知道我们是否活着
+i don't know if we are live
+
+936
+00:45:45,966 --> 00:45:47,133
+我想是的
+i think right
+
+937
+00:45:48,466 --> 00:45:50,133
+哇，是的，没错
+wow yeah right
+
+938
+00:45:52,000 --> 00:45:53,300
+看一看我3盘你
+看看看我3盘you
+
+939
+00:45:54,266 --> 00:45:55,766
+这真是太棒了
+it was amazing
+
+940
+00:45:55,766 --> 00:45:57,866
+我刚刚花了几分钟的时间
+i just spent like the last couple of minutes
+
+941
+00:45:57,866 --> 00:45:59,899
+就告诉大家做得多好
+just telling everybody how well done
+
+942
+00:45:59,900 --> 00:46:00,900
+这次会议
+this conference
+
+943
+00:46:01,066 --> 00:46:04,666
+为你点赞 为所有幕后团队点赞
+was and kudos to you kudos to all the team behind the scenes
+
+944
+00:46:04,666 --> 00:46:05,733
+主持人
+the moderators
+
+945
+00:46:05,733 --> 00:46:08,533
+让这一天变得精彩的人们
+the people that just made this an amazing day
+
+946
+00:46:09,333 --> 00:46:10,133
+是的
+yeah
+
+947
+00:46:10,966 --> 00:46:12,099
+它的到来是疯狂的
+it's coming crazy
+
+948
+00:46:13,000 --> 00:46:14,766
+我相信你一定很想去
+i'm sure you were like going
+
+949
+00:46:15,766 --> 00:46:19,733
+现在就像现在我们达到了12个小时，这是
+it's now like now we are reaching like twelve hours this is
+
+950
+00:46:20,000 --> 00:46:23,100
+一半的时间，就像永远，每个人都在看
+half of it like forever like everybody that is watching
+
+951
+00:46:23,166 --> 00:46:24,599
+现在留下来，因为
+stay now because
+
+952
+00:46:24,800 --> 00:46:25,966
+就像我们有一个
+like we have a
+
+953
+00:46:26,533 --> 00:46:31,066
+伊万的谈话，我还会再来的，然后是安东尼的谈话
+talk from evan a talk like i will be again and then antony
+
+954
+00:46:32,100 --> 00:46:34,300
+然后卷起我们会在那里
+and then roll up we'll be there
+
+955
+00:46:34,400 --> 00:46:36,400
+所有这些都会再次为你回放
+all gonna replay for you again
+
+956
+00:46:36,400 --> 00:46:38,500
+你会再次得到一整天的时间，所以如果你刚刚起床
+you get the whole day again so if you're just getting up
+
+957
+00:46:38,500 --> 00:46:40,066
+你就不会错过任何东西
+you're not missing a thing
+
+958
+00:46:40,900 --> 00:46:41,533
+是的
+yeah
+
+959
+00:46:41,533 --> 00:46:44,099
+是的，是的，对你们两个说
+yeah and yes saying to you two
+
+960
+00:46:44,166 --> 00:46:46,399
+和所有在现场的版主
+and to all the moderators that were there
+
+961
+00:46:46,666 --> 00:46:47,499
+围绕着这一天
+around the day
+
+962
+00:46:48,200 --> 00:46:51,333
+其实主持工作并没有那么多车，因为
+it was not that car actually to moderate because
+
+963
+00:46:51,333 --> 00:46:55,166
+每个人都像在给别人送花一样
+everybody was like sending flowers to each others exactly
+
+964
+00:46:55,166 --> 00:46:56,199
+我说的是对的
+what ii was saying right
+
+965
+00:46:56,200 --> 00:46:57,066
+当你进来的时候
+as you were coming in
+
+966
+00:46:57,066 --> 00:46:58,666
+我觉得每个人都是那么善良
+i was like everyone was so kind
+
+967
+00:46:58,666 --> 00:47:01,066
+我觉得我们真的不需要很多的节制
+i feel like we didn't really need a lot of moderation
+
+968
+00:47:01,066 --> 00:47:01,799
+这很了不起
+which was amazing
+
+969
+00:47:01,800 --> 00:47:04,900
+但我要感谢所有的版主，这真是不可思议。
+but i thank you to all the moderators that was incredible
+
+970
+00:47:05,800 --> 00:47:06,166
+是的
+yeah
+
+971
+00:47:06,166 --> 00:47:08,266
+是的，很高兴看到
+yeah it was really nice to see
+
+972
+00:47:08,466 --> 00:47:12,299
+很高兴看到白地在一天之内就变成了一个空间
+like whitland converted like in one day as a space
+
+973
+00:47:12,300 --> 00:47:13,733
+所有的社区
+where all the communities
+
+974
+00:47:13,866 --> 00:47:16,199
+就像我刚才说的，在
+get together like i was saying there in the
+
+975
+00:47:16,200 --> 00:47:17,366
+在小麦小组中，现在
+in the wheat panel now
+
+976
+00:47:17,366 --> 00:47:19,733
+我不知道是什么时候开始的固体谈话
+that i don't know like when was the solid talk
+
+977
+00:47:19,733 --> 00:47:22,266
+像所有的固体雾室
+like all the solid fog room
+
+978
+00:47:22,733 --> 00:47:23,899
+来到了这个房间
+came to the room
+
+979
+00:47:24,133 --> 00:47:25,133
+是的
+and yeah
+
+980
+00:47:25,733 --> 00:47:27,333
+我说，这也是像它如何
+i said that too is like how it
+
+981
+00:47:27,333 --> 00:47:29,966
+它是如何把所有这些社区聚集在一起的
+beat really brings all of these communities together
+
+982
+00:47:29,966 --> 00:47:32,699
+感觉就像一个大家庭，我们都很友好
+and it felt like a family like we were all being nice
+
+983
+00:47:32,700 --> 00:47:34,500
+没有框架战争，只是
+there were no framework wars it was just
+
+984
+00:47:34,600 --> 00:47:37,133
+我们所有的人都很善良，都在一起
+all of us being kind and being together
+
+985
+00:47:37,133 --> 00:47:38,366
+这感觉真的很好
+which felt really good
+
+986
+00:47:38,900 --> 00:47:39,366
+是的
+yeah
+
+987
+00:47:39,366 --> 00:47:43,133
+是的是的，正如一些发言人所说，我认为这是
+yeah yeah and as some of the speakers said like i think this is
+
+988
+00:47:43,566 --> 00:47:47,799
+我认为这对共同制度的未来是一件好事。
+like this is a good thing for the future of the co system
+
+989
+00:47:48,866 --> 00:47:50,499
+就像所发生的那样
+like what happened like
+
+990
+00:47:51,100 --> 00:47:52,466
+也像埃文斯说的
+also like evans said
+
+991
+00:47:52,766 --> 00:47:56,399
+现在，像它真的很有趣，看到
+now that like isit's really interesting to see
+
+992
+00:47:56,733 --> 00:48:00,666
+比如说不是每两个星期公布一次
+like not like once announcement every two weeks
+
+993
+00:48:00,733 --> 00:48:02,933
+但像很多人使用它
+but like a lot of people use it
+
+994
+00:48:03,333 --> 00:48:05,666
+这个特殊的日子是一个艰难的日子
+this particular day as a hard day
+
+995
+00:48:06,000 --> 00:48:07,533
+为他们做一个公告
+for them to do an announcement
+
+996
+00:48:07,566 --> 00:48:09,999
+就像来自ESTAGLITZ的人，在工作上有那么多的好处
+like from estaglitz that comes in working so much
+
+997
+00:48:10,100 --> 00:48:11,466
+躺在床上
+to actually lounge
+
+998
+00:48:11,600 --> 00:48:13,100
+冷流在此
+cold flow in this
+
+999
+00:48:13,266 --> 00:48:15,099
+如果你在听第二部分
+like if you are listening for the second
+
+1000
+00:48:15,600 --> 00:48:18,933
+如果你听的是第二部分，就像冷流不存在一样，你会了解到它的。
+part like cold flow doesn't exist you're going to get to know it
+
+1001
+00:48:18,933 --> 00:48:20,099
+就像没有破坏者一样
+like no spoilers
+
+1002
+00:48:20,100 --> 00:48:21,466
+是的，没有，现在没有破坏者
+yeah no no spoiler now
+
+1003
+00:48:22,566 --> 00:48:24,199
+但也像一本故事书
+but also like a storybook
+
+1004
+00:48:24,366 --> 00:48:27,533
+实际上是在宣布Simpono将发生什么事
+actually announcing what is going to happen with simpono
+
+1005
+00:48:27,766 --> 00:48:30,499
+或者像卷轴三Lucas
+or like the rollap three lucas
+
+1006
+00:48:30,500 --> 00:48:33,400
+他们就像在选择，他们这个样的像重大的
+they're like choosing that they this kind of like significant
+
+1007
+00:48:33,400 --> 00:48:34,466
+不像是
+not like is
+
+1008
+00:48:34,766 --> 00:48:38,066
+为拉帕和维塔做的，我想我知道的。
+making it for lapa and vita lot closer i think i know
+
+1009
+00:48:38,066 --> 00:48:40,599
+我看到有人在询问股票的情况，哦
+i saw people like asking for stock at one point oh
+
+1010
+00:48:40,600 --> 00:48:43,566
+我想，我们刚刚发布了候选作品，你们要放慢脚步。
+i'm like we just hit release candidate you guys slow your roll
+
+1011
+00:48:43,566 --> 00:48:47,099
+我们不能让所有东西都在今天发布，对吗？
+a little bit we can't have everything released today right
+
+1012
+00:48:50,466 --> 00:48:54,066
+是的，是的，但它也是达到了达到了股票是
+yeah yeah but it also was reach reach stock was
+
+1013
+00:48:54,300 --> 00:48:57,366
+难以置信，也像第一部分，当
+incredible also like the first part when
+
+1014
+00:48:58,266 --> 00:48:59,199
+他说的是
+he was talking about
+
+1015
+00:48:59,200 --> 00:49:02,300
+就像这个比喻说的那样，我们的新结构被打败了
+like this analogy of beat us the fresh structure
+
+1016
+00:49:03,266 --> 00:49:04,866
+对生态系统来说，我觉得
+like for the ecosystem i seem
+
+1017
+00:49:04,866 --> 00:49:06,499
+我觉得这是很有道理的
+like that that's quite on point
+
+1018
+00:49:06,500 --> 00:49:08,733
+听起来真的非常有趣
+it was really really interesting to hear
+
+1019
+00:49:08,933 --> 00:49:10,333
+我同意是的
+i agree to yeah
+
+1020
+00:49:10,333 --> 00:49:13,266
+我认为所有的演讲都是经过深思熟虑的
+i thought all of the talks were just so well thought out
+
+1021
+00:49:13,400 --> 00:49:15,866
+这真的是令人惊奇的一天，而且
+it was really an amazing day and
+
+1022
+00:49:15,900 --> 00:49:18,500
+如果你只是来参加的话，你是很难得的。
+you were inferior treat if you're just joining in
+
+1023
+00:49:19,966 --> 00:49:20,699
+是啊是啊是啊
+yeah yeah yeah
+
+1024
+00:49:20,700 --> 00:49:24,766
+我不知道我们有多少时间，但是...
+totally so so yeah i don't know how much time we have like but
+
+1025
+00:49:25,100 --> 00:49:25,900
+你应该
+you should
+
+1026
+00:49:26,733 --> 00:49:29,066
+你应该留在这里
+like stay around now like
+
+1027
+00:49:29,500 --> 00:49:34,666
+有一件事是很重要的，我想也是要分享的
+one thing that is important i think like to share also
+
+1028
+00:49:35,066 --> 00:49:37,999
+现在，像我们做了很多的噪音
+now now like we did a lot of noise
+
+1029
+00:49:38,533 --> 00:49:41,966
+当我们开始的时候，很多社区都加入了
+when we are started so a lot of communities join
+
+1030
+00:49:42,066 --> 00:49:43,466
+但现在像
+but now like
+
+1031
+00:49:43,666 --> 00:49:45,733
+社区的很大一部分人正在加入
+a big part of the community is joining
+
+1032
+00:49:45,733 --> 00:49:49,299
+所以如果你邀请他们
+so it would be nice if you invite them
+
+1033
+00:49:49,533 --> 00:49:50,866
+来这里
+to came here
+
+1034
+00:49:50,933 --> 00:49:55,066
+所以，如果你能分享像Vitcom这样的链接，那就太好了。
+so like if you share like the link that is like vitcom
+
+1035
+00:49:55,666 --> 00:49:58,133
+vicon org是睫毛生活
+vicon org is lash life
+
+1036
+00:49:58,400 --> 00:50:01,000
+这是一种像他们的链接，你必须分享
+that is kind of like their link that you have to share
+
+1037
+00:50:01,266 --> 00:50:02,499
+在那里你将会
+there you are going to
+
+1038
+00:50:03,066 --> 00:50:03,899
+就像实际上
+like actually
+
+1039
+00:50:03,900 --> 00:50:07,600
+我们将一起解释所有这些
+we are going to be together like explaining all these
+
+1040
+00:50:07,600 --> 00:50:09,966
+我知道这只是要重新播放一遍。
+i know it's just going to replay over again
+
+1041
+00:50:10,100 --> 00:50:10,533
+是的
+yes
+
+1042
+00:50:10,533 --> 00:50:12,999
+所以也许我们现在不应该解释那么多
+so maybe we shouldn't explain that much now
+
+1043
+00:50:13,766 --> 00:50:14,466
+但是，是的
+but yeah
+
+1044
+00:50:14,466 --> 00:50:18,899
+我们没有设置这个问题 我觉得这很重要
+we didn't set there that that i think it's important now
+
+1045
+00:50:19,666 --> 00:50:24,199
+这12个小时的很大一部分不仅是会谈
+like a big part of these twelve hours was not only the talks
+
+1046
+00:50:24,200 --> 00:50:27,666
+而且还在这个法庭上一起观看
+but was also watching it together in this court
+
+1047
+00:50:28,066 --> 00:50:30,866
+和所有这些类似的渠道，所以我看到像
+and in all these like channels so i see like
+
+1048
+00:50:31,333 --> 00:50:32,166
+走出去
+go out
+
+1049
+00:50:32,200 --> 00:50:36,266
+邀请其他人，所以你现在得到了同样的经验
+invite others and like so you get that same experience now
+
+1050
+00:50:36,566 --> 00:50:37,699
+是的，我
+yeah i
+
+1051
+00:50:38,266 --> 00:50:39,333
+完全同意，我
+completely agree and i
+
+1052
+00:50:39,333 --> 00:50:40,666
+是的，我完全同意，我向大家提到了
+was mentioning to everyone
+
+1053
+00:50:40,666 --> 00:50:41,766
+如果你有一个最喜欢的
+that if you have a favorite
+
+1054
+00:50:41,766 --> 00:50:43,466
+谈话或你真正喜欢的东西
+talk or something that you really liked about
+
+1055
+00:50:43,466 --> 00:50:44,399
+今天，请确保你在
+today make sure you're
+
+1056
+00:50:44,600 --> 00:50:45,866
+在Viet Comp的标签
+tagging at viet comp
+
+1057
+00:50:45,866 --> 00:50:48,733
+使用标签 viet comp 并在twitter上分享。
+using hashtag viet comp and sharing that on twitter
+
+1058
+00:50:48,733 --> 00:50:50,266
+就像让更多的人加入
+like getting more people in
+
+1059
+00:50:50,600 --> 00:50:53,133
+我不相信有两万个注册者
+i can't believe twenty thousand registrations
+
+1060
+00:50:53,133 --> 00:50:54,599
+这真是不可思议
+it's just incredible
+
+1061
+00:50:55,200 --> 00:50:58,733
+是啊，实际上人们现在还在继续抵制她 是的
+yeah and actually the people continue to resist her now yeah
+
+1062
+00:50:58,733 --> 00:51:01,466
+所以我们看到了这个数字，我就像个小鸡一样飞了起来。
+so we were seeing the number i was just chicken up and over
+
+1063
+00:51:01,733 --> 00:51:02,533
+是的 是的
+yeah yeah
+
+1064
+00:51:03,700 --> 00:51:06,800
+我想应该是23点5分
+i think it's like a twenty three point five
+
+1065
+00:51:06,933 --> 00:51:09,366
+现在的注册人数和
+k now registrations and
+
+1066
+00:51:09,733 --> 00:51:10,933
+如果我没查错的话
+if i check correctly
+
+1067
+00:51:10,933 --> 00:51:11,666
+有像
+there were like
+
+1068
+00:51:11,666 --> 00:51:14,999
+一千名新成员加入了Vidland的讨论区
+one thousand new members to vidland to the discourt
+
+1069
+00:51:15,000 --> 00:51:16,966
+就像一千名新加入的人
+like one thousand new people that join
+
+1070
+00:51:17,066 --> 00:51:18,766
+维德兰，这是
+vidland that that's
+
+1071
+00:51:19,066 --> 00:51:21,266
+这是很重要的，因为像其中一个
+quite important because like one of the
+
+1072
+00:51:21,333 --> 00:51:23,766
+不让会议
+ideas of not making the conference
+
+1073
+00:51:23,866 --> 00:51:26,066
+在一个单独的空间
+in a separate space
+
+1074
+00:51:26,066 --> 00:51:27,766
+我们可以说是一个单独的聊天室
+let's say like a separate chat
+
+1075
+00:51:28,500 --> 00:51:32,166
+的想法是，让我们使用vidland，所以
+was the idea of like let's use vidland so
+
+1076
+00:51:32,500 --> 00:51:36,066
+所有这些运动实际上是和我们在一起的，比如
+all this movement actually stays with us like
+
+1077
+00:51:36,333 --> 00:51:38,766
+希望今天在这里工作的一些人
+hopefully some of the people that work here today
+
+1078
+00:51:39,266 --> 00:51:42,566
+希望今天在这里工作的一些人能够在这个社区工作，并且留在这里。
+like actually like in the community and are going to stay around
+
+1079
+00:51:42,800 --> 00:51:46,533
+然后参与进来，让更多的人
+and then like get involved it brings more people
+
+1080
+00:51:46,566 --> 00:51:47,899
+进入你的社区 是的
+into your community yeah
+
+1081
+00:51:47,900 --> 00:51:49,366
+我完全同意这一点
+i completely agree with that
+
+1082
+00:51:49,366 --> 00:51:51,566
+满足你的社区，他们在哪里，所以现在
+and meeting your community where they're at so now
+
+1083
+00:51:51,566 --> 00:51:54,066
+你有所有这些社区成员在那里
+that you have like all these community members in there
+
+1084
+00:51:54,066 --> 00:51:54,766
+他们可以找到
+they can find
+
+1085
+00:51:54,766 --> 00:51:58,999
+帮助，让他们知道去哪里找这些东西。
+help and get they know where to go and look for those things
+
+1086
+00:51:59,200 --> 00:52:00,366
+我知道你提到
+i know you mentioned
+
+1087
+00:52:00,366 --> 00:52:02,666
+我知道你曾经提到过，可能会有一个不和谐的阶段
+at one point that there might be a discord stage
+
+1088
+00:52:02,666 --> 00:52:03,699
+我不想把你放在
+i didn't want to put you on the
+
+1089
+00:52:03,700 --> 00:52:04,100
+我不想把你放在这个位置上
+spot
+
+1090
+00:52:04,100 --> 00:52:06,866
+但我提到了关于这个问题 是会发生还是
+but i mentioned something about that is that going to happen or
+
+1091
+00:52:07,300 --> 00:52:10,133
+让我们来看看我们的情况如何
+let's let's check how we are
+
+1092
+00:52:11,400 --> 00:52:13,966
+在每个人的力量中，都有一个小神志不清的人
+in everybody's power a little delirious
+
+1093
+00:52:14,000 --> 00:52:17,066
+是的，在12个小时内，如果我们现在不做的话
+yeah in twelve hour more like if we don't do it now
+
+1094
+00:52:17,066 --> 00:52:18,899
+我们可以在一个星期内完成它
+we can do it in one week
+
+1095
+00:52:18,966 --> 00:52:20,399
+但是，是的，就像
+but but yeah like
+
+1096
+00:52:21,466 --> 00:52:22,666
+之后留下
+stay after
+
+1097
+00:52:22,900 --> 00:52:26,900
+就像会议在下半场结束后结束一样
+like the conference is over over like after the second half
+
+1098
+00:52:26,966 --> 00:52:30,866
+如果我们在一起，我们决定在这个好时机
+and if we are together and we decide at this good moment
+
+1099
+00:52:31,266 --> 00:52:33,899
+就像和社区讨论一样，让我们来做吧
+like talk with the community let's do it
+
+1100
+00:52:34,066 --> 00:52:35,666
+好的，听起来不错
+okay sounds good
+
+1101
+00:52:35,800 --> 00:52:36,566
+而且也许
+and maybe
+
+1102
+00:52:36,566 --> 00:52:37,599
+未来的活动
+the ones in the future
+
+1103
+00:52:37,600 --> 00:52:40,333
+你们是否有活动，并将其发布在讨论区？
+like do you have events that you post in the discord
+
+1104
+00:52:40,333 --> 00:52:42,066
+人们可以去看看
+that people can go and see
+
+1105
+00:52:43,000 --> 00:52:46,766
+就像我知道Vit Comp现在就有这个活动，但是
+like i know vit comp has the event in there right now but
+
+1106
+00:52:46,866 --> 00:52:48,533
+你能不能发布一下，比如有什么
+would you post like are there
+
+1107
+00:52:48,533 --> 00:52:51,866
+未来的事件或重复发生的事件，Vit Land Discord
+future events or reoccurring events that the vit land discord
+
+1108
+00:52:51,866 --> 00:52:52,666
+有
+has
+
+1109
+00:52:53,166 --> 00:52:56,466
+这是我第一次参加这样的活动
+like this is the first kind of like oh
+
+1110
+00:52:56,900 --> 00:53:00,400
+我们在这个法庭上所做的活动。
+ohofficial let's say like event that we did in this court
+
+1111
+00:53:01,333 --> 00:53:03,966
+但是，也许像给像
+but maybe like given like the
+
+1112
+00:53:04,366 --> 00:53:06,199
+但鉴于这种反应
+reaction that this is having
+
+1113
+00:53:06,466 --> 00:53:08,933
+也许我们应该多做一些
+maybe we should do more often like
+
+1114
+00:53:09,100 --> 00:53:11,400
+我知道，比如说在天体的
+i know for example like in the astro
+
+1115
+00:53:11,533 --> 00:53:13,766
+不和谐，也许在这个世界上也是
+discord and maybe in this world also
+
+1116
+00:53:14,100 --> 00:53:17,966
+你有像每两个星期一次或东西，你得到的
+you have like once every two weeks or something that you get
+
+1117
+00:53:18,266 --> 00:53:21,133
+像在一起，只是与社区的人交谈
+like together and just talk with the community
+
+1118
+00:53:21,300 --> 00:53:23,533
+所以也许我们应该这样做，比如
+so maybe we should do that like
+
+1119
+00:53:23,600 --> 00:53:26,600
+我们应该这样做，比如Asher和Redwood都是这样做的。
+asher does that and redwood does that this belt
+
+1120
+00:53:26,766 --> 00:53:27,766
+团队不这样做
+team doesn't do it
+
+1121
+00:53:27,766 --> 00:53:28,799
+但我们已经讨论过
+but we've talked about
+
+1122
+00:53:28,800 --> 00:53:30,966
+但我们已经讨论过这样做，因为我认为这对于
+doing that because i think that's really good for
+
+1123
+00:53:30,966 --> 00:53:32,266
+建立社区参与
+building community involvement
+
+1124
+00:53:32,266 --> 00:53:32,866
+特别是在
+especially with
+
+1125
+00:53:32,866 --> 00:53:34,933
+这些开放源码的东西，所以
+these open source things so
+
+1126
+00:53:34,933 --> 00:53:36,099
+我想这是
+i think that is
+
+1127
+00:53:36,100 --> 00:53:38,866
+我认为这对这些社区来说是非常有益的
+really beneficial for these communities to have that
+
+1128
+00:53:39,166 --> 00:53:40,366
+因此，这将是非常酷的
+so that would be really cool
+
+1129
+00:53:40,933 --> 00:53:42,599
+这其实是个好主意，我觉得
+that's actually a good idea i think
+
+1130
+00:53:43,300 --> 00:53:44,800
+我们现在可以讨论
+we can discuss now
+
+1131
+00:53:44,900 --> 00:53:46,366
+就像在接下来的12个小时里
+like in this next twelve hour
+
+1132
+00:53:46,366 --> 00:53:48,466
+某个时候醒来，讨论这些其他的
+wake up sometime to discuss about these other
+
+1133
+00:53:48,733 --> 00:53:52,333
+我还要睡八个小时呢
+meta things what i'm gonna sleep for about eight hours
+
+1134
+00:53:53,266 --> 00:53:55,666
+我想我也会这样做的，但是
+i think i will do too like but
+
+1135
+00:53:56,100 --> 00:53:58,500
+像蓝色的安东尼汽水
+like blue antony soda
+
+1136
+00:53:58,533 --> 00:54:00,266
+像有很多像Evan一样的人
+like there's a lot of like evan
+
+1137
+00:54:00,266 --> 00:54:02,733
+有很多人都在拍摄工作，所以
+like there's a lot of people that shots work and up so
+
+1138
+00:54:02,733 --> 00:54:07,566
+比如说会有一些主题和版主的交流
+like there will be some like exchange of themesand moderators
+
+1139
+00:54:07,800 --> 00:54:09,766
+然后，我们，我们回来了
+and then we that we were back
+
+1140
+00:54:10,466 --> 00:54:12,799
+我想就像采取一些
+and i wanted to just like take some
+
+1141
+00:54:13,733 --> 00:54:15,899
+时间来再次感谢
+time to thanks again like
+
+1142
+00:54:16,100 --> 00:54:17,800
+你将会看到对我们的感谢，但是
+you're going to see thanks to us like but
+
+1143
+00:54:17,800 --> 00:54:20,066
+但是，这很好，就像所有这些发生
+but it's good like all these happen
+
+1144
+00:54:20,366 --> 00:54:23,299
+也是因为首先像演讲者，像你
+also because first like the speakers like you
+
+1145
+00:54:23,300 --> 00:54:25,533
+你说过，这些讲座很精彩，因为
+said that like the talks were amazing because
+
+1146
+00:54:25,533 --> 00:54:26,599
+他们真的很像
+they really were like
+
+1147
+00:54:26,600 --> 00:54:27,800
+有一些像
+there were some that like
+
+1148
+00:54:27,866 --> 00:54:29,966
+就像好莱坞的那种制作
+were like hollywood kind of production
+
+1149
+00:54:30,266 --> 00:54:33,133
+就像它只是它只是惊人的所以
+like it's just it's just amazing so
+
+1150
+00:54:33,300 --> 00:54:34,366
+谢谢你，非常感谢
+thanks thanks a lot
+
+1151
+00:54:34,366 --> 00:54:37,399
+每个人都付出了这么多的努力，有很多人都是第一次做演讲。
+everybody that puts so so much effort there were a lot of
+
+1152
+00:54:37,566 --> 00:54:41,533
+有很多第一次做演讲的人，听起来确实非常非常好。
+first time as speakers that actually did sound so so so good
+
+1153
+00:54:41,600 --> 00:54:44,200
+我希望他们能去参加其他的会议
+i hope they go and have like other conferences
+
+1154
+00:54:44,200 --> 00:54:45,866
+以后还有
+later and
+
+1155
+00:54:46,333 --> 00:54:47,666
+是的，谢谢你
+yeah like thanks for
+
+1156
+00:54:48,066 --> 00:54:49,166
+建立的
+established for
+
+1157
+00:54:49,166 --> 00:54:52,533
+赞助的活动和社区合作伙伴的帮助。
+like a sponsoring event and like the community partners also
+
+1158
+00:54:52,533 --> 00:54:54,299
+的帮助和
+for the help and
+
+1159
+00:54:54,933 --> 00:54:56,466
+是的，就像感谢
+and yeah like thanks
+
+1160
+00:54:56,700 --> 00:54:58,933
+每个人都参与了他们的社区
+everybody that was involved their communities
+
+1161
+00:54:58,933 --> 00:55:01,133
+感谢每一个邀请别人的人，并把
+thanks everybody that invited others and took
+
+1162
+00:55:01,133 --> 00:55:02,699
+它在这里和
+it here and
+
+1163
+00:55:02,700 --> 00:55:05,966
+这也是一种像将被重复作为会议结束的
+this is also kind of like going to be repeated as the end
+
+1164
+00:55:05,966 --> 00:55:07,966
+会议的结束，所以
+of the conference so
+
+1165
+00:55:08,133 --> 00:55:09,733
+如果你要留下来，就像如果这是
+if you're staying like if this is
+
+1166
+00:55:09,733 --> 00:55:12,866
+如果你留在这里，就像在架子上一样，把它当作是
+the half and you're staying like shelf like take it as
+
+1167
+00:55:13,066 --> 00:55:16,733
+如果这是你的会议结束了，那么你就会像明天一样观看。
+disastain if this is the end of the conference for you
+
+1168
+00:55:16,766 --> 00:55:19,199
+你会在明天看到它
+you're watching it like tomorrow
+
+1169
+00:55:20,533 --> 00:55:21,199
+所以是的
+so yeah
+
+1170
+00:55:21,200 --> 00:55:23,400
+我不知道，谢谢你的坚持
+i don't know and thank you for sticking
+
+1171
+00:55:23,466 --> 00:55:26,733
+谢谢你坚持到最后，在这里和我们在一起
+through the whole thing and being here at the end with us
+
+1172
+00:55:27,400 --> 00:55:29,066
+是的，是的，是的
+yeah yeah yeah
+
+1173
+00:55:29,166 --> 00:55:31,999
+这是个很好的经验
+this has been an amazing experience and
+
+1174
+00:55:32,733 --> 00:55:35,866
+是的，我想我们应该再来一次，你觉得呢？
+yeah i think we should repeat it what do you think
+
+1175
+00:55:36,200 --> 00:55:37,400
+我们明年再做一次
+we do it again next year
+
+1176
+00:55:37,766 --> 00:55:39,333
+我绝对认为
+i absolutely think
+
+1177
+00:55:39,333 --> 00:55:42,533
+我们应该至少在明年再做一次，如果不是在六个月内的话
+we should do it at least next year if not in six months
+
+1178
+00:55:43,133 --> 00:55:43,799
+不
+no
+
+1179
+00:55:43,800 --> 00:55:44,800
+我只是把这一切
+i just put all this
+
+1180
+00:55:45,566 --> 00:55:46,533
+我不知道
+i don't know the
+
+1181
+00:55:47,766 --> 00:55:49,733
+皮克斯请拯救我的心
+pixier please save my heart
+
+1182
+00:55:50,366 --> 00:55:52,066
+不，不，这不是它
+no no it wasn't it
+
+1183
+00:55:52,666 --> 00:55:53,966
+它是它是如此的好
+it was it was so good
+
+1184
+00:55:53,966 --> 00:55:56,699
+看到所有这些人走到一起真是太好了
+and it's so nice to see all these people come together
+
+1185
+00:55:56,700 --> 00:55:58,500
+我只是喜欢这部分内容
+i just love that part of it
+
+1186
+00:55:59,000 --> 00:56:00,266
+是的，是的，是的
+yeah yeah yeah
+
+1187
+00:56:00,666 --> 00:56:02,599
+所以是的，我想
+so yeah i think
+
+1188
+00:56:03,300 --> 00:56:04,000
+我不会让
+i don't let
+
+1189
+00:56:04,000 --> 00:56:07,800
+让我们把它关闭，把战争交给我们两个人吧
+let's let's close it and let's give the war to the two of us
+
+1190
+00:56:08,300 --> 00:56:08,933
+是的
+yes
+
+1191
+00:56:08,933 --> 00:56:11,399
+把它交给布兰妮和马特罗斯
+hand it off to britney and mateos
+
+1192
+00:56:12,966 --> 00:56:15,166
+看到你们了吗？
+see you guys do you
+
+1193
+00:56:15,533 --> 00:56:16,333
+非常感谢
+thanks a lot
+

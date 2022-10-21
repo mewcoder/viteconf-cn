@@ -1,0 +1,2970 @@
+1
+00:00:23,533 --> 00:00:24,466
+大家好
+hey everybody
+
+2
+00:00:24,466 --> 00:00:25,666
+欢迎来到这个讲座
+welcome to this talk
+
+3
+00:00:25,766 --> 00:00:27,866
+关于使用V编写Elm应用程序
+about writing Elm applications using v
+
+4
+00:00:27,866 --> 00:00:30,333
+今天我们将探讨L编程语言
+today we're going to explore the l programming language
+
+5
+00:00:30,333 --> 00:00:30,933
+一种功能性的
+a functional
+
+6
+00:00:30,933 --> 00:00:33,166
+一种用于构建网络应用程序的函数式编程语言
+programming language for building web applications
+
+7
+00:00:33,166 --> 00:00:35,666
+以及如何将其整合到我们的VT构建工具中。
+and how we can integrate it into our VT build tool
+
+8
+00:00:36,333 --> 00:00:37,566
+我的名字叫Lindsay Ordell
+my name is Lindsay ordell
+
+9
+00:00:37,566 --> 00:00:39,599
+我是no red公司的一名软件工程师
+I am a software engineer at no red Inc
+
+10
+00:00:39,600 --> 00:00:41,133
+no red Inc正在开发
+no red Inc is developing
+
+11
+00:00:41,133 --> 00:00:42,866
+为英语教师开发工具，用于教授
+tools for English teachers to teach
+
+12
+00:00:42,866 --> 00:00:43,999
+初中和高中学生
+middle and high schoolers
+
+13
+00:00:44,100 --> 00:00:45,066
+英语和写作
+English and writing
+
+14
+00:00:45,133 --> 00:00:45,966
+我们还可以使用
+we also get to use
+
+15
+00:00:45,966 --> 00:00:47,799
+非常酷的编程语言，如
+really cool programming languages such as
+
+16
+00:00:47,800 --> 00:00:48,800
+Elm和Haskell
+Elm and Haskell
+
+17
+00:00:49,000 --> 00:00:50,800
+如果你喜欢这些很酷的编程语言
+if you like these cool programming languages
+
+18
+00:00:50,800 --> 00:00:52,500
+或者你喜欢教育
+or you like education
+
+19
+00:00:52,766 --> 00:00:55,799
+请考虑在noaretink com上申请工作。
+please consider applying at noaretink com jobs
+
+20
+00:00:55,966 --> 00:00:58,799
+我也是vete Elm模板的维护者
+I am also the maintainer of the vete Elm template
+
+21
+00:00:58,800 --> 00:00:59,666
+的模板，该模板
+template that
+
+22
+00:00:59,700 --> 00:01:00,933
+融合了Elm在vet
+incorporates Elm in vet
+
+23
+00:01:00,933 --> 00:01:01,899
+和很多工具
+and a lot of the tools that
+
+24
+00:01:01,900 --> 00:01:03,500
+我们今天要讨论的是
+we're going to be talking about today
+
+25
+00:01:03,566 --> 00:01:05,199
+我们不是在探讨模板本身
+we're not exploring the template itself
+
+26
+00:01:05,200 --> 00:01:07,400
+所以，请在Github的Lindsay k word l slash上查看
+so please check it out at Lindsay k word l slash
+
+27
+00:01:07,400 --> 00:01:09,000
+github上的vet Elm模板
+vet Elm template on github
+
+28
+00:01:10,000 --> 00:01:10,766
+首先
+first off
+
+29
+00:01:10,766 --> 00:01:11,566
+让我们深入了解一下
+let's just dive in
+
+30
+00:01:11,566 --> 00:01:12,533
+什么是Elm
+what is Elm
+
+31
+00:01:12,800 --> 00:01:15,200
+Elm本身是一种函数式编程语言
+Elm itself is a functional programming language
+
+32
+00:01:15,200 --> 00:01:16,800
+函数式编程在javascript生态系统中非常
+functional programming is very
+
+33
+00:01:17,000 --> 00:01:19,200
+现在在javascript生态系统中被引用
+invoke right now in the javascript ecosystem
+
+34
+00:01:19,200 --> 00:01:19,366
+但是
+but
+
+35
+00:01:19,366 --> 00:01:21,799
+Elm是作为一种功能性编程语言设计的
+Elm is designed as a functional programming language
+
+36
+00:01:21,800 --> 00:01:24,566
+与javascript不同，它是非常面向对象的
+unlike javascript which is very object oriented
+
+37
+00:01:24,733 --> 00:01:25,966
+或命令式的
+or imperative
+
+38
+00:01:26,566 --> 00:01:28,299
+它也只有纯函数
+it also only has pure functions
+
+39
+00:01:28,300 --> 00:01:30,900
+所以，如果你想到了javascript
+so if you're thinking of javascript
+
+40
+00:01:30,933 --> 00:01:32,133
+而你调用一个函数
+and you call a function
+
+41
+00:01:32,533 --> 00:01:35,199
+你可以产生副作用，你可以做其他的调用
+you can make side effects you can do other calls
+
+42
+00:01:35,200 --> 00:01:37,400
+你可以，如果你在注释和环境中
+you can if you're in the note and environment
+
+43
+00:01:37,400 --> 00:01:40,333
+你可以进行恶意的调用，你可以做坏事
+you can make malicious calls you can do bad things
+
+44
+00:01:40,666 --> 00:01:41,699
+Elm不允许这样做
+Elm doesn't allow that
+
+45
+00:01:41,700 --> 00:01:43,566
+Elm只有纯函数
+Elm only has pure functions
+
+46
+00:01:43,566 --> 00:01:46,466
+所以只有提供给函数的输入才是
+so only the inputs provided to the function are the
+
+47
+00:01:46,533 --> 00:01:47,733
+可用的值
+values available
+
+48
+00:01:47,900 --> 00:01:48,700
+而唯一的
+and the only
+
+49
+00:01:48,700 --> 00:01:50,766
+输出是函数本身的输出
+outputs are the output of the function itself
+
+50
+00:01:51,766 --> 00:01:53,499
+Elm还可以编译成javascript
+Elm also compiles to javascript
+
+51
+00:01:53,500 --> 00:01:54,366
+所以当你在写
+so when you are writing
+
+52
+00:01:54,366 --> 00:01:56,099
+Elm代码并将其编译到网络上时
+Elm code and you compile it for the web
+
+53
+00:01:56,100 --> 00:01:57,900
+你就在运行一个javascript文件
+you are running a javascript file
+
+54
+00:01:57,933 --> 00:01:59,933
+这使得它非常容易被纳入
+this makes it really easy to incorporate
+
+55
+00:01:59,933 --> 00:02:01,699
+到你现有的应用程序和
+into your existing applications and
+
+56
+00:02:02,700 --> 00:02:03,900
+构建环境
+build environments
+
+57
+00:02:04,733 --> 00:02:06,166
+Elm也是静态类型的
+Elm is also statically typed
+
+58
+00:02:06,166 --> 00:02:08,399
+它有一个强大的静态类型系统
+it has a strong static type system
+
+59
+00:02:08,766 --> 00:02:10,466
+这是一个非常强大的系统
+this is extremely powerful
+
+60
+00:02:10,533 --> 00:02:12,799
+如果你使用过类型脚本，你就会对它有一种感觉。
+if you've used type script you've had a feel for it
+
+61
+00:02:12,800 --> 00:02:15,000
+但Elm将它提升到了一个新的水平，即
+but Elm takes it to the next level where
+
+62
+00:02:15,166 --> 00:02:16,899
+所有东西都是强类型的
+everything is strongly typed
+
+63
+00:02:16,900 --> 00:02:18,866
+你所有的函数都被期望返回
+all of your functions are expected to return
+
+64
+00:02:18,866 --> 00:02:19,799
+某些值
+certain values
+
+65
+00:02:19,933 --> 00:02:22,199
+而且由于这种强类型化
+and because of that strong typing
+
+66
+00:02:22,900 --> 00:02:24,600
+你会得到很多帮助
+you get a lot of assistance
+
+67
+00:02:24,600 --> 00:02:26,366
+从Elm编译器本身
+from the Elm compiler itself
+
+68
+00:02:26,366 --> 00:02:27,933
+我们将在一秒钟内讨论这个问题。
+which we'll get to in just one second
+
+69
+00:02:29,166 --> 00:02:32,999
+Elm也支持可变数据，这是一个内置的概念。
+Elm also supports a mutable data as a built in concept
+
+70
+00:02:33,000 --> 00:02:34,533
+Elm不允许突变
+Elm doesn't allow mutation
+
+71
+00:02:35,000 --> 00:02:37,166
+没有任何对象可以让你
+there aren't any objects that you can then
+
+72
+00:02:37,166 --> 00:02:38,766
+操作和修改的对象
+manipulate and modify
+
+73
+00:02:38,766 --> 00:02:41,266
+你只能拥有你所期望的数据
+you're just going to have the data that you expect
+
+74
+00:02:41,733 --> 00:02:42,366
+正如我提到的
+and as I mentioned
+
+75
+00:02:42,366 --> 00:02:44,533
+Elm中有一些有用的错误信息
+there are helpful error messages in Elm
+
+76
+00:02:44,533 --> 00:02:46,099
+所以当你在你的代码库中工作时
+so when you are working on your code base
+
+77
+00:02:46,100 --> 00:02:47,066
+如果你改变了一个类型
+if you change a type
+
+78
+00:02:47,066 --> 00:02:49,533
+或者你在代码的某一部分开始重构时
+or if you start refactoring in one part of your code
+
+79
+00:02:50,100 --> 00:02:52,800
+其他部分就会不同步了
+the rest of it will not be in sync
+
+80
+00:02:52,900 --> 00:02:54,466
+编译器会知道这一点并告诉你
+and the compiler will know that and tell you
+
+81
+00:02:54,466 --> 00:02:55,199
+发生了什么事
+what's going on
+
+82
+00:02:55,200 --> 00:02:56,800
+什么是最好的方法来帮助
+what's the best way to help
+
+83
+00:02:57,466 --> 00:03:00,766
+应对所有这些变化的最佳方法，还有
+work through all of those changes and also
+
+84
+00:03:00,800 --> 00:03:01,566
+这是个有趣的问题
+this is a fun one
+
+85
+00:03:01,566 --> 00:03:02,599
+不存在空
+there is no null
+
+86
+00:03:02,600 --> 00:03:03,600
+没有未定义
+there is no undefined
+
+87
+00:03:03,600 --> 00:03:05,933
+你永远不会在你的运行时中出现未定义无法找到的情况
+you will never have undefined cannot be found
+
+88
+00:03:06,700 --> 00:03:08,466
+在你的运行时中
+in your in your runtime
+
+89
+00:03:08,466 --> 00:03:10,299
+事实上，在运行时也没有例外。
+and in fact there are no runtime exceptions
+
+90
+00:03:10,300 --> 00:03:11,200
+在大多数情况下
+for the most part
+
+91
+00:03:11,666 --> 00:03:14,966
+如果一个Elm应用程序编译成功，它就能正常工作
+if an Elm application compiles it works
+
+92
+00:03:15,133 --> 00:03:16,533
+当你写完你的Elm代码
+and when you write your Elm code
+
+93
+00:03:16,533 --> 00:03:17,733
+并将其部署到网络上时
+and you deploy it to the web
+
+94
+00:03:17,733 --> 00:03:18,866
+你可以肯定的是
+you can be sure that
+
+95
+00:03:18,966 --> 00:03:20,199
+它可能不会做所有
+it may not be doing everything
+
+96
+00:03:20,200 --> 00:03:22,066
+的业务逻辑，但它不会崩溃。
+by the business logic that you want it to do
+
+97
+00:03:22,066 --> 00:03:23,866
+但它不会崩溃
+but it will not crash
+
+98
+00:03:24,100 --> 00:03:26,100
+当你的用户使用它时
+when your users are using it
+
+99
+00:03:27,000 --> 00:03:28,600
+所以，让我们做一个简单的比较
+so let's just do a quick comparison
+
+100
+00:03:28,600 --> 00:03:30,600
+让我们在javascript和Elm生态系统之间做一个快速的比较
+between the javascript and Elm ecosystems
+
+101
+00:03:30,600 --> 00:03:32,766
+在javascript中，如果你想
+in javascript if you wanted to
+
+102
+00:03:33,066 --> 00:03:35,366
+启动一个应用程序并安装一些软件包
+start an application and install some packages
+
+103
+00:03:35,366 --> 00:03:38,199
+你可能会去找npm或者yarn或者pmpm
+you probably reach for npm or yarn or pmpm
+
+104
+00:03:38,600 --> 00:03:40,366
+而在Elm中，这些都是内置的
+and in Elm this is all built in
+
+105
+00:03:40,500 --> 00:03:42,566
+你只需运行Elm install，就可以安装一些东西。
+you just run Elm install and you install something
+
+106
+00:03:42,566 --> 00:03:43,299
+如果你想构建
+if you want to build
+
+107
+00:03:43,300 --> 00:03:44,900
+你运行Elm make，它就会建立一些东西
+you run Elm make and it built something
+
+108
+00:03:44,900 --> 00:03:45,800
+这是很巧妙的
+it's pretty neat
+
+109
+00:03:46,166 --> 00:03:48,366
+在javascript中，如果你想建立一个web应用程序
+in javascript if you want to build a web application
+
+110
+00:03:48,366 --> 00:03:50,733
+你就会去找 react 或 angular 或 view
+you're going to reach for react or angular or view
+
+111
+00:03:50,733 --> 00:03:51,299
+或spelt
+or spelt
+
+112
+00:03:51,300 --> 00:03:53,733
+或固体或任何你喜欢的框架
+or solid or whichever framework is your preference
+
+113
+00:03:53,866 --> 00:03:55,266
+而在Elm中，这些都是内置的
+and in Elm this is all built in
+
+114
+00:03:55,266 --> 00:03:57,333
+我们遵循Elm的架构，这是
+we follow the Elm architecture which is
+
+115
+00:03:57,933 --> 00:04:00,466
+语言的核心基础部分
+stacore foundational piece of the language
+
+116
+00:04:00,600 --> 00:04:02,333
+构建网络应用的基础语言。
+for building web applications
+
+117
+00:04:02,566 --> 00:04:04,799
+在javascript中，如果你想要全局状态管理
+in javascript if you want global state management
+
+118
+00:04:04,800 --> 00:04:07,400
+你需要类似redux和grx pinya的东西
+you need something like redux and grx pinya
+
+119
+00:04:07,600 --> 00:04:10,766
+不管你喜欢哪种全局管理方式
+whatever your preferred flavor of global management is
+
+120
+00:04:10,766 --> 00:04:12,133
+而在Elm中，这也是内置的
+and in Elm again this is built in
+
+121
+00:04:12,133 --> 00:04:14,333
+它是语言架构的一部分
+it's part of the architecture of the language
+
+122
+00:04:14,566 --> 00:04:16,533
+你所有的状态都在全局层面
+all of your state lives at the global level
+
+123
+00:04:16,533 --> 00:04:18,199
+然后被传递到函数中
+and then gets passed into functions
+
+124
+00:04:18,200 --> 00:04:19,966
+记住，这些函数中没有一个
+remember that none of those functions
+
+125
+00:04:20,066 --> 00:04:21,599
+都不能调用这些数据
+can call that data
+
+126
+00:04:21,866 --> 00:04:22,999
+除非它被传入
+except if it's passed in
+
+127
+00:04:23,000 --> 00:04:24,533
+作为一个参数传给函数
+as an argument to the function
+
+128
+00:04:25,266 --> 00:04:25,899
+在javascript中
+in javascript
+
+129
+00:04:25,900 --> 00:04:27,333
+如果你想让它具有不变性
+if you want to mill it immutability
+
+130
+00:04:27,333 --> 00:04:29,166
+你需要联系1
+you need to reach out for 1/3 party library
+
+131
+00:04:29,166 --> 00:04:30,733
+null
+or use something like object dot
+
+132
+00:04:30,866 --> 00:04:32,999
+null
+freeze which is not 100%
+
+133
+00:04:33,266 --> 00:04:34,799
+null
+there are some proposals on the way
+
+134
+00:04:34,800 --> 00:04:36,500
+null
+for records and lists that are immutable
+
+135
+00:04:36,500 --> 00:04:37,600
+null
+but they're not here yet
+
+136
+00:04:37,666 --> 00:04:39,466
+null
+in Elm however they are all built in
+
+137
+00:04:39,533 --> 00:04:40,899
+null
+this is the default
+
+138
+00:04:40,900 --> 00:04:42,300
+null
+and the only way that you can work
+
+139
+00:04:42,300 --> 00:04:44,166
+null
+with data in the Elm language
+
+140
+00:04:44,700 --> 00:04:45,333
+null
+in javascript
+
+141
+00:04:45,333 --> 00:04:47,499
+null
+if you want types you need another 3rd party tool
+
+142
+00:04:47,500 --> 00:04:50,533
+null
+type script but in Elm as we discuss
+
+143
+00:04:50,566 --> 00:04:53,666
+null
+static strong type systems are built into the language
+
+144
+00:04:54,400 --> 00:04:55,500
+null
+in javascript
+
+145
+00:04:55,933 --> 00:04:59,333
+null
+looking at some tools outside of the programming itself
+
+146
+00:04:59,500 --> 00:05:01,966
+null
+if you want to lint your application you have yes lint
+
+147
+00:05:01,966 --> 00:05:03,766
+null
+and in Elm there is Elm review
+
+148
+00:05:03,766 --> 00:05:06,533
+null
+a similar tool that allows you to configure in Elm
+
+149
+00:05:06,600 --> 00:05:08,200
+null
+how your code should be linted
+
+150
+00:05:08,966 --> 00:05:10,166
+null
+in javascript
+
+151
+00:05:10,400 --> 00:05:12,166
+null
+you have access to prettier
+
+152
+00:05:12,166 --> 00:05:13,866
+null
+so that you can style your code
+
+153
+00:05:13,933 --> 00:05:16,566
+null
+this can also lead to a lot of debates within your team
+
+154
+00:05:16,866 --> 00:05:18,599
+null
+should we put the dangling comment at the end
+
+155
+00:05:18,600 --> 00:05:20,466
+null
+should we use a single quote or a double quote
+
+156
+00:05:20,766 --> 00:05:21,799
+null
+as the default
+
+157
+00:05:21,800 --> 00:05:23,500
+null
+what about semicolons
+
+158
+00:05:23,533 --> 00:05:25,166
+null
+in Elm there is Elm format
+
+159
+00:05:25,166 --> 00:05:27,366
+null
+Elm format formats your code for you
+
+160
+00:05:27,400 --> 00:05:28,600
+null
+there is no configuration
+
+161
+00:05:28,600 --> 00:05:30,100
+null
+it follows this standard
+
+162
+00:05:30,133 --> 00:05:30,766
+null
+provided
+
+163
+00:05:30,766 --> 00:05:33,466
+null
+on the Elm website for how code should be formatted
+
+164
+00:05:34,200 --> 00:05:36,466
+而在javascript中，如果你想做单元测试
+and in javascript if you want to do unit testing
+
+165
+00:05:36,466 --> 00:05:39,333
+你就会去找moka v test
+you're going to reach for just moka v test
+
+166
+00:05:40,000 --> 00:05:41,800
+有很多库你可以使用
+there's a number of libraries that you could use
+
+167
+00:05:41,800 --> 00:05:43,666
+但在Elm中，有Elm test
+but in Elm there is Elm test
+
+168
+00:05:43,666 --> 00:05:46,933
+Elm test允许你在Elm中为Elm编写测试
+Elm test allows you to write tests in Elm for Elm
+
+169
+00:05:47,133 --> 00:05:48,133
+并运行它们
+and run them
+
+170
+00:05:49,000 --> 00:05:50,766
+用一个简单的cli工具运行它们
+with a simple cli tool
+
+171
+00:05:51,866 --> 00:05:54,299
+关于Elm的其他一些好处
+some of the other niceties about Elm
+
+172
+00:05:54,333 --> 00:05:54,999
+的一些其他优点是
+are the helpful
+
+173
+00:05:55,000 --> 00:05:57,133
+编译器给你的错误信息
+error messages that the compiler gives you
+
+174
+00:05:57,166 --> 00:06:00,399
+例如，如果有一个不正确的参数类型
+so for example if there is an incorrect argument type
+
+175
+00:06:00,666 --> 00:06:02,333
+比方说，我们从int调用字符串dot
+let's say we're calling string dot from int
+
+176
+00:06:02,333 --> 00:06:03,566
+调用字符串dot，但传给它的却是一个字符串
+but passing it a string
+
+177
+00:06:03,566 --> 00:06:06,199
+编译器会告诉我们，那是一个字符串
+the compiler will tell us that that is a string
+
+178
+00:06:06,500 --> 00:06:09,166
+但是from int需要第一个参数是一个int
+but from int needs the first argument to be an int
+
+179
+00:06:09,500 --> 00:06:11,333
+如果你想把一个字符串转换成一个int
+if you want to convert a string into an int
+
+180
+00:06:11,333 --> 00:06:12,533
+你就把字符串dot转换成int
+you string dot to int
+
+181
+00:06:12,600 --> 00:06:14,166
+所以Elm在这方面很有帮助
+so Elm is very helpful in this way
+
+182
+00:06:14,166 --> 00:06:16,133
+为我们提供提示和指导
+providing us hints and guides
+
+183
+00:06:16,200 --> 00:06:17,733
+提供了提示和指导，告诉我们代码中的
+as to what the code
+
+184
+00:06:18,133 --> 00:06:21,866
+或你的实际意思。
+is expecting or what you might have actually meant
+
+185
+00:06:22,366 --> 00:06:24,533
+另一种情况是无效的情况
+another case is the invalid case
+
+186
+00:06:24,600 --> 00:06:26,300
+如果你有一个if语句
+if you have an if statement
+
+187
+00:06:26,366 --> 00:06:28,366
+而你在一个函数中返回一个值
+and you're returning a value in a function
+
+188
+00:06:29,666 --> 00:06:30,266
+那是唯一的
+that's the only
+
+189
+00:06:30,266 --> 00:06:32,133
+的那种值可以从一个函数中返回
+kind of value that can be returned from a function
+
+190
+00:06:32,133 --> 00:06:34,799
+所以，如果我们的if语句的开头返回一个字符串
+so if the start of our if statement returns a string
+
+191
+00:06:34,933 --> 00:06:37,066
+而中间返回一个字符串
+and the middle returns a string
+
+192
+00:06:37,266 --> 00:06:39,199
+而第三个值返回一个数字
+and the 3rd value returns a number
+
+193
+00:06:39,466 --> 00:06:40,299
+这是不有效的
+that's not valid
+
+194
+00:06:40,300 --> 00:06:42,333
+第三个分支是一个数字类型的数字
+the 3rd branche is a number of type number
+
+195
+00:06:42,466 --> 00:06:45,333
+但之前的所有分支的结果都是字符串
+but all the previous branches result in string
+
+196
+00:06:45,533 --> 00:06:47,733
+然后它告诉我们，在一个if中的所有分支
+and then it tells us that all branches in an if
+
+197
+00:06:47,733 --> 00:06:49,699
+的所有分支必须产生相同类型的值
+must produce the same type of values
+
+198
+00:06:49,766 --> 00:06:50,766
+然后给了我们
+and then gives us
+
+199
+00:06:50,800 --> 00:06:52,400
+指南，说明我们如何编写
+guides on how we can write
+
+200
+00:06:52,400 --> 00:06:54,166
+自定义类型，可以将
+custom types that can incorporate
+
+201
+00:06:54,166 --> 00:06:55,199
+不同类型的数据
+different types of data
+
+202
+00:06:55,200 --> 00:06:56,666
+如果我们真的需要这样做的话
+if we really need to do that
+
+203
+00:06:58,066 --> 00:07:00,866
+我们今天的第三个例子是真实性。
+the 3rd example that we have today is truthiness
+
+204
+00:07:00,866 --> 00:07:03,099
+在javascript中，我们有 "真实性 "这个概念
+in javascript we have this concept of truthiness
+
+205
+00:07:03,100 --> 00:07:04,200
+如果你想知道
+if you want to know
+
+206
+00:07:04,300 --> 00:07:05,100
+的话
+that
+
+207
+00:07:05,133 --> 00:07:06,599
+一个列表有数据
+a list has data
+
+208
+00:07:06,766 --> 00:07:08,399
+你通常可以直接调用
+you can typically just call like
+
+209
+00:07:08,533 --> 00:07:10,566
+我在这里演示的是字符串长度
+I'm demoing here string length
+
+210
+00:07:10,566 --> 00:07:11,599
+然后再调用一个字符串
+and then a string
+
+211
+00:07:11,900 --> 00:07:14,266
+如果结果是0以外的任何数字
+if that comes out to any number but 0
+
+212
+00:07:14,333 --> 00:07:16,533
+那么我们就知道这个字符串是存在的
+then we know that the string is present
+
+213
+00:07:16,533 --> 00:07:17,566
+那里有数据
+there is data there
+
+214
+00:07:17,600 --> 00:07:20,300
+在javascript中是这样的，但在Elm中不是这样的
+in javascript but in Elm that's not how it works
+
+215
+00:07:20,733 --> 00:07:22,966
+在Elm中，如果你想做这样的比较
+in Elm if you want to make this kind of comparison
+
+216
+00:07:22,966 --> 00:07:24,166
+你需要实际
+you need to actually
+
+217
+00:07:24,200 --> 00:07:27,166
+确定字符串的长度大于0
+determine that the string length is greater than 0
+
+218
+00:07:27,266 --> 00:07:28,766
+因为Elm不具有真理性
+because Elm does not have truthiness
+
+219
+00:07:28,766 --> 00:07:30,066
+正如我们在提示中看到的那样
+as we can see in the hint
+
+220
+00:07:30,500 --> 00:07:31,500
+榆树不具备真实性
+Elm does not have truthiness
+
+221
+00:07:31,500 --> 00:07:32,600
+这样，即时字符串和
+such that instant strings and
+
+222
+00:07:32,600 --> 00:07:34,733
+列表会自动转换为十亿级
+lists are automatically converted to billions
+
+223
+00:07:34,733 --> 00:07:36,299
+而Elm则明确地进行这种转换
+do that conversion explicitly
+
+224
+00:07:36,400 --> 00:07:37,533
+所以Elm再次
+so again Elm
+
+225
+00:07:37,566 --> 00:07:39,599
+编译器实际上是在指导我们
+compiler is actually guiding us
+
+226
+00:07:39,600 --> 00:07:41,800
+通过学习如何在Elm中工作的过程
+through the process of learning how to work in Elm
+
+227
+00:07:43,533 --> 00:07:46,566
+这是一些Elm代码的例子
+and this is an example of some Elm code
+
+228
+00:07:46,566 --> 00:07:47,733
+这是很基本的
+it's very basic
+
+229
+00:07:48,700 --> 00:07:50,600
+我们在这里所做的就是在屏幕上添加一个
+all we're doing here is adding a
+
+230
+00:07:50,666 --> 00:07:51,699
+计数器到屏幕上
+counter to the screen
+
+231
+00:07:51,700 --> 00:07:53,466
+有一个加号按钮和一个减号按钮
+with a plus button and a minus button
+
+232
+00:07:53,800 --> 00:07:55,966
+这样我们就可以对数字进行递增和递减了
+so that we can increment and decrement in numbers
+
+233
+00:07:55,966 --> 00:07:56,499
+这就是
+that is
+
+234
+00:07:56,500 --> 00:07:58,766
+随着数字的变化在屏幕上重新显示出来
+re rendered on the screen as the number changes
+
+235
+00:07:59,466 --> 00:08:01,299
+所以让我们快速浏览一下这个文件
+so let's just walk through this file real quick
+
+236
+00:08:01,533 --> 00:08:04,766
+在顶部有一个模块main，暴露了所有的东西
+at the top there is module main exposing everything
+
+237
+00:08:05,166 --> 00:08:07,133
+所以点点代表一切
+so the dot dot it means everything
+
+238
+00:08:07,133 --> 00:08:09,199
+模块main是这个文件的名字
+module main is the name of the file
+
+239
+00:08:09,200 --> 00:08:11,066
+它位于我们应用程序的根部
+and it's at the root of our application
+
+240
+00:08:11,366 --> 00:08:14,266
+然后我们导入了三个不同的包
+and then we are importing 3 different packages
+
+241
+00:08:14,266 --> 00:08:15,166
+浏览器
+the browser
+
+242
+00:08:15,333 --> 00:08:17,333
+这样我们就可以实际创建一个应用程序
+so that we can actually create an application
+
+243
+00:08:17,666 --> 00:08:19,399
+HTML，这样我们就可以渲染
+HTML so that we can render
+
+244
+00:08:19,466 --> 00:08:20,199
+HTML
+HTML
+
+245
+00:08:20,200 --> 00:08:21,600
+这一点很重要
+it's kind of important
+
+246
+00:08:21,866 --> 00:08:24,366
+并导入HTML事件
+and import HTML events
+
+247
+00:08:24,366 --> 00:08:26,999
+这样我们就可以在我们的应用程序中实际拥有事件
+so that we can actually have events in our application
+
+248
+00:08:27,000 --> 00:08:29,100
+允许用户与页面进行交互
+allow the user to interact with the page
+
+249
+00:08:29,533 --> 00:08:33,499
+然后我们初始化我们的状态，我们的模型为0
+we then initialize our state our model to be 0
+
+250
+00:08:33,500 --> 00:08:36,966
+所以在这种情况下，我们的数据仅仅是一个数字
+so in this case our data is just the number
+
+251
+00:08:36,966 --> 00:08:38,666
+我们不需要担心任何复杂的问题
+we're not worrying about anything complex
+
+252
+00:08:38,666 --> 00:08:40,466
+而且它只是从数字0开始的
+and it just starts out at the number 0
+
+253
+00:08:40,866 --> 00:08:42,333
+然后，我们有一个更新函数
+we then have our update function
+
+254
+00:08:42,333 --> 00:08:44,466
+更新函数接收一个信息
+the update function takes a message
+
+255
+00:08:44,600 --> 00:08:47,166
+在这种情况下，这个消息是一个联合体，它包括
+in this case the message is a union of either
+
+256
+00:08:47,166 --> 00:08:48,733
+增量或减量
+increment or decrement
+
+257
+00:08:49,400 --> 00:08:50,133
+然后
+and then
+
+258
+00:08:50,133 --> 00:08:52,566
+我们的更新函数本身有一个类型签名
+our update function itself has a type signature
+
+259
+00:08:52,566 --> 00:08:53,899
+其中它接收一个消息
+where it takes a message
+
+260
+00:08:54,000 --> 00:08:56,166
+和一个模型，并返回一个模型
+and a model and it returns a model
+
+261
+00:08:57,166 --> 00:08:57,966
+所以
+so
+
+262
+00:08:58,000 --> 00:09:00,133
+在下一行我们可以看到更新消息模型
+on the next line we can see update message model
+
+263
+00:09:00,133 --> 00:09:03,333
+我们现在有了这些变量，如果消息的增量是
+we have those variables now case message of increment
+
+264
+00:09:03,733 --> 00:09:04,599
+模型加一
+model plus one
+
+265
+00:09:04,600 --> 00:09:06,000
+所以我们正在增加我们的模型
+so we're increasing our model
+
+266
+00:09:06,000 --> 00:09:07,966
+这是个数字加一
+which is a number plus one
+
+267
+00:09:08,200 --> 00:09:10,266
+如果我们把模型-1减去
+and if we decrement model -1
+
+268
+00:09:11,266 --> 00:09:12,533
+然后在我们的视图中
+and then in our view
+
+269
+00:09:12,533 --> 00:09:15,466
+我们有一些HTML，我们正在渲染
+we have some HTML that we are rendering
+
+270
+00:09:15,733 --> 00:09:18,899
+所以这就是渲染HTML的结构
+so this is the structure for rendering HTML
+
+271
+00:09:18,900 --> 00:09:20,133
+如果我们想把它渲染成div
+if we want to render it div
+
+272
+00:09:20,400 --> 00:09:22,333
+实际上是任何HTML元素
+actually any HTML element really
+
+273
+00:09:22,466 --> 00:09:23,266
+我们有
+we have
+
+274
+00:09:23,300 --> 00:09:24,666
+元素，即我们所说的
+the element what we are calling
+
+275
+00:09:24,666 --> 00:09:27,166
+它本身就是一个函数，在本例中为div
+which is itself a function div in this case
+
+276
+00:09:27,500 --> 00:09:28,066
+有
+with
+
+277
+00:09:28,066 --> 00:09:30,533
+2个括号表示属性
+2 brackets for the attributes
+
+278
+00:09:30,700 --> 00:09:32,466
+在这种情况下，这个div没有属性
+in this case the div has no attributes
+
+279
+00:09:32,466 --> 00:09:33,199
+然后是第二个
+and then a second
+
+280
+00:09:33,200 --> 00:09:35,400
+一组大括号，用于表示子节点的列表
+set of brackets for a list of children
+
+281
+00:09:35,966 --> 00:09:38,366
+因此，这个 div 没有属性，但它有子代
+so the div has no attributes but it does have children
+
+282
+00:09:38,566 --> 00:09:39,399
+一个按钮
+a button
+
+283
+00:09:39,466 --> 00:09:42,266
+具有取消点击递减的属性
+has attribute of unclick decrement
+
+284
+00:09:42,466 --> 00:09:44,999
+然后是一个文本减去的孩子
+and then a child of the text minus
+
+285
+00:09:45,500 --> 00:09:47,666
+然后我们渲染另一个没有属性的 div
+we then render another div with no attributes
+
+286
+00:09:47,666 --> 00:09:49,666
+和模型的文本
+and the text of the model
+
+287
+00:09:49,666 --> 00:09:50,866
+所以我们要把这个数字
+so we're turning the number
+
+288
+00:09:50,866 --> 00:09:53,199
+变成一个字符串，这样我们就可以把它渲染到用户界面上。
+into a string so we can render it to the UI
+
+289
+00:09:53,966 --> 00:09:56,533
+然后我们有另一个按钮，用于递增
+and then we have another button for incrementing
+
+290
+00:09:56,933 --> 00:09:59,933
+我们将在后面的代码示例中看到这一点。
+and we are going to see this later in our code examples
+
+291
+00:10:00,100 --> 00:10:01,466
+我只是想让大家了解一下这个
+I just wanted to walk through what this
+
+292
+00:10:01,466 --> 00:10:02,333
+榆树代码之前所做的
+Elm code did before
+
+293
+00:10:02,333 --> 00:10:03,133
+我们到达那里
+we got there
+
+294
+00:10:03,800 --> 00:10:04,600
+然后
+and then
+
+295
+00:10:04,900 --> 00:10:06,533
+我们有一个主函数
+we have our main function
+
+296
+00:10:06,533 --> 00:10:07,799
+主函数的作用是
+the main function is what is
+
+297
+00:10:07,800 --> 00:10:10,066
+用来实际启动应用程序
+used to actually initiate the application
+
+298
+00:10:10,066 --> 00:10:12,199
+向浏览器渲染一些东西
+to render something to the browser
+
+299
+00:10:12,300 --> 00:10:14,700
+所以在这种情况下，我们使用的是浏览器沙盒
+so in this case we are using browser sandbox
+
+300
+00:10:14,766 --> 00:10:15,666
+这只是意味着它
+this just means it
+
+301
+00:10:15,666 --> 00:10:17,999
+不能与自身以外的javascript交流
+can't communicate with javascript outside of itself
+
+302
+00:10:18,800 --> 00:10:21,066
+然后我们在它里面初始化，等于在它里面
+and then we initialize in it equals in it
+
+303
+00:10:21,066 --> 00:10:23,699
+更新等同于更新，视图等同于视图
+update equals update and view equals view
+
+304
+00:10:23,766 --> 00:10:25,666
+这看起来应该有些熟悉
+this should look somewhat familiar
+
+305
+00:10:25,866 --> 00:10:29,299
+如果你习惯了javascript的对象符号
+if you are used to javascript object notation
+
+306
+00:10:30,100 --> 00:10:32,900
+但我们用等号来代替冒号
+but instead of colons we are using equal signs
+
+307
+00:10:33,766 --> 00:10:34,566
+这就是
+and this is the
+
+308
+00:10:34,966 --> 00:10:36,366
+基本的Elm应用程序
+basic Elm application
+
+309
+00:10:36,600 --> 00:10:37,533
+你可以从这里开始
+you could start here
+
+310
+00:10:37,533 --> 00:10:38,499
+你可以开始扩展
+you could start expanding
+
+311
+00:10:38,500 --> 00:10:40,900
+你可以开始探索如何编写Elm本身
+you could start exploring how to write Elm itself
+
+312
+00:10:42,400 --> 00:10:44,133
+现在，我们只想看看
+and right now we're just going to look
+
+313
+00:10:44,266 --> 00:10:47,599
+现在我们只想看看如何从小麦和Elm一起开始。
+at how we can get started with wheat and Elm together
+
+314
+00:10:47,733 --> 00:10:49,533
+所以我们将进入一些代码
+so we're going to go into some code
+
+315
+00:10:49,533 --> 00:10:53,266
+我有一个使用类型脚本的小麦启动器的例子
+I have an example wheat starter using type script
+
+316
+00:10:53,333 --> 00:10:56,199
+我们将把Elm纳入该启动器中
+and we're going to incorporate Elm into that starter
+
+317
+00:10:56,333 --> 00:10:58,533
+并将我们刚才看到的计数器渲染到
+and render the counter that we were just looking at
+
+318
+00:10:58,533 --> 00:10:59,333
+到dom
+to the dom
+
+319
+00:10:59,600 --> 00:11:02,000
+所以这是主TS文件
+so this is the main TS file
+
+320
+00:11:02,166 --> 00:11:03,366
+报告一些样式
+reporting some styles
+
+321
+00:11:03,666 --> 00:11:05,899
+报告typescript标识设置计数器
+reporting the typescript logo setup counter
+
+322
+00:11:05,900 --> 00:11:07,900
+并生成了一些HTML
+and generating some HTML
+
+323
+00:11:08,500 --> 00:11:10,700
+而我们只是要删除所有这些，在
+and we are just going to delete all of this at
+
+324
+00:11:10,700 --> 00:11:11,700
+只需一秒钟
+just one second
+
+325
+00:11:12,366 --> 00:11:14,399
+所以我们要做的第一件事是安装
+so the first thing we're going to do is install
+
+326
+00:11:14,500 --> 00:11:17,066
+插件，以便在Wheat中使用Elm。
+plug in for using Elm inside of wheat
+
+327
+00:11:17,066 --> 00:11:19,199
+所以我们要做mpm安装wheat
+so we're going to do mpm install wheat
+
+328
+00:11:24,100 --> 00:11:24,900
+feat
+feat
+
+329
+00:11:25,666 --> 00:11:29,099
+plug in Elm，这将给我们提供一个插件
+plug in Elm and that will give us the plug in
+
+330
+00:11:29,100 --> 00:11:30,600
+来在E中使用Elm
+to use Elm inside of e
+
+331
+00:11:31,000 --> 00:11:32,966
+如果这是你第一次使用Elm
+if this is the first time you've used Elm
+
+332
+00:11:33,000 --> 00:11:35,700
+你还需要做 npm install global
+you'll also need to do npm install global
+
+333
+00:11:35,866 --> 00:11:37,899
+Elm，这将给你提供Elm编译器在
+Elm that will give you the Elm compiler in
+
+334
+00:11:37,900 --> 00:11:38,800
+所有的语言
+all of the language
+
+335
+00:11:38,800 --> 00:11:40,000
+中的所有语言编译器，你需要
+pieces that you need
+
+336
+00:11:40,266 --> 00:11:41,699
+在你的全局范围内
+in your global scope
+
+337
+00:11:42,400 --> 00:11:44,466
+我已经做了，所以我们不打算在这里做。
+I've already done that so we're not going to do it here
+
+338
+00:11:44,933 --> 00:11:46,699
+我们需要做的下一件事是
+the next thing we need to do is
+
+339
+00:11:46,700 --> 00:11:49,000
+启动我们的Elm邻近文件
+initiate our Elm adjacent file
+
+340
+00:11:49,000 --> 00:11:51,300
+要做到这一点，我们只需在其中运行Elm
+and to do that we just run Elm in it
+
+341
+00:11:52,166 --> 00:11:53,533
+然后我们说是
+and we say yes
+
+342
+00:11:53,666 --> 00:11:54,999
+如果你以前从未使用过Elm
+if you've never used Elm before
+
+343
+00:11:55,000 --> 00:11:56,133
+你应该检查一下那个链接
+you should check out that link
+
+344
+00:11:56,133 --> 00:11:57,166
+就像它说的那样
+just like it's saying
+
+345
+00:11:57,266 --> 00:11:59,099
+但Elm dot Jason
+but Elm dot Jason
+
+346
+00:11:59,300 --> 00:12:01,366
+相当于一个软件包点Jason文件
+is the equivalent of a package dot Jason files
+
+347
+00:12:01,366 --> 00:12:03,199
+它有我们的依赖性
+it has our dependencies
+
+348
+00:12:03,466 --> 00:12:04,766
+和什么类型的
+and what kinds
+
+349
+00:12:04,933 --> 00:12:05,933
+源，以及我们正在看的
+sources we're looking at
+
+350
+00:12:05,933 --> 00:12:07,566
+我们正在编写什么样的代码
+what kind of code we're writing
+
+351
+00:12:08,566 --> 00:12:10,299
+所以现在我们已经有了所有这些东西
+so now that we have all that in place
+
+352
+00:12:10,300 --> 00:12:12,300
+我们要创建我们的VT配置
+we're going to create our VT config
+
+353
+00:12:13,100 --> 00:12:18,066
+vtw fig TS 我们要从VT导入define config
+vtw fig TS we're going to import define config from VT
+
+354
+00:12:18,066 --> 00:12:19,599
+中导入define config，同时我们也要把
+and we're also going to import
+
+355
+00:12:20,100 --> 00:12:22,200
+plug in作为Elm
+plug in as Elm
+
+356
+00:12:22,566 --> 00:12:24,199
+从V的plug in l
+from v plug in l
+
+357
+00:12:25,500 --> 00:12:26,966
+然后我们导出
+then we export
+
+358
+00:12:27,066 --> 00:12:29,699
+defaults define config
+defaults define config
+
+359
+00:12:31,100 --> 00:12:32,966
+plugins l
+plugins l
+
+360
+00:12:34,366 --> 00:12:37,966
+现在我们已经将LM添加到我们的VT配置中了
+and now we have added LM into our VT configuration
+
+361
+00:12:37,966 --> 00:12:40,766
+所以我们可以开始导入LM代码了
+so we can start importing LM code
+
+362
+00:12:41,133 --> 00:12:43,466
+所以让我们创建一个新的文件main
+so let's create a new file main
+
+363
+00:12:43,566 --> 00:12:44,766
+LM全部
+LM all
+
+364
+00:12:45,466 --> 00:12:47,733
+LM模块以大写字母开头
+LM modules start with a capital letter
+
+365
+00:12:47,733 --> 00:12:49,266
+所以大写的m代表main
+so capital m for main
+
+366
+00:12:50,100 --> 00:12:52,666
+我们要把这个转入
+and we're just going to dump this in
+
+367
+00:12:52,666 --> 00:12:53,666
+这是同一个计数器
+this is the same counter
+
+368
+00:12:53,666 --> 00:12:55,466
+就是我们刚才看到的那个计数器
+that we were looking at just a little bit ago
+
+369
+00:12:56,200 --> 00:12:57,166
+完成这些后
+with that done
+
+370
+00:12:58,466 --> 00:13:00,999
+现在我们要做的就是删除所有的东西
+all we need to do now is delete everything
+
+371
+00:13:01,166 --> 00:13:02,299
+总是最棒的部分
+always the best part
+
+372
+00:13:02,900 --> 00:13:07,066
+我们将从maine.l导入Elm。
+we're going to import Elm from maine.l
+
+373
+00:13:07,300 --> 00:13:08,800
+这样我们就有了我们的应用程序
+that gives us our application
+
+374
+00:13:09,066 --> 00:13:11,199
+然后，我们要做的是： const app
+and then we're going to do const app
+
+375
+00:13:11,666 --> 00:13:13,333
+等于m dot main
+equals m dot main
+
+376
+00:13:13,333 --> 00:13:14,899
+文件的名称
+which is the name of the file
+
+377
+00:13:15,366 --> 00:13:17,799
+中的文件名，我们需要传递给它一个节点
+in it and we need to pass it a node
+
+378
+00:13:17,800 --> 00:13:20,266
+本例中的节点将是一个实际的dom节点
+the node in this case is going to be an actual dom node
+
+379
+00:13:20,266 --> 00:13:22,399
+文档查询选择器
+document queries selector
+
+380
+00:13:23,000 --> 00:13:23,800
+应用
+app
+
+381
+00:13:25,933 --> 00:13:29,466
+这就是我们需要做的，以便获得标记。
+and that is all we need to do in order to get l marking
+
+382
+00:13:29,466 --> 00:13:31,733
+所以让我们运行mpm run dev
+so let's run mpm run dev
+
+383
+00:13:33,000 --> 00:13:36,566
+一切都很顺利地编译了，我们可以看到这里我们有
+everything compiled happily and we can see here we have
+
+384
+00:13:37,000 --> 00:13:39,566
+我们的应用程序，它是如此令人兴奋，这是一个计数器
+our application it's so exciting it's a counter
+
+385
+00:13:39,733 --> 00:13:40,999
+不过最酷的是
+what's really cool though
+
+386
+00:13:41,133 --> 00:13:43,599
+是我们也有时间旅行调试器
+is we also have the time traveling debugger
+
+387
+00:13:43,966 --> 00:13:47,466
+所以我们可以在我们的代码中回溯我们所做的每一步
+so we can walk back in our code every step we made
+
+388
+00:13:48,066 --> 00:13:50,699
+并看到发生在我们模型上的所有变化
+and see all of the changes that happen to our model
+
+389
+00:13:51,500 --> 00:13:52,533
+调试时
+when debugging something
+
+390
+00:13:52,533 --> 00:13:54,466
+这是个很好的方法，可以看到正在发生的事情
+this is a great way to see what's going on
+
+391
+00:13:54,533 --> 00:13:56,699
+你的应用程序的当前状态是什么
+what the current state of your application is
+
+392
+00:13:56,700 --> 00:13:57,600
+而且你可以
+and you can
+
+393
+00:13:57,666 --> 00:13:59,899
+开始推理你接下来需要做什么
+start reasoning about what you need to do next
+
+394
+00:14:00,666 --> 00:14:02,266
+而且它只是内置在插件中
+and it's just built into the plugin
+
+395
+00:14:02,300 --> 00:14:04,300
+所以你不需要担心在浏览器上安装
+so you don't need to worry about installing
+
+396
+00:14:04,366 --> 00:14:06,099
+一个插件到你的浏览器
+a plugin to your browser
+
+397
+00:14:06,100 --> 00:14:07,366
+它仅仅是
+it's just part of
+
+398
+00:14:08,200 --> 00:14:10,266
+的一部分，而且你会带着它。
+the v plugin out and that you're bringing with you
+
+399
+00:14:10,400 --> 00:14:12,300
+还有，当你查看调试器的时候
+and also when you're viewing the debugger
+
+400
+00:14:12,500 --> 00:14:13,866
+Elm会暂停
+Elm will pause
+
+401
+00:14:14,000 --> 00:14:16,133
+这样你就可以看到状态是什么
+so that you can see what the state is
+
+402
+00:14:16,133 --> 00:14:17,933
+当你把它移到某个地方时
+when you move it to a certain place
+
+403
+00:14:18,000 --> 00:14:19,066
+而当你点击恢复时
+and when you click to resume
+
+404
+00:14:19,066 --> 00:14:20,399
+它就会移回它应该在的地方
+it moves back to where it should be
+
+405
+00:14:20,400 --> 00:14:21,533
+在当前状态下
+at the current state
+
+406
+00:14:22,500 --> 00:14:25,200
+很好，现在我们已经把Elm渲染到dom上了
+great so now we have rendered Elm to the dom
+
+407
+00:14:25,366 --> 00:14:26,899
+使用v，但
+using v but
+
+408
+00:14:27,066 --> 00:14:28,599
+我们不是从头开始
+we're not starting from scratch
+
+409
+00:14:28,600 --> 00:14:31,400
+我们不是在写一个全新的应用程序
+we're not writing a whole brand new application here
+
+410
+00:14:31,666 --> 00:14:33,099
+如果我们有一个现有的项目呢？
+what if we have an existing project
+
+411
+00:14:33,100 --> 00:14:35,133
+如果你已经在视图中写了一个项目
+what if you've been writing a project in view
+
+412
+00:14:35,400 --> 00:14:37,800
+写了好几个月甚至一年的项目
+for some number of months or even a year
+
+413
+00:14:38,166 --> 00:14:38,966
+而且
+and
+
+414
+00:14:39,766 --> 00:14:41,199
+你真的想试试Elm
+you really want to try out Elm
+
+415
+00:14:41,200 --> 00:14:44,100
+但你不能把你已经写好的东西都扔掉
+but you can't just throw everything out that you've
+
+416
+00:14:44,100 --> 00:14:45,066
+已经写好的东西
+written already
+
+417
+00:14:45,200 --> 00:14:46,600
+你不需要担心
+well you don't need to worry
+
+418
+00:14:46,800 --> 00:14:48,133
+因为Elm
+because Elm
+
+419
+00:14:48,133 --> 00:14:50,166
+实际上可以并入任何一个前台
+can actually be incorporated into any of the front
+
+420
+00:14:50,166 --> 00:14:50,699
+和框架
+and frameworks
+
+421
+00:14:50,700 --> 00:14:52,300
+不管是view还是react
+whether it's view or react
+
+422
+00:14:52,400 --> 00:14:54,866
+或Selt或Solid等等。
+or selt or solid what have you
+
+423
+00:14:55,166 --> 00:14:55,766
+榆树
+Elm
+
+424
+00:14:55,766 --> 00:14:56,899
+特别是通过小麦
+especially through wheat
+
+425
+00:14:56,966 --> 00:14:59,733
+可以非常容易地被添加到任何这些框架中去
+can be added very easily into any of these frameworks
+
+426
+00:14:59,733 --> 00:15:01,066
+这样你就可以尝试一下了
+so that you can give it a try
+
+427
+00:15:01,266 --> 00:15:02,166
+所以这就是我们要做的事情
+so that's what we're going to do
+
+428
+00:15:02,166 --> 00:15:04,366
+现在我们要深入研究视图启动器了
+now we're going to dive into the view starter
+
+429
+00:15:04,866 --> 00:15:06,766
+使用npm创建视图
+using npm create view
+
+430
+00:15:07,333 --> 00:15:08,199
+和
+and
+
+431
+00:15:08,333 --> 00:15:11,533
+看看在我们的应用程序中添加Elm是什么感觉
+see what it feels like to add Elm into our application
+
+432
+00:15:12,366 --> 00:15:12,866
+好的
+all right
+
+433
+00:15:12,866 --> 00:15:15,199
+所以现在我们要像我说的那样看一下
+so now we're going to look like I said at
+
+434
+00:15:15,333 --> 00:15:17,899
+视图3的默认模板
+the view 3 default template
+
+435
+00:15:18,133 --> 00:15:19,499
+如果你以前从未看过它
+and if you've never looked at it before
+
+436
+00:15:19,500 --> 00:15:20,700
+它是相当漂亮的，不是吗？
+it's quite pretty isn't it
+
+437
+00:15:20,800 --> 00:15:22,800
+而我们要做的是
+and what we're going to do is
+
+438
+00:15:22,966 --> 00:15:24,099
+就像我们之前做的那样
+just like we did before
+
+439
+00:15:24,100 --> 00:15:26,533
+我们将在这个页面中加入Elm
+we're going to be adding Elm into this page
+
+440
+00:15:26,533 --> 00:15:28,099
+但我们不是要替换掉所有的东西
+but instead of replacing everything
+
+441
+00:15:28,400 --> 00:15:30,466
+我们只是要把它贴在这里的下面
+we're just going to stick it here underneath
+
+442
+00:15:30,466 --> 00:15:31,866
+支持视图的地方
+where it says support view
+
+443
+00:15:32,666 --> 00:15:34,533
+并让我们跳到代码中
+and let's jump into the code
+
+444
+00:15:34,800 --> 00:15:36,166
+正如我们在上一个例子中所做的那样
+as we did in our last example
+
+445
+00:15:36,166 --> 00:15:38,533
+第一步是安装mpm安装
+the first step is to install mpm install
+
+446
+00:15:39,000 --> 00:15:42,766
+脚下的插件，如果你拼写正确的话，我
+feet plug in if you spell it right l
+
+447
+00:15:43,766 --> 00:15:44,499
+和
+and
+
+448
+00:15:44,500 --> 00:15:47,600
+我们已经安装了Elm，所以我们可以在其中运行Elm
+we already have Elm installed so we can run Elm in it
+
+449
+00:15:47,733 --> 00:15:51,466
+我们可以让我们的Elm配置启动并运行
+and we can get our Elm config up and running
+
+450
+00:15:52,200 --> 00:15:54,000
+因为我们使用的是视图模板
+and because we're using the view template
+
+451
+00:15:54,000 --> 00:15:56,100
+我们已经有了一个v配置文件
+we already have a v config file
+
+452
+00:15:56,100 --> 00:15:57,766
+我们已经在导入视图了
+we are already importing view
+
+453
+00:15:58,333 --> 00:16:01,599
+所以我们只是要添加Elm，在这种情况下导入
+so we're just going to add Elm in this case import
+
+454
+00:16:02,066 --> 00:16:02,866
+榆树
+Elm
+
+455
+00:16:02,900 --> 00:16:03,700
+从
+from
+
+456
+00:16:04,366 --> 00:16:05,666
+v plug and Elm
+v plug and Elm
+
+457
+00:16:06,766 --> 00:16:08,566
+然后就在这里添加它
+and then just add it right here
+
+458
+00:16:09,100 --> 00:16:12,000
+所以现在我们把view和Elm都作为插件了
+so now we have both view and Elm as plugins
+
+459
+00:16:12,066 --> 00:16:14,199
+这就是我们需要做的，以使
+and that's all we need to do in order to
+
+460
+00:16:14,600 --> 00:16:16,566
+这就是我们需要做的，以便让Elm启动和运行
+have Elm up and running
+
+461
+00:16:17,166 --> 00:16:18,399
+所以现在
+so now
+
+462
+00:16:19,200 --> 00:16:21,366
+我们要像之前那样创建
+we're going to create just like we did before
+
+463
+00:16:21,366 --> 00:16:23,733
+我们将创建我们的主LM文件
+we're going to create our main LM file
+
+464
+00:16:24,333 --> 00:16:26,899
+粘贴我们一直在使用的完全相同的代码
+paste in the exact same code that we've been using
+
+465
+00:16:26,966 --> 00:16:29,699
+它是相同的计数器，渲染相同的HTML
+it's the same counter rendering the same HTML
+
+466
+00:16:30,000 --> 00:16:32,100
+但这次不是替换所有的代码
+but this time instead of replacing all of the code
+
+467
+00:16:32,100 --> 00:16:34,333
+我们将在视图中渲染这个内容
+we're going to render this inside of view
+
+468
+00:16:34,366 --> 00:16:36,499
+所以让我们看看你需要做什么
+so let's take a look at what you need to do that
+
+469
+00:16:37,266 --> 00:16:38,533
+在这个例子中
+for this example
+
+470
+00:16:38,533 --> 00:16:41,133
+我们将把它插在欢迎页面中
+we are going to be sticking it inside of the welcome
+
+471
+00:16:41,133 --> 00:16:43,966
+本例中的 "欢迎 "就在这里
+the welcome in this case is right here
+
+472
+00:16:45,400 --> 00:16:47,933
+你可以看到我们在这里得到了文件
+and you can see where we've got documentation
+
+473
+00:16:47,933 --> 00:16:49,266
+我们已经有了工具
+we've got tooling
+
+474
+00:16:50,266 --> 00:16:52,933
+而我们只是要在底部添加一个
+and we're just going to add one at the bottom
+
+475
+00:16:53,266 --> 00:16:54,599
+作为一个欢迎项目
+as a welcome item
+
+476
+00:16:55,566 --> 00:16:56,366
+来
+to
+
+477
+00:16:56,700 --> 00:16:58,200
+谈论函数式编程
+talk about functional programming
+
+478
+00:16:58,300 --> 00:16:59,900
+所以我们就从这里开始
+so we'll just start here
+
+479
+00:16:59,900 --> 00:17:01,800
+谈谈欢迎项目
+with a welcome item
+
+480
+00:17:03,000 --> 00:17:03,366
+和
+and
+
+481
+00:17:03,366 --> 00:17:05,999
+首先，我们将添加一个模板图标
+first we'll add a templates icon
+
+482
+00:17:06,533 --> 00:17:08,966
+我们将在这里使用一个图标
+and we're going to use an icon over here
+
+483
+00:17:09,400 --> 00:17:10,566
+像这样
+like this
+
+484
+00:17:12,466 --> 00:17:14,799
+然后我们将添加模板
+then we're going to add templates
+
+485
+00:17:16,466 --> 00:17:17,299
+标题
+heading
+
+486
+00:17:18,066 --> 00:17:19,733
+功能性编程
+functional programming
+
+487
+00:17:21,366 --> 00:17:24,366
+这就是我们的Elm要去的地方
+and this is where our Elm is going to go
+
+488
+00:17:24,366 --> 00:17:25,699
+所以现在我们先放一个差值
+so for now let's just put a diff
+
+489
+00:17:26,866 --> 00:17:29,699
+这就是我们要渲染Elm应用程序的地方
+this is where we're going to render our Elm application
+
+490
+00:17:30,066 --> 00:17:32,099
+所以现在在我们的导入中
+so now in our imports
+
+491
+00:17:32,400 --> 00:17:34,966
+我们将像以前一样导入我们的应用程序
+we are going to import our application just like before
+
+492
+00:17:34,966 --> 00:17:37,499
+从这里导入Elm，在这里是
+import Elm from in this case it's
+
+493
+00:17:37,600 --> 00:17:38,333
+级别提高
+level up
+
+494
+00:17:38,333 --> 00:17:42,166
+仍然是LM，我们还将导入2个
+remain LM we're also going to import 2
+
+495
+00:17:42,566 --> 00:17:44,566
+视图组合API的功能
+of the view composition API features
+
+496
+00:17:44,566 --> 00:17:45,799
+我们将导入ref
+we're going to import ref
+
+497
+00:17:46,300 --> 00:17:47,466
+并加载
+and on mounted
+
+498
+00:17:49,900 --> 00:17:50,900
+现在，我们已经导入了这些
+now that we've imported these
+
+499
+00:17:50,900 --> 00:17:55,066
+我们要做的第一件事是说 const Elm node
+the first thing we're going to do is say const Elm node
+
+500
+00:17:55,466 --> 00:17:57,766
+等于 ref，我们不需要在那里放任何值
+equals ref and we don't need to put any values there
+
+501
+00:17:57,766 --> 00:17:59,266
+我们将在一秒钟内使用它
+we'll use it in just one second
+
+502
+00:17:59,600 --> 00:18:02,300
+然后我们将使用on mounted钩子
+and then we're going to use the on mounted hook
+
+503
+00:18:03,966 --> 00:18:06,733
+on mounted 我们将使用 constap equals
+on mounted we're going to sit constap equals
+
+504
+00:18:06,733 --> 00:18:08,566
+和我们之前做的一样，Elm dot main
+same as we did before Elm dot main
+
+505
+00:18:08,733 --> 00:18:10,133
+中，但在这一次
+in it but in this time
+
+506
+00:18:10,133 --> 00:18:11,966
+而不是使用一个文档查询选择器
+instead of using a document query selector
+
+507
+00:18:11,966 --> 00:18:13,266
+我们只是说节点
+we're just going to say node
+
+508
+00:18:13,800 --> 00:18:15,766
+榆树节点值
+Elm node value
+
+509
+00:18:15,966 --> 00:18:18,533
+这样我们就可以访问该节点中的值了。
+so that we can access the value inside of that
+
+510
+00:18:19,200 --> 00:18:20,000
+参考的
+referential
+
+511
+00:18:20,266 --> 00:18:21,066
+对象内的值
+object
+
+512
+00:18:22,266 --> 00:18:23,933
+这样就可以把我们的应用实例化了
+and that will instantiate our app
+
+513
+00:18:23,933 --> 00:18:25,899
+除了Elm节点目前是空的
+except Elm node is currently empty
+
+514
+00:18:26,066 --> 00:18:28,866
+所以在视图中，为了使用一个引用
+so in view in order to use a ref
+
+515
+00:18:29,366 --> 00:18:32,299
+我们需要在dom元素本身上定义它
+we need to define that on the dom element itself
+
+516
+00:18:32,300 --> 00:18:34,966
+dim div ref equals Elm node
+dim div ref equals Elm node
+
+517
+00:18:35,300 --> 00:18:36,600
+这就是我们需要做的一切
+and that's all we need to do
+
+518
+00:18:37,766 --> 00:18:40,966
+在这一点上，一切都应该按预期工作
+at this point everything should be working as expected
+
+519
+00:18:41,000 --> 00:18:42,333
+和pm运行
+and pm run
+
+520
+00:18:42,400 --> 00:18:43,200
+dev
+dev
+
+521
+00:18:44,300 --> 00:18:46,533
+如果我们跳回到这里
+and if we jump back over here
+
+522
+00:18:47,100 --> 00:18:48,866
+我们看到了我们的 "d bugger"。
+we see our d bugger
+
+523
+00:18:48,866 --> 00:18:51,366
+我们看到函数式编程，我们看到
+we see functional programming and we see that
+
+524
+00:18:51,366 --> 00:18:53,366
+l maplication正在运行
+the l maplication is running
+
+525
+00:18:53,933 --> 00:18:56,399
+好了，让我们回顾一下今天的内容吧
+alright let's recap what we've looked at today
+
+526
+00:18:56,766 --> 00:18:59,166
+当你在使用Elm和V的时候
+when you're using Elm and v together
+
+527
+00:18:59,166 --> 00:19:00,099
+你所拥有的
+what you have
+
+528
+00:19:00,266 --> 00:19:02,466
+是一种函数式编程语言，你可以使用
+is a functional programming language that you can use
+
+529
+00:19:02,466 --> 00:19:03,066
+在前端使用
+in the front end
+
+530
+00:19:03,066 --> 00:19:04,499
+你不会被束缚在后端
+you're not tied to the back end
+
+531
+00:19:04,500 --> 00:19:06,566
+你不需要担心数据模型和
+you're not just worrying about data models and
+
+532
+00:19:06,666 --> 00:19:07,599
+抽象理论
+abstract theories
+
+533
+00:19:07,600 --> 00:19:08,700
+你实际上是在写
+you're actually getting to write
+
+534
+00:19:08,700 --> 00:19:09,900
+在浏览器中出现的代码
+code that appears in the browser
+
+535
+00:19:09,900 --> 00:19:11,366
+这总是非常有趣的
+which is always so much fun
+
+536
+00:19:11,866 --> 00:19:14,133
+你也有一个有用的编译器
+you also have a helpful compiler
+
+537
+00:19:14,333 --> 00:19:16,299
+来指导你的重构工作
+that is guiding you as your refactoring
+
+538
+00:19:16,300 --> 00:19:17,766
+在你学习的时候也是如此
+as you're learning as well
+
+539
+00:19:18,000 --> 00:19:19,933
+而且你不必担心运行时的
+and you're not having to worry about the runtime
+
+540
+00:19:19,933 --> 00:19:22,133
+在javascript中可能遇到的错误
+errors that you can run into in javascript
+
+541
+00:19:22,133 --> 00:19:25,266
+不能读取未定义的空或
+no cannot read null of undefined or
+
+542
+00:19:26,066 --> 00:19:27,299
+的任何
+any of the
+
+543
+00:19:27,366 --> 00:19:29,666
+在javascript开发中出现的问题
+issues that come up in javascript development
+
+544
+00:19:29,866 --> 00:19:31,766
+你不会遇到这些运行时问题
+you're not going to run into those runtime issues
+
+545
+00:19:31,766 --> 00:19:32,499
+因为Elm只是
+because Elm just
+
+546
+00:19:32,500 --> 00:19:33,700
+将它们全部避免了
+avoids them all together
+
+547
+00:19:34,366 --> 00:19:37,133
+你还可以用小麦得到一个简单的配置，只需要
+you also get a simple configuration with wheat with
+
+548
+00:19:37,133 --> 00:19:38,366
+一行代码
+one line of code
+
+549
+00:19:38,533 --> 00:19:41,466
+你可以在任何基于小麦的应用程序中添加Elm
+you can add Elm into any wheat based application
+
+550
+00:19:41,600 --> 00:19:44,066
+如果你想配置其他东西，也有一些选项
+there are also options if you want to configure
+
+551
+00:19:44,066 --> 00:19:46,266
+插件来做其他事情
+the plugin to do other things
+
+552
+00:19:46,300 --> 00:19:48,900
+但在默认情况下，你可能不需要它。
+but by default you're probably not going to need that
+
+553
+00:19:49,533 --> 00:19:51,666
+有了这个，你可以把Elm添加到任何东西上
+and with that you can add Elm to anything
+
+554
+00:19:51,666 --> 00:19:53,766
+你可以把它添加到标准V模板中
+you can add it to a standard v template
+
+555
+00:19:53,766 --> 00:19:55,266
+你可以把它添加到视图启动器中
+you can add it to the view starter
+
+556
+00:19:55,266 --> 00:19:56,866
+你可以把它添加到astro中
+you can add it to astro
+
+557
+00:19:56,966 --> 00:20:00,333
+你可以把它添加到solid中 你可以把它添加到spelt中
+you can add it to solid you can add it to spelt
+
+558
+00:20:00,533 --> 00:20:01,733
+无论你想要什么
+whatever you want
+
+559
+00:20:01,733 --> 00:20:02,399
+榆树
+Elm
+
+560
+00:20:02,400 --> 00:20:03,933
+你可以把Elm加到那里
+you can add Elm there
+
+561
+00:20:03,933 --> 00:20:05,899
+并尝试一下，看看它的感觉如何
+and try it out and see how it feels
+
+562
+00:20:06,666 --> 00:20:08,899
+这就是下一个好处
+and that is the next benefit
+
+563
+00:20:08,900 --> 00:20:11,466
+与现有应用程序直接集成
+straightforward integration with existing applications
+
+564
+00:20:11,466 --> 00:20:13,166
+你不必扔掉你的
+you don't have to throw out your
+
+565
+00:20:13,400 --> 00:20:15,133
+你不必扔掉你已经存在的代码库
+code base that already exists
+
+566
+00:20:15,133 --> 00:20:16,533
+而事实上，这是很
+and in fact that's highly
+
+567
+00:20:17,066 --> 00:20:19,666
+强烈建议你不要这样做
+it's highly recommended that you do not do that
+
+568
+00:20:19,800 --> 00:20:20,933
+如果你想尝试Elm
+if you want to try out Elm
+
+569
+00:20:20,933 --> 00:20:22,733
+最好的方法是作为一个实验
+the best way to do it is as an experiment
+
+570
+00:20:22,733 --> 00:20:25,199
+在一个现有的代码库和现有的应用程序中
+in an existing code base and existing application
+
+571
+00:20:25,533 --> 00:20:27,933
+并专注于一个单一的功能
+and focused on one single feature
+
+572
+00:20:28,200 --> 00:20:30,966
+这样你就可以在那一个地方感受到Elm的魅力了
+that way you can get a feel for Elm in that one place
+
+573
+00:20:31,266 --> 00:20:32,066
+而如果你或
+and if you or
+
+574
+00:20:32,066 --> 00:20:34,366
+如果你或你的团队认为这并不适合你
+your team decides this isn't the fit for you
+
+575
+00:20:34,366 --> 00:20:36,533
+就很容易退缩或
+it's really easy to either back out or
+
+576
+00:20:36,533 --> 00:20:37,699
+不仅仅是把它留在那里
+not just leave it there
+
+577
+00:20:37,700 --> 00:20:38,766
+但这只是一个功能而已
+but it's only that one feature
+
+578
+00:20:38,766 --> 00:20:39,999
+你不需要担心
+you don't have to worry about
+
+579
+00:20:40,266 --> 00:20:43,299
+哦，我们重建了我们的整个单页应用程序
+oh where we rebuilt our entire single page application
+
+580
+00:20:43,333 --> 00:20:44,499
+而现在我们被卡住了
+and now we're stuck
+
+581
+00:20:44,933 --> 00:20:45,699
+你可以只把它
+you can just keep it
+
+582
+00:20:45,700 --> 00:20:47,500
+在那一个地方，或者把它全部拿掉
+in that one spot or take it out all together
+
+583
+00:20:47,500 --> 00:20:49,133
+以你的团队的喜好为准
+whichever your team's preferences
+
+584
+00:20:49,400 --> 00:20:52,566
+因此，我有一个问题要问你
+so with that I just have one question for you
+
+585
+00:20:52,733 --> 00:20:53,866
+你还在等什么？
+what are you waiting for
+
+586
+00:20:54,100 --> 00:20:55,900
+我强烈建议你尝试使用velma
+I highly recommend you give velma try
+
+587
+00:20:55,900 --> 00:20:59,100
+我很喜欢用它工作，我想你也会喜欢的。
+I've loved working with it and I think you will too
+
+588
+00:20:59,966 --> 00:21:02,133
+我希望你喜欢这个讲座，希望你能学到很多东西。
+I hope you enjoyed this talk hope you learned a lot
+
+589
+00:21:03,166 --> 00:21:05,499
+如果你想聊天，我随时都可以在网上
+I'm always around online if you want to chat
+
+590
+00:21:05,500 --> 00:21:06,933
+和讨论这些事情
+and discuss these kinds of things
+
+591
+00:21:06,933 --> 00:21:09,333
+你可以在Twitter上找到我：Lindsay K Wardell
+you can find me on twitter at Lindsay k wardell
+
+592
+00:21:09,400 --> 00:21:12,900
+我也可以在 "午餐设计 "的 "Elm "聊天。
+I'm also available to chat about Elm on the lunch dev
+
+593
+00:21:13,800 --> 00:21:14,800
+迪斯科服务器
+discord server
+
+594
+00:21:15,166 --> 00:21:17,133
+希望能在这里见到你，祝你会议愉快
+hope to see you around have a great conference
+

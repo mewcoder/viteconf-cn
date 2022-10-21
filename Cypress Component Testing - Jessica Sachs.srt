@@ -1,0 +1,1955 @@
+1
+00:00:02,500 --> 00:00:04,200
+只有我
+it's just me
+
+2
+00:00:06,933 --> 00:00:07,733
+和
+and
+
+3
+00:00:10,533 --> 00:00:11,966
+你，只有我
+you it's just me
+
+4
+00:00:12,966 --> 00:00:13,799
+大家好
+hello everyone
+
+5
+00:00:13,800 --> 00:00:15,666
+无论你在哪里，无论什么时候
+wherever you are and whatever time
+
+6
+00:00:15,666 --> 00:00:17,699
+都欢迎你参加我的演讲
+it is for you welcome to my talk
+
+7
+00:00:17,700 --> 00:00:20,200
+关于塞浦路斯组件测试的演讲
+on cyprus component testing for v
+
+8
+00:00:22,166 --> 00:00:25,099
+我的名字叫Jessica Sax，是一家名为Pathai的医疗技术创业公司的工程师。
+my name is jessica sax i am a staff engineer
+
+9
+00:00:25,166 --> 00:00:28,199
+在一家名为Pathai的医疗技术创业公司担任工程师
+at a med tech startup called pathai
+
+10
+00:00:28,700 --> 00:00:30,866
+我来自美国的波士顿
+i'm from boston in america
+
+11
+00:00:31,333 --> 00:00:33,499
+我最近离开了塞浦路斯
+and i recently left cyprus
+
+12
+00:00:33,500 --> 00:00:35,966
+但我仍然作为塞浦路斯的大使参与其中。
+but i'm still involved as a cyprus ambassador
+
+13
+00:00:36,466 --> 00:00:39,166
+我在塞浦路斯工作了两年半。
+i worked at cyprus for two and a half years
+
+14
+00:00:39,166 --> 00:00:40,766
+于2020年3月加入
+joining in march 2020
+
+15
+00:00:41,866 --> 00:00:42,733
+领导团队
+led the team that
+
+16
+00:00:42,766 --> 00:00:46,666
+我在Cyprus工作了两年半，于2020年3月加入，带领团队设计、建造和运送Cyprus组件，在Cyprus进行测试。
+designed built and shipped cyprus component testing in cyprus
+
+17
+00:00:46,666 --> 00:00:50,199
+十、我是Faker JST的成员
+ten i'm a faker jst member
+
+18
+00:00:50,700 --> 00:00:56,200
+偶尔为view和vteco系统做贡献
+and the occasional contributor to the view and vteco system
+
+19
+00:00:56,566 --> 00:00:59,199
+我松散地参与了v测试的开发工作
+i'm loosely involved with the development of v test
+
+20
+00:00:59,200 --> 00:01:01,566
+的开发，也是一个偶尔的贡献者
+as an occasional contributor as well
+
+21
+00:01:03,600 --> 00:01:04,400
+这个
+这个
+
+22
+00:01:06,900 --> 00:01:07,700
+酷
+cool
+
+23
+00:01:08,700 --> 00:01:11,133
+现在，什么是Cypress组件测试？
+now what is cypress component testing
+
+24
+00:01:11,533 --> 00:01:11,933
+Cypress
+cypress
+
+25
+00:01:11,933 --> 00:01:16,133
+组件测试提供了一个可测试的组件工作平台
+component testing provides a testable component workbench
+
+26
+00:01:16,133 --> 00:01:19,566
+为您快速构建和测试
+for you to quickly build and test
+
+27
+00:01:19,733 --> 00:01:24,099
+任何组件，无论其多么简单或复杂
+any component no matter how simple or complex
+
+28
+00:01:25,166 --> 00:01:29,399
+cypress是一个基于浏览器的测试运行器，从cypress 10开始
+cypress is a browser based test runner and as of cypress 10
+
+29
+00:01:29,866 --> 00:01:32,966
+你现在有能力完全测试驱动
+you now have the ability to fully test drive
+
+30
+00:01:33,000 --> 00:01:35,600
+一个单独组件的逻辑
+an individual component's logic
+
+31
+00:01:35,900 --> 00:01:38,066
+包括它的css
+including its css
+
+32
+00:01:39,200 --> 00:01:39,766
+我将告诉你什么
+i'll show you what
+
+33
+00:01:39,766 --> 00:01:40,566
+我的意思是
+i mean
+
+34
+00:01:41,100 --> 00:01:44,066
+实践一个可测试的组件驱动的开发工作流程
+practicing a testable component driven development workflow
+
+35
+00:01:44,100 --> 00:01:47,766
+使你能够将你的工作分解成更容易管理的小块
+enables you to break down your work into more manageable chunks
+
+36
+00:01:47,866 --> 00:01:49,533
+最终导致
+ultimately resulting in
+
+37
+00:01:49,533 --> 00:01:52,133
+组件的开发更有条理
+components that are developed more mindfully
+
+38
+00:01:53,766 --> 00:01:57,533
+这就是Cypress组件测试的样子，比如invudify
+this is what cypress component testing looks in like invudify
+
+39
+00:01:57,533 --> 00:02:01,199
+这相当于视图中的材料UI
+which is the view equivalent of material ui
+
+40
+00:02:01,900 --> 00:02:06,300
+在这个测试中，Cypress正在测试基于canvas的beautifies
+in this test cypress is testing out beautifies canvas based
+
+41
+00:02:06,800 --> 00:02:08,700
+v 颜色选择器组件
+v color picker component
+
+42
+00:02:09,266 --> 00:02:12,533
+在左边，我们有一个命令日志
+on the left we have the command log
+
+43
+00:02:12,533 --> 00:02:15,666
+它显示了所有在这个测试中被执行的命令。
+which shows all the commands that have been executed in
+
+44
+00:02:15,866 --> 00:02:18,866
+这个测试中的所有命令，它们大致上相当于
+this test they're roughly equivalent to
+
+45
+00:02:19,200 --> 00:02:21,900
+你知道每个命令有一行代码
+you know one line of code per command
+
+46
+00:02:22,133 --> 00:02:23,999
+然后在右边你有
+and then on the right you have
+
+47
+00:02:24,000 --> 00:02:26,600
+称为被测程序
+what would be called the application under test
+
+48
+00:02:26,600 --> 00:02:28,333
+如果你是端对端测试
+if you were end to end testing
+
+49
+00:02:28,566 --> 00:02:31,099
+而被称为被测试的组件
+instead is called the component under test
+
+50
+00:02:31,100 --> 00:02:33,133
+这就是我们美丽的颜色选择器
+which is our beautiful color picker
+
+51
+00:02:34,166 --> 00:02:36,266
+我喜欢展示而不是讲述
+and i like to show instead of tell
+
+52
+00:02:36,266 --> 00:02:38,866
+我这次演讲的目的是让你们感受一下
+and my goal in this talk is to give you a feel
+
+53
+00:02:38,866 --> 00:02:40,766
+感受一下我们的开发工作
+for weds like to develop
+
+54
+00:02:41,133 --> 00:02:43,333
+使用 cybers 组件测试
+using cybers component testing
+
+55
+00:02:43,866 --> 00:02:44,933
+因此，为了做到这一点
+so to do this
+
+56
+00:02:44,933 --> 00:02:48,566
+我们将测试一个简单的计数器组件，它有一个最小的
+we will be test driving a simple counter component with a min
+
+57
+00:02:48,566 --> 00:02:50,366
+最大和初始值
+max and initial value
+
+58
+00:02:50,766 --> 00:02:53,799
+我还将展示一下
+i will also show off how flexible
+
+59
+00:02:54,333 --> 00:02:58,133
+我还将展示塞浦路斯组件测试是多么灵活，当它涉及到摄入你的
+cyprus component testing is when it comes to ingesting your
+
+60
+00:02:58,133 --> 00:02:59,133
+兽医配置
+vet config
+
+61
+00:02:59,733 --> 00:03:04,966
+我们正在谈论markdown文件 我们正在谈论spelt文件 jsx
+we're talking markdown files we're talking spelt files jsx
+
+62
+00:03:05,133 --> 00:03:07,266
+它可以处理任何你
+it handles anything that you
+
+63
+00:03:07,566 --> 00:03:09,866
+在你的兽医配置中配置的任何东西
+have configured in your vet config
+
+64
+00:03:10,900 --> 00:03:12,000
+所以让我们把它打开
+so let's open it up
+
+65
+00:03:16,500 --> 00:03:19,166
+好的，现在去看代码
+okay heading over to the codes
+
+66
+00:03:20,000 --> 00:03:22,266
+所以我们将在视图中工作
+so we're gonna be working in view
+
+67
+00:03:22,333 --> 00:03:24,099
+今天，虽然它实际上并不重要
+today though it actually doesn't matter
+
+68
+00:03:24,900 --> 00:03:28,200
+因为Cyprus会处理任何你配置的
+because cyprus will handle anything that you have configured
+
+69
+00:03:28,566 --> 00:03:30,999
+在你的脚部配置中
+in your feet config
+
+70
+00:03:31,400 --> 00:03:34,466
+所以pnpm cyprus打开dashdash组件
+so pnpm cyprus open dashdash component
+
+71
+00:03:34,733 --> 00:03:37,866
+这个模板是基于
+this template is based off of the
+
+72
+00:03:38,966 --> 00:03:40,199
+v tess
+v tess
+
+73
+00:03:40,466 --> 00:03:42,299
+而不是v test v tess
+not v test v tess
+
+74
+00:03:43,166 --> 00:03:46,499
+组件模板，我将使用chrome的第一版哦，第五版
+component template i'm going to use chrome version one oh five
+
+75
+00:03:46,500 --> 00:03:50,000
+我们将在该版本中开始测试Cyprus组件
+we're going to start cyprus component testing in that version
+
+76
+00:03:50,800 --> 00:03:53,466
+而且我们要
+and we're going to
+
+77
+00:03:53,800 --> 00:03:57,733
+看看有哪些组件已经存在了组件测试
+look at what components component tests exist already
+
+78
+00:03:57,800 --> 00:04:00,266
+所以我们有这个计数器组件测试
+so we have this counter component test
+
+79
+00:04:00,566 --> 00:04:02,999
+我们可以打，我们也可以看它
+we can hit we can either look at it
+
+80
+00:04:03,000 --> 00:04:04,066
+所以我们来做这个
+so let's do that
+
+81
+00:04:06,500 --> 00:04:08,900
+看看有哪些测试已经存在
+and see what tests already exist
+
+82
+00:04:09,400 --> 00:04:12,000
+我已经在这里写了一些测试
+so i've already written a few tests here
+
+83
+00:04:12,866 --> 00:04:15,299
+我已经写了一些测试，这些测试
+i've written a few tests that
+
+84
+00:04:15,566 --> 00:04:17,099
+检查出我们
+check out that we
+
+85
+00:04:17,100 --> 00:04:19,366
+有一个递减按钮，我们有一个递增按钮
+have a decrement button that we have an increment button
+
+86
+00:04:19,366 --> 00:04:20,099
+它非常小
+it's very small
+
+87
+00:04:20,100 --> 00:04:21,966
+对你们来说可能很小，所以让我们把它变大吧
+probably for you guys so let's make it bigger
+
+88
+00:04:23,733 --> 00:04:25,599
+让我们把我的脸变小
+let's make my face smaller
+
+89
+00:04:26,266 --> 00:04:27,066
+好的
+okay
+
+90
+00:04:27,100 --> 00:04:29,166
+我们有一个增量和一个减量按钮
+that we have an increment and a decrement button
+
+91
+00:04:29,166 --> 00:04:32,199
+你可以看到，当你点击它们时
+and you can see that when you click them
+
+92
+00:04:32,200 --> 00:04:33,900
+什么也没有发生，所以
+nothing happens so
+
+93
+00:04:33,900 --> 00:04:36,100
+我们可能想写一个测试
+we probably want to write a test for that
+
+94
+00:04:36,100 --> 00:04:37,933
+因为我们是在一个计数器中
+because we're in a counter
+
+95
+00:04:38,133 --> 00:04:41,466
+所以只要你把鼠标放在规格名称上
+so whenever you hover over the spec name
+
+96
+00:04:41,666 --> 00:04:45,899
+你就可以在你的思想中打开它。
+in the test runner itself in cyprus you can open it in your ide
+
+97
+00:04:46,400 --> 00:04:48,166
+如果你没有配置好你的思想库
+if you don't have your ide configured
+
+98
+00:04:48,166 --> 00:04:52,366
+它就会要求你配置它 Cyprus是非常聪明的
+it will ask you to configure it cyprus can be very smart
+
+99
+00:04:52,766 --> 00:04:55,333
+所以我打算做的第一件事是
+so the first thing i'm going to do
+
+100
+00:04:55,333 --> 00:04:57,066
+是我要隐藏文件资源管理器
+is i'm going to hide the file explorer
+
+101
+00:04:57,400 --> 00:05:00,200
+我们要写一个测试，说明
+and we're going to write a test that says that
+
+102
+00:05:02,066 --> 00:05:03,166
+计数器
+the counter
+
+103
+00:05:04,066 --> 00:05:06,699
+递减值，当
+decrements the value when
+
+104
+00:05:07,466 --> 00:05:10,199
+点击减去的按钮
+the minus button is clicked
+
+105
+00:05:10,966 --> 00:05:12,533
+让我们把它叫做减法
+let's call it the decrement
+
+106
+00:05:12,533 --> 00:05:15,166
+按钮，因为我在其他地方都叫它递减
+button because i'm calling it decrement everywhere else
+
+107
+00:05:15,666 --> 00:05:17,399
+所以，不仅减去的
+so not only should the decrement
+
+108
+00:05:17,600 --> 00:05:20,400
+选择器是可见的，而且当我们点击它时
+selector be visible but when we click it
+
+109
+00:05:21,366 --> 00:05:25,999
+我们应该把它称为
+and we should let's call it the
+
+110
+00:05:26,566 --> 00:05:26,933
+我不知道
+i don't know
+
+111
+00:05:26,933 --> 00:05:29,999
+我想确保这个值是递增的。
+i want to make sure that the value is incremented right
+
+112
+00:05:30,333 --> 00:05:32,066
+所以在这里面的任何东西
+so anything inside of this
+
+113
+00:05:32,766 --> 00:05:34,499
+data test id counter
+data test id counter
+
+114
+00:05:35,266 --> 00:05:38,533
+所以我们要得到计数器的选择器
+so we're gonna get the counter selector
+
+115
+00:05:38,900 --> 00:05:40,733
+让我们快速实现它
+let's implement that really quick
+
+116
+00:05:41,000 --> 00:05:44,366
+我想把我的屏幕分割开来，我喜欢同时运行我的测试。
+i'm gonna split my screen i like to have oh i like
+
+117
+00:05:44,366 --> 00:05:47,199
+让我的测试和我的开发同时进行
+to have my tests running at the same time
+
+118
+00:05:47,766 --> 00:05:49,499
+和我的开发工作同时进行
+as my development
+
+119
+00:05:49,500 --> 00:05:49,866
+所以我将会
+so i'm gonna
+
+120
+00:05:49,866 --> 00:05:52,566
+得到计数器选择器，你可以看到箭头堆积在一起
+get the counter selector you can watch the arrows pile up
+
+121
+00:05:52,733 --> 00:05:55,999
+我想只使用 "哪个是 "来隔离
+and i want to isolate using only which is
+
+122
+00:05:56,200 --> 00:05:57,066
+这是个
+which is a
+
+123
+00:05:58,133 --> 00:06:00,666
+的方法在许多测试运行器上
+method on it in many test runners
+
+124
+00:06:00,666 --> 00:06:01,899
+包括塞浦路斯
+including cyprus
+
+125
+00:06:01,966 --> 00:06:04,899
+我们要说的是计数器选择器，你可以看到小麦。
+we're going to say counter selector you can see the wheat
+
+126
+00:06:07,266 --> 00:06:10,366
+插件的错误，这是相当酷的一种管道了
+plug in errors which is pretty cool kind of pipe up
+
+127
+00:06:10,566 --> 00:06:12,966
+以及重新运行的速度，所以现在
+and how fast that rerun is so now
+
+128
+00:06:12,966 --> 00:06:15,999
+我们有了计数器选择器，我们可以看到cyprus告诉我们
+we have the counter selector and we can see cyprus telling us
+
+129
+00:06:16,266 --> 00:06:19,133
+嘿，这是整个节点的情况
+hey it's the entire node here
+
+130
+00:06:20,200 --> 00:06:22,533
+我们要点击它
+and we're going to click it
+
+131
+00:06:23,466 --> 00:06:25,066
+对不起，不，我们要去
+sorry no we're going to
+
+132
+00:06:25,600 --> 00:06:28,166
+应该有文字
+should have text
+
+133
+00:06:28,700 --> 00:06:34,266
+它应该是增量加一，所以对不起，初始
+it should be increment plus one so sorry initial
+
+134
+00:06:34,766 --> 00:06:35,899
+加一
+plus one
+
+135
+00:06:37,533 --> 00:06:40,766
+完美，所以我们希望这个节点应该有文本
+perfect so we're expecting that this node should have text
+
+136
+00:06:40,766 --> 00:06:41,966
+但这是为了
+but it was for
+
+137
+00:06:43,733 --> 00:06:45,566
+我们实际上希望包含文本
+we actually wanted to contain text
+
+138
+00:06:45,566 --> 00:06:47,366
+你看那个多余的空格
+you see that extra space there
+
+139
+00:06:47,766 --> 00:06:50,299
+我们不希望有这个额外的空间
+we don't want to have this extra space
+
+140
+00:06:50,700 --> 00:06:54,000
+在这一点上，你应该感觉到这是
+and at this point you should be feeling like this is
+
+141
+00:06:54,300 --> 00:06:56,666
+这时你应该感觉到，这就像一个测试的理想。
+kind of like the test ide
+
+142
+00:06:57,400 --> 00:07:00,733
+所以让我们用命令点击进入计数器，实现
+so let's command click into the counter and implement
+
+143
+00:07:01,566 --> 00:07:03,133
+一个增量函数
+an increment function
+
+144
+00:07:03,933 --> 00:07:06,799
+我们是否说过我们要做增量或减量一秒钟？
+did we say we're doing increment or decrement one second
+
+145
+00:07:06,800 --> 00:07:09,200
+测试说的是什么，测试是递减
+what does the test say the test is decrement
+
+146
+00:07:09,533 --> 00:07:12,766
+所以让我们来实现递减功能。
+so let's implement the decrement function so const
+
+147
+00:07:13,000 --> 00:07:16,266
+decrement 我想我在测试中犯了一个错误，但是
+decrement i think i made a mistake actually in my test but
+
+148
+00:07:17,166 --> 00:07:19,466
+所以我们要说值
+so we're going to say value
+
+149
+00:07:22,066 --> 00:07:22,866
+价值
+value
+
+150
+00:07:22,933 --> 00:07:25,866
+也许应该把它命名为minus minus更合适。
+probably should have named it better minus minus
+
+151
+00:07:26,800 --> 00:07:28,300
+让我们把这个计数器命名为
+let's name that counter
+
+152
+00:07:29,666 --> 00:07:32,499
+小麦是热的，正在重新加载
+and wheat is hot is reloading
+
+153
+00:07:32,900 --> 00:07:35,066
+使用一个Cypress小麦插件
+using a cypress wheat plugin
+
+154
+00:07:35,866 --> 00:07:38,499
+测试运行器在这里，然后
+the test runner over here and then
+
+155
+00:07:38,933 --> 00:07:42,366
+我们要确保当你点击减去的按钮时
+we want to make sure that when you click the minus button
+
+156
+00:07:42,366 --> 00:07:43,999
+我可以看到它是减去的按钮
+and i can see that it's the minus button
+
+157
+00:07:44,000 --> 00:07:46,300
+因为我有一个漂亮的花哨的插件
+because i have a nice fancy plugin
+
+158
+00:07:47,666 --> 00:07:51,266
+当你点击减去的按钮时，我们将调用减法。
+when you click the minus button we're going to call decrement
+
+159
+00:07:52,333 --> 00:07:53,166
+很好
+nice
+
+160
+00:07:54,533 --> 00:07:55,333
+酷
+cool
+
+161
+00:07:57,166 --> 00:07:57,933
+文字是三
+text was three
+
+162
+00:07:57,933 --> 00:07:59,399
+所以减法的工作是正确的
+so decrement is working correctly
+
+163
+00:07:59,400 --> 00:08:01,266
+我的测试实际上是错误的
+what my test is actually wrong
+
+164
+00:08:01,600 --> 00:08:03,533
+该测试应该是减一
+the test should be minus one
+
+165
+00:08:04,766 --> 00:08:07,599
+而且很完美，它确实包含了三
+and perfect it does contain three
+
+166
+00:08:10,366 --> 00:08:13,266
+非常好，现在让我们对增量做同样的事情
+very nice now let's do the same thing for increment
+
+167
+00:08:13,366 --> 00:08:15,899
+让我们复制并粘贴这个测试
+so let's copy and paste the test
+
+168
+00:08:19,000 --> 00:08:19,800
+它
+it
+
+169
+00:08:20,966 --> 00:08:23,066
+当点击 "增加 "按钮时，数值会增加。
+increments the value when the
+
+170
+00:08:23,366 --> 00:08:25,066
+递增按钮的时候，它就会增加数值
+increment button is click
+
+171
+00:08:25,066 --> 00:08:28,666
+让我把我的脸移到屏幕上一个未使用的地方。
+let me move my face over to an unused part of the screen
+
+172
+00:08:30,300 --> 00:08:34,133
+非常好，让我们去说，在所有的地方，它都说是递减的
+very nice let's go and say everywhere it says decrement
+
+173
+00:08:34,200 --> 00:08:35,733
+递增选择器
+increment selector
+
+174
+00:08:36,666 --> 00:08:39,333
+包含初始加一
+contain initial plus one
+
+175
+00:08:40,766 --> 00:08:41,566
+哦
+oh
+
+176
+00:08:41,866 --> 00:08:46,966
+我实现了吗？ 没有，我没有复制增量
+did i implement it yet no i did not copy increment
+
+177
+00:08:47,300 --> 00:08:49,500
+计数器值加加
+counter value plus plus
+
+178
+00:08:50,700 --> 00:08:53,133
+在点击增量的时候
+at click increment
+
+179
+00:08:54,366 --> 00:08:56,133
+这看起来不错
+and that looks good
+
+180
+00:08:57,100 --> 00:09:00,566
+我可以用它来玩哦，非常好
+and i can play with it oh very nice
+
+181
+00:09:01,066 --> 00:09:04,133
+哦，我是否可以进入负数，我不确定。
+oh should i be able to go into the negatives i'm not sure
+
+182
+00:09:04,933 --> 00:09:08,599
+我想计数器一般都有一个最小值的概念，可以选择。
+i think counters generally have the idea of a min optionally
+
+183
+00:09:08,600 --> 00:09:09,400
+可能
+probably
+
+184
+00:09:11,766 --> 00:09:16,366
+和一个最大值，所以让我们继续下去，实现这些东西
+and a max so let's go ahead and implement those things
+
+185
+00:09:17,933 --> 00:09:19,899
+所以让我们说
+so let's say
+
+186
+00:09:21,533 --> 00:09:25,899
+在这里的测试中，它不仅应该有一个递减按钮
+in the test here not only should it have a decrement button
+
+187
+00:09:26,466 --> 00:09:28,933
+让我们抓住这些唯一的东西，把它们拿下来
+let's grab these onlys and take them off
+
+188
+00:09:29,100 --> 00:09:30,066
+轰轰轰
+boom boom
+
+189
+00:09:32,100 --> 00:09:32,900
+它
+it
+
+190
+00:09:33,533 --> 00:09:39,366
+应该不能低于最小值
+should not be able to go belowthe minimum value
+
+191
+00:09:41,366 --> 00:09:42,199
+完美
+perfect
+
+192
+00:09:43,866 --> 00:09:46,199
+所以让我们装上初始值
+so let's mount initial
+
+193
+00:09:46,466 --> 00:09:51,866
+让我们把最小值设为负数，让我们把最小值设为零
+let's mount min to be negative let's mount min to be zero
+
+194
+00:09:52,766 --> 00:09:58,399
+并实现它，所以我们要把初始值设为1
+and implement that so we're going to set initial to be one
+
+195
+00:09:59,000 --> 00:10:00,266
+而最小值实际上是
+and the min actually
+
+196
+00:10:00,266 --> 00:10:03,699
+设置初始值为零，让我们做最小的点击次数
+set initial to be zero let's do the minimum number of clicks
+
+197
+00:10:03,866 --> 00:10:07,399
+我们要抓住减法
+we're going to grab the decrement
+
+198
+00:10:07,933 --> 00:10:10,566
+选择器，我们将
+selector we're going to
+
+199
+00:10:11,400 --> 00:10:12,266
+点击
+click
+
+200
+00:10:12,600 --> 00:10:15,600
+就可以了，这样我们就可以正常工作了。
+on that so do we have that's working fine okay
+
+201
+00:10:15,600 --> 00:10:18,666
+所有的测试都通过了，让我们把这个测试分离出来
+all the tests are passing still let's isolate this test
+
+202
+00:10:20,200 --> 00:10:22,166
+我们已经点击了递减选择器
+and we've clicked the decrement selector
+
+203
+00:10:22,166 --> 00:10:24,066
+而我们不应该这样做
+and we should not be able to do this
+
+204
+00:10:24,166 --> 00:10:29,499
+所以当我们得到计数器选择器时，它应该
+so when we get the counter selector it should
+
+205
+00:10:29,900 --> 00:10:30,800
+有
+have
+
+206
+00:10:31,300 --> 00:10:34,000
+所以你想包含文本
+so you want to contain text
+
+207
+00:10:35,900 --> 00:10:38,000
+它应该包含文本
+it should contain text
+
+208
+00:10:39,933 --> 00:10:42,666
+零，它不应该包含文本
+zero it should not contain text
+
+209
+00:10:44,066 --> 00:10:45,199
+负一
+negative one
+
+210
+00:10:50,266 --> 00:10:51,199
+这很有趣
+that's funky
+
+211
+00:11:02,600 --> 00:11:03,400
+酷
+cool
+
+212
+00:11:05,866 --> 00:11:08,266
+好了，现在让我们添加这些门。
+all right so now let's add those gates
+
+213
+00:11:08,266 --> 00:11:13,466
+这些逻辑门在这里，所以我们只想装饰，如果
+those logic gates here so we only want to decorate if
+
+214
+00:11:14,100 --> 00:11:16,700
+props dot min是
+props dot min is
+
+215
+00:11:17,700 --> 00:11:23,166
+是唯一的一个，如果计数器的值大于
+the only one i decommit if counter value is greater than
+
+216
+00:11:23,300 --> 00:11:24,133
+或
+or
+
+217
+00:11:24,366 --> 00:11:26,699
+没有，只是大于props min
+no just greater then props min
+
+218
+00:11:30,000 --> 00:11:31,133
+这样做对吗？
+is that correct
+
+219
+00:11:31,166 --> 00:11:32,366
+为什么会大喊大叫
+why is it yelling
+
+220
+00:11:32,933 --> 00:11:35,866
+不需要，如果在条件之后
+unnecessary if after condition
+
+221
+00:11:36,600 --> 00:11:38,566
+对象可能是未定义的
+object is possibly undefined
+
+222
+00:11:46,266 --> 00:11:47,066
+哼
+哼
+
+223
+00:12:00,533 --> 00:12:02,699
+我认为我的类型脚本语言服务器
+i think my type script language servers
+
+224
+00:12:03,600 --> 00:12:05,166
+不能正常工作
+is not working correctly
+
+225
+00:12:05,366 --> 00:12:07,066
+所以我打算重新加载这个窗口
+so i'm going to reload this window
+
+226
+00:12:16,700 --> 00:12:18,100
+因为我认为这应该是有效的
+because i think this should work
+
+227
+00:12:18,933 --> 00:12:19,733
+是的
+yeah
+
+228
+00:12:21,366 --> 00:12:22,566
+所以现在我们要做的是
+so now we're gonna do
+
+229
+00:12:22,566 --> 00:12:23,366
+哦
+oh
+
+230
+00:12:33,333 --> 00:12:36,966
+因为大于min的感觉不对
+because greater than min doesn't feel right to it
+
+231
+00:12:37,166 --> 00:12:38,933
+所以我们可以添加一些默认值
+so we can add some defaults
+
+232
+00:12:39,800 --> 00:12:41,666
+而不是真正修复空气类型
+versus actually fixing the type air
+
+233
+00:12:42,466 --> 00:12:44,299
+对不起，Men将是0
+sorry men is gonna be zero
+
+234
+00:12:44,333 --> 00:12:45,599
+最大值将会是
+max is gonna be
+
+235
+00:12:48,366 --> 00:12:48,733
+我不知道
+i don't know
+
+236
+00:12:48,733 --> 00:12:49,666
+像一万
+like ten
+
+237
+00:12:50,466 --> 00:12:52,733
+一万两千
+thousand two thousand
+
+238
+00:12:56,466 --> 00:13:00,299
+在条件允许的情况下，对金钱的重视是不必要的。
+to value money spines unnecessary after condition
+
+239
+00:13:05,300 --> 00:13:09,666
+我想V TESS的借贷规则并不喜欢。
+i guess the lenting rules that come with v tess do not like
+
+240
+00:13:11,533 --> 00:13:12,333
+这个
+this
+
+241
+00:13:19,800 --> 00:13:20,600
+完美
+perfect
+
+242
+00:13:22,066 --> 00:13:27,099
+然后，这个的倒数将是反值加
+and then the inverse of this is going to be counter value plus
+
+243
+00:13:27,100 --> 00:13:27,900
+加
+plus
+
+244
+00:13:28,533 --> 00:13:29,299
+非常好
+very nice
+
+245
+00:13:29,300 --> 00:13:33,133
+递增和递减 现在让我们开始做一些奇怪的事情
+increment and decrement now let's start to do some weird stuff
+
+246
+00:13:33,133 --> 00:13:35,999
+让我们添加一些实用类
+let's add some utility classes
+
+247
+00:13:37,300 --> 00:13:40,966
+让我们添加隐藏，这样你就可以看到没有加号按钮了
+let's add hidden so you see there's no more plus button
+
+248
+00:13:40,966 --> 00:13:42,399
+它还在那里
+it's there still
+
+249
+00:13:42,933 --> 00:13:45,299
+让我们进入
+andlet's go into
+
+250
+00:13:46,466 --> 00:13:49,566
+让我们进入
+let's go into the
+
+251
+00:13:50,300 --> 00:13:52,466
+规格文件，让我们像
+spec file again and let's like
+
+252
+00:13:53,400 --> 00:13:54,200
+运行
+run
+
+253
+00:13:55,766 --> 00:13:57,799
+这一个哦
+this one oh
+
+254
+00:13:57,966 --> 00:14:00,933
+不，我们确实有一个减法，那么增法按钮呢？
+no we do have a decrement what about the increment button
+
+255
+00:14:01,733 --> 00:14:05,399
+它已经告诉我们这个元素是不可见的了
+well it's already telling usthat the element isn't visible
+
+256
+00:14:06,133 --> 00:14:09,699
+而且我们所有的增量按钮测试都失败了，因为
+and all of our increment button tests are failing because
+
+257
+00:14:10,066 --> 00:14:12,466
+用户正试图点击它，但
+the user is trying to click it but
+
+258
+00:14:12,766 --> 00:14:17,099
+我使用的隐藏实用程序类是无显示的。
+the hidden utility class i was using has display none on it
+
+259
+00:14:18,266 --> 00:14:19,999
+如果我们修复了这个css
+if we fix the css
+
+260
+00:14:20,933 --> 00:14:21,866
+一切都能通过
+everything passes
+
+261
+00:14:21,866 --> 00:14:24,599
+花了三百七十六毫秒
+and it took three hundred and seventy six mill seconds
+
+262
+00:14:24,700 --> 00:14:26,933
+来运行所有这些测试
+to run all of these tests
+
+263
+00:14:28,466 --> 00:14:33,566
+它没有我们测试的快，也没有我们测试的快。
+it's not as fast as we test it is not as fast as we testhowever
+
+264
+00:14:33,566 --> 00:14:34,133
+但它确实
+it does
+
+265
+00:14:34,133 --> 00:14:37,766
+处理你所有的样式，而且它确实在真实的浏览器中运行。
+process all of your styles and it does run in a real browser
+
+266
+00:14:37,933 --> 00:14:40,266
+这对我来说是完全有意义的
+it makes complete sense to me
+
+267
+00:14:41,000 --> 00:14:41,800
+我认为
+that
+
+268
+00:14:42,900 --> 00:14:44,800
+它没有那么快
+it would not be as fast
+
+269
+00:14:47,400 --> 00:14:50,733
+我不认为在这个世界上，Cyprus会像无头测试运行器一样快。
+i don't see a world in which cyprus would ever be as fast
+
+270
+00:14:50,733 --> 00:14:52,366
+作为一个无头的测试运行器
+as a headless test runner
+
+271
+00:14:54,166 --> 00:14:55,799
+事实上，除了
+except for actually
+
+272
+00:14:56,133 --> 00:14:58,166
+让我们走吧，这是最大的测试的地方。
+let's go it's where the maximum test
+
+273
+00:14:58,366 --> 00:15:01,999
+除了当你想到快照测试的时候
+except for when you think of snapshot testing
+
+274
+00:15:04,533 --> 00:15:05,333
+当我
+when i
+
+275
+00:15:06,166 --> 00:15:07,799
+适应的美化
+adapted beautifies
+
+276
+00:15:08,933 --> 00:15:15,799
+组件测试从刚刚到塞浦路斯的美化是使用
+component tests from just to cyprus beautify was using
+
+277
+00:15:16,966 --> 00:15:20,066
+来匹配写到光盘上的快照
+to match snapshot which writes to the disc
+
+278
+00:15:20,300 --> 00:15:23,300
+而当你把快照写到光盘上时
+and when you write your snapshots to disc
+
+279
+00:15:23,400 --> 00:15:24,666
+它实际上需要
+it actually takes
+
+280
+00:15:25,200 --> 00:15:28,700
+添了cybers组件测试后，速度就提高了。
+a bit of time and adding cybers component testing ended up
+
+281
+00:15:28,700 --> 00:15:29,866
+加快了
+speeding up
+
+282
+00:15:30,933 --> 00:15:33,533
+美化组件测试
+beautifies component tests
+
+283
+00:15:33,533 --> 00:15:36,799
+这让我很震惊
+as a whole which was shocking to me
+
+284
+00:15:37,333 --> 00:15:40,133
+但事实就是如此，所以
+but is what happened so
+
+285
+00:15:41,800 --> 00:15:43,533
+尽管你可能觉得
+even though you might feel
+
+286
+00:15:45,766 --> 00:15:48,066
+你可能会觉得有点奇怪，因为
+you might feel a little weird about
+
+287
+00:15:49,066 --> 00:15:50,866
+让我们看看最大的是一千
+let's see max is a thousand
+
+288
+00:15:52,266 --> 00:15:55,099
+尽管你可能觉得有点奇怪，因为
+even though you might feel a little weird about
+
+289
+00:15:55,533 --> 00:15:58,666
+有慢的测试比可能的
+having slower tests than could be possible
+
+290
+00:15:59,066 --> 00:16:00,166
+我认为
+i think that
+
+291
+00:16:00,300 --> 00:16:04,333
+有所有的开发工具和调试器可用
+having all of the development tools having debuggers available
+
+292
+00:16:04,466 --> 00:16:06,533
+是绝对值得的
+is absolutely worth it
+
+293
+00:16:06,766 --> 00:16:07,566
+而且
+and
+
+294
+00:16:09,000 --> 00:16:12,000
+我所有的开发风格
+i do all of my development styles
+
+295
+00:16:12,333 --> 00:16:17,699
+测试逻辑 我的所有开发都是在这个画布上完成的
+tests logic i do all of my development purely on this canvas
+
+296
+00:16:18,500 --> 00:16:20,266
+以一种孤立的方式
+in an isolated fashion
+
+297
+00:16:21,600 --> 00:16:23,166
+这很好啊
+it's pretty cool
+
+298
+00:16:23,166 --> 00:16:26,366
+特别是当你想到所有的加载器
+and especially when you think of all of the loaders
+
+299
+00:16:26,366 --> 00:16:28,333
+的时候，你就会发现，这里的所有加载器都在进行着。
+that are going on under the hood here
+
+300
+00:16:28,533 --> 00:16:30,066
+所以我们把它带回V
+so let's take it back to v
+
+301
+00:16:30,566 --> 00:16:33,799
+让我们完成这个测试增量选择器
+let's finish this test increment selector
+
+302
+00:16:34,066 --> 00:16:34,866
+糟糕
+whoops
+
+303
+00:16:37,066 --> 00:16:38,966
+增量选择器
+increment selector
+
+304
+00:16:40,500 --> 00:16:42,000
+包含文本
+contain text
+
+305
+00:16:43,400 --> 00:16:45,533
+让我们看看初始值和最大值
+let's see initial and max
+
+306
+00:16:47,700 --> 00:16:52,200
+应该包含文本一千 让我们回到Cypress这里
+should contain text one thousand let's go back to cypress here
+
+307
+00:16:53,733 --> 00:16:55,299
+用一千零一个
+with one thousand and one
+
+308
+00:16:55,500 --> 00:16:56,300
+毫米
+mmm
+
+309
+00:16:57,300 --> 00:16:58,333
+让我们修复它
+let's fix it
+
+310
+00:16:59,100 --> 00:17:00,200
+转到计数器
+go to counter
+
+311
+00:17:03,766 --> 00:17:04,566
+完美
+perfect
+
+312
+00:17:05,900 --> 00:17:06,700
+不
+no
+
+313
+00:17:13,400 --> 00:17:14,500
+我是否破坏了它
+did i break it
+
+314
+00:17:15,333 --> 00:17:19,399
+如果计数器的值小于道具的最大值，就停止。
+if the counter value is less than prop stop max
+
+315
+00:17:23,666 --> 00:17:26,266
+如此简单，却很容易被破坏
+so simple it's so easy to break
+
+316
+00:17:26,866 --> 00:17:29,399
+当你能真正看到它时，它是如此的好
+and it's so nice when you can actually just see it
+
+317
+00:17:29,700 --> 00:17:31,933
+从视觉上看是这样的。
+visually there alright
+
+318
+00:17:32,166 --> 00:17:35,733
+所以从这里开始，让我们展示一些其他很酷的东西
+so from there let's show off some other cool things
+
+319
+00:17:35,800 --> 00:17:39,333
+就像这个加号按钮，它被称为创建新规范
+like this plus button here this is called create new spec
+
+320
+00:17:39,500 --> 00:17:41,366
+你可以从组件中创建
+you can create from component
+
+321
+00:17:41,666 --> 00:17:44,866
+你会注意到，这些都是很好的视图文件，因为
+and you'll notice that these are all nice view files because
+
+322
+00:17:45,000 --> 00:17:47,100
+因为该项目已经检测到了它的视图
+the project has detected that it's view
+
+323
+00:17:47,466 --> 00:17:49,666
+但我要告诉你一些你可以做的奇怪的事情
+but i'm going to show you some weird stuff you can do
+
+324
+00:17:50,366 --> 00:17:54,066
+所以你可以抓取其中的一个关于页面
+so you can grab one of the about pages
+
+325
+00:17:54,400 --> 00:17:55,200
+所以
+so
+
+326
+00:17:55,766 --> 00:18:00,366
+v tess会抓取markdown页面并为你渲染它们
+v tess will grab markdown pages and it will render them for you
+
+327
+00:18:00,366 --> 00:18:01,899
+作为组件
+as components
+
+328
+00:18:03,200 --> 00:18:04,900
+实际上会创建路由和其他东西
+will actually create routes and stuff
+
+329
+00:18:04,966 --> 00:18:08,866
+所以这是一个真正能与视图组件一起工作的markdown组件。
+so this is a markdown component that actually works
+
+330
+00:18:08,866 --> 00:18:11,299
+视图组件，这是我们的计数器
+with view components here's our counter
+
+331
+00:18:12,000 --> 00:18:15,366
+这是我们之前的反驳，以证明
+here is our counter from earlier to prove that
+
+332
+00:18:16,066 --> 00:18:17,466
+并证明它
+and to prove that it
+
+333
+00:18:18,400 --> 00:18:21,700
+为了证明它是否有效，我将注释出
+does it does or doesn't work i'm going to comment out
+
+334
+00:18:21,933 --> 00:18:24,733
+我们的增量和减量按钮里面的逻辑
+the logic inside of our increment and decrement buttons
+
+335
+00:18:24,733 --> 00:18:26,899
+你会看到，关于页面
+and you'll see that the about page
+
+336
+00:18:28,000 --> 00:18:30,600
+关于页面的重新加载变得很热
+the about page gets hot reloading
+
+337
+00:18:30,933 --> 00:18:33,599
+这真是太酷了，让我们去看看关于MD吧
+that is super cool let's go to about md
+
+338
+00:18:34,300 --> 00:18:35,966
+可以看到我们的约谈计数器
+can see our about counter
+
+339
+00:18:36,200 --> 00:18:41,266
+我们可以开始在about size spec里面写测试。
+and we can start to write tests inside of the about size spec
+
+340
+00:18:42,466 --> 00:18:43,899
+因为它是一个javascript文件
+because it's a javascript file
+
+341
+00:18:43,900 --> 00:18:45,733
+它正在抱怨全局类型的问题
+it's complaining about global types
+
+342
+00:18:46,500 --> 00:18:50,366
+我们可以开始编写测试，如获取数据测试ID
+and we could start to write tests like get data test id
+
+343
+00:18:50,933 --> 00:18:52,333
+about counter
+about counter
+
+344
+00:18:53,700 --> 00:18:57,400
+我们可以开始写测试，如get data test id about counter，并查看我们的东西是否被正确连接起来。
+and see that our stuff is correctly hooked up i have
+
+345
+00:18:57,500 --> 00:19:01,266
+我从来没有见过一个应用程序或一个测试运行器，可以
+never seen an application or a test runner that can
+
+346
+00:19:02,500 --> 00:19:04,566
+测试这样的markdown文件
+test markdown files like this
+
+347
+00:19:05,366 --> 00:19:07,333
+v测试可能可以
+v test probably can
+
+348
+00:19:07,400 --> 00:19:08,366
+毫无问题
+with no problem
+
+349
+00:19:08,366 --> 00:19:10,799
+但我从来没有看到过能像这样显示的东西。
+but i've never been able to see something that renders it like
+
+350
+00:19:10,800 --> 00:19:12,100
+这对我来说太酷了
+this it's so cool to me
+
+351
+00:19:12,500 --> 00:19:13,300
+好了
+alright
+
+352
+00:19:13,333 --> 00:19:14,799
+结束了
+so wrapping up
+
+353
+00:19:15,300 --> 00:19:17,266
+我还有一些事情要在主题演讲中说
+i have a few more things to say in the keynote
+
+354
+00:19:17,266 --> 00:19:18,966
+然后我们就可以了
+and then we should be good
+
+355
+00:19:19,866 --> 00:19:22,466
+它们是关于
+and they are concerning the
+
+356
+00:19:22,466 --> 00:19:26,733
+测试与塞浦路斯相比，只是
+test versus cyprus versus just
+
+357
+00:19:30,366 --> 00:19:32,399
+我将跳过
+i'm going to skip over
+
+358
+00:19:33,166 --> 00:19:36,133
+这一部分，因为基本上塞浦路斯
+this section because basically cyprus
+
+359
+00:19:36,200 --> 00:19:40,166
+只是作为一个小麦的插件，让我移动我的小脸蛋
+just acts as a wheat plug in let me move my little face
+
+360
+00:19:40,333 --> 00:19:41,299
+我们走吧
+there we go
+
+361
+00:19:42,300 --> 00:19:45,700
+基本上Cyprus只是作为小麦的一个插件
+basically cyprus just acts as a wheat plug in
+
+362
+00:19:45,900 --> 00:19:49,133
+进入点是一个动态的
+and the entry point is ina dynamic is
+
+363
+00:19:49,133 --> 00:19:53,533
+一个加载器，它动态地导入每个规格文件
+a loader that dynamically imports each spec file
+
+364
+00:19:53,533 --> 00:19:55,599
+所以它做了一个全球搜索，寻找
+so it does a glob search for
+
+365
+00:19:55,600 --> 00:19:57,466
+匹配规范模式的东西
+something that matches the spec pattern
+
+366
+00:19:57,466 --> 00:20:00,066
+cyprus使用dot cs
+cyprus uses dot cs
+
+367
+00:20:00,466 --> 00:20:04,266
+以避免与
+so as not to conflict with
+
+368
+00:20:04,933 --> 00:20:07,566
+v测试再次移动我的脸
+v test moving my face again
+
+369
+00:20:08,133 --> 00:20:13,399
+与之相对应的是，我们给出了spec的扩展名
+versus just so we are giving the extension of spec
+
+370
+00:20:13,966 --> 00:20:16,899
+和测试v测试
+and test v test
+
+371
+00:20:17,766 --> 00:20:20,666
+因为你可能需要一个基于节点的运行器
+because you probably need a node based runner
+
+372
+00:20:20,866 --> 00:20:22,866
+和一个基于浏览器的运行器
+and a browser based runner
+
+373
+00:20:22,900 --> 00:20:27,166
+你可以使用V test的速度，它的速度快如闪电
+you can use v test for its speed its lightning fast speed
+
+374
+00:20:27,866 --> 00:20:31,533
+而你可以使用Cyprus，因为它能够彻底测试
+and you can use cyprus for its ability to test thoroughly
+
+375
+00:20:34,100 --> 00:20:35,800
+测试css
+test css
+
+376
+00:20:36,866 --> 00:20:39,333
+所以我使用v test进行单元测试
+so i use v test for unit tests
+
+377
+00:20:39,366 --> 00:20:42,133
+和业务逻辑以及无头组件
+and business logic and headless composables
+
+378
+00:20:42,366 --> 00:20:44,866
+我使用Cyprus来测试渲染的组件
+i use cyprus for components that render
+
+379
+00:20:44,866 --> 00:20:47,066
+我已经不再使用了
+and i do not use just anymore
+
+380
+00:20:50,366 --> 00:20:54,166
+一些历史和感谢，我想更详细地讨论这个问题
+some history and thanks i would go over this in more detail
+
+381
+00:20:54,500 --> 00:20:55,733
+但我已经没有时间了
+but i'm out of time
+
+382
+00:20:57,566 --> 00:20:59,699
+我想说的是
+all i would say is that
+
+383
+00:21:00,166 --> 00:21:03,999
+塞浦路斯从Vt的创造中得到了很大的启发
+cyprus is highly inspired by the creation of vt
+
+384
+00:21:04,000 --> 00:21:05,466
+其目前的建筑
+its current architecture
+
+385
+00:21:06,733 --> 00:21:11,066
+受到vt的强烈影响，如果没有vt的存在
+is strongly influenced by vt and without vt's existence
+
+386
+00:21:11,100 --> 00:21:13,733
+很可能cyprus的组件测试
+it is very likely that cyprus component testing
+
+387
+00:21:13,733 --> 00:21:14,766
+将会是非常网络化的
+would have been very web
+
+388
+00:21:14,766 --> 00:21:15,766
+挤出来的
+packed specific
+
+389
+00:21:17,266 --> 00:21:22,066
+为此，我非常感谢Evan所做的工作
+and for that i am very thankful for the work that evan did
+
+390
+00:21:22,333 --> 00:21:23,266
+创建
+to create
+
+391
+00:21:24,133 --> 00:21:27,866
+为此，我非常感谢伊万所做的工作，创建了维生素和维生素生态系统，所以感谢你
+vit and the vit ecosystem so thank you
+

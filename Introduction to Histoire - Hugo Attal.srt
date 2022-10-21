@@ -1,0 +1,680 @@
+1
+00:00:03,866 --> 00:00:06,299
+嗨，大家好，欢迎来到estoir的拍摄演示。
+hey everyone welcome to the shot presentation of estoir
+
+2
+00:00:06,300 --> 00:00:08,200
+所以，是的，你把它读成estoir
+so yeah you pronounce it estoir
+
+3
+00:00:08,200 --> 00:00:10,166
+它是法国的欺诈或故事
+it's French fraud or story
+
+4
+00:00:10,166 --> 00:00:12,866
+我们很喜欢车辆系统中的法国名字
+we quite like French name in the vehicle system
+
+5
+00:00:13,466 --> 00:00:16,099
+或者是一个大计划的一部分，使你自己的法语
+or part of a big plan to make your own French
+
+6
+00:00:16,366 --> 00:00:17,166
+总之
+anyway
+
+7
+00:00:17,166 --> 00:00:20,599
+什么是所有的东西是写故事的工具
+what is all about istwa is a tool to write stories
+
+8
+00:00:20,600 --> 00:00:21,900
+但什么是故事
+but what is a story
+
+9
+00:00:21,900 --> 00:00:23,866
+一个故事就是一组小的UA
+so a story is just a small set of UA
+
+10
+00:00:23,866 --> 00:00:26,099
+一个故事就是在一个很好的相关环境中显示的一小部分UA组件
+components displayed in a nice related environment
+
+11
+00:00:26,100 --> 00:00:27,900
+这种方式有很多好处
+and this kind of a lot of benefits
+
+12
+00:00:27,900 --> 00:00:28,466
+例如
+for example
+
+13
+00:00:28,466 --> 00:00:29,966
+当你想为你的应用程序击败某种组件时
+when you want to beat some kind of component
+
+14
+00:00:29,966 --> 00:00:30,733
+的时候
+for your application
+
+15
+00:00:30,733 --> 00:00:32,466
+你不必考虑上下文的问题
+you don't have to mind of the context
+
+16
+00:00:32,466 --> 00:00:34,599
+可以将组件提取到一个故事中
+can extract the component to a story
+
+17
+00:00:34,600 --> 00:00:36,600
+然后专注于你所构建的功能
+then focus on the features your building
+
+18
+00:00:36,600 --> 00:00:38,133
+而不用考虑集成的问题
+without mining about the integration
+
+19
+00:00:38,133 --> 00:00:39,499
+当一切完成后
+and when everything's done
+
+20
+00:00:39,500 --> 00:00:40,266
+你可以
+you can
+
+21
+00:00:40,266 --> 00:00:42,599
+将你的组件重新导入你的应用程序中
+import your components back into your application
+
+22
+00:00:42,766 --> 00:00:43,666
+任何你想要的地方
+anywhere you want
+
+23
+00:00:43,700 --> 00:00:44,933
+另一个很酷的好处是，你有
+another cool benefit is that you have
+
+24
+00:00:44,933 --> 00:00:45,599
+所有的组件
+all your components
+
+25
+00:00:45,600 --> 00:00:47,200
+组织在集中的库中
+organizing the centralized library
+
+26
+00:00:47,200 --> 00:00:49,166
+这样，你的团队中的任何人
+so that anyone in your team
+
+27
+00:00:49,166 --> 00:00:51,066
+都可以看到有哪些组件可供他们使用
+can see what components are available to them
+
+28
+00:00:51,066 --> 00:00:52,266
+以及他们如何使用它
+and how they can use it
+
+29
+00:00:52,266 --> 00:00:53,066
+因为你可以
+because you can
+
+30
+00:00:53,166 --> 00:00:55,699
+记录你的组件的功能，以便于
+document the features of your component so that
+
+31
+00:00:55,766 --> 00:00:58,199
+开发人员可以看到每个组件增加了哪些参数
+developer can see what arguments each components add
+
+32
+00:00:58,900 --> 00:00:59,933
+和你的插槽，他们有
+and you slot they have
+
+33
+00:00:59,933 --> 00:01:01,799
+并且他们可以实时地将这些值转化为
+and they can twig these values
+
+34
+00:01:01,966 --> 00:01:02,699
+实时地
+in real time
+
+35
+00:01:02,700 --> 00:01:04,900
+他们可以将这些值实时地加入到你的兄弟中，看他们如何反应
+right into your brothers to see how they react
+
+36
+00:01:04,900 --> 00:01:06,133
+你还可以利用这些组件的不同使用情况，展示一些
+you can also showcase some
+
+37
+00:01:06,133 --> 00:01:08,599
+你还可以使用我们称之为 "勇气 "的东西来展示这些组件的不同用例。
+different use cases of those components using
+
+38
+00:01:08,600 --> 00:01:09,600
+我们称之为Valiant
+what we call valiant
+
+39
+00:01:09,600 --> 00:01:11,366
+最后，你可以测试你的组件
+lastly you can test your components
+
+40
+00:01:11,366 --> 00:01:14,166
+这样你就能确保在开发过程中不会出现视觉上的调节
+so that you make sure you don't have visual regulation
+
+41
+00:01:14,166 --> 00:01:15,066
+在开发过程中
+during the development
+
+42
+00:01:15,066 --> 00:01:16,933
+你的应用程序，但当eastoil
+of your application but when eastoil
+
+43
+00:01:17,500 --> 00:01:18,133
+有其他
+there are other
+
+44
+00:01:18,133 --> 00:01:19,266
+框架的蓝索
+framework to blue soys
+
+45
+00:01:19,266 --> 00:01:20,699
+是什么让你的旋转与他们不同
+what make you swirl different from them
+
+46
+00:01:20,700 --> 00:01:21,366
+第一件事是什么
+what the first thing
+
+47
+00:01:21,366 --> 00:01:23,299
+就是eastoil是原生的项目
+is that eastoil is native to with projects
+
+48
+00:01:23,300 --> 00:01:24,900
+所以它的安装是非常容易的
+so it's super easy to install
+
+49
+00:01:25,133 --> 00:01:26,766
+你只需要插入软件包
+you just have to insert the package
+
+50
+00:01:26,766 --> 00:01:27,999
+就可以了，而且默认情况下它会
+and by default it will
+
+51
+00:01:28,266 --> 00:01:30,933
+查找你的项目的vit配置文件
+look up for the vit configuration file of your project
+
+52
+00:01:30,933 --> 00:01:32,099
+所以你可以让它工作
+so you can make it work
+
+53
+00:01:32,266 --> 00:01:34,399
+无需任何配置
+without any configuration whatsoever
+
+54
+00:01:34,400 --> 00:01:36,966
+它的速度也非常快，因为它使用的是vits
+it's also blazing fast because it's using vits
+
+55
+00:01:37,300 --> 00:01:40,133
+所以你只有几秒钟的时间来启动
+so you have mini seconds to start
+
+56
+00:01:40,500 --> 00:01:41,166
+牢房面纱
+the cell veils
+
+57
+00:01:41,166 --> 00:01:43,066
+然后你有即时的自动视频
+and then you have instant automatic videos
+
+58
+00:01:43,066 --> 00:01:43,666
+感谢视觉
+thanks to vis
+
+59
+00:01:43,666 --> 00:01:45,399
+它也是超级z学习
+it's also super z to learn
+
+60
+00:01:45,400 --> 00:01:45,933
+所以是
+so is
+
+61
+00:01:45,933 --> 00:01:48,533
+基本上查看单一的5个组件，以点结束
+basically view single 5 components ending with dot
+
+62
+00:01:48,533 --> 00:01:49,766
+酱油，几个
+soy that a few
+
+63
+00:01:49,766 --> 00:01:51,466
+所以绝对不奇怪
+so there's absolutely no surprise
+
+64
+00:01:51,466 --> 00:01:51,966
+你可以
+you can
+
+65
+00:01:51,966 --> 00:01:54,466
+在文档网站上看到很多例子
+see a lot of example on the documentation website
+
+66
+00:01:54,466 --> 00:01:55,866
+这也是视觉功能的复杂性
+it's also the visual feature complex
+
+67
+00:01:55,866 --> 00:01:57,866
+因为你有一吨的功能
+because you have 1t of features
+
+68
+00:01:58,266 --> 00:01:59,533
+来测试
+to test the
+
+69
+00:01:59,866 --> 00:02:03,966
+响应式设计，测试你的自定义事件，保存
+responsive design to test your custom events to save
+
+70
+00:02:04,333 --> 00:02:07,399
+子自定义状态，所以一切都准备好了，无需
+sub custom states so everything is ready to use without
+
+71
+00:02:07,666 --> 00:02:10,499
+任何第三方的brigan和nasty的需要。
+any need for any 3rd party brigan and nasty
+
+72
+00:02:10,500 --> 00:02:11,900
+它是1%的自定义之一
+it's one of 1% custom
+
+73
+00:02:11,900 --> 00:02:14,066
+伊莎贝拉可以定制你的东亚应用的外观
+Isabella can customize the look of
+
+74
+00:02:14,100 --> 00:02:17,100
+您的东亚战争应用程序，以便它可以匹配
+your eastwar application so that it can match
+
+75
+00:02:17,266 --> 00:02:19,533
+你的品牌团队 你的乐队标志 任何东西
+your brand team your band logo anything
+
+76
+00:02:19,900 --> 00:02:21,200
+这里有一个超级独立的例子
+here's a super separate example
+
+77
+00:02:21,300 --> 00:02:22,200
+的故事文件
+of a story file
+
+78
+00:02:22,200 --> 00:02:24,166
+你只需要把你的组件放在那里
+where you just have to put your component there
+
+79
+00:02:24,166 --> 00:02:26,266
+就像在任何单一的战斗组件中一样
+just like in any single fights components
+
+80
+00:02:26,266 --> 00:02:27,299
+如果你需要一个机架
+and if you need a rack
+
+81
+00:02:27,300 --> 00:02:29,666
+态，你可以放上控制，这里有一个
+if states you can put controls and there's a
+
+82
+00:02:29,666 --> 00:02:30,933
+这里有一个控制槽
+controlled slots here
+
+83
+00:02:31,100 --> 00:02:34,000
+有一些预制的控制组件，如
+and there are pre built controls components like
+
+84
+00:02:34,166 --> 00:02:35,399
+这个东部战争文本
+this eastwar text
+
+85
+00:02:35,400 --> 00:02:37,333
+但你可以把任何东西放在另一个槽里
+but you can put anything another slot
+
+86
+00:02:37,333 --> 00:02:38,999
+因此，让我向你展示一些好的功能从
+so let me show you some of the good features from
+
+87
+00:02:39,000 --> 00:02:42,366
+eastwar的一些好功能，首先是最有用的功能
+eastwar starting with the most useful features ever
+
+88
+00:02:43,000 --> 00:02:43,866
+黑暗模式
+the dark mode
+
+89
+00:02:44,466 --> 00:02:45,266
+然后
+then
+
+90
+00:02:45,366 --> 00:02:47,799
+你有一个搜索栏，可以快速访问你的商店
+you have the search bar to quickly access your store
+
+91
+00:02:48,800 --> 00:02:51,566
+在这里，你有一个网格布局，其中有几个图标
+here you have a grid layout with several valiants
+
+92
+00:02:51,566 --> 00:02:54,199
+如果你点击一个，你可以更新它
+if you click on one you can update it
+
+93
+00:02:55,333 --> 00:02:56,933
+你可以看到
+and you see that
+
+94
+00:02:57,333 --> 00:03:00,366
+它是自动反应在兄弟身上的
+it's automatically reacting on the brother
+
+95
+00:03:00,966 --> 00:03:02,566
+当然，你可以
+you can of course
+
+96
+00:03:03,166 --> 00:03:05,733
+当然，你可以复制粘贴生成的切面，将其直接用于
+copy paste the generated cut to be used right
+
+97
+00:03:05,733 --> 00:03:07,099
+到你的应用程序中
+into your application
+
+98
+00:03:07,566 --> 00:03:11,466
+你也可以注意到这一点，但这意味着
+also you can notice this little but it's meaning that
+
+99
+00:03:11,666 --> 00:03:12,099
+这些
+these
+
+100
+00:03:12,100 --> 00:03:14,700
+道具是由组件自动检测出来的
+props are automatically detected from the component
+
+101
+00:03:14,700 --> 00:03:16,700
+所以你不需要手动创建这些道具
+so you don't have to manually create those
+
+102
+00:03:18,900 --> 00:03:21,200
+然后你有很多控件来操作你的道具
+then you have a lot of controls to manipulate
+
+103
+00:03:21,866 --> 00:03:25,366
+一些滑块，一些单选框
+your props some kind of sliders some kind of radio
+
+104
+00:03:25,566 --> 00:03:27,566
+一些额外的选择
+some kind of selects extra
+
+105
+00:03:28,333 --> 00:03:30,199
+你还可以保存这些状态
+you can also save these states
+
+106
+00:03:30,466 --> 00:03:31,799
+更新的状态
+the updated states
+
+107
+00:03:32,400 --> 00:03:33,800
+这样你就可以快速
+so that you can quickly
+
+108
+00:03:34,100 --> 00:03:36,766
+在初始状态和
+toggle between the initial states and
+
+109
+00:03:36,766 --> 00:03:37,999
+你刚刚保存的状态
+the states you just save
+
+110
+00:03:40,466 --> 00:03:43,133
+如果你有某种有益的镶嵌物的话
+if you have some kind of salutary insetups
+
+111
+00:03:44,700 --> 00:03:47,333
+是为了我们会产生一堆超级
+is to our will generate a bunch of super
+
+112
+00:03:48,133 --> 00:03:50,066
+的文件。
+sparkle documentation for white
+
+113
+00:03:52,700 --> 00:03:54,300
+你也可以写
+you can also write
+
+114
+00:03:54,700 --> 00:03:56,166
+文档的
+documentation for
+
+115
+00:03:56,733 --> 00:03:58,533
+故事写成markdown
+stories in markdown
+
+116
+00:03:59,066 --> 00:04:00,699
+它将出现在这里
+it will appear here
+
+117
+00:04:01,300 --> 00:04:05,000
+你可以测试你的组件的响应能力
+you can test the responsiveness of your components
+
+118
+00:04:06,366 --> 00:04:08,333
+你认为这些滑块
+you think these sliders
+
+119
+00:04:08,333 --> 00:04:11,399
+也有很多预设，可以改变你测试的分辨率。
+and there's also a lot of presets to
+
+120
+00:04:13,933 --> 00:04:16,466
+改变你所测试的分辨率
+change the resolution you're testing
+
+121
+00:04:19,166 --> 00:04:22,966
+还有一些事件，你可以在这里
+there's also events that you canin
+
+122
+00:04:23,700 --> 00:04:26,600
+显示在这里，你可以改变背景颜色
+display here you can change the background colors
+
+123
+00:04:26,600 --> 00:04:28,666
+你可以使用棋盘格
+you can use checkerboard
+
+124
+00:04:29,700 --> 00:04:30,733
+有很多功能
+there's 1t of features
+
+125
+00:04:30,733 --> 00:04:33,099
+我只有这么多时间来展示它们
+I am only have so much time to show them all
+
+126
+00:04:33,133 --> 00:04:34,899
+所以我想我将在这里结束
+so I think I would stop there
+
+127
+00:04:35,266 --> 00:04:37,599
+是时候了，我一直在用口香糖建造东边的房子。
+time you go and I've been building east while with gum
+
+128
+00:04:37,600 --> 00:04:40,300
+事实是，你将90%的它，是真棒
+and truth is you will 90% of it and is awesome
+
+129
+00:04:40,300 --> 00:04:41,700
+所以去赞助他们的吉他
+so go sponsor em on guitar
+
+130
+00:04:41,800 --> 00:04:44,933
+也欢迎任何人为eastoil做出贡献。
+also anyone up to contribute to eastoil is welcome
+
+131
+00:04:45,066 --> 00:04:46,666
+所以请随时加入我们的折扣
+so feel free to join our discount
+
+132
+00:04:46,966 --> 00:04:48,866
+如果你想更深入地了解eastoil的情况
+if you want to dive deeper into eastoil
+
+133
+00:04:48,866 --> 00:04:49,699
+请务必查看
+be sure to check out
+
+134
+00:04:49,700 --> 00:04:51,400
+我们与Giume的第一次确认鹳
+our first confirm stork with giume
+
+135
+00:04:51,400 --> 00:04:53,266
+我们将解释更多很酷的东西
+we'll explain a lot more cool stuff
+
+136
+00:04:53,700 --> 00:04:54,500
+谢谢收听
+thanks for listening
+

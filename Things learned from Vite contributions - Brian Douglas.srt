@@ -1,0 +1,785 @@
+1
+00:00:02,700 --> 00:00:04,500
+你们好，我的名字是布莱恩-道格拉斯
+what's up y'all my name is Brian Douglas
+
+2
+00:00:04,666 --> 00:00:06,366
+open sauce的创始人和维护者
+founder maintainer of open sauce
+
+3
+00:00:06,366 --> 00:00:08,066
+这将会是关于
+it's gonna be talking about
+
+4
+00:00:08,066 --> 00:00:09,766
+洞察力和开放马的贡献
+insights and opens horse contribution
+
+5
+00:00:09,766 --> 00:00:11,933
+所以让我继续分享我的屏幕
+so let me go ahead and share my screen
+
+6
+00:00:12,266 --> 00:00:13,166
+并直接跳入
+and jump right in
+
+7
+00:00:13,966 --> 00:00:16,766
+因此，去年我们有机会实际交谈
+so last year we had the opportunity to actually talk
+
+8
+00:00:16,966 --> 00:00:19,899
+我们去年有机会和Avenue讨论小麦代表的2点发射问题。
+to avenue about wheat rep for the 2 point launch
+
+9
+00:00:19,966 --> 00:00:22,666
+在那次谈话之后，我改变了
+and after that conversation I switched
+
+10
+00:00:22,666 --> 00:00:24,666
+我们最终将所有的开放式酱料转为小麦
+we ended up switching all of open sauce into wheat
+
+11
+00:00:24,666 --> 00:00:26,733
+所以非常高兴能成为这个社区的一部分
+so super happy to be a part of this community
+
+12
+00:00:27,100 --> 00:00:28,000
+做贡献
+to be contributing
+
+13
+00:00:28,366 --> 00:00:29,699
+对上游的贡献不大
+not too much contributing upstream
+
+14
+00:00:29,700 --> 00:00:32,133
+但希望很快，因为那是我们的目标所在
+but hopefully soon because that's where our goal is
+
+15
+00:00:32,133 --> 00:00:34,399
+事实上，开放源代码的贡献很好，但
+actually fine open source contributions but
+
+16
+00:00:34,866 --> 00:00:35,166
+当我提到
+when I mentioned
+
+17
+00:00:35,166 --> 00:00:35,999
+我很快就会去
+I'm going to go quickly
+
+18
+00:00:36,000 --> 00:00:38,666
+给它一个快速的演示，我的现场演讲将是什么？
+to give it a quick demo of what my floor talk will be
+
+19
+00:00:38,666 --> 00:00:40,999
+这将是一种像偷袭或小吃
+this would be sort of like a sneak or a snack
+
+20
+00:00:41,366 --> 00:00:42,933
+的开放酱料的比萨饼
+of open sauce that pizza
+
+21
+00:00:43,000 --> 00:00:44,700
+是的，我将直接跳入
+and yeah I'll jump right in
+
+22
+00:00:45,200 --> 00:00:45,333
+是的
+yeah
+
+23
+00:00:45,333 --> 00:00:47,899
+所以open sauce是开源的智能仪表板
+so open sauce is open source intelligence dashboard
+
+24
+00:00:47,900 --> 00:00:50,366
+我们实际上一直在为git仓库编制索引
+we're actually we've been indexing git repos
+
+25
+00:00:50,700 --> 00:00:52,466
+并在此基础上提供洞察力
+and providing insights on top of that
+
+26
+00:00:52,466 --> 00:00:53,599
+所以我们一直在搞这个
+so we've been messing around this
+
+27
+00:00:53,933 --> 00:00:55,199
+几乎整整一年了
+for pretty much all year
+
+28
+00:00:55,533 --> 00:00:56,666
+我一直在全职工作
+I've been working on this full time
+
+29
+00:00:56,666 --> 00:00:57,533
+在过去的三个月里
+for the past 3 months
+
+30
+00:00:57,533 --> 00:00:58,999
+真的很高兴与大家分享
+and really happy to share
+
+31
+00:00:59,266 --> 00:01:01,966
+我们终于有了一个网址，就是opensasa的insights。
+finally we have a url which is insights at opensasa
+
+32
+00:01:01,966 --> 00:01:04,933
+披萨，这将是我们所有的洞察力
+pizza this will be the home for all of our insights
+
+33
+00:01:05,100 --> 00:01:06,166
+和仪表盘
+and dashboards
+
+34
+00:01:06,466 --> 00:01:07,399
+暂时的
+for the time being
+
+35
+00:01:07,400 --> 00:01:09,400
+将会支持十月的节日
+will be supporting October fest
+
+36
+00:01:09,766 --> 00:01:12,499
+通过对所有这些存储库的审查和
+by vincites on all those repositories and
+
+37
+00:01:12,700 --> 00:01:15,266
+识别诸如垃圾邮件和贡献的东西
+identify things like spam and contribution
+
+38
+00:01:15,900 --> 00:01:17,466
+所以一定要看一下
+so definitely check it out
+
+39
+00:01:17,600 --> 00:01:20,466
+但我想在这里真正开始的阶段
+but I wanted to really to start the stage here
+
+40
+00:01:20,733 --> 00:01:22,866
+真正的快速和谈论像github提供的东西
+real quick and talk about like what github offers
+
+41
+00:01:22,900 --> 00:01:24,933
+而不是说我们想直接竞争什么
+and not that what we're trying to compete directly to
+
+42
+00:01:24,933 --> 00:01:26,366
+我们希望更多的人能够贡献
+get up we want more people to contribute
+
+43
+00:01:26,366 --> 00:01:27,933
+开源和利用github
+open source and leverage github
+
+44
+00:01:27,933 --> 00:01:29,999
+但我想指出的是，github实际上有
+but I do want to point out that github actually has
+
+45
+00:01:30,000 --> 00:01:31,266
+一些缺失的部分
+some missing pieces
+
+46
+00:01:31,266 --> 00:01:32,499
+至少是这个功能的一部分
+at least a part of this feature
+
+47
+00:01:32,500 --> 00:01:34,733
+所以，当你进入内部的时候，点击github
+so when you go to the insides tap on github
+
+48
+00:01:34,733 --> 00:01:35,466
+这就是它的样子
+this is what it looks like
+
+49
+00:01:35,466 --> 00:01:36,266
+这是为V
+this is for v
+
+50
+00:01:36,600 --> 00:01:38,066
+而这是所有的贡献
+and this is all the contribution
+
+51
+00:01:38,500 --> 00:01:40,466
+在过去的4个月里
+in the last actually 4 months
+
+52
+00:01:40,533 --> 00:01:42,966
+实际上是5个月，在这一点上我的计算是错误的
+actually 5 months at this point my math is off
+
+53
+00:01:43,200 --> 00:01:46,566
+最大的前两名贡献者是苏菲和巴托克
+and the biggest top 2 contributors is Sophie and batok
+
+54
+00:01:46,766 --> 00:01:49,099
+和这个人指出，因为很多人不知道。
+and this one on the point that out because a
+
+55
+00:01:49,100 --> 00:01:49,700
+很多人都不知道
+lot of people don't know
+
+56
+00:01:49,700 --> 00:01:50,500
+你实际上可以
+you could actually
+
+57
+00:01:50,733 --> 00:01:53,466
+抓取日历上的一个部分
+grab just like one section of the calendar
+
+58
+00:01:53,466 --> 00:01:55,399
+然后找到那段时间的贡献
+then find contributions for that time
+
+59
+00:01:55,566 --> 00:01:57,166
+很多时候，当你看到捐款时
+a lot of times when you look at contributions
+
+60
+00:01:57,166 --> 00:02:00,333
+它告诉你自成立以来的无限期。
+it tells you indefinitely since the inception
+
+61
+00:02:00,600 --> 00:02:02,133
+有时你只想知道谁在捐款
+and sometimes you just want to know who's contributing
+
+62
+00:02:02,133 --> 00:02:04,399
+我们想用开放的酱汁来回答这个问题
+recently we want to answer that question in open sauce
+
+63
+00:02:04,400 --> 00:02:05,200
+很容易回答这个问题
+pretty easily
+
+64
+00:02:05,766 --> 00:02:06,333
+另一件事是像
+the other thing is like
+
+65
+00:02:06,333 --> 00:02:06,799
+你并没有真正得到
+you don't really get
+
+66
+00:02:06,800 --> 00:02:08,533
+对实际发生的事情的洞察力
+insights on what actually is happening
+
+67
+00:02:08,566 --> 00:02:11,199
+你得到的是布洛姆，你看起来像分布和
+you get blobs and you look like distribution and
+
+68
+00:02:11,300 --> 00:02:12,100
+活动
+activity
+
+69
+00:02:12,266 --> 00:02:15,199
+正如你所看到的，安东尼在五月初有一个很大的推动力
+as you see Anthony had a big push earlier in may
+
+70
+00:02:15,666 --> 00:02:16,466
+蓝V
+blue v
+
+71
+00:02:16,966 --> 00:02:19,299
+有一段时间的贡献是全面的
+contribution across the board for a while
+
+72
+00:02:19,400 --> 00:02:20,266
+看到这个很好
+and it's good to see this
+
+73
+00:02:20,266 --> 00:02:21,066
+因为你可以看到谁在
+because you can see who's
+
+74
+00:02:21,066 --> 00:02:22,699
+你可以看到谁是活跃的，如果你想联系谁
+active and who to reach out to if you want to
+
+75
+00:02:22,700 --> 00:02:25,566
+在某些事情上得到解脱或解封
+get unstuck or unblocked on certain things
+
+76
+00:02:26,200 --> 00:02:28,300
+但开放的酱汁，就像我们相信的那样，它
+but open sauce like we believe that it
+
+77
+00:02:28,900 --> 00:02:29,766
+你不应该拥有它
+you shouldn't have it
+
+78
+00:02:29,766 --> 00:02:32,533
+要知道秘密的酱汁，以便作出贡献
+to know the secret sauce in order to contribute
+
+79
+00:02:32,533 --> 00:02:33,933
+就像我们想分享那个秘密酱汁
+like we want to share that secret sauce
+
+80
+00:02:34,166 --> 00:02:36,366
+这就是我们在我们的平台上一直在做的事情
+and that's what we've been doing with our platform
+
+81
+00:02:36,400 --> 00:02:38,300
+所以这也是同样的日历
+and so this is the same calendar
+
+82
+00:02:38,500 --> 00:02:39,133
+它只是翻转
+it's just flip
+
+83
+00:02:39,133 --> 00:02:40,066
+所以今天是在左边
+so today's on the left
+
+84
+00:02:40,066 --> 00:02:41,733
+我们要把它转回右边
+we're going to switch it back to the right
+
+85
+00:02:42,133 --> 00:02:44,799
+但无论如何，这是所有捐款的分布
+but anyway this is distribution of all contribution
+
+86
+00:02:44,800 --> 00:02:46,000
+在过去35天里
+in the last 35 days
+
+87
+00:02:46,000 --> 00:02:46,700
+因为很多时候
+because a lot of times
+
+88
+00:02:46,700 --> 00:02:48,800
+当你想看看一个项目是否活跃时
+when you want to see if a project is active
+
+89
+00:02:48,800 --> 00:02:51,166
+或者看看谁在社区里
+or see who's around in the community
+
+90
+00:02:51,266 --> 00:02:53,799
+你想看看最近有谁在做贡献
+you want to look like who's been contributing recently
+
+91
+00:02:53,800 --> 00:02:54,600
+这就是这个。
+and that's what this is
+
+92
+00:02:54,600 --> 00:02:57,000
+而这些都是不良追求的代表
+and these are representations of poor quest
+
+93
+00:02:57,366 --> 00:02:58,299
+但从一开始
+but right off the bat
+
+94
+00:02:58,300 --> 00:03:00,600
+你可以看到在第一个象限，你有7天的时间
+you could see in the first quadrant you have 7 days
+
+95
+00:03:00,600 --> 00:03:01,933
+是过去的7天
+is the last 7 days
+
+96
+00:03:02,066 --> 00:03:03,299
+而且你已经可以看到
+and already you can see
+
+97
+00:03:03,500 --> 00:03:04,800
+有一个人苏菲
+there's one person Sophie
+
+98
+00:03:04,800 --> 00:03:06,300
+从其他人中脱颖而出
+who's sticking out from the rest
+
+99
+00:03:06,300 --> 00:03:07,500
+如果它再高一点
+and if it was any higher
+
+100
+00:03:07,500 --> 00:03:08,866
+我们可能会担心
+we'd probably be concerned about
+
+101
+00:03:08,866 --> 00:03:10,333
+巴士因素或知识转移
+bus factor or knowledge transfer
+
+102
+00:03:10,333 --> 00:03:12,999
+但这仍然是好的，低于50%的标准。
+but this is it's still okay below the 50 percent Mark
+
+103
+00:03:13,866 --> 00:03:14,866
+但我想说的是
+but what I want to
+
+104
+00:03:15,100 --> 00:03:17,500
+指出的是，实际上说这个分配
+point out is that actually saying this distribution
+
+105
+00:03:17,500 --> 00:03:18,766
+现在你有一个想法，比如
+now you have an idea of like
+
+106
+00:03:18,766 --> 00:03:21,333
+整个团队或跨社区发生了什么？
+across a team or crossing community what's happening
+
+107
+00:03:21,700 --> 00:03:24,000
+但我们仍然处于与github相同的位置
+but we're still in the same position as github
+
+108
+00:03:24,366 --> 00:03:25,999
+在那里你无法看到所有的内容
+where you can't actually see all this context
+
+109
+00:03:26,000 --> 00:03:28,366
+除非你打开一堆标签或一堆PRS
+unless you open a bunch of tabs or a bunch of prs
+
+110
+00:03:28,366 --> 00:03:30,599
+来查看什么人对什么版本有贡献
+to see what kind of contributed to what release
+
+111
+00:03:30,933 --> 00:03:32,699
+所以有了open sauce，我们想让这一切变得更简单
+so with open sauce we want to make this easier
+
+112
+00:03:32,800 --> 00:03:33,300
+这里有所有
+here's all
+
+113
+00:03:33,300 --> 00:03:35,733
+在过去35天里发生的贡献
+contributions that are happening in the last 35 days
+
+114
+00:03:35,733 --> 00:03:36,899
+或特别是Sofi
+or particularly sofi
+
+115
+00:03:36,900 --> 00:03:38,100
+所以它不仅仅是一个PR
+so it's not just one PR
+
+116
+00:03:38,200 --> 00:03:40,466
+它是多个PR，多个提交
+it's multiple PR multiple commits
+
+117
+00:03:40,600 --> 00:03:42,466
+我们看到最上面的一个7 36
+and we see like the top one 7 36
+
+118
+00:03:42,466 --> 00:03:44,999
+这就是右上角有多少行被改变了
+that's how many lines have changed up in the top right
+
+119
+00:03:45,933 --> 00:03:47,533
+所以看起来像是有一些依赖关系链
+so looks like there was some dependency chain
+
+120
+00:03:47,533 --> 00:03:49,133
+所以可能是软件包的锁文件
+so like maybe the package lock file
+
+121
+00:03:49,133 --> 00:03:50,866
+我之前并没有研究过这个问题，但是
+I didn't look into this actually prior but
+
+122
+00:03:51,100 --> 00:03:52,000
+有很多的
+there's a lot of
+
+123
+00:03:52,366 --> 00:03:53,466
+依赖关系的变化
+changes in dependencies
+
+124
+00:03:53,466 --> 00:03:55,466
+这就是为什么他从其他人中脱颖而出的原因
+which is why he's standing out from the rest
+
+125
+00:03:55,466 --> 00:03:56,566
+但好消息是
+but the good news is
+
+126
+00:03:56,566 --> 00:03:58,733
+大多数人的贡献大小都是一样的
+most people have the same sort of size contributions
+
+127
+00:03:58,733 --> 00:04:00,966
+事情很容易被跟踪和审查，所以
+things are easily tracked and reviewed so
+
+128
+00:04:01,400 --> 00:04:03,533
+所以很难总是审查一个大的PR
+it's hard always review a large PR
+
+129
+00:04:03,666 --> 00:04:05,999
+我们能够做的另一件事是，实际上
+the other thing that we were able to do is actually
+
+130
+00:04:06,500 --> 00:04:08,000
+基于索引的在线
+index based online
+
+131
+00:04:08,166 --> 00:04:11,599
+嗯，所以我们可以做一些启发式的工作，确定
+um so we can do some heuristics and identifying
+
+132
+00:04:11,733 --> 00:04:13,099
+是否是一个维护性的变化
+whether it is a maintenance change
+
+133
+00:04:13,100 --> 00:04:14,600
+所以，如果它是一个软件包锁文件
+so if it is a package lock file
+
+134
+00:04:14,733 --> 00:04:16,566
+还是说它实际上是新的代码
+or if it's actually new code
+
+135
+00:04:16,566 --> 00:04:18,733
+在项目中添加的新功能
+new features added to the project
+
+136
+00:04:18,766 --> 00:04:20,066
+还是只是重构
+or if it's just refactoring
+
+137
+00:04:20,066 --> 00:04:21,699
+所以文件仍然是一样的
+so files are still the same
+
+138
+00:04:21,866 --> 00:04:24,099
+但东西被移来移去的功能和移动
+but things are moved around functions and moved around
+
+139
+00:04:24,100 --> 00:04:24,900
+所以
+so
+
+140
+00:04:25,566 --> 00:04:28,199
+识别像这样的东西，但是
+identify things like this mamenta circle that but
+
+141
+00:04:28,666 --> 00:04:29,799
+识别这种类型的东西
+identify that type of stuff
+
+142
+00:04:29,800 --> 00:04:32,166
+让我们更容易知道哪些类型的贡献者
+makes it easier to know what types of contributors
+
+143
+00:04:32,166 --> 00:04:34,533
+是临时贡献者还是积极贡献者
+are the casual contributors or the active contributors
+
+144
+00:04:34,533 --> 00:04:35,533
+他们是维护者吗？
+are they maintainers
+
+145
+00:04:35,566 --> 00:04:37,266
+我们希望能通过这个洞察力
+there's a things that we're hoping to
+
+146
+00:04:37,333 --> 00:04:39,399
+通过这种洞察力开始浮出水面
+start surfacing through this insight
+
+147
+00:04:39,400 --> 00:04:40,966
+所以我们才刚刚开始
+so we'rejust getting started
+
+148
+00:04:40,966 --> 00:04:43,266
+期待着更多我们想做的事情。
+looking forward to ship way more we want to do
+
+149
+00:04:43,300 --> 00:04:45,866
+我们想超越绿色方块，并确定
+we want to go past just green squares and identify
+
+150
+00:04:45,866 --> 00:04:47,566
+贡献的机会
+opportunity for contribution
+
+151
+00:04:47,566 --> 00:04:49,133
+所以，如果你有兴趣
+so if you're interested in
+
+152
+00:04:49,133 --> 00:04:50,299
+聊一聊你的项目
+chatting more about your project
+
+153
+00:04:50,300 --> 00:04:51,533
+或如果你有任何
+or if you have any
+
+154
+00:04:51,666 --> 00:04:54,133
+在生态系统中的项目，我们很愿意与您交谈
+projects in the ecosystem we would love the chat
+
+155
+00:04:54,366 --> 00:04:56,266
+并看看我们是否能为你提供见解
+and see if we can provide insights for you
+
+156
+00:04:56,266 --> 00:04:59,133
+所以，请查看完整的谈话内容，并且是
+so check out the full talk and yeah
+
+157
+00:04:59,133 --> 00:04:59,999
+享受节目的其余部分
+enjoy the rest of the show
+

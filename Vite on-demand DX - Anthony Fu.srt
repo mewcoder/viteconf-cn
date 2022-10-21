@@ -1,0 +1,1060 @@
+1
+00:00:02,266 --> 00:00:03,133
+大家好
+hello everyone
+
+2
+00:00:03,133 --> 00:00:06,866
+我很高兴我们终于有了第一个视频记录
+I'm so happy we finally have the first ever vidcount
+
+3
+00:00:07,366 --> 00:00:10,133
+今天我想说说拍子的事
+so today I would like to talk about the beat
+
+4
+00:00:10,133 --> 00:00:12,099
+安迪人的开发者是巴雷特
+the Andy man developer is Barrett
+
+5
+00:00:12,366 --> 00:00:14,499
+这是关于视频如何变成Grace
+it's about how vid becomes Grace
+
+6
+00:00:14,500 --> 00:00:16,400
+使用安迪人的思维方式
+using the mindset of Andy men
+
+7
+00:00:17,600 --> 00:00:18,866
+我的名字是Anthony Fu
+my name is Anthony fu
+
+8
+00:00:18,866 --> 00:00:21,933
+我是vite View和nuxt的成员。
+and I'm according a member of vite view and nuxt
+
+9
+00:00:22,133 --> 00:00:24,599
+我也是创造性的E测试视图使用
+I'm also creative e test view use
+
+10
+00:00:24,900 --> 00:00:27,400
+unosses slider and unplugging
+unosses slider and unplugging
+
+11
+00:00:27,733 --> 00:00:29,299
+我目前在nuxt工作
+I'm currently working at nuxt
+
+12
+00:00:29,300 --> 00:00:30,933
+实验室的框架团队
+labs in the framework team
+
+13
+00:00:31,333 --> 00:00:34,899
+如果你喜欢视觉上的东西，这些是他们的项目
+and if you prefer visually these are their items
+
+14
+00:00:35,533 --> 00:00:39,266
+所以你可以在github上找到我，地址是antfu或twitter上的MTV
+so you can find me on github at antfu or twitter at MTV
+
+15
+00:00:39,266 --> 00:00:40,066
+fu7
+fu7
+
+16
+00:00:40,900 --> 00:00:42,900
+在我们深入讨论需求之前
+so before we dive into on demand
+
+17
+00:00:42,966 --> 00:00:45,999
+让我们先看看到底什么是需求
+let's first see what the heck the on demand is
+
+18
+00:00:47,533 --> 00:00:49,733
+这就是我的童年
+so this was my childhood
+
+19
+00:00:50,200 --> 00:00:51,500
+在那个时代
+back at that times
+
+20
+00:00:51,600 --> 00:00:53,800
+当我想看一部电影的时候
+um that say when I want to watch a movie
+
+21
+00:00:53,800 --> 00:00:56,733
+我需要下载整个文件，以便播放它
+I need to download the whole files in order to play it
+
+22
+00:00:57,166 --> 00:00:59,599
+这并不是真的要花39年的时间来下载
+it's not really taking 39 years to download
+
+23
+00:00:59,600 --> 00:01:02,466
+但印度可能需要几个小时
+but India it could take a few hours
+
+24
+00:01:03,000 --> 00:01:04,600
+这可能是一场恶梦
+and it could be a nightmare
+
+25
+00:01:05,000 --> 00:01:08,766
+如果我想从十几部电影中挑出一部好的，那就是噩梦。
+if I want to pick a good ones out of a dozen or movies
+
+26
+00:01:09,533 --> 00:01:12,766
+所以，现在要感谢点播流媒体服务
+so nowadays thanks for the on demand streaming service
+
+27
+00:01:12,766 --> 00:01:14,533
+像YouTube或Netflix
+like YouTube or Netflix
+
+28
+00:01:15,300 --> 00:01:17,266
+我们的生活变得更加容易
+our lives becomes much easier
+
+29
+00:01:17,533 --> 00:01:20,466
+所以，如果我必须给 "不需要 "下一个定义的话
+so if I have to give a definition to undemand
+
+30
+00:01:20,466 --> 00:01:23,733
+我想说的是，根据你的要求提供你需要的东西
+I would say provide what you need upon the request
+
+31
+00:01:24,733 --> 00:01:27,466
+与传统的或一次性的方法相比
+compared to the traditional or at once approach
+
+32
+00:01:27,466 --> 00:01:30,266
+我认为undemand有几个特点
+I think undemand is offering a few prose
+
+33
+00:01:31,200 --> 00:01:33,700
+第一是高效，即你只
+the first is efficient is that you only
+
+34
+00:01:33,700 --> 00:01:35,133
+加载你需要的部分
+load the parts you need
+
+35
+00:01:35,600 --> 00:01:38,800
+第二是响应性和可定制性
+and the second one is responsive and customizable
+
+36
+00:01:39,566 --> 00:01:42,566
+例如，如果你在两个不同的设备上观看同一部电影
+for example if you are watching the same movies
+
+37
+00:01:42,766 --> 00:01:44,266
+在两个不同的设备上
+on 2 different device
+
+38
+00:01:44,333 --> 00:01:46,299
+你手机上的那个会得到
+the one on your phone will get
+
+39
+00:01:46,366 --> 00:01:48,133
+低分辨率的流
+lower resolution streams
+
+40
+00:01:48,200 --> 00:01:50,333
+然后你的台式机，因为它有一个
+then your desktop since it has a
+
+41
+00:01:50,466 --> 00:01:51,533
+较小的流
+smaller stream
+
+42
+00:01:51,600 --> 00:01:52,800
+尖叫声很快就会出现
+scream to come soon
+
+43
+00:01:53,466 --> 00:01:55,299
+这将使事情更加有效
+that would make things more efficient
+
+44
+00:01:56,533 --> 00:01:58,799
+然后我们可以发现，网络本身
+and then we could find that the web itself
+
+45
+00:01:58,800 --> 00:02:00,533
+实际上也是按需分配的
+is actually also on demand
+
+46
+00:02:01,166 --> 00:02:04,133
+这使得一个美丽的东西也有了完全的意义
+that makes the total sense for a beautiful to also
+
+47
+00:02:04,133 --> 00:02:04,933
+这样做
+doing so
+
+48
+00:02:05,866 --> 00:02:07,366
+但事情并不完美
+but things are not perfect
+
+49
+00:02:07,366 --> 00:02:09,533
+事实上，它也有一些问题
+indeed it comes with some comes
+
+50
+00:02:10,000 --> 00:02:12,566
+首先是开销，如网络请求
+the first is overhead like network request
+
+51
+00:02:12,733 --> 00:02:13,966
+水流等
+waterflows etc
+
+52
+00:02:15,066 --> 00:02:17,699
+例如，在一个非常小的网络连接中
+for example in a very pool network connection
+
+53
+00:02:17,700 --> 00:02:20,066
+在网上观看YouTube视频将是一种可怕的体验。
+it will be a terrible experience to watch a
+
+54
+00:02:20,333 --> 00:02:21,733
+录像在线
+YouTube videos online
+
+55
+00:02:21,733 --> 00:02:25,566
+正确的和分段的是营地能力
+right and in segment is the campacity
+
+56
+00:02:25,566 --> 00:02:28,499
+它需要实际工作来实现和
+it requires actual work to implement and
+
+57
+00:02:29,100 --> 00:02:31,533
+维护需求的功能
+maintain the functionality of on demand
+
+58
+00:02:32,800 --> 00:02:34,933
+因为没有银弹
+since there is no silver bullet
+
+59
+00:02:35,266 --> 00:02:37,699
+让我们看看它是如何做这些交易的
+let's see how it made those trade off
+
+60
+00:02:38,666 --> 00:02:40,366
+我们正在讨论的是按需分配
+we are talking about on demand
+
+61
+00:02:40,366 --> 00:02:41,999
+在几个不同的方面
+in a few different aspects
+
+62
+00:02:42,266 --> 00:02:44,466
+第一个，也可能是最知名的一个
+the first and probably the most well known one
+
+63
+00:02:44,466 --> 00:02:47,199
+适应是不需要处理的
+is that fit is undemand on processing
+
+64
+00:02:48,066 --> 00:02:50,199
+它只提供你需要的模块
+vite only transpire the modules you need
+
+65
+00:02:50,333 --> 00:02:52,799
+请求页面或所谓的捆绑
+for the request pages or so called bundle
+
+66
+00:02:52,800 --> 00:02:53,600
+这
+this
+
+67
+00:02:53,733 --> 00:02:57,266
+这允许饲料保持快速作为你的项目的女孩
+this allows feed to keep fast as your project girls
+
+68
+00:02:57,566 --> 00:03:00,133
+第二种，我想把它称为按需分配。
+and the second one I would like to call it on demand
+
+69
+00:03:00,133 --> 00:03:01,166
+策略
+on strategies
+
+70
+00:03:01,733 --> 00:03:02,999
+我们实际上有不同的
+we actually have different
+
+71
+00:03:03,000 --> 00:03:05,533
+在开发和生产中的需求
+needs on development and production
+
+72
+00:03:05,966 --> 00:03:08,933
+在开发过程中，我们会不断地改变我们的代码
+in development we are changing our code constantly
+
+73
+00:03:09,500 --> 00:03:12,133
+有一个良好的反馈回路是很重要的
+and having a good feedback loop will be important
+
+74
+00:03:12,300 --> 00:03:13,700
+以看到这些变化
+to see the changes
+
+75
+00:03:13,800 --> 00:03:15,866
+这将是开发人员的经验
+and that will be developer experience
+
+76
+00:03:16,666 --> 00:03:17,666
+而在生产中
+and in production
+
+77
+00:03:17,666 --> 00:03:20,066
+我们更关注错误的时间性能
+we are more focusing on the wrong time performance
+
+78
+00:03:20,200 --> 00:03:21,800
+和包的大小
+and the size of the bundle
+
+79
+00:03:21,933 --> 00:03:23,766
+这将是用户体验
+and that will be user experience
+
+80
+00:03:24,700 --> 00:03:28,666
+因此，VT提供了两个不同的模具标签和buildto
+so VT provide 2 different mold tab and buildto
+
+81
+00:03:29,166 --> 00:03:31,599
+为BOSS战提供最好的服务
+provide the best to the boss war
+
+82
+00:03:32,766 --> 00:03:36,266
+因此，在开发过程中，VT提供了捆绑列表
+so in development beat is offering bundle list
+
+83
+00:03:36,800 --> 00:03:38,200
+自动替换
+automatic replacement
+
+84
+00:03:38,300 --> 00:03:39,300
+和死亡服务器
+and the death server
+
+85
+00:03:39,300 --> 00:03:41,466
+以使这些事情按需发生
+to make those things happens on demand
+
+86
+00:03:41,966 --> 00:03:43,999
+另一方面，在制作方面
+on the other hands in productions
+
+87
+00:03:44,000 --> 00:03:46,766
+fit实际上是使用ro up来捆绑应用程序的
+fit is actually using ro up to bundle the app
+
+88
+00:03:47,000 --> 00:03:51,200
+并提供优化，如Tracy game cosplating
+and providing optimizations like Tracy game cosplating
+
+89
+00:03:51,333 --> 00:03:52,566
+和小型化
+and minification
+
+90
+00:03:53,066 --> 00:03:54,266
+在此基础上
+on top of that
+
+91
+00:03:54,300 --> 00:03:56,266
+尽管有两种不同的策略
+even though there are 2 different strategies
+
+92
+00:03:56,566 --> 00:03:58,533
+我们仍然使其保持一致
+we still make it consistent
+
+93
+00:03:58,566 --> 00:04:02,099
+通过提供一个共享配置和插件系统
+by providing a share configurations and plugin system
+
+94
+00:04:02,700 --> 00:04:03,933
+通过进一步的努力
+by taking it further
+
+95
+00:04:03,933 --> 00:04:06,566
+我们可以在自动化方面没有需求
+we could have undemand on automatization
+
+96
+00:04:07,000 --> 00:04:09,400
+一个杂草可以提供不同的策略
+a weed could provide different strategies
+
+97
+00:04:09,400 --> 00:04:10,800
+在不同的目标上
+on different targets
+
+98
+00:04:10,866 --> 00:04:13,766
+我们实际上可以对不同类型的文件有更精细的策略
+we could actually have more fine grain strategies on
+
+99
+00:04:13,866 --> 00:04:15,199
+不同类型的文件
+different type of files
+
+100
+00:04:16,300 --> 00:04:17,166
+我们可以把
+we could separate
+
+101
+00:04:17,333 --> 00:04:20,366
+我们可以把项目代码分成用户代码和注释模块
+the project code into user code and the note modules
+
+102
+00:04:20,400 --> 00:04:22,400
+你从第三方安装的模块
+you install from the 3rd party
+
+103
+00:04:23,566 --> 00:04:26,099
+所以我们的假设是
+so we've made the assumptions is that
+
+104
+00:04:26,100 --> 00:04:28,966
+用户代码会经常改变
+the user code will be changed frequently
+
+105
+00:04:28,966 --> 00:04:29,899
+而音符模块
+while the note modules
+
+106
+00:04:29,900 --> 00:04:31,800
+只会在一段时间内改变一次
+will be only changed once a while
+
+107
+00:04:32,566 --> 00:04:33,799
+假设
+taking an assumption
+
+108
+00:04:33,800 --> 00:04:36,733
+将每个模块的用户代码作为捆绑列表提供给用户
+vite serve user code per module as bundle list
+
+109
+00:04:36,733 --> 00:04:39,733
+同时将非模块捆绑成一个文件
+while per bundling the non modules into a single file
+
+110
+00:04:39,733 --> 00:04:42,266
+弟弟可以更有效地消费
+that brother could consume more efficiently
+
+111
+00:04:43,266 --> 00:04:43,999
+和
+and
+
+112
+00:04:44,000 --> 00:04:46,966
+维特在代码中受伤，用于替换空心模块
+vite injured in the code for hollow module replacement
+
+113
+00:04:47,066 --> 00:04:50,399
+或用户代码，而在非模块中跳过它
+or user code while skipping it in not modules
+
+114
+00:04:50,800 --> 00:04:54,933
+最后是按需定制的好处
+and finally the bonus of on demand the customizability
+
+115
+00:04:55,466 --> 00:04:58,399
+小白在开发中使用了一个DAB服务器
+whit is using a dab servers in development
+
+116
+00:04:58,533 --> 00:05:01,266
+这意味着插件可以使用它来做一些
+that means plugins could use it to do some
+
+117
+00:05:01,266 --> 00:05:02,799
+客户端服务器通信
+client server communication
+
+118
+00:05:03,666 --> 00:05:04,366
+例如
+for example
+
+119
+00:05:04,366 --> 00:05:06,933
+下面是小麦插件提供的页面
+here are the pages provided by wheat plugging
+
+120
+00:05:06,933 --> 00:05:07,499
+检查
+inspect
+
+121
+00:05:07,500 --> 00:05:10,500
+和检查她的小麦内部转换
+and inspect her of wheat internal transformation
+
+122
+00:05:11,133 --> 00:05:12,399
+在这里我们可以看到
+here we could see
+
+123
+00:05:13,766 --> 00:05:16,533
+一个视图文件正在被一些插件进行转换
+a view file is being transformed by a few plugins
+
+124
+00:05:16,533 --> 00:05:18,999
+而你可以看到每一步的
+and you can see the each step of the
+
+125
+00:05:19,166 --> 00:05:20,666
+插件被转换
+plugging being transformed
+
+126
+00:05:20,966 --> 00:05:22,999
+而这里的视图
+and here the view
+
+127
+00:05:23,133 --> 00:05:25,799
+单一的文件组件被转化为爵士乐手柄
+single file component being transfiled into jazz grip
+
+128
+00:05:26,100 --> 00:05:29,166
+而重要的分析是将
+and the important analyze changes the
+
+129
+00:05:29,866 --> 00:05:34,066
+浏览器兼容的导入语句。
+the import statements into a browser compatible pass
+
+130
+00:05:34,400 --> 00:05:36,300
+而你正在看的幻灯片实际上是由
+and the slides you are looking at is actually
+
+131
+00:05:36,400 --> 00:05:38,966
+由slided驱动，它是在fit之上的
+powered by slided which is on top of fit
+
+132
+00:05:39,400 --> 00:05:41,566
+通过使用几种通信方式
+by using a kind several communication
+
+133
+00:05:41,566 --> 00:05:44,666
+它允许你直接回到远处的系统中去
+it allows you to directly right back to the far system
+
+134
+00:05:45,166 --> 00:05:46,399
+在一个页面里面
+inside a page
+
+135
+00:05:47,166 --> 00:05:50,599
+例如，我可以打开slider的建筑编辑器
+for example I can open up the building editor of slider
+
+136
+00:05:51,166 --> 00:05:53,699
+我可以说，把标题改成橙色
+I can say that changed the title into orange
+
+137
+00:05:54,933 --> 00:05:58,099
+和湿的，你可以看到，这些变化被
+and wet and you can see that the changes being
+
+138
+00:05:59,000 --> 00:06:00,600
+即时反映
+reflect instantly
+
+139
+00:06:01,600 --> 00:06:04,766
+所以，既然Weed提供了很多需求的东西
+so since weed providing a lot of things on demand
+
+140
+00:06:04,800 --> 00:06:07,400
+我想鼓励插件作者
+I would like to encourage plugging authors to
+
+141
+00:06:07,400 --> 00:06:10,700
+在构建集成时也要考虑到不需求的问题
+to also build integrations with undemand in mind
+
+142
+00:06:11,133 --> 00:06:12,333
+例如，在nuxt
+for example in nuxt
+
+143
+00:06:12,333 --> 00:06:14,799
+我们正在为视图建立一个4堆栈烟花
+we are building a 4 stack firework for view
+
+144
+00:06:14,800 --> 00:06:17,200
+而在白天，我们需要自杀式渲染
+and in day we need suicide rendering
+
+145
+00:06:17,900 --> 00:06:20,733
+因为Noah jazz不能直接理解我们的
+since Noah jazz cannot directly understand our
+
+146
+00:06:21,100 --> 00:06:24,500
+源代码，改变了我们的整个学校。
+source code altering entire school of usfc
+
+147
+00:06:24,766 --> 00:06:28,066
+传统的方法是，我们把我们的应用程序捆绑在一起
+the traditional approach is that we bundles our app
+
+148
+00:06:28,533 --> 00:06:32,799
+把我们的应用捆绑在一起，让Note js执行和渲染。
+to plant jazz crit for note js to execute and render
+
+149
+00:06:33,666 --> 00:06:34,699
+但问题是
+the problem is that
+
+150
+00:06:34,700 --> 00:06:35,766
+在开发时
+in development time
+
+151
+00:06:35,766 --> 00:06:37,066
+服务器端的渲染
+serverside renderings
+
+152
+00:06:37,066 --> 00:06:39,333
+我们的源代码是经常变化的
+our source code are changes frequently
+
+153
+00:06:39,533 --> 00:06:41,266
+而这意味着我们必须审查
+and that means we have to review the
+
+154
+00:06:41,266 --> 00:06:43,733
+整个捆绑式和提成式
+entire bundles and the rais cudiates
+
+155
+00:06:43,900 --> 00:06:46,000
+在我们所做的每一个变化上
+on every single changes we made
+
+156
+00:06:46,500 --> 00:06:48,666
+而且会有非常低的效率在
+and there will be very inefficients in
+
+157
+00:06:48,666 --> 00:06:50,966
+导致效率非常低下，因为需求系统就像节拍一样
+on demand systems that like beat
+
+158
+00:06:52,000 --> 00:06:54,533
+所以我们最好想出一个更好的办法来做到这一点
+so we better figure out a better way to do that
+
+159
+00:06:55,700 --> 00:06:56,366
+在接下来的第三章中
+in next 3
+
+160
+00:06:56,366 --> 00:06:59,166
+我们为Vid实现了按需渲染的表面I
+we implement the on demand surface I rendering for vid
+
+161
+00:06:59,166 --> 00:07:01,166
+通过引入一个新的vid运行时间
+by introducing a new vid runtime
+
+162
+00:07:01,166 --> 00:07:02,199
+称为VID Note
+called vid note
+
+163
+00:07:03,000 --> 00:07:05,400
+而不是将整个广告捆绑在
+instead of bundling the entire ad
+
+164
+00:07:05,500 --> 00:07:06,466
+而不是直接捆绑整个广告
+vino directly
+
+165
+00:07:06,466 --> 00:07:09,599
+使用来自vid服务器的转换结果和
+used the transform result from the vid server and
+
+166
+00:07:09,800 --> 00:07:11,266
+在需要时杀死它们
+is killed them on demand
+
+167
+00:07:11,866 --> 00:07:15,366
+这也使得硬模块的替换成为可能
+it also makes it possible for hard module replacement
+
+168
+00:07:15,366 --> 00:07:16,766
+仅仅通过拯救
+by only rescue
+
+169
+00:07:16,766 --> 00:07:18,133
+改变的模块
+the changed modules
+
+170
+00:07:18,933 --> 00:07:21,066
+这样做的结果是
+this results not to have
+
+171
+00:07:21,300 --> 00:07:24,866
+在开发过程中提高10-15倍的性能
+10 to 15 faster performance on development
+
+172
+00:07:24,900 --> 00:07:27,266
+取决于项目的规模
+depending on the scale of the project
+
+173
+00:07:27,966 --> 00:07:30,166
+关于这个的技术细节
+about the technical details of this
+
+174
+00:07:30,166 --> 00:07:33,166
+你可以参考我的博客文章，链接如下
+you can refer to my blog post as the link below
+
+175
+00:07:35,333 --> 00:07:38,766
+最后，让我们简单介绍一下Win Notes。
+and finally let's do a brief introduction to win notes
+
+176
+00:07:39,133 --> 00:07:40,399
+维诺是一种知识，因为
+vino is a knowledge as
+
+177
+00:07:40,400 --> 00:07:42,600
+维生素管道的情人节力量
+valentine's power by vite pipeline
+
+178
+00:07:42,766 --> 00:07:43,999
+它提供了上
+it provides up
+
+179
+00:07:44,100 --> 00:07:45,800
+不需求的评估
+undemand evaluations
+
+180
+00:07:45,800 --> 00:07:47,966
+而且它可以重复使用vite的配置
+and it could reuse vite configurations
+
+181
+00:07:47,966 --> 00:07:52,366
+插件等，以便与你的客户应用保持一致
+plugins etc to be consistent with your client app
+
+182
+00:07:53,933 --> 00:07:55,166
+与生俱来的小麦
+inherent from wheat
+
+183
+00:07:55,166 --> 00:07:58,799
+它也有户外箱ESM和任务途径支持
+it also has outdoor box esm and taskway support
+
+184
+00:07:59,500 --> 00:08:00,600
+它也有一个观察
+it also has a watch
+
+185
+00:08:00,600 --> 00:08:02,400
+模式，可替代空洞的元帅
+mode with hollow marshal replacement
+
+186
+00:08:02,400 --> 00:08:03,766
+与普通模式类似
+similar to normal
+
+187
+00:08:04,600 --> 00:08:06,966
+和程序化的使用
+and for programmatically usage
+
+188
+00:08:06,966 --> 00:08:09,866
+它有独立的几个客户端架构
+it has separate several client architecture
+
+189
+00:08:09,933 --> 00:08:12,933
+所以你可以从其他线程中执行一个代码
+so that you can execute a code from the other thread
+
+190
+00:08:12,933 --> 00:08:14,566
+甚至是另一个进程
+or even another process
+
+191
+00:08:15,666 --> 00:08:18,466
+vino现在已经成为了下一个系列开发时间的动力
+vino is now a powering next series development time
+
+192
+00:08:18,466 --> 00:08:19,699
+服务我渲染
+service I rendering
+
+193
+00:08:19,733 --> 00:08:20,966
+并把它作为
+and also make of it as
+
+194
+00:08:21,133 --> 00:08:23,666
+在适合的情况下测试烟花
+the testing firework on fit possible
+
+195
+00:08:24,600 --> 00:08:28,966
+它也为历史提供了动力，是vite上的故事书替代品。
+it also powers history the storybook alternative on vite
+
+196
+00:08:29,366 --> 00:08:31,499
+和view terminui
+and view terminui
+
+197
+00:08:32,066 --> 00:08:33,933
+他们的终端UIS为视图
+their terminal uis for view
+
+198
+00:08:34,566 --> 00:08:37,333
+演示vite如何使笔记成为可能
+to demo about how vite make notes possible
+
+199
+00:08:37,333 --> 00:08:39,266
+我强烈建议你观看
+I would highly recommend you to watch
+
+200
+00:08:39,266 --> 00:08:40,966
+丹尼尔即将发表的演讲
+the upcoming talk by Daniel
+
+201
+00:08:41,666 --> 00:08:42,499
+和饲料
+and for feeds
+
+202
+00:08:42,600 --> 00:08:45,666
+你肯定不想错过Vermeer的演讲
+you definitely don't want to miss the talk by vermeer
+
+203
+00:08:45,666 --> 00:08:48,166
+一个测试中的求爱成员之一
+one of the courting member of a test
+
+204
+00:08:48,800 --> 00:08:50,400
+今天就到这里吧
+and that's it for today
+
+205
+00:08:51,266 --> 00:08:52,299
+最后我想
+finally I would like
+
+206
+00:08:52,300 --> 00:08:55,333
+感谢所有支持我工作的赞助者
+to thanks for all my subsponsors to supporting my work
+
+207
+00:08:55,866 --> 00:08:57,933
+如果你也喜欢我的作品
+and if you enjoy my works as well
+
+208
+00:08:57,933 --> 00:09:00,199
+你可以考虑在kihab网站上提交我
+you can consider submit me at kihab
+
+209
+00:09:00,200 --> 00:09:02,333
+以帮助我保持它们的可操作性
+to help me keep them substantible
+
+210
+00:09:02,800 --> 00:09:05,366
+我的谈话内容可以在我的网站上找到。
+the slice of my talk can be found on my website
+
+211
+00:09:05,366 --> 00:09:06,733
+和Tfu dummy
+and tfu dummy
+
+212
+00:09:07,333 --> 00:09:09,199
+谢谢你，下次见
+thank you and see you next time
+

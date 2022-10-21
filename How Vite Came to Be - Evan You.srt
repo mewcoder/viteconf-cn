@@ -1,0 +1,3160 @@
+1
+00:00:03,900 --> 00:00:07,100
+出了原来的Vue生态系统
+out of the original Vue ecosystem
+
+2
+00:00:07,300 --> 00:00:08,800
+这是我打算击败的
+that I intended to beat
+
+3
+00:00:08,900 --> 00:00:10,733
+而我当时超级高兴地看到
+and I'm super happy then at
+
+4
+00:00:10,733 --> 00:00:12,933
+它能够成为今天的样子
+it is able to become what it is today
+
+5
+00:00:13,133 --> 00:00:17,099
+所以有太多的人
+so too many people who are
+
+6
+00:00:17,733 --> 00:00:19,133
+刚开始接触vite的人
+just getting on to vite
+
+7
+00:00:19,500 --> 00:00:23,266
+vite可能仍然觉得是一个新的闪亮的玩具 但
+vite may still feel like a new in shiny toy but
+
+8
+00:00:23,933 --> 00:00:26,299
+你可能不知道的是 它
+what you probably don't know is it's
+
+9
+00:00:26,333 --> 00:00:28,666
+实际上已经是2和1
+actually already 2 and 1/2 years oak
+
+10
+00:00:28,766 --> 00:00:31,999
+所以在这次演讲中 我将分享一些历史
+so in this talk I'm going to share some history
+
+11
+00:00:32,000 --> 00:00:33,300
+关于它的起源
+on its origins
+
+12
+00:00:33,866 --> 00:00:36,199
+但在我们谈及它的起源之前
+but before we talk about its origins
+
+13
+00:00:36,200 --> 00:00:38,700
+人们可能会问 什么是饲料
+one may ask the question what is feed
+
+14
+00:00:39,000 --> 00:00:41,866
+最初的想法是什么 使我
+what was the original idea that made me
+
+15
+00:00:41,866 --> 00:00:43,333
+开始研究它的主要原因
+major start working on it
+
+16
+00:00:43,866 --> 00:00:45,666
+很多人都问过我这个问题
+many people have asked me that question
+
+17
+00:00:45,666 --> 00:00:48,666
+我总是觉得有点难以解释
+and I've always found it a little difficult to explain
+
+18
+00:00:48,666 --> 00:00:52,999
+简而言之 我们在码头上的口号是下一代的
+concisely our tagline on the docks is next generation
+
+19
+00:00:53,066 --> 00:00:54,166
+前端工具
+front end tooling
+
+20
+00:00:54,466 --> 00:00:54,999
+这
+which
+
+21
+00:00:55,000 --> 00:00:58,333
+实际上 对于非前端开发者来说 这并不能说明什么 
+actually doesn't say much to non front end developers
+
+22
+00:00:58,733 --> 00:00:59,133
+事实上
+in fact
+
+23
+00:00:59,133 --> 00:01:01,399
+在黑客新闻上有一整条线在抱怨
+that was a whole thread on hacker news complaining
+
+24
+00:01:01,400 --> 00:01:03,666
+所以一方面
+about it so on one hand
+
+25
+00:01:03,666 --> 00:01:04,733
+这是因为
+this is because
+
+26
+00:01:04,800 --> 00:01:06,400
+前端工具这个词
+the term front end tooling
+
+27
+00:01:06,400 --> 00:01:08,700
+带有很多的历史负担
+carries a lot of historical burden
+
+28
+00:01:09,133 --> 00:01:12,599
+你需要知道这些年来前端工具是如何发展的
+you need to know how front n has evolved over the years
+
+29
+00:01:12,900 --> 00:01:15,400
+来理解我们正在处理什么样的问题
+to understand what kind of problems we're dealing with
+
+30
+00:01:15,466 --> 00:01:17,699
+以及为什么我们首先需要Bill工具 
+and why we need Bill toolings in the first place
+
+31
+00:01:17,900 --> 00:01:20,333
+另一方面 这些自己的
+on the other hand these own
+
+32
+00:01:20,700 --> 00:01:21,900
+范围 它的
+scope it's
+
+33
+00:01:22,733 --> 00:01:25,199
+它的任务或它的预期用例
+mission or its intended use case
+
+34
+00:01:25,200 --> 00:01:28,100
+随着时间的推移 也有了很大的发展和变化
+has also evolved and changed quite a bit over time
+
+35
+00:01:28,266 --> 00:01:29,399
+对 所以
+right so
+
+36
+00:01:30,166 --> 00:01:30,966
+让我们回到
+let's go back
+
+37
+00:01:30,966 --> 00:01:34,199
+让我们回到预先建立的工具时代 想想我们如何
+to the pre built tool days and think about how we
+
+38
+00:01:34,333 --> 00:01:36,466
+写网页
+wrote web pages
+
+39
+00:01:36,933 --> 00:01:39,766
+在没有任何形式的工具参与之前 对吗？
+before there were any sort of tooling involved right
+
+40
+00:01:39,766 --> 00:01:42,366
+我们在页面中加入爵士乐的唯一方法是
+the only way for us to include jazzground the page is
+
+41
+00:01:42,366 --> 00:01:43,733
+通过使用一个脚本标签
+by using a script tag
+
+42
+00:01:44,133 --> 00:01:47,599
+而所有这些jawscript都是隐式评估的
+and all these jawscript are implicitly evaluated
+
+43
+00:01:48,000 --> 00:01:49,866
+在共享的全局范围内
+in the shared global scope
+
+44
+00:01:51,366 --> 00:01:52,166
+所以
+so
+
+45
+00:01:52,866 --> 00:01:54,066
+默认的工作方式是
+the default way of working was
+
+46
+00:01:54,066 --> 00:01:55,499
+把所有的东西都写在一个
+just writing everything in a single
+
+47
+00:01:55,500 --> 00:01:58,266
+大文件 所以当AB变得更加复杂时
+big file so when the AB gets more complex
+
+48
+00:01:59,066 --> 00:02:00,966
+单个文件显然会变得笨重
+a single file obviously gets unwieldy
+
+49
+00:02:00,966 --> 00:02:04,066
+所以我们开始把东西分成小文件
+so we start breaking things up into smaller files
+
+50
+00:02:04,566 --> 00:02:06,799
+那时的javascript还没有模块
+javascript didn't have modules back then
+
+51
+00:02:06,933 --> 00:02:08,266
+所以所有这些文件
+so all these files
+
+52
+00:02:08,266 --> 00:02:10,933
+仍然隐含地共享同一个全局范围
+still implicitly share the same global scope
+
+53
+00:02:11,866 --> 00:02:13,899
+有时我们会
+and sometimes we would
+
+54
+00:02:14,966 --> 00:02:17,099
+做一些事情 比如ife
+do things like ife
+
+55
+00:02:17,100 --> 00:02:19,133
+这样的事情会立即涉及到函数表达式
+immediately involved function expressions
+
+56
+00:02:19,133 --> 00:02:21,199
+这有点像一个内联的
+this is kind of like an inline
+
+57
+00:02:21,266 --> 00:02:22,099
+范围
+scope
+
+58
+00:02:22,466 --> 00:02:24,066
+所以有点像一个模块 你知道
+so kind of like a module you know
+
+59
+00:02:24,066 --> 00:02:24,366
+但
+but
+
+60
+00:02:24,366 --> 00:02:26,599
+但我们仍然要通过全局范围进行交流
+we still have to communicate through the global scope
+
+61
+00:02:26,600 --> 00:02:28,266
+将东西附加到一个窗口
+attaching things to a window
+
+62
+00:02:30,133 --> 00:02:30,933
+和
+and
+
+63
+00:02:31,533 --> 00:02:33,733
+如果你看一下一些早期库的源代码
+if you look at some of the source code of
+
+64
+00:02:33,733 --> 00:02:35,099
+早期的库
+early day libraries
+
+65
+00:02:35,300 --> 00:02:37,000
+我们实际上使用了非常简单的
+we actually use very simple
+
+66
+00:02:37,400 --> 00:02:41,100
+脚本将大量的ifes串联起来
+scripts to concatenate a lot of these ifes together
+
+67
+00:02:41,133 --> 00:02:43,799
+这就是为什么你会看到前面有分号的原因
+which is why you will see that semicolon in the front
+
+68
+00:02:44,066 --> 00:02:45,566
+以避免
+to just avoid
+
+69
+00:02:45,800 --> 00:02:48,533
+连接的ifes被
+to concatenated ifes being
+
+70
+00:02:48,966 --> 00:02:51,599
+认为是在调用前面的表达式
+considered calling the previous expression
+
+71
+00:02:54,200 --> 00:02:55,000
+而后
+and then
+
+72
+00:02:55,333 --> 00:02:57,533
+早期 像dojo和yui的出现
+early for emerges like dojo and yui
+
+73
+00:02:57,533 --> 00:03:00,133
+开始实现他们自己的运行时模块加载器
+started implementing their own runtime module loaders
+
+74
+00:03:00,166 --> 00:03:02,999
+有人试图将这个东西标准化为AMD
+there was an attempt to standardize this thing to AMD
+
+75
+00:03:03,600 --> 00:03:06,000
+它代表了异步模块定义
+which stands for asynchronous module definition
+
+76
+00:03:06,300 --> 00:03:08,166
+你们中的一些人可能曾经使用过这个
+some of you might have used this before
+
+77
+00:03:08,166 --> 00:03:10,999
+并要求js使用AMD的运行时加载器
+and required js with the runtime loader for AMD
+
+78
+00:03:11,333 --> 00:03:13,999
+的运行时加载器 所以从今天开始回过头来看 其实是很有意思的 
+so it's actually interesting to look back from
+
+79
+00:03:14,066 --> 00:03:16,966
+今天 因为requirement js正在加载
+today becauserequire js was loading
+
+80
+00:03:17,266 --> 00:03:20,499
+并在开发过程中对模块进行转换
+and transforming modules on the fly during development
+
+81
+00:03:20,866 --> 00:03:22,399
+你实际上可以购买插件
+you can actually buy pluggings
+
+82
+00:03:22,400 --> 00:03:24,366
+来实现代码的快速转换
+to transpire code on the fly
+
+83
+00:03:24,800 --> 00:03:27,500
+而且它还提供了一个优化工具
+and it also provided a optimized tool
+
+84
+00:03:28,133 --> 00:03:29,366
+基本上是构建命令
+essentially the build command
+
+85
+00:03:29,366 --> 00:03:31,299
+来构建一个用于生产的项目
+to build a project for production
+
+86
+00:03:32,900 --> 00:03:36,600
+而且它是在没有js 0点的情况下编写的 
+and it was written with no js 0 point for something
+
+87
+00:03:37,100 --> 00:03:38,733
+所以这实际上是非常酷的
+so this was actually really cool
+
+88
+00:03:38,733 --> 00:03:41,466
+因为这听起来很像他今天的爆发方式
+because it sounds quite like how he burst today
+
+89
+00:03:41,466 --> 00:03:44,066
+对 这里最大的区别是 require
+right the big difference here is that require
+
+90
+00:03:44,066 --> 00:03:46,299
+GS在很大程度上仍然是一个错误的时间工具
+GS is still largely a wrong time tool
+
+91
+00:03:46,533 --> 00:03:47,666
+所有的转换
+all the transformation
+
+92
+00:03:48,066 --> 00:03:50,533
+实际上是在浏览器端发生的
+actually happens in the browser side
+
+93
+00:03:50,766 --> 00:03:52,866
+因此 一个很大的限制是 我们可以对代码做什么样的转换
+so a great limit what kind of transformers
+
+94
+00:03:52,866 --> 00:03:54,166
+我们可以对我们的代码做什么
+we can do to our code
+
+95
+00:03:54,600 --> 00:03:56,266
+的区别 
+and the difference between
+
+96
+00:03:57,600 --> 00:03:58,800
+之间的区别 
+between the optimization
+
+97
+00:03:58,800 --> 00:04:00,300
+工具和错误的时间行为之间的区别
+tool and the wrong time behavior
+
+98
+00:04:00,300 --> 00:04:02,100
+之间的差别还是很明显的
+is still quite stark
+
+99
+00:04:02,333 --> 00:04:05,533
+因为有些事情是不切实际的 
+because some of the things is just impractical to do
+
+100
+00:04:05,533 --> 00:04:06,333
+当你
+when you
+
+101
+00:04:07,133 --> 00:04:09,266
+浏览器中 当你把它运送到生产中去的时候
+in the browser when you ship it to production
+
+102
+00:04:09,566 --> 00:04:11,366
+对 所以后来
+right so then
+
+103
+00:04:11,700 --> 00:04:14,200
+nojs出现了 并且炸开了锅
+nojs came along and blew up
+
+104
+00:04:14,200 --> 00:04:15,966
+而common js成为
+and common js became
+
+105
+00:04:15,966 --> 00:04:18,599
+成为了乔纳森广场模块的事实标准
+the de facto standard for Jonathan square modules
+
+106
+00:04:19,133 --> 00:04:21,499
+这种影响一直持续到今天
+and the effect still lingers today
+
+107
+00:04:21,500 --> 00:04:23,066
+你仍然可以看到很多库
+you still see a lot of libraries
+
+108
+00:04:23,066 --> 00:04:25,699
+只提供 common js 或 umd
+only shipping common js or umd
+
+109
+00:04:27,166 --> 00:04:28,133
+而人们开始
+and people started
+
+110
+00:04:28,133 --> 00:04:31,166
+想在浏览器中使用nojs包
+wanting to use nojs packages in the browser
+
+111
+00:04:31,166 --> 00:04:34,299
+而且他们还希望在浏览器和nojs代码中使用相同的模块格式
+and they also want to use the same module format
+
+112
+00:04:34,366 --> 00:04:36,866
+浏览器和nojs代码都使用相同的模块格式
+for both the browser and nojs code
+
+113
+00:04:37,066 --> 00:04:38,866
+他们想在所有地方使用通用js
+they want to use common js everywhere
+
+114
+00:04:38,933 --> 00:04:39,733
+所以
+so
+
+115
+00:04:40,066 --> 00:04:41,866
+人们发明了模块管家
+people invented module butlers
+
+116
+00:04:41,866 --> 00:04:43,766
+比如browserify和webpack
+like browserify and webpack
+
+117
+00:04:44,333 --> 00:04:47,066
+采纳了我们的住宿模块 并将它们结合起来
+took our accommodations modules and combine them
+
+118
+00:04:47,166 --> 00:04:48,399
+形成一个单一的捆绑
+into a single bundle
+
+119
+00:04:48,533 --> 00:04:49,166
+其中的立场
+which stand
+
+120
+00:04:49,166 --> 00:04:52,733
+被包括在你的脚本网球的实际页面上
+gets included on the actual page for your script tennis
+
+121
+00:04:53,900 --> 00:04:56,866
+所以这些填充工具也提供了强大的插件
+so these fill tools also provided powerful plugging
+
+122
+00:04:56,866 --> 00:04:58,299
+和加载器的磁性
+and loader magnetisms
+
+123
+00:04:58,300 --> 00:05:02,366
+而我当时是在2013年刚刚开始从事视图工作的 
+and I was just started working on view back then in
+
+124
+00:05:02,533 --> 00:05:03,333
+2013
+2013
+
+125
+00:05:04,366 --> 00:05:06,199
+那是非常早的事情
+and that was super early
+
+126
+00:05:06,700 --> 00:05:10,666
+后来我就有了单文件组件的想法
+and later on I had this idea of single file components
+
+127
+00:05:10,800 --> 00:05:13,566
+一种定义组件及其模板的格式
+a format that defines a component with its template
+
+128
+00:05:13,566 --> 00:05:14,466
+样式中的脚本
+script from style
+
+129
+00:05:14,466 --> 00:05:15,566
+在一个单一的文件中
+in a single file
+
+130
+00:05:16,133 --> 00:05:17,799
+你可能对这个很熟悉 如果你是
+you're probably familiar with this if you're
+
+131
+00:05:17,800 --> 00:05:19,533
+你用过view或spelt
+you've used view or spelt
+
+132
+00:05:19,933 --> 00:05:22,333
+我意识到有可能
+I realized it was possible to
+
+133
+00:05:22,700 --> 00:05:25,933
+编写加载器 将这种格式转换成
+write loaders that transform this format
+
+134
+00:05:26,133 --> 00:05:27,366
+变成播放的工作脚本
+into playing jobscript
+
+135
+00:05:27,366 --> 00:05:28,166
+对
+right
+
+136
+00:05:28,900 --> 00:05:29,666
+和
+and
+
+137
+00:05:29,666 --> 00:05:30,466
+而且
+that
+
+138
+00:05:30,600 --> 00:05:33,333
+编译的费用也将
+also the cost of the compilation would
+
+139
+00:05:34,366 --> 00:05:35,799
+只是在比尔时间
+be at Bill time only
+
+140
+00:05:35,800 --> 00:05:37,766
+它不会影响运行时的性能
+it won't affect the runtime performance
+
+141
+00:05:37,766 --> 00:05:39,899
+它不会影响生产中的性能
+it won't affect the performance in production
+
+142
+00:05:40,466 --> 00:05:41,266
+所以
+so
+
+143
+00:05:41,466 --> 00:05:43,566
+我写了一个单文件的视图组件
+I wrote the view single file component
+
+144
+00:05:43,566 --> 00:05:46,599
+为浏览器火和湿包进行转换
+transforms for both browser fi and wet pack
+
+145
+00:05:47,100 --> 00:05:49,500
+所以浏览器的火叫vo fi
+so for browser fire was called vo fi
+
+146
+00:05:49,766 --> 00:05:52,099
+而对于wet pack 它被称为view lawyer
+and for wet pack it's called view lawyer
+
+147
+00:05:53,600 --> 00:05:56,933
+这对早期采用者来说效果很好 所以我创建了
+this worked quite well for early adopters so I created
+
+148
+00:05:58,200 --> 00:05:59,800
+礼物模板 所以
+gift templates so
+
+149
+00:05:59,900 --> 00:06:01,666
+基本上只有两个git仓库
+essentially just 2 git repos
+
+150
+00:06:01,666 --> 00:06:03,099
+人们必须克隆它们
+people have to clone them
+
+151
+00:06:03,966 --> 00:06:06,299
+然后在本地安装独立
+then installed independence locally
+
+152
+00:06:06,733 --> 00:06:08,766
+根据自己的喜好调整配置
+tweak the configuration to their liking
+
+153
+00:06:08,766 --> 00:06:10,666
+然后 他们最终得到了一个可以工作的项目
+then eventually they get a project working
+
+154
+00:06:11,400 --> 00:06:13,733
+所以这对早期采用者来说是非常好的
+so this worked great for early adopters
+
+155
+00:06:13,766 --> 00:06:14,999
+那些
+people who are
+
+156
+00:06:15,533 --> 00:06:17,299
+可以接受新工具的人
+okay with just adopting new tools
+
+157
+00:06:17,300 --> 00:06:19,866
+自己想办法配置bunglers的人 
+figuring how to configure bunglers themselves
+
+158
+00:06:19,866 --> 00:06:22,266
+但对于一般开发者来说 这有点太低级了
+but it was a bit too low level
+
+159
+00:06:22,500 --> 00:06:24,166
+对于一般的开发者来说 这有点太低级了
+for the general developers
+
+160
+00:06:24,566 --> 00:06:25,766
+因为当我们
+because when we
+
+161
+00:06:25,800 --> 00:06:27,400
+有越来越多的初学者
+had more and more beginners
+
+162
+00:06:27,400 --> 00:06:29,000
+开始尝试并采用视图时
+starting to try and adopt view
+
+163
+00:06:29,333 --> 00:06:30,366
+我们意识到 好吧
+we realized okay
+
+164
+00:06:30,366 --> 00:06:31,933
+他们没有兴趣去
+they are not interested in
+
+165
+00:06:31,933 --> 00:06:33,533
+学习如何配置这些
+learning how to configure these
+
+166
+00:06:33,900 --> 00:06:35,566
+比尔工具的破坏者
+bunglers of Bill tools
+
+167
+00:06:36,200 --> 00:06:37,166
+而他们所关心的
+and what they cared
+
+168
+00:06:37,166 --> 00:06:40,666
+他们关心的是要有一个公约 有一个启动点
+about is to have a convention to have a starter point
+
+169
+00:06:41,166 --> 00:06:42,766
+以使事情迅速发展
+to get things going quickly
+
+170
+00:06:44,333 --> 00:06:45,366
+所以在2015年
+so in 2015
+
+171
+00:06:45,666 --> 00:06:47,766
+我创建了vuci
+I created vuci
+
+172
+00:06:48,100 --> 00:06:51,066
+这是一个更高层次的工具链 专门用于查看
+which is a higher level tool chain dedicated for view
+
+173
+00:06:51,100 --> 00:06:52,800
+建立在web pack的基础上
+built on top of web pack
+
+174
+00:06:52,866 --> 00:06:55,566
+它可以做很多我们今天认为是标准的事情
+it does many things we consider standard today
+
+175
+00:06:55,733 --> 00:06:56,533
+例如
+for example
+
+176
+00:06:56,666 --> 00:06:57,766
+预先配置的
+pre configured
+
+177
+00:06:59,300 --> 00:07:01,933
+这意味着人们需要的大多数常见功能
+which means most common features one would need
+
+178
+00:07:01,933 --> 00:07:04,499
+都是开箱即用的 例如
+should work out of the box like
+
+179
+00:07:04,866 --> 00:07:06,599
+今天你对V的期望是什么
+what you would expect from v today
+
+180
+00:07:06,600 --> 00:07:07,400
+对 所以
+right so
+
+181
+00:07:07,866 --> 00:07:08,666
+但是
+but
+
+182
+00:07:08,700 --> 00:07:10,866
+为了获得这种配置
+in order to get that kind of configuration
+
+183
+00:07:10,866 --> 00:07:13,266
+在玩网络包的基础上工作
+working on top of playing web pack
+
+184
+00:07:13,366 --> 00:07:14,933
+实际上是一项大量的工作
+is in fact a lot of work
+
+185
+00:07:15,500 --> 00:07:17,500
+并确保所有这些不同的选项
+and making sure all these different options
+
+186
+00:07:17,500 --> 00:07:19,100
+比如你是否使用类型脚本
+like whether you are using type script
+
+187
+00:07:19,100 --> 00:07:20,266
+以及你是否使用
+and whether you are using
+
+188
+00:07:20,366 --> 00:07:21,899
+你使用的是哪个测试运行器
+which test runner you are using
+
+189
+00:07:21,933 --> 00:07:22,933
+并确保所有这些
+and making sure all
+
+190
+00:07:22,933 --> 00:07:23,533
+这些不同的
+these different
+
+191
+00:07:23,533 --> 00:07:26,199
+选项的组合 可以一起工作
+combinations of options that can work together
+
+192
+00:07:26,333 --> 00:07:28,499
+而不管你选择了什么选项
+and no matter what options you've chosen
+
+193
+00:07:29,333 --> 00:07:30,933
+实际上是大量的工作
+was in fact lot of work
+
+194
+00:07:31,400 --> 00:07:33,066
+它还配备了一个开发服务器
+it also came with a dev server
+
+195
+00:07:33,066 --> 00:07:34,733
+带有热模块替换功能
+with hot module replacement
+
+196
+00:07:35,066 --> 00:07:37,733
+带有自动组织的构建命令
+build command with automatic organizations
+
+197
+00:07:38,766 --> 00:07:43,133
+它还包括现代模式 当你使用拔珠时 珠子就会为你服务 
+it also included the modern mode which bead kind of
+
+198
+00:07:43,500 --> 00:07:46,400
+当你使用珠子的时候 它是为你服务的 
+serves when you use bead plucking
+
+199
+00:07:46,400 --> 00:07:48,200
+遗留模式与V今天你得到
+legacy with v today you get the
+
+200
+00:07:48,766 --> 00:07:49,733
+遗留模式
+a legacy mode
+
+201
+00:07:49,966 --> 00:07:52,266
+当时在vci中被称为现代模式
+back then in vci was called modern mode
+
+202
+00:07:52,266 --> 00:07:56,299
+它在默认情况下发送esm 然后再回落到
+where it shipped esm by default and then falls back to
+
+203
+00:07:57,400 --> 00:08:00,533
+通过使用运行时的非 esm 捆绑格式
+a non esm bundle format by using runtime
+
+204
+00:08:00,900 --> 00:08:02,666
+本地模块支持检测
+native module support detection
+
+205
+00:08:03,500 --> 00:08:06,500
+所以在UCI之外 我们还看到
+so outside of UCI we also saw
+
+206
+00:08:06,700 --> 00:08:09,566
+创建 reactap 为 react 启动了一个类似的行
+create reactap which started a similar row for react
+
+207
+00:08:09,566 --> 00:08:11,933
+还有一个值得一提的就是parcel
+and also worth mentioning is parcel
+
+208
+00:08:12,200 --> 00:08:14,733
+它是第一个建立的工具 开创了0
+which was the first built tool to pioneer the 0
+
+209
+00:08:14,733 --> 00:08:16,266
+配置的概念
+configuration concept
+
+210
+00:08:16,600 --> 00:08:17,900
+所以在这个时候
+so around this time
+
+211
+00:08:18,533 --> 00:08:21,133
+我们开始看到一套
+we were starting to see a set of
+
+212
+00:08:21,133 --> 00:08:23,366
+框架无关的惯例
+framework agnostic conventions
+
+213
+00:08:23,466 --> 00:08:25,399
+这是一种融合性的
+that's sort of convergent
+
+214
+00:08:25,966 --> 00:08:28,199
+今天 我们仍然可以看到 在v right
+which we still see today in v right
+
+215
+00:08:28,466 --> 00:08:32,133
+例如 如何导入和处理CSS 如何
+for example how to import and handle CSS how to
+
+216
+00:08:32,733 --> 00:08:34,933
+你希望资产如何工作
+how you expect assets to work
+
+217
+00:08:34,933 --> 00:08:37,399
+你如何将你的
+how you would combine your
+
+218
+00:08:37,766 --> 00:08:39,199
+运送你的静态资产
+ship your static assets
+
+219
+00:08:39,600 --> 00:08:42,200
+与模板上的索引HDR
+with templ index HDR on template
+
+220
+00:08:42,333 --> 00:08:44,766
+所以很多我们熟悉的东西
+so a lot of the things that we're familiar with
+
+221
+00:08:44,900 --> 00:08:47,066
+这些早期生成的工具
+these early generation tools
+
+222
+00:08:47,766 --> 00:08:48,733
+我们看到它们
+we see them
+
+223
+00:08:49,066 --> 00:08:52,133
+本质上是在vtd中开箱工作的
+essentially being working out of the box in vtd
+
+224
+00:08:53,200 --> 00:08:54,866
+然后用ES 2015
+and then with es 2015
+
+225
+00:08:55,300 --> 00:08:55,800
+最后
+finally
+
+226
+00:08:55,800 --> 00:08:58,533
+javascript有了自己的标准化模块系统
+javascript got its own standardized module system
+
+227
+00:08:58,566 --> 00:09:00,999
+因此 这开始有点挑战
+so this started somewhat challenging
+
+228
+00:09:01,133 --> 00:09:02,366
+过渡期
+transition period
+
+229
+00:09:02,666 --> 00:09:03,699
+从
+moving from
+
+230
+00:09:03,733 --> 00:09:05,866
+andum
+the andum
+
+231
+00:09:05,866 --> 00:09:09,766
+共同的GS 一个非常零散的系统
+the common GS a very fragmented system
+
+232
+00:09:10,600 --> 00:09:12,400
+试图向智能系统靠拢
+trying to converge towards the sm
+
+233
+00:09:12,400 --> 00:09:13,200
+但是
+but
+
+234
+00:09:13,733 --> 00:09:17,966
+到目前为止 这是一个相当痛苦的时期 对吗？
+this has been a quite of painful period so far right
+
+235
+00:09:18,333 --> 00:09:20,299
+我们今天在技术上仍然处于这种状态
+which we are still technically still in today
+
+236
+00:09:20,300 --> 00:09:22,700
+我们还没有完全达到 但是
+we're still not quite fully there yet but
+
+237
+00:09:22,800 --> 00:09:24,466
+这是不可能的 
+that's out of the scofield this talk
+
+238
+00:09:24,866 --> 00:09:25,699
+在某种程度上是
+in some way v
+
+239
+00:09:25,700 --> 00:09:27,000
+是一种努力 以
+is an effort to
+
+240
+00:09:27,000 --> 00:09:30,066
+帮助生态系统向前发展并向ESM靠拢
+help the ecosystem move forward and converge on esm
+
+241
+00:09:31,100 --> 00:09:33,066
+我们已经处理了很多与这些模型格式有关的错误
+and we've dealt with a lot of bugs
+
+242
+00:09:33,333 --> 00:09:35,599
+与这些模型格式有关的错误 
+related to these model formats along the way
+
+243
+00:09:36,966 --> 00:09:38,599
+总之 ESM模块的意义在于
+anyway the implication
+
+244
+00:09:38,600 --> 00:09:41,100
+的含义是 我们开始看到
+of es modules is that we started to see
+
+245
+00:09:41,100 --> 00:09:41,800
+工具 这些工具是
+tools that were
+
+246
+00:09:41,800 --> 00:09:43,300
+设计的工具
+designed with es modules
+
+247
+00:09:43,300 --> 00:09:45,533
+首先 比如说roll up
+first for example roll up
+
+248
+00:09:45,566 --> 00:09:46,866
+所以roll up是
+so roll up was
+
+249
+00:09:47,000 --> 00:09:50,166
+第一个捆绑器 其设计的前提是
+the first bundler that was designed with a premise of
+
+250
+00:09:50,766 --> 00:09:52,566
+将es模块作为
+serving es module as the
+
+251
+00:09:53,166 --> 00:09:54,966
+唯一的标准模块格式
+only standard module format
+
+252
+00:09:55,066 --> 00:09:57,766
+在这里 常见的js处理方式实际上已经加入了v
+where common js handling has actually added on v
+
+253
+00:09:57,766 --> 00:09:58,566
+或摘取
+or plucking
+
+254
+00:09:59,333 --> 00:10:00,766
+作为一个额外的功能
+as an additional feature
+
+255
+00:10:01,133 --> 00:10:03,933
+所以Ronald作为es模块首先允许它是
+so Ronald being es module first allowed it to be
+
+256
+00:10:04,100 --> 00:10:06,866
+让它的核心变得更简单、更有效
+allowed its core to be simpler and more efficient
+
+257
+00:10:06,900 --> 00:10:09,200
+而且还释放了一些功能 比如
+and also unlocked capabilities like
+
+258
+00:10:09,766 --> 00:10:10,599
+树的摇动
+tree shaking
+
+259
+00:10:10,600 --> 00:10:13,266
+由于静态分析的作用
+thanks to the static analysis
+
+260
+00:10:13,333 --> 00:10:15,933
+▪ es模块设计的友好性
+friendliness of the design of es modules
+
+261
+00:10:16,800 --> 00:10:20,000
+但是 生态系统在湿包方面的投入非常大
+but the ecosystem was so heavily invested in wet pack
+
+262
+00:10:20,166 --> 00:10:22,733
+而由于缺乏对热适度的支持
+and due to the lack of support for hot moderate
+
+263
+00:10:22,733 --> 00:10:24,399
+辊筒的放置
+placement for roll up
+
+264
+00:10:24,666 --> 00:10:26,999
+好吧 我们并没有真正看到一个更高层次的
+alright we didn't really see a higher level
+
+265
+00:10:27,366 --> 00:10:29,966
+构建在Roll up之上的应用程序解决方案
+app solution built on top of roll up
+
+266
+00:10:29,966 --> 00:10:30,999
+走向主流
+going mainstream
+
+267
+00:10:31,333 --> 00:10:35,066
+你所看到的大多数主流解决方案都很好 
+most of the mainstream solutions you see next as great
+
+268
+00:10:35,066 --> 00:10:38,166
+反应UCI主要还是基于影响 因为
+react UCI was mostly still impact based because
+
+269
+00:10:38,566 --> 00:10:41,899
+因为用户是如此的依赖一个替代者的数量
+users are so reliant on how much a replacement
+
+270
+00:10:41,900 --> 00:10:45,400
+和webpack的方式 基本上能够处理
+and the way that webpack was essentially able to handle
+
+271
+00:10:45,400 --> 00:10:47,600
+任何模块格式
+any module format
+
+272
+00:10:48,200 --> 00:10:49,000
+甚至
+even
+
+273
+00:10:49,933 --> 00:10:51,333
+有些模块只是
+some of the modules were just
+
+274
+00:10:51,466 --> 00:10:51,999
+运送的
+shipped
+
+275
+00:10:52,000 --> 00:10:54,133
+错了的混合格式
+incorrectly with mixed formats
+
+276
+00:10:54,300 --> 00:10:56,300
+webpack仍然能够处理它们
+webpack was still able to handle them
+
+277
+00:10:56,366 --> 00:10:58,299
+所以大多数用户使用
+so most users use
+
+278
+00:10:58,300 --> 00:11:01,966
+卷起来 主要用于自定义设置或混杂的库
+roll up mostly for custom setups or bungling libraries
+
+279
+00:11:03,366 --> 00:11:04,733
+所以在2017年
+so in 2017
+
+280
+00:11:05,300 --> 00:11:07,933
+我们终于在浏览器中看到了原生的es模块
+we finally saw native es modules in the browser
+
+281
+00:11:08,200 --> 00:11:09,333
+而没有
+and without
+
+282
+00:11:09,366 --> 00:11:12,733
+所以这意味着我们现在可以在最近使用es模块 而无需
+so this means we can now use es modules lately without
+
+283
+00:11:12,766 --> 00:11:14,299
+需要一个Bill步骤
+the need of a Bill step
+
+284
+00:11:14,366 --> 00:11:17,266
+这一次 社区也开始承认
+and this time the community also started to acknowledge
+
+285
+00:11:17,366 --> 00:11:18,166
+的
+the
+
+286
+00:11:18,366 --> 00:11:20,766
+支付不断增长的注释模块的大小
+paying of ever growing size of note modules
+
+287
+00:11:20,766 --> 00:11:21,566
+我们正在
+we are
+
+288
+00:11:21,733 --> 00:11:24,899
+我们意识到 也许我们建立的一些工具
+realizing okay maybe some of the tools that we built
+
+289
+00:11:25,300 --> 00:11:26,333
+太重了
+were too heavy
+
+290
+00:11:26,900 --> 00:11:28,500
+一些我们建立的工具是
+some of the tools we built were
+
+291
+00:11:28,933 --> 00:11:29,966
+可以更快
+could be faster
+
+292
+00:11:30,400 --> 00:11:31,400
+这是因为
+it was
+
+293
+00:11:33,166 --> 00:11:33,966
+因为
+because
+
+294
+00:11:34,166 --> 00:11:37,166
+也许我们只是习惯了它的缓慢 也许是
+maybe we just got used to the slowness of it maybe
+
+295
+00:11:37,566 --> 00:11:39,533
+可能有办法让它更快
+there could be ways of making it faster
+
+296
+00:11:41,466 --> 00:11:42,799
+但与此同时
+but at the same time
+
+297
+00:11:43,700 --> 00:11:47,100
+如果我们使用本地的是模块 并采用
+if we go with native yes modules and go
+
+298
+00:11:47,100 --> 00:11:48,200
+无内置
+builtless
+
+299
+00:11:48,866 --> 00:11:51,066
+但我们仍然习惯于很多东西
+but we're still used to a lot of the things
+
+300
+00:11:51,300 --> 00:11:53,600
+但我们仍然习惯于很多东西 而这些东西的启用只是因为内置的工具
+that were enabled only because of built tools
+
+301
+00:11:53,600 --> 00:11:54,166
+例如
+for example
+
+302
+00:11:54,166 --> 00:11:55,166
+我们想使用
+we want to use
+
+303
+00:11:55,200 --> 00:11:56,200
+单一文件组件
+single file components
+
+304
+00:11:56,200 --> 00:11:57,800
+我们想使用transpire类型的脚本
+we want to transpire type script
+
+305
+00:11:57,800 --> 00:12:00,500
+我们想使用gsx post CSS
+we want to use gsx post CSS
+
+306
+00:12:00,500 --> 00:12:02,266
+都是好东西
+are the goodstuff that
+
+307
+00:12:03,500 --> 00:12:05,966
+我们需要一个Bill步骤来处理这些问题
+that we need a Bill step to deal with
+
+308
+00:12:06,000 --> 00:12:09,533
+对了 如果native vsm有一个转换API会怎么样？
+right so what if native vsm had a transform API
+
+309
+00:12:09,533 --> 00:12:11,733
+这就是我所问的问题
+that was the question that I was asking
+
+310
+00:12:11,766 --> 00:12:12,566
+好吧
+well
+
+311
+00:12:12,800 --> 00:12:15,366
+所以我意识到也许它不需要这样做
+and so I realized maybe it didn't need to
+
+312
+00:12:15,366 --> 00:12:18,666
+因为本地vs模块是通过GDP请求获取的
+since native vs modules are fetched over a GDP request
+
+313
+00:12:18,700 --> 00:12:19,266
+所以
+so
+
+314
+00:12:19,266 --> 00:12:20,066
+我们可以
+we can
+
+315
+00:12:20,100 --> 00:12:21,333
+让开发服务器
+let a dev server
+
+316
+00:12:21,466 --> 00:12:23,766
+进行任何需要的转换
+perform whatever transform needed on the fly
+
+317
+00:12:23,766 --> 00:12:25,499
+并且该开发服务器会
+and that dev server would
+
+318
+00:12:25,500 --> 00:12:26,100
+感觉
+feel
+
+319
+00:12:26,100 --> 00:12:28,700
+和一个静态文件服务器很相似
+quite similar to just a static file server
+
+320
+00:12:28,733 --> 00:12:29,799
+如果你考虑一下
+if you think about it
+
+321
+00:12:30,200 --> 00:12:32,466
+静态文件服务器只是读取文件和
+a static file server just reads the file and
+
+322
+00:12:32,466 --> 00:12:34,466
+感受到它的存在
+sense it as is where
+
+323
+00:12:34,866 --> 00:12:37,733
+一个更聪明的开发服务器会读取一个typecript文件
+a smarter dev server would read a typescript file
+
+324
+00:12:37,733 --> 00:12:39,799
+注意 它实际上并不是javascript
+notice that it isn't actually javascript
+
+325
+00:12:39,800 --> 00:12:42,500
+所以它只是在提供服务之前将其转换为javascript 
+so it just transforms into javascript before serving it
+
+326
+00:12:42,500 --> 00:12:43,000
+对
+right
+
+327
+00:12:43,000 --> 00:12:43,766
+所以
+so
+
+328
+00:12:43,766 --> 00:12:44,899
+这完全可以做到
+this could totally work
+
+329
+00:12:45,333 --> 00:12:48,366
+所以当我在寻找一个更轻的替代品时
+so as I was searching for a lighter alternative to
+
+330
+00:12:48,366 --> 00:12:50,766
+speciali的轻量级替代品 因为我自己
+speciali myself because I was
+
+331
+00:12:50,866 --> 00:12:52,133
+因为我有时厌倦了
+sometimes fed up with
+
+332
+00:12:52,266 --> 00:12:54,566
+工具链的缓慢和沉重 
+the slowness and heaviness of the tool chain
+
+333
+00:12:54,666 --> 00:12:56,733
+我开始尝试这个想法
+I started experimenting with this idea
+
+334
+00:12:56,900 --> 00:12:58,400
+所以在2019年3月
+so in March 2019
+
+335
+00:12:58,500 --> 00:13:00,866
+我创建了一个概念验证的观察器
+I created a proof of concept observer
+
+336
+00:13:00,966 --> 00:13:02,966
+能够转换和加载一些
+that was able to transform and load few
+
+337
+00:13:02,966 --> 00:13:04,333
+单一文件的组件
+single file components over
+
+338
+00:13:04,333 --> 00:13:06,266
+本地ES模块导入
+native es module imports
+
+339
+00:13:06,700 --> 00:13:10,200
+但是有两个主要问题我没有完全
+however there were 2 major problems that I didn't quite
+
+340
+00:13:10,200 --> 00:13:11,266
+解决的问题
+solve back then
+
+341
+00:13:11,466 --> 00:13:12,599
+所以第一个问题是
+so the first is
+
+342
+00:13:12,600 --> 00:13:14,700
+如何处理MPM的依赖性
+how to handle mpm dependencies
+
+343
+00:13:14,766 --> 00:13:15,499
+和第二个问题
+and the second
+
+344
+00:13:15,500 --> 00:13:18,166
+第二个问题是 如何对这些模块进行多少替换？
+is how to perform how much replacement over native
+
+345
+00:13:18,166 --> 00:13:19,066
+这些模块
+these modules
+
+346
+00:13:19,766 --> 00:13:22,499
+当时我还在忙着做视图3的工作
+I was also busy working on view 3 at the time
+
+347
+00:13:22,500 --> 00:13:25,800
+所以我没有真正继续这个项目
+so I didn't really continue this poc
+
+348
+00:13:27,933 --> 00:13:29,966
+直到一年后
+it was until a year later
+
+349
+00:13:30,900 --> 00:13:32,300
+当我要睡觉的时候
+as I was going to bed
+
+350
+00:13:32,300 --> 00:13:34,566
+我突然有了这样的感悟
+I suddenly had this epiphany of
+
+351
+00:13:34,566 --> 00:13:37,799
+如何在本地进行热马达替换
+how to perform hot motor replacement over native
+
+352
+00:13:37,900 --> 00:13:38,866
+本机ESM
+native esm
+
+353
+00:13:40,133 --> 00:13:41,399
+我记不清楚了
+I can't remember exactly
+
+354
+00:13:41,466 --> 00:13:42,266
+如何
+how
+
+355
+00:13:42,900 --> 00:13:43,700
+为什么？
+why
+
+356
+00:13:44,333 --> 00:13:47,299
+我想出了这个主意 也许是因为
+I came up with the idea maybe because
+
+357
+00:13:48,266 --> 00:13:49,933
+使得这个Poc的工作是
+making that poc work was
+
+358
+00:13:49,933 --> 00:13:52,066
+一直在我的脑海中 但一旦我有了这个想法 我就必须测试它 
+has always been at the back of my head but
+
+359
+00:13:52,666 --> 00:13:54,666
+一旦我有了这个想法 我就必须对它进行测试
+once I had the idea I just had to test it out
+
+360
+00:13:54,666 --> 00:13:58,733
+所以我开始了黑客工作 一直工作到早上6点 
+so I started working hacking on it and worked until 6 a
+
+361
+00:13:58,733 --> 00:13:59,499
+上午6点
+m in the morning
+
+362
+00:13:59,500 --> 00:14:01,500
+并得到了另一个概念验证的工作
+and got another proof of concept working
+
+363
+00:14:01,733 --> 00:14:02,533
+这一次
+this time
+
+364
+00:14:03,400 --> 00:14:05,666
+这一次是真正开始了V
+this time it was the actual start of v
+
+365
+00:14:05,700 --> 00:14:07,300
+所以这一次我得到了
+so this time I got
+
+366
+00:14:07,333 --> 00:14:08,566
+一个深度服务器 能够
+a depth server that was
+
+367
+00:14:08,566 --> 00:14:11,299
+能够改变一个视图的单一最终组件
+able to transform a view single final component
+
+368
+00:14:11,600 --> 00:14:12,400
+在飞行中
+on the fly
+
+369
+00:14:12,500 --> 00:14:16,200
+它还能在原生的ESM上处理热马达的替换 
+it also handle hot motor replacement over native esm
+
+370
+00:14:17,200 --> 00:14:20,066
+第二天 第一个版本就出来了
+so the very first release came out the next day
+
+371
+00:14:20,066 --> 00:14:22,533
+有一个非常粗糙的硬编码逻辑
+with a very crude hardcode logic
+
+372
+00:14:22,533 --> 00:14:25,699
+那就是只支持视图组件 对吗？
+that is that supported only view components right
+
+373
+00:14:25,700 --> 00:14:27,533
+最初的意图是让它
+the initial intention was for it
+
+374
+00:14:27,866 --> 00:14:30,799
+成为一个轻量级的vcli替代品
+to be a lightweight vcli alternative
+
+375
+00:14:31,166 --> 00:14:33,099
+所以下一步就是要从概念验证
+so the next step was to move from proof
+
+376
+00:14:33,100 --> 00:14:35,300
+概念到更多的结构
+concept to a more Sierra structure
+
+377
+00:14:35,466 --> 00:14:36,866
+所以我做了一些研究
+so I did some research
+
+378
+00:14:36,866 --> 00:14:39,133
+并发现了web dev server
+and found out about web dev server
+
+379
+00:14:39,333 --> 00:14:41,666
+这也是一个无捆绑式的服务器
+which was also a bundless step server
+
+380
+00:14:43,266 --> 00:14:43,533
+我认为
+I think
+
+381
+00:14:43,533 --> 00:14:45,666
+我认为它当时被称为esdav服务器
+I think it was caught esdav server back then
+
+382
+00:14:46,166 --> 00:14:48,966
+现在被称为web slash dev server 
+which is now caught at web slash dev server
+
+383
+00:14:48,966 --> 00:14:51,199
+因此 由于我的主要兴趣是
+so since my main interest was
+
+384
+00:14:51,766 --> 00:14:52,666
+在使
+in making
+
+385
+00:14:52,700 --> 00:14:55,966
+热蒙太奇替换在Nadi vsm上工作
+hot montage replacement work over nadi vsm
+
+386
+00:14:56,466 --> 00:14:57,966
+我实际上考虑将
+I actually considered making
+
+387
+00:14:57,966 --> 00:14:59,733
+的中间件 
+v to just the middleware for esdav
+
+388
+00:14:59,733 --> 00:15:01,133
+服务器的中间件 因为我看到了它
+server after I saw it
+
+389
+00:15:01,666 --> 00:15:02,466
+但是
+but
+
+390
+00:15:02,766 --> 00:15:03,766
+深入了解一下
+looking deeper into it
+
+391
+00:15:03,766 --> 00:15:06,733
+我还想让vj成为一个更高层次的
+I also had the vision for vj to be a higher level
+
+392
+00:15:06,733 --> 00:15:08,399
+开箱即用的体验
+out of the box experience
+
+393
+00:15:08,600 --> 00:15:11,566
+就像vuci和parcel一样 在某些方面
+like vuci and parcel in some way
+
+394
+00:15:11,666 --> 00:15:15,666
+所以让它成为一个只有Dampserver的中间产品 只是
+so making it a middlewear of only a dampserver just
+
+395
+00:15:15,900 --> 00:15:17,666
+显得很有局限性
+seem to limiting overall
+
+396
+00:15:18,066 --> 00:15:19,133
+所以我最终
+so I ended up
+
+397
+00:15:19,933 --> 00:15:23,266
+使用一个基于coa的服务器设置 其灵感来自于
+using a coa based server setup which was inspired by
+
+398
+00:15:23,466 --> 00:15:24,533
+esdf服务器
+esdf server
+
+399
+00:15:25,533 --> 00:15:29,466
+而最初的实现是 每个
+and the initial implementation was that each
+
+400
+00:15:29,466 --> 00:15:30,299
+插件
+plugging
+
+401
+00:15:31,000 --> 00:15:31,566
+将
+would
+
+402
+00:15:31,566 --> 00:15:33,666
+被实现为一个co a中间件
+be implemented as a co a middleware
+
+403
+00:15:33,666 --> 00:15:35,599
+所以视图转换逻辑
+so the view transform logic
+
+404
+00:15:36,066 --> 00:15:37,999
+视图插件将是一个中间件
+the view plugging would be a middleware
+
+405
+00:15:38,466 --> 00:15:39,366
+共同的中间件
+co a middleware
+
+406
+00:15:39,466 --> 00:15:40,299
+因此 2天后
+so 2 days
+
+407
+00:15:40,300 --> 00:15:42,533
+2天后 我得到了热模块的替换
+2 days later I got the hot module replacement
+
+408
+00:15:42,533 --> 00:15:44,366
+也为平面js工作
+also working for plane js
+
+409
+00:15:44,666 --> 00:15:46,666
+这很重要 因为
+which was important because
+
+410
+00:15:47,600 --> 00:15:50,066
+热模块的火焰只适用于视图组件 显然
+hot module flames only for view components obviously
+
+411
+00:15:50,066 --> 00:15:50,866
+并不是
+isn't
+
+412
+00:15:51,500 --> 00:15:53,166
+将会是非常有用的
+going to be super useful
+
+413
+00:15:53,600 --> 00:15:56,366
+我们还需要处理通用的javascript逻辑
+we also need to handle generic javascript logic
+
+414
+00:15:56,366 --> 00:15:58,966
+此外 还需要处理MPM的依赖性
+and in addition for handling mpm dependencies
+
+415
+00:16:00,600 --> 00:16:04,066
+我选择使用snow pack v第一版 所以
+I opted to use snow pack v version one so
+
+416
+00:16:04,333 --> 00:16:06,933
+现在是作为es安装 所以
+which is now now as es install so
+
+417
+00:16:07,333 --> 00:16:10,133
+雪包的第一个版本实际上是一个
+version one of snow pack was in fact a
+
+418
+00:16:10,500 --> 00:16:11,866
+预先配置好的卷起
+pre configured roll up
+
+419
+00:16:12,500 --> 00:16:14,766
+工具 能够转换
+tool that is able to convert
+
+420
+00:16:14,766 --> 00:16:17,399
+npm包 不管它是什么格式的
+npm packages no matter what format it is in
+
+421
+00:16:17,900 --> 00:16:20,766
+转换成可以在浏览器中运行的es模块
+into es modules that could run in the browser
+
+422
+00:16:20,766 --> 00:16:23,066
+所以这就解决了问题 因为对
+so this solve the problem because right
+
+423
+00:16:23,066 --> 00:16:24,399
+因为最大的问题
+because the biggest problem
+
+424
+00:16:24,866 --> 00:16:26,199
+问题是
+problem is that
+
+425
+00:16:26,800 --> 00:16:29,666
+我们有一个非常零散的模块系统
+we have this very fragmented module system
+
+426
+00:16:29,900 --> 00:16:31,733
+有些模块是在umd
+where some modules are in umd
+
+427
+00:16:31,733 --> 00:16:33,166
+一些模块在公共js中
+something in common js
+
+428
+00:16:33,200 --> 00:16:34,366
+一些是ESM
+something esm
+
+429
+00:16:34,566 --> 00:16:36,599
+好吧 所以我们需要把它们规范化
+all right so we need to normalize them
+
+430
+00:16:36,600 --> 00:16:39,200
+变成同样的esm格式 可以在浏览器中运行
+into the same esm format that can run in the browser
+
+431
+00:16:39,200 --> 00:16:40,266
+and snow pack
+and snow pack
+
+432
+00:16:40,600 --> 00:16:42,533
+如果你想达到这个目的
+if you want to serve that purpose
+
+433
+00:16:43,566 --> 00:16:44,366
+所以
+so
+
+434
+00:16:45,100 --> 00:16:47,066
+然后在0.5版本中 我
+and then in 0.5 I was
+
+435
+00:16:47,066 --> 00:16:49,533
+能够登陆一个滚子供电的饲料建立
+able to land a roller powered feed built
+
+436
+00:16:49,600 --> 00:16:52,133
+我决定仍然使用Bono进行生产
+I decided to still use the Bono for production
+
+437
+00:16:52,133 --> 00:16:55,666
+因为obano的部署仍然是很棘手的 
+because obano deployment is still tricky to get right
+
+438
+00:16:55,933 --> 00:16:57,666
+我们在船坞里解释了这个问题
+we explain this in the docks
+
+439
+00:16:57,800 --> 00:16:59,766
+我还用卷起的方式代替湿包
+I also use roll up instead wet pack
+
+440
+00:16:59,766 --> 00:17:01,933
+因为卷起是更多的ESM第一
+because roll up is more esm first
+
+441
+00:17:01,933 --> 00:17:04,266
+因此 它与 "V "的关系要好得多 
+so it lines much better with
+
+442
+00:17:04,800 --> 00:17:05,666
+与V的关系更好
+better with v
+
+443
+00:17:06,066 --> 00:17:07,166
+事实上 在当时
+in fact back then
+
+444
+00:17:07,166 --> 00:17:10,066
+我相信湿包仍然无法输出
+I believe wet pack was still not able to output
+
+445
+00:17:10,166 --> 00:17:11,466
+直接的ES模型
+direct es models
+
+446
+00:17:12,733 --> 00:17:14,266
+所以从
+so from the
+
+447
+00:17:14,266 --> 00:17:15,533
+另一个角度来看
+other perspective
+
+448
+00:17:15,533 --> 00:17:18,499
+脚也有点开始变成这样了
+feet also kind of started to becoming this
+
+449
+00:17:19,400 --> 00:17:22,466
+炙手可热的替代者Def Silver for rollum
+hot replacement def silver for rollum
+
+450
+00:17:22,466 --> 00:17:26,266
+对 所以它成为一种互补的关系
+right so it becomes a complementary relationship
+
+451
+00:17:28,333 --> 00:17:29,499
+现在 在这一点上
+now at this point
+
+452
+00:17:29,500 --> 00:17:31,700
+大部分的主要问题都得到了回答
+most of the major questions have been answered
+
+453
+00:17:31,700 --> 00:17:33,500
+但我也想验证一下
+but I also wanted to validate
+
+454
+00:17:33,500 --> 00:17:34,300
+是否
+whether
+
+455
+00:17:34,333 --> 00:17:35,733
+这些采摘和API
+these plucking and API
+
+456
+00:17:35,733 --> 00:17:37,133
+设计是否足够灵活
+design is flexible enough
+
+457
+00:17:37,133 --> 00:17:39,099
+为更高的解决方案提供动力
+to power even higher solutions
+
+458
+00:17:39,166 --> 00:17:39,999
+特别是
+especially
+
+459
+00:17:40,966 --> 00:17:42,766
+在我所提供的服务的情况下
+in the scenario of service I rendering
+
+460
+00:17:42,766 --> 00:17:43,966
+如果人们想在它上面建立
+what if people want to build
+
+461
+00:17:43,966 --> 00:17:45,566
+元框架的情况下
+meta frameworks on top of it
+
+462
+00:17:45,566 --> 00:17:46,366
+对
+right
+
+463
+00:17:46,900 --> 00:17:48,400
+所以在视图生态系统中
+so in the view ecosystem
+
+464
+00:17:48,400 --> 00:17:51,333
+我们有一个静态侧生成器账户view press
+we had a static side generator account view press
+
+465
+00:17:51,466 --> 00:17:53,166
+许多用户喜欢它
+which many users liked
+
+466
+00:17:53,500 --> 00:17:55,000
+它允许你编写
+it allows you to write
+
+467
+00:17:55,133 --> 00:17:57,333
+文件基础路由与标记文件
+file base routing with markup files
+
+468
+00:17:57,333 --> 00:17:59,266
+而且你可以在其中发明一些组件
+and you can invent few components in it
+
+469
+00:17:59,333 --> 00:18:01,499
+而它只是为你生成文件
+and it just generates documentations for you
+
+470
+00:18:01,866 --> 00:18:04,899
+它使用视图服务器端的渲染能力
+it uses views serverside rendering capabilities
+
+471
+00:18:04,900 --> 00:18:07,333
+所以它把markdown解析成一个视图组件
+so it parses markdown into a view component
+
+472
+00:18:07,333 --> 00:18:08,466
+然后把它编译成
+then compiles it
+
+473
+00:18:08,700 --> 00:18:11,000
+作为一个视图组件 然后运行它
+as a view component and then run it
+
+474
+00:18:11,000 --> 00:18:13,866
+在ssr期间运行它来生成静态HTML
+during ssr to generate the static HTML
+
+475
+00:18:14,666 --> 00:18:16,799
+然而 视图印刷机是基于湿式包装的
+however view press was wet pack based
+
+476
+00:18:16,800 --> 00:18:18,766
+而在大型项目中 启动开发服务器可能需要
+and in larger projects it could take
+
+477
+00:18:18,866 --> 00:18:21,366
+要花很长的时间来启动开发服务器
+a very long time to start the dev server
+
+478
+00:18:21,500 --> 00:18:23,133
+而一次编辑可能需要
+and a single edit could take
+
+479
+00:18:23,133 --> 00:18:25,899
+体现为热修改或替换
+seconds to be reflected with hot mod or replacement
+
+480
+00:18:26,066 --> 00:18:28,966
+所以我想用一个类似的系统来看看
+so I wanted to see with a similar system
+
+481
+00:18:29,133 --> 00:18:30,299
+但基于视图
+but based on view
+
+482
+00:18:30,400 --> 00:18:34,300
+我们可以在DX方面获得多大的改进
+how much improvement we can get in terms of DX
+
+483
+00:18:34,800 --> 00:18:36,966
+所以我创造了小麦压榨机
+so I created wheat press
+
+484
+00:18:36,966 --> 00:18:39,166
+一个以小麦为动力的静态侧发电机
+a wheat powered static side generator
+
+485
+00:18:40,500 --> 00:18:43,733
+这是与小麦本身平行开发的
+this was developed in parallel with wheat itself
+
+486
+00:18:44,766 --> 00:18:47,499
+所以你可以看到日期是在小麦0.5版发布后的几天 
+so you can see the date is like a few days after
+
+487
+00:18:48,066 --> 00:18:49,966
+0.5版本的小麦
+0.5 release of wheat
+
+488
+00:18:50,800 --> 00:18:53,666
+而今天 它为v
+and today it powers the documentation for both v
+
+489
+00:18:53,666 --> 00:18:55,533
+和vgas的文档 
+and vgas its themselves
+
+490
+00:18:55,566 --> 00:18:56,366
+所以
+so
+
+491
+00:18:56,933 --> 00:18:57,799
+重要的
+the important
+
+492
+00:18:57,800 --> 00:19:00,666
+在这整个过程中 电子新闻的重要作用是 它是
+role of e press during this whole process is that it's
+
+493
+00:19:00,666 --> 00:19:02,799
+作为一个实验场
+served as an experiment field
+
+494
+00:19:03,066 --> 00:19:05,099
+为银色渲染API设计
+for silver rendering API design
+
+495
+00:19:05,666 --> 00:19:07,566
+和一些内部的API变化
+and some of the internal API changes
+
+496
+00:19:07,566 --> 00:19:09,566
+包括插入式API的设计
+including the plugging API design
+
+497
+00:19:10,266 --> 00:19:11,599
+在v的早期版本中
+in the early versions of v
+
+498
+00:19:12,166 --> 00:19:14,133
+因此 当我在开发 v press
+so as I was working on v press
+
+499
+00:19:14,200 --> 00:19:16,566
+我有1
+I have 1/1 hand experience of okay
+
+500
+00:19:16,566 --> 00:19:19,266
+这就是我所需要的，如果我在vip的基础上建立一个更高级的
+this is what I need if I were building a higher
+
+501
+00:19:19,266 --> 00:19:20,466
+的基础上建立一个更高层次的工具。
+level tool on top of v
+
+502
+00:19:22,200 --> 00:19:23,666
+所以它也
+so it also
+
+503
+00:19:23,666 --> 00:19:26,133
+让我能够考虑到正确的
+allows me to think about the right level of the
+
+504
+00:19:26,333 --> 00:19:28,299
+抽象的正确水平，我应该暴露
+abstraction should I expose
+
+505
+00:19:29,533 --> 00:19:30,966
+那么我应该暴露多少呢？
+so how much should I expose
+
+506
+00:19:30,966 --> 00:19:32,699
+如果你暴露的太多
+if you expose too much
+
+507
+00:19:33,200 --> 00:19:37,400
+你就有可能使用法变得超级复杂。
+you risk making the the usage superfer bows and complex
+
+508
+00:19:37,400 --> 00:19:40,100
+但如果你暴露的不够多，那么
+but if you don't expose enough then
+
+509
+00:19:40,600 --> 00:19:42,966
+你就不可能建立起真正有用的东西
+you won't be able to build actually something useful
+
+510
+00:19:42,966 --> 00:19:44,899
+对，所以要找到平衡点
+right so finding the balance
+
+511
+00:19:44,900 --> 00:19:45,900
+为了找到这个平衡点
+in order to find the balance
+
+512
+00:19:45,900 --> 00:19:48,900
+我必须在每个发现的基础上自己建立一些东西。
+I had to build something myself on top of each find up
+
+513
+00:19:50,266 --> 00:19:51,066
+所以
+so
+
+514
+00:19:51,800 --> 00:19:54,200
+接下来就是漫长的磨练，以达到一个点。
+what followed was the long grind to reach one point
+
+515
+00:19:54,200 --> 00:19:58,133
+哦，我的目标是用ucli进行功能模仿
+oh I was aiming for feature parody with ucli
+
+516
+00:19:58,333 --> 00:20:01,533
+而且我们的用户也越来越多
+and we were also getting more users and
+
+517
+00:20:01,666 --> 00:20:04,333
+随着用户的增加，我们得到了更多的bug
+with more users we got a lot more bugs
+
+518
+00:20:04,800 --> 00:20:06,766
+大多数的bug都与以下方面有关
+most of the bugs were related to
+
+519
+00:20:07,900 --> 00:20:12,000
+下一个模块的格式与mpm的依赖关系，优化器
+next module formats with mpm dependencies the optimizer
+
+520
+00:20:13,000 --> 00:20:14,300
+有问题
+having issues
+
+521
+00:20:14,600 --> 00:20:17,333
+还有很多小的错误被修复了。
+and a lot of small bugs fixed along the way
+
+522
+00:20:17,333 --> 00:20:18,133
+所以
+so
+
+523
+00:20:18,366 --> 00:20:20,933
+在2020年4月至11月期间
+between April and November 2020
+
+524
+00:20:21,266 --> 00:20:22,299
+我转移
+I shift
+
+525
+00:20:22,300 --> 00:20:23,866
+91个版本
+91 releases
+
+526
+00:20:25,333 --> 00:20:27,066
+一路上升到
+all the way up to
+
+527
+00:20:27,266 --> 00:20:28,533
+一个点 o r c
+one point o r c
+
+528
+00:20:28,800 --> 00:20:33,800
+9，但孪生点o从未真正借给它，所以
+9 but the twin point o never actually lend it so
+
+529
+00:20:33,800 --> 00:20:35,166
+之所以如此
+the reason for that
+
+530
+00:20:35,566 --> 00:20:37,666
+因为当我为一个点工作时
+was because as I worked towards one point
+
+531
+00:20:37,966 --> 00:20:40,466
+我意识到Ved的作用远远超过了
+I realized ved can be much more
+
+532
+00:20:40,666 --> 00:20:43,166
+不仅仅是Ucli的替代品
+than just a replacement of ucli
+
+533
+00:20:43,900 --> 00:20:46,166
+它可以是2个方面
+it could be 2 things
+
+534
+00:20:46,566 --> 00:20:49,399
+首先，它可以是一个与框架无关的
+first is that it could be a framework agnostic
+
+535
+00:20:49,666 --> 00:20:53,466
+动物配置的工具，为终端用户提供类似
+animal config built tool for end users something like
+
+536
+00:20:55,000 --> 00:20:57,066
+所以这本质上是一个
+so this was essentially a
+
+537
+00:20:57,200 --> 00:20:58,933
+更加通用的视图CI
+more generic view ci
+
+538
+00:20:59,333 --> 00:21:03,666
+我们的目标是让每个框架都能...
+the goal is so that each framework should be able to um
+
+539
+00:21:04,100 --> 00:21:07,000
+可以把这个框架的特定逻辑封装在
+can encapsulate this framework specific logic
+
+540
+00:21:07,000 --> 00:21:08,166
+在一个单一的插件中
+in a single plugin
+
+541
+00:21:08,466 --> 00:21:09,733
+然后你就可以
+and then you would
+
+542
+00:21:10,766 --> 00:21:11,666
+其他大部分的
+most of the other
+
+543
+00:21:11,666 --> 00:21:13,933
+共同分享的功能应该是开箱即用的
+common share features should just work out of the box
+
+544
+00:21:13,933 --> 00:21:14,999
+为终端用户服务
+for end users
+
+545
+00:21:15,133 --> 00:21:16,399
+第二种是
+the second is
+
+546
+00:21:16,533 --> 00:21:17,899
+一个共享调整层
+a share tuning layer
+
+547
+00:21:17,966 --> 00:21:19,533
+为框架作者提供的
+for framework authors
+
+548
+00:21:19,533 --> 00:21:20,466
+以便
+so that
+
+549
+00:21:20,500 --> 00:21:23,500
+编写下一个或拼写孩子的人
+people working on next or spell kids
+
+550
+00:21:23,733 --> 00:21:26,566
+或者是这个的下一个
+or maybe the next next to this
+
+551
+00:21:27,566 --> 00:21:28,366
+可以
+could
+
+552
+00:21:29,333 --> 00:21:29,866
+能够
+be
+
+553
+00:21:29,866 --> 00:21:32,099
+能够利用我们在V中所做的一些工作
+able to leverage some of the work we've done in v
+
+554
+00:21:32,100 --> 00:21:34,566
+的工作，这样他们就不需要重新发明轮子了
+so that they don't need to reinvent the wheels
+
+555
+00:21:35,600 --> 00:21:38,700
+这样我们就可以把重点放在差异化的功能上
+so that we can focus on the differentiating features
+
+556
+00:21:38,700 --> 00:21:39,500
+这样
+that
+
+557
+00:21:40,300 --> 00:21:41,600
+我们专注于创新
+we focus on the innovations
+
+558
+00:21:41,600 --> 00:21:42,066
+而不是
+instead
+
+559
+00:21:42,066 --> 00:21:44,333
+而不是一遍又一遍地重新发明同样的轮子
+the reinvents in the same wheels over and over again
+
+560
+00:21:45,400 --> 00:21:47,300
+所以我决定
+so I decided to
+
+561
+00:21:48,133 --> 00:21:49,166
+工作重写
+work rewrite
+
+562
+00:21:49,166 --> 00:21:51,966
+以实现这些目标
+ved completely in order to fulfill these goals
+
+563
+00:21:51,966 --> 00:21:56,166
+因此，vitu在2020年12月开始完成重写。
+so vitu was complete rewrite started in December 2020
+
+564
+00:21:57,766 --> 00:21:58,966
+其中一些主要目标是
+some of the main goals were
+
+565
+00:21:58,966 --> 00:22:01,266
+首先，我们想让构架师变得更加实用。
+first we want to go framer gagmastic
+
+566
+00:22:01,866 --> 00:22:03,766
+我们选择了一个通用的角色
+we opted for a universal role up
+
+567
+00:22:03,766 --> 00:22:05,499
+兼容的插入式API
+compatible plugging API
+
+568
+00:22:05,666 --> 00:22:07,799
+灵感来自于hamr，它是
+inspired by hamr which is
+
+569
+00:22:08,333 --> 00:22:10,966
+由杰森-米拉德作者preact创建
+created by Jason millard author preact
+
+570
+00:22:11,466 --> 00:22:14,099
+我们还采用了一个新的ssr运行时间
+we also adopted a new ssr runtime
+
+571
+00:22:14,333 --> 00:22:16,899
+它的灵感来自Stout kit和
+which was inspired by stout kit and
+
+572
+00:22:17,333 --> 00:22:18,366
+首次出现
+first appeared
+
+573
+00:22:18,733 --> 00:22:20,333
+所以Rich Harris创造了
+so rich Harris created
+
+574
+00:22:20,400 --> 00:22:23,866
+在早期的spell kit中创建了这个，然后
+created this in early spell kit and then
+
+575
+00:22:24,666 --> 00:22:27,899
+fret移植到snow pack，然后我们移植到wheat。
+fret ported to snow pack and then we ported to wheat
+
+576
+00:22:29,166 --> 00:22:30,599
+而且我们还改用了一个
+and we also switch to a
+
+577
+00:22:30,600 --> 00:22:33,900
+是的，溢出的动力依赖性预捆绑系统
+yes spilled powered dependency pre bundling system
+
+578
+00:22:34,166 --> 00:22:34,699
+这
+which
+
+579
+00:22:34,700 --> 00:22:38,200
+这使得整个依赖关系的处理快了一百倍
+made the whole dependency handling hundred times faster
+
+580
+00:22:40,333 --> 00:22:42,499
+最后在16年2月
+and finally in February 16
+
+581
+00:22:43,300 --> 00:22:44,166
+我们发布了一个V
+we shipped a v
+
+582
+00:22:44,266 --> 00:22:45,066
+到
+to
+
+583
+00:22:46,900 --> 00:22:47,933
+所以这就是
+so that was
+
+584
+00:22:48,700 --> 00:22:49,533
+左右。
+about
+
+585
+00:22:50,266 --> 00:22:52,499
+所以12月7日到2月16日
+so December 7 to February 16th
+
+586
+00:22:52,566 --> 00:22:55,166
+3个月多一点，所以我认为
+a bit over 3 months so I think
+
+587
+00:22:55,266 --> 00:22:57,566
+重写是比较快的
+the rewrite was relatively fast
+
+588
+00:22:57,566 --> 00:22:59,733
+因为我们已经学到了很多
+because we already learned a lot
+
+589
+00:22:59,733 --> 00:23:02,866
+我们修复了很多东西，现在已经达到了一个点
+we fixed a lot of things on the way to one point now
+
+590
+00:23:03,100 --> 00:23:05,600
+而且我有足够的时间来
+and I got enough time to
+
+591
+00:23:05,800 --> 00:23:08,733
+我也有足够的时间去思考如何调整事情的结构
+also think along the way of how to restructure things
+
+592
+00:23:08,733 --> 00:23:10,266
+也有更好的办法
+better to be too
+
+593
+00:23:12,066 --> 00:23:12,866
+所以在
+so after
+
+594
+00:23:13,366 --> 00:23:14,466
+vitu发布
+vitu released
+
+595
+00:23:14,733 --> 00:23:16,166
+这在技术上是
+which was technically the
+
+596
+00:23:16,366 --> 00:23:17,866
+实际的一个点哦，对了
+actual one point oh right
+
+597
+00:23:18,066 --> 00:23:19,166
+我打算将
+I plan to move
+
+598
+00:23:19,200 --> 00:23:21,400
+我打算把一些焦点移回视图上，因为
+some of the focus back to the view because
+
+599
+00:23:22,500 --> 00:23:25,133
+我把这么多的时间放在VT上，而在工作中
+I put so much timing to VT while working on
+
+600
+00:23:26,100 --> 00:23:28,100
+对一点O和二点O
+towards one point o and 2 point o
+
+601
+00:23:28,466 --> 00:23:30,333
+所以我需要把一些爱还给视图
+so I need to give some love back to view
+
+602
+00:23:30,466 --> 00:23:31,499
+所以我需要在运出后给视图一些爱。
+after its shipped
+
+603
+00:23:31,766 --> 00:23:32,799
+我还想确保
+I also want to make sure
+
+604
+00:23:32,800 --> 00:23:35,366
+即使我在两个项目之间分配时间，Ved也可能被维护。
+ved can be probably maintained even if I split time
+
+605
+00:23:35,366 --> 00:23:36,666
+也要确保Ved能够维持下去，即使我在这两个项目之间分配时间
+between the 2 projects
+
+606
+00:23:36,733 --> 00:23:40,566
+所以我知道只有在我们有一个T的情况下才有可能。
+so I knew it could only be possible if we have a t
+
+607
+00:23:40,933 --> 00:23:41,533
+所以
+so
+
+608
+00:23:41,533 --> 00:23:43,799
+我这样做了，我创建了一个讨论主题
+I did and I created a discussion thread
+
+609
+00:23:43,800 --> 00:23:46,600
+提名了几个最初的团队成员，今天
+nominated a few initial team members and today
+
+610
+00:23:46,900 --> 00:23:48,700
+今天，大部分的日常维护工作都是
+the majority of daily maintenance is
+
+611
+00:23:48,700 --> 00:23:50,333
+今天，大部分的日常维护都是由我们的团队成员完成的
+performed by our team members
+
+612
+00:23:50,933 --> 00:23:54,699
+和我们最新的3点O主要版本的团队合作
+and the team with our latest 3 point o major release
+
+613
+00:23:54,800 --> 00:23:56,666
+主要由团队努力推动
+mainly driven by team efforts
+
+614
+00:23:56,900 --> 00:23:59,533
+我想在此向团队表示感谢
+I would like to give a big shout out to the team
+
+615
+00:23:59,533 --> 00:24:01,599
+特别是Matius
+in in particular matius
+
+616
+00:24:01,600 --> 00:24:03,266
+他们一直在做一个惊人的工作
+who have been doing a phenomenal job
+
+617
+00:24:03,266 --> 00:24:04,566
+在推动V的发展
+in pushing v forward
+
+618
+00:24:05,500 --> 00:24:06,666
+我也
+I'm also
+
+619
+00:24:06,766 --> 00:24:07,966
+非常非常感谢
+very very grateful
+
+620
+00:24:07,966 --> 00:24:10,399
+我也非常感谢那些围绕着 "泄露 "而形成的令人难以置信的社区。
+to the incredible community that has formed around
+
+621
+00:24:10,400 --> 00:24:11,200
+泄露的
+leaked
+
+622
+00:24:12,000 --> 00:24:13,966
+我们看到许多框架作者
+we're seeing many frameworks authors
+
+623
+00:24:13,966 --> 00:24:15,466
+积极合作
+actively collaborating with the
+
+624
+00:24:15,466 --> 00:24:16,599
+提供反馈
+providing feedback
+
+625
+00:24:16,800 --> 00:24:18,866
+并分享关于我们如何能更好地
+and sharing ideas on how we can better
+
+626
+00:24:18,866 --> 00:24:20,699
+作为一个评论层
+serve as a commentating layer
+
+627
+00:24:21,533 --> 00:24:25,199
+看到这么多令人振奋的新方向，真是令人惊讶和鼓舞。
+truly amazing and inspiring to see so many exciting new
+
+628
+00:24:25,200 --> 00:24:28,166
+的项目正在探索的方向
+directions being explored by ved powered projects
+
+629
+00:24:28,366 --> 00:24:29,966
+我很荣幸地看到你们都在这里
+and I am honored to have you all here
+
+630
+00:24:29,966 --> 00:24:31,699
+在这个会议上分享网站
+sharing sites at this conference
+
+631
+00:24:31,700 --> 00:24:34,500
+所以我希望你们能享受其余的会谈内容
+so I hope you enjoy the rest of the talks
+
+632
+00:24:34,800 --> 00:24:35,600
+谢谢
+thank you
+

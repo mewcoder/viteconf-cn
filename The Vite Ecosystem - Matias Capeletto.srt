@@ -1,0 +1,1735 @@
+1
+00:00:02,766 --> 00:00:04,566
+欢迎来到vite系统
+welcome to the vite system
+
+2
+00:00:05,466 --> 00:00:07,333
+一个关于合作的故事
+a story about collaboration
+
+3
+00:00:08,666 --> 00:00:11,499
+我在escabaletto也被称为patak
+I'm at the escabaletto also known as patak
+
+4
+00:00:11,933 --> 00:00:13,866
+我是beatcore团队的一员
+I am part of the beatcore team
+
+5
+00:00:13,866 --> 00:00:15,333
+我在stagrits工作
+and I work at the stagrits
+
+6
+00:00:15,333 --> 00:00:17,999
+在那里我可以花时间专注于节拍。
+where I get to spend my time focusing on beat
+
+7
+00:00:19,733 --> 00:00:22,299
+我很高兴今天能参加vidconth的活动
+I am very happy to be at vidconth today
+
+8
+00:00:22,700 --> 00:00:23,966
+我们将听到
+we're going to hear
+
+9
+00:00:23,966 --> 00:00:27,166
+我们会听到很多项目的名称和概念。
+about a lot of project names and concept in this talk
+
+10
+00:00:27,333 --> 00:00:29,866
+如果你不了解这些，不要担心。
+don't worry if you don't understand them all
+
+11
+00:00:30,733 --> 00:00:33,166
+让我们试着把注意力集中在大的方面，即
+let's try to focus on the big picture of
+
+12
+00:00:33,266 --> 00:00:35,733
+成为一个生态系统的一部分意味着什么？
+what it means to be part of an ecosystem
+
+13
+00:00:35,866 --> 00:00:38,499
+以及各项目之间的关系
+and the relationship between the projects
+
+14
+00:00:39,333 --> 00:00:42,666
+在每个标志的背后都有
+also behind each of the logos there is
+
+15
+00:00:43,000 --> 00:00:45,266
+有很多人参与其中
+a lot of people involved
+
+16
+00:00:45,600 --> 00:00:47,500
+这个故事是关于他们的
+this story is about them
+
+17
+00:00:50,133 --> 00:00:52,599
+玻璃是一个孤立的发展
+vit is an develop in isolation
+
+18
+00:00:54,100 --> 00:00:55,200
+这实际上是
+this is actually part
+
+19
+00:00:55,500 --> 00:00:58,500
+我们宇宙中相互联系的社区的一部分
+of our universe of interconnected communities
+
+20
+00:00:59,200 --> 00:01:00,533
+和节拍的对话
+and the beat conversation
+
+21
+00:01:00,600 --> 00:01:02,800
+今天就是一个很好的例子
+today is a great example of that
+
+22
+00:01:03,333 --> 00:01:05,366
+你将会听到狗
+you're going to hear dogs
+
+23
+00:01:05,466 --> 00:01:07,333
+从大多数小册子的容器中
+from the containers of most of the brochure
+
+24
+00:01:07,333 --> 00:01:08,566
+我们将在这里检查
+we are going to check here
+
+25
+00:01:08,566 --> 00:01:11,933
+所以，如果你想了解更多关于他们的信息，请继续关注。
+so stay tuned if you want to learn more about them
+
+26
+00:01:14,300 --> 00:01:14,666
+的
+the
+
+27
+00:01:14,666 --> 00:01:15,299
+和
+and
+
+28
+00:01:15,300 --> 00:01:18,300
+他是什叶派的传统工具的一部分
+he's part of a tradition of shia's tools
+
+29
+00:01:18,400 --> 00:01:20,200
+在什叶派的系统中
+in the shia's system
+
+30
+00:01:21,900 --> 00:01:22,733
+webpak
+webpak
+
+31
+00:01:24,066 --> 00:01:24,766
+是下面的
+was the below
+
+32
+00:01:24,766 --> 00:01:26,599
+在那个时候，模块
+at a time where modules
+
+33
+00:01:26,600 --> 00:01:28,600
+浏览器上甚至不支持模块
+weren't even supported on the browser
+
+34
+00:01:28,866 --> 00:01:29,966
+weback Tim
+the weback Tim
+
+35
+00:01:30,333 --> 00:01:32,466
+必须要克服很多复杂的问题
+had to overcome a lot of complexity
+
+36
+00:01:32,766 --> 00:01:35,366
+他们还需要一个非常灵活的工具
+they also needed a very flexible tool
+
+37
+00:01:35,466 --> 00:01:37,799
+因为很多我们现在认为是理所当然的
+because a lot of the batters and convention
+
+38
+00:01:37,800 --> 00:01:39,566
+我们现在认为是理所当然的
+that we now give for granted
+
+39
+00:01:39,666 --> 00:01:40,866
+还没有出现
+weren't there yet
+
+40
+00:01:42,066 --> 00:01:43,366
+卷起蒂姆
+the roll up Tim
+
+41
+00:01:44,000 --> 00:01:47,100
+做出了巨大的先进的人在树上摇晃
+made huge advanced man in tree shaking
+
+42
+00:01:47,466 --> 00:01:51,766
+并开发了一个直观和灵活的API
+and also develop an intuitive and flexibleplug in API
+
+43
+00:01:52,000 --> 00:01:53,133
+来扩展它
+to extend it
+
+44
+00:01:54,600 --> 00:01:59,200
+拓展了index atml的概念。
+parcel popularize the idea of the index atml
+
+45
+00:01:59,200 --> 00:02:01,133
+作为你的应用程序的中心
+as the center of your application
+
+46
+00:02:01,366 --> 00:02:04,899
+以及故障和0配置的理念。
+and also of saint a fault and 0 config
+
+47
+00:02:05,000 --> 00:02:06,166
+在可能的情况下
+wherever possible
+
+48
+00:02:08,166 --> 00:02:09,899
+有一个新的品种
+there is a new breed
+
+49
+00:02:10,366 --> 00:02:13,166
+用消极的语言编写工具
+oftools write it in negative language
+
+50
+00:02:13,366 --> 00:02:15,599
+例如，swc
+for example swc
+
+51
+00:02:15,966 --> 00:02:18,866
+这是一个很好的替代方案。
+that is a rast alternative to a well
+
+52
+00:02:19,166 --> 00:02:20,533
+或es Bill
+or es Bill
+
+53
+00:02:20,766 --> 00:02:25,933
+一个支持骰子蠕动的Shays的捆绑器。
+a go bundler for shays that also supports dice creep
+
+54
+00:02:26,166 --> 00:02:27,899
+和沙耶性
+and shaya sex
+
+55
+00:02:28,533 --> 00:02:31,533
+这些本地工具可以达到
+these native tools achieve as speeds that
+
+56
+00:02:31,700 --> 00:02:34,100
+是不可能的。
+were impossible on chase land
+
+57
+00:02:36,500 --> 00:02:38,200
+小麦是一个新的
+wheat is part of a new
+
+58
+00:02:38,866 --> 00:02:40,333
+的一部分。
+wave of tools
+
+59
+00:02:41,066 --> 00:02:44,199
+在天鹅绒时代，唐-班杜被告知
+that during the velope man don bandu are told
+
+60
+00:02:46,766 --> 00:02:50,933
+我们使用现代浏览器中的模块支持
+we use the module support in modern browsers
+
+61
+00:02:51,133 --> 00:02:53,499
+来启动一个深度服务器
+to fire up a depth server
+
+62
+00:02:53,800 --> 00:02:57,100
+来传输模块
+that transpires modules on the fly
+
+63
+00:02:57,466 --> 00:02:59,566
+将它们提供给浏览器
+serving them to the browser
+
+64
+00:03:00,100 --> 00:03:01,866
+而且我们可以实现
+and we can achieve
+
+65
+00:03:02,300 --> 00:03:04,700
+即时反馈，因为我们可以有
+instant feedback because we can have
+
+66
+00:03:04,700 --> 00:03:07,300
+在模块层面上的模型替换
+both model replacement at the module level
+
+67
+00:03:08,166 --> 00:03:09,566
+网络深度服务器
+web depth server
+
+68
+00:03:09,800 --> 00:03:12,666
+雪园wmr
+snow park wmr
+
+69
+00:03:13,066 --> 00:03:16,166
+它们都是这些工具浪潮中的一部分
+they are all part of these wave of tools
+
+70
+00:03:16,400 --> 00:03:18,700
+而且它们彼此之间有很大的影响
+and they heavily influence each other
+
+71
+00:03:19,066 --> 00:03:21,533
+例如，wmr
+for example wmr
+
+72
+00:03:22,566 --> 00:03:25,866
+是第一个提出通用的
+the first to introduce the idea of a universal
+
+73
+00:03:26,133 --> 00:03:28,733
+像插件的API
+roll up like plugin API
+
+74
+00:03:28,933 --> 00:03:30,966
+同时适用于深入的
+that works with both in depth
+
+75
+00:03:31,066 --> 00:03:32,566
+和构建同时进行
+and build at the same time
+
+76
+00:03:32,866 --> 00:03:33,999
+后来
+that later on
+
+77
+00:03:34,733 --> 00:03:35,533
+采用
+adopted
+
+78
+00:03:38,400 --> 00:03:39,200
+维生素
+vit
+
+79
+00:03:39,466 --> 00:03:42,599
+是我们共同系统中其他工具的一个指示
+is an instruction of our other tools in the co system
+
+80
+00:03:43,800 --> 00:03:44,966
+在比尔时代
+during Bill time
+
+81
+00:03:45,066 --> 00:03:47,466
+你可以把它看成是一个有意见的
+you can think about it as an opinionated
+
+82
+00:03:47,466 --> 00:03:48,799
+为卷起的设置
+setup for roll up
+
+83
+00:03:49,566 --> 00:03:54,066
+我们尽可能地使用es Bill来加快处理速度
+we use es Bill wherever we can to speed up processing
+
+84
+00:03:54,166 --> 00:03:58,699
+例如，对CSS和shas进行最小化，或者剥离
+for example minification of CSS and shas or stripping
+
+85
+00:03:58,866 --> 00:03:59,666
+类型
+types
+
+86
+00:04:00,533 --> 00:04:02,533
+我们采取一种务实的方法
+and we take a pragmatic approach
+
+87
+00:04:02,533 --> 00:04:04,399
+我们不需要barbell
+we don't need barbell
+
+88
+00:04:05,166 --> 00:04:06,599
+在所有情况下，但
+in all cases but
+
+89
+00:04:06,866 --> 00:04:09,799
+但对于支持所有浏览器的传统插件来说
+for plugging legacy to support all the browsers
+
+90
+00:04:09,800 --> 00:04:11,300
+我们会向它伸出援手
+we'll reach out to it
+
+91
+00:04:12,333 --> 00:04:14,733
+我们也使用os CSS
+we also use os CSS
+
+92
+00:04:15,133 --> 00:04:17,166
+在内部处理CSS
+process CSS internally
+
+93
+00:04:17,166 --> 00:04:20,666
+也是为了更好地与CSS标准接轨
+and also to better align with CSS standards
+
+94
+00:04:21,733 --> 00:04:23,266
+使用Ved时
+when using ved
+
+95
+00:04:23,900 --> 00:04:27,533
+保护自己免受生态系统变化的影响
+are guarding yourself against changes in the ecosystem
+
+96
+00:04:28,133 --> 00:04:33,733
+例如，我们可以在未来将valvel改为sdc
+for example we could change valvel to sdc in the future
+
+97
+00:04:35,100 --> 00:04:37,400
+和包裹团队
+and the parcel team
+
+98
+00:04:37,933 --> 00:04:39,366
+的汽车现在发布它
+cars now release it
+
+99
+00:04:39,366 --> 00:04:40,766
+照明CSS
+lighting CSS
+
+100
+00:04:40,766 --> 00:04:44,299
+这是一个Ross流程的替代方案，而不是占有CSS
+that is a Ross process alternative to poss CSS
+
+101
+00:04:44,500 --> 00:04:48,400
+我们也可以采用它来加快CSS的处理速度
+we could also adopt it to speed up CSS processing
+
+102
+00:04:49,500 --> 00:04:53,366
+现在，我们对ES的建设非常满意
+and right now we are very happy with es build
+
+103
+00:04:53,800 --> 00:04:57,900
+但是，如果一致走向swc
+butif the consistent move towards swc
+
+104
+00:04:58,500 --> 00:05:02,700
+我们可能最终也会取代它作为内部建设
+we may end up also replacing it as building internally
+
+105
+00:05:03,500 --> 00:05:04,133
+和
+and
+
+106
+00:05:04,133 --> 00:05:05,099
+所有这些
+all of these
+
+107
+00:05:05,200 --> 00:05:08,933
+都可以在不影响用户的情况下完成
+can be done with little disruption or users
+
+108
+00:05:09,333 --> 00:05:09,966
+而且
+and
+
+109
+00:05:09,966 --> 00:05:12,466
+我不知道这是否会是
+I don't know if this is going to be
+
+110
+00:05:12,500 --> 00:05:13,800
+我们在未来会使用的
+those we will use in the future
+
+111
+00:05:13,800 --> 00:05:14,933
+但你要么
+but you either
+
+112
+00:05:15,366 --> 00:05:18,499
+因此，小麦中的那个东西实际上
+so that thing in wheat actually
+
+113
+00:05:18,866 --> 00:05:21,299
+再一次帮助你防范这些变化
+again help you guard again these changes
+
+114
+00:05:23,366 --> 00:05:26,699
+小麦对视图有很大的支持
+wheat has great support for view
+
+115
+00:05:27,400 --> 00:05:29,300
+项目预案
+project preact
+
+116
+00:05:29,766 --> 00:05:31,533
+svelt leat
+svelt leat
+
+117
+00:05:32,133 --> 00:05:35,199
+solid和其他许多UI框架
+solid and many others UI frameworks
+
+118
+00:05:35,533 --> 00:05:37,133
+实际上
+actually the
+
+119
+00:05:37,466 --> 00:05:39,733
+这些框架的团队
+teams from these frameworks
+
+120
+00:05:39,900 --> 00:05:43,266
+都参与了小麦团的开发。
+are involved in the development of wheat corps
+
+121
+00:05:43,966 --> 00:05:46,299
+而且我们有非常好的
+and we have really good
+
+122
+00:05:46,700 --> 00:05:48,800
+所有这些的健康模型替换
+health model replacement for all of them
+
+123
+00:05:50,700 --> 00:05:53,600
+这使得像 astro 这样的工具
+this allows tools like astro
+
+124
+00:05:54,100 --> 00:05:58,200
+等工具可以建立在小麦的基础上，并专注于新的功能
+to build on top of wheat and focus on new features
+
+125
+00:05:58,500 --> 00:05:59,300
+或
+or
+
+126
+00:05:59,500 --> 00:06:03,466
+探索新的架构，如小岛的架构
+explore new architecture like island's architecture
+
+127
+00:06:03,766 --> 00:06:06,533
+Astra不需要重新雇用
+Astra doesn't need to re employment
+
+128
+00:06:06,533 --> 00:06:07,066
+一切
+everything
+
+129
+00:06:07,066 --> 00:06:10,933
+的框架和维护者已经在小麦中完成的工作。
+that is already done in wheat by the frameworks and
+
+130
+00:06:10,966 --> 00:06:12,533
+小麦公司的维护者
+the maintainers of wheat corp
+
+131
+00:06:13,733 --> 00:06:16,199
+故事书的目标是一样的
+the same goal for a storybook
+
+132
+00:06:16,966 --> 00:06:17,766
+那
+that
+
+133
+00:06:17,800 --> 00:06:21,500
+想象一下，如果一个故事书必须要重新创建
+actually imagine if a storybook will have to recreate
+
+134
+00:06:21,566 --> 00:06:22,699
+所有这些
+everything that
+
+135
+00:06:22,800 --> 00:06:24,933
+这些框架所做的一切
+have been done by these frameworks
+
+136
+00:06:26,600 --> 00:06:29,966
+我们可以在一个较低的水平上分享
+and we get to share at a lower level
+
+137
+00:06:30,200 --> 00:06:34,800
+因为卷轴式贝斯插件的API非常灵活
+because the roll up bass plug in API is very flexible
+
+138
+00:06:34,966 --> 00:06:37,199
+因此，我们可以有比如说
+so we can have for example
+
+139
+00:06:37,566 --> 00:06:39,099
+与plagium PW a
+with plagium PW a
+
+140
+00:06:39,733 --> 00:06:45,499
+来抽象出我们框架中对PW a的支持
+to abstract the support for PW a in our frameworks
+
+141
+00:06:45,666 --> 00:06:46,466
+或者
+or
+
+142
+00:06:47,333 --> 00:06:50,999
+我的插件，以增加党镇的速度
+I plug in to add party town to a speed up
+
+143
+00:06:51,366 --> 00:06:52,799
+sur party discretes
+sur party discretes
+
+144
+00:06:53,400 --> 00:06:54,200
+或
+or
+
+145
+00:06:54,500 --> 00:06:56,466
+我插入了uno CSS
+I plug in for uno CSS
+
+146
+00:06:59,600 --> 00:07:04,766
+在SSR框架中也有很多的创新
+and there is also a lot of innovation in ssr frameworks
+
+147
+00:07:05,333 --> 00:07:06,399
+在视图方面
+on the view side
+
+148
+00:07:06,933 --> 00:07:09,333
+我们有knacks，在其
+we have knacks that in its
+
+149
+00:07:09,766 --> 00:07:13,066
+sard版本中采用了weed的错误。
+sard version has adopted weed by the fault
+
+150
+00:07:13,366 --> 00:07:16,699
+但这真的很有趣，因为他们
+but it was really interesting because they
+
+151
+00:07:17,000 --> 00:07:19,333
+实际上是在一个障碍物中创建
+actually create in an obstruction
+
+152
+00:07:19,366 --> 00:07:22,399
+让用户选择网络公园或小麦
+that lets user choose web park or wheat
+
+153
+00:07:22,700 --> 00:07:24,200
+而在这个过程中
+and in the process
+
+154
+00:07:24,333 --> 00:07:26,333
+他们创建了一套库
+they created a set of libraries
+
+155
+00:07:26,333 --> 00:07:28,699
+在这个过程中，他们创建了一套库，在安凯的保护伞下
+under the anchaeus umbrella
+
+156
+00:07:29,066 --> 00:07:32,699
+其他人后来也可以用它来实现同样的目的
+that others can later use to achieve the same
+
+157
+00:07:34,166 --> 00:07:34,766
+嘿
+hey
+
+158
+00:07:34,766 --> 00:07:35,899
+在反应方面
+on the react side
+
+159
+00:07:36,166 --> 00:07:37,733
+我们有idroshan
+we have idroshan
+
+160
+00:07:37,800 --> 00:07:40,133
+这是一个框架，由shopify开发
+that is a frame or developed by shopify
+
+161
+00:07:40,700 --> 00:07:41,900
+为电子商务开发的
+for e commerce
+
+162
+00:07:42,100 --> 00:07:46,133
+他们正在与反应团队合作，以确保
+and they are working with the react team to ensure
+
+163
+00:07:46,166 --> 00:07:49,299
+他们正在与反应团队合作，以确保反应组件在Vit上正常工作。
+that reacts are components work properly on vit
+
+164
+00:07:50,566 --> 00:07:53,466
+在这个焊缝方面，他们正在研究它的velkit
+on this weld side they are working on its velkit
+
+165
+00:07:53,866 --> 00:07:54,399
+和
+and
+
+166
+00:07:54,400 --> 00:07:57,800
+因为velkit是相当重要的，因为ssr
+as velkit is quite important because the ssr
+
+167
+00:07:57,966 --> 00:08:00,999
+基元，我们现在都在享受这些基元
+primitives that we all enjoy right now
+
+168
+00:08:01,466 --> 00:08:02,099
+是
+were
+
+169
+00:08:02,100 --> 00:08:04,366
+的一部分而开发的。
+originally developed as part of
+
+170
+00:08:04,366 --> 00:08:07,166
+的一部分，当时它正在使用snowback
+as veldkit when it was using snowback
+
+171
+00:08:08,066 --> 00:08:08,699
+和
+and
+
+172
+00:08:08,700 --> 00:08:11,266
+在固体方面，我们有固体开始
+on the solid side we have solid start
+
+173
+00:08:11,766 --> 00:08:12,566
+和
+and
+
+174
+00:08:12,566 --> 00:08:16,699
+还有许多小麦压榨机是一个静态尺寸发生器
+so many more wheat press is a static size generator
+
+175
+00:08:16,866 --> 00:08:18,566
+基于view和wheat
+based on view and wheat
+
+176
+00:08:18,566 --> 00:08:20,733
+的静态尺寸发生器，我们在生态系统的很多文件中使用
+that we use in a lot of documentations
+
+177
+00:08:20,733 --> 00:08:21,899
+生态系统中
+in the ecosystem
+
+178
+00:08:22,366 --> 00:08:24,599
+快速团队的快速城市
+quick city from the quick team
+
+179
+00:08:25,066 --> 00:08:28,399
+一个类似的东西，它是一个Angular amp的小麦
+an analog that is an angular amp wheat
+
+180
+00:08:29,100 --> 00:08:29,933
+框架
+framework
+
+181
+00:08:30,566 --> 00:08:31,899
+我们说的小行星
+asteroid we say
+
+182
+00:08:32,166 --> 00:08:34,099
+和更多的岛屿
+and many more isles
+
+183
+00:08:34,400 --> 00:08:38,333
+将X分类，并将其与塞满的SR拉卡分类。
+classify the x with pluginess SR rakas
+
+184
+00:08:38,333 --> 00:08:39,133
+和
+and
+
+185
+00:08:39,300 --> 00:08:42,066
+维生素从图片中消失
+vit disappears from the picture
+
+186
+00:08:43,300 --> 00:08:45,700
+大量的用户将
+a lot of users are going
+
+187
+00:08:45,700 --> 00:08:48,000
+通过一个框架来体验维生素
+to experience vit through a framework
+
+188
+00:08:48,866 --> 00:08:49,766
+事实上，大多数人都是如此
+most of them actually
+
+189
+00:08:50,900 --> 00:08:53,066
+但所有这些框架
+but all these frameworks
+
+190
+00:08:53,500 --> 00:08:56,000
+一起合作
+get to collaborate together
+
+191
+00:08:56,300 --> 00:08:58,766
+来改善衬衫工具
+into improving the shirt tool
+
+192
+00:08:59,166 --> 00:09:02,099
+因此，这是一个非0变焦的游戏
+so this is a non 0 zoom game
+
+193
+00:09:02,800 --> 00:09:05,300
+每个人都能得到一个更好的工具
+everybody gets a better tool
+
+194
+00:09:08,266 --> 00:09:12,599
+我们还举行了一个关于测试的素食者协议
+we also held a vegan pact on testing
+
+195
+00:09:13,300 --> 00:09:15,500
+剧作家和赛普拉斯
+playwright and Cypress
+
+196
+00:09:15,900 --> 00:09:17,700
+卡斯采用了小麦
+Cass adopted wheat
+
+197
+00:09:18,000 --> 00:09:21,300
+为他们的组件测试的新功能
+for their new features of component testing
+
+198
+00:09:22,066 --> 00:09:27,533
+在测试方面，它是一个原生的、替代胸部的工具。
+on the test is a native with alternative to chest
+
+199
+00:09:28,400 --> 00:09:32,166
+它实际上是为自己的生态系统服务的。
+and it actually does serve an ecosystem talk of its own
+
+200
+00:09:32,466 --> 00:09:35,366
+它已经看到了大量的采用
+it's seen a huge amount of adoption
+
+201
+00:09:35,366 --> 00:09:37,666
+它已经被大量采用，并可能成为推动脚踏实地的主要动力之一。
+and is going to be probably one of the main
+
+202
+00:09:37,666 --> 00:09:40,199
+它已被大量采用，并可能成为推动脚步前进的主要动力之一。
+drivers of adoption of feet moving forward
+
+203
+00:09:40,766 --> 00:09:43,166
+你也可以用它来测试节点
+you can use it also to test node
+
+204
+00:09:43,300 --> 00:09:44,933
+例如，Remix
+and for example the remix
+
+205
+00:09:45,666 --> 00:09:47,999
+正在使用wheatas和他们的启动器
+are using wheatas and their starters
+
+206
+00:09:48,000 --> 00:09:49,566
+但他们并没有使用小麦
+but they are not using wheat
+
+207
+00:09:51,366 --> 00:09:52,166
+和
+and
+
+208
+00:09:52,333 --> 00:09:55,066
+测试可以享受到
+the test get to enjoy the
+
+209
+00:09:55,666 --> 00:10:00,566
+快速的热模型替换，用于你的单元测试
+fast hot model replacement on feed for your unit tests
+
+210
+00:10:00,966 --> 00:10:03,133
+所以你可以得到这种即时反馈
+so you get this instant feedback
+
+211
+00:10:03,200 --> 00:10:05,000
+我们现在在开发时就有这样的反馈
+that we have while developing now
+
+212
+00:10:05,200 --> 00:10:07,133
+当你检查你的测试时
+while you check your tests
+
+213
+00:10:09,933 --> 00:10:10,533
+和
+and
+
+214
+00:10:10,533 --> 00:10:14,933
+我们正处于一个新的Shayes环境时代的到来。
+we are in the down of a new era of shayes environments
+
+215
+00:10:15,300 --> 00:10:18,066
+没有Shayes不再是孤独的了
+no shayes is no longer alone
+
+216
+00:10:18,566 --> 00:10:21,133
+你有其他的环境，比如他们知道
+you have other environments like they know
+
+217
+00:10:21,766 --> 00:10:22,699
+或禁止
+or a ban
+
+218
+00:10:23,333 --> 00:10:24,133
+和
+and
+
+219
+00:10:24,300 --> 00:10:27,500
+网络容器从一个小堆栈，导致你运行
+webcontainers from a stacklet that led you ran
+
+220
+00:10:27,733 --> 00:10:29,799
+在浏览器中没有shayes
+no shayes in the browser
+
+221
+00:10:31,500 --> 00:10:34,500
+四叶草工人和其他边缘网络
+Clover workers and other edge networks
+
+222
+00:10:35,466 --> 00:10:35,999
+和
+and
+
+223
+00:10:36,000 --> 00:10:38,533
+所有这些环境都非常关心
+all of this environment care a lot
+
+224
+00:10:38,800 --> 00:10:40,700
+关于适当的维生素支持
+about proper vit support
+
+225
+00:10:41,000 --> 00:10:42,066
+因为它的影响力
+because of the reach
+
+226
+00:10:42,066 --> 00:10:44,199
+我们之前看到的一个框架系统
+a system of framework that we saw before
+
+227
+00:10:44,933 --> 00:10:47,733
+如果他们得到了vitworking的支持
+if they get vitworking on them
+
+228
+00:10:48,000 --> 00:10:50,533
+他们就会有很多的用户
+they are going to get a lot of users
+
+229
+00:10:50,866 --> 00:10:52,766
+所以有很多的合作
+so there is a lot of collaboration
+
+230
+00:10:53,133 --> 00:10:54,699
+所以在小麦和这些
+between wheat and these
+
+231
+00:10:55,200 --> 00:10:57,300
+环境和这些团队之间的合作
+environments and these teams
+
+232
+00:11:00,466 --> 00:11:03,999
+我们还需要部署我们的应用程序
+we also need to deploy our applications
+
+233
+00:11:04,133 --> 00:11:08,366
+为此，我们需要服务有
+and for that we need the services to have
+
+234
+00:11:08,566 --> 00:11:10,899
+对我们所建工具的开箱即用的支持
+out of the box support for our built tools
+
+235
+00:11:10,900 --> 00:11:13,800
+我们已经看到了这一点。
+and we are seeing this already with vit
+
+236
+00:11:14,166 --> 00:11:15,999
+netly 5 versail
+netly 5 versail
+
+237
+00:11:16,100 --> 00:11:18,100
+Clover workers firebase
+Clover workers firebase
+
+238
+00:11:18,466 --> 00:11:21,533
+可能会简化它，然后是其他一个
+probably simplify it then one others
+
+239
+00:11:21,900 --> 00:11:23,733
+我们非常关心为小麦提供一个好的
+care a lot about giving a good
+
+240
+00:11:23,866 --> 00:11:25,399
+小麦的用户故事
+user story for wheat
+
+241
+00:11:25,900 --> 00:11:30,500
+例如，nellify已经创建了一个插件。
+for example nellify has created a plugin with plug in
+
+242
+00:11:30,866 --> 00:11:33,366
+所以框架可以
+so frameworks can
+
+243
+00:11:33,600 --> 00:11:37,333
+以更简单的方式使用他们的边缘网络
+use their edge network in an easier way
+
+244
+00:11:41,066 --> 00:11:44,799
+小麦也被视为大量采用
+wheat is also seen a lot of adoption
+
+245
+00:11:45,066 --> 00:11:47,266
+伞状框架上
+on the umbakand frameworks
+
+246
+00:11:48,500 --> 00:11:50,333
+小麦的先锋Ruvi
+pioneer by wheat ruvi
+
+247
+00:11:51,000 --> 00:11:54,066
+显示，你可以使用vid来获得
+thatshow that you can use vid to get
+
+248
+00:11:54,266 --> 00:11:57,499
+即时反馈，同时开发骑行请求
+instant feedback while developing ride supplications
+
+249
+00:11:58,000 --> 00:12:01,733
+这为laravel的发展铺平了道路
+this pave the way for laravel
+
+250
+00:12:01,800 --> 00:12:04,400
+现在采用vid作为他们的默认版本
+now adopted vid as their default
+
+251
+00:12:04,566 --> 00:12:06,766
+这对Vita来说是一个巨大的选择
+this is huge for vita option
+
+252
+00:12:11,266 --> 00:12:14,533
+让我们来关注一下其中的一个子生态系统
+let's focus on one of the sub ecosystems
+
+253
+00:12:14,800 --> 00:12:16,366
+故事的生态系统
+the story's ecosystem
+
+254
+00:12:17,400 --> 00:12:20,800
+在这里，我们必须要对故事书给予很大的肯定
+we have to give a lot of credit to a storybook here
+
+255
+00:12:21,100 --> 00:12:24,933
+因为他们为故事创造了一个开放的标准
+because they created an open standard for stories that
+
+256
+00:12:25,200 --> 00:12:27,000
+它正在受益于
+it's benefiting
+
+257
+00:12:27,000 --> 00:12:28,400
+像这个生态系统
+like this ecosystem
+
+258
+00:12:29,600 --> 00:12:33,800
+小麦降低了创建一个新故事的门槛，就像
+wheat lower the barrier for creating a new story like
+
+259
+00:12:34,000 --> 00:12:35,866
+一个故事书，如弗兰克的作品
+a storybook like frank work
+
+260
+00:12:35,866 --> 00:12:40,366
+所以我们看到了像《维塔沃克的故事》这样的弗兰克作品。
+so we are seeing franks like is histoire vitwook laddle
+
+261
+00:12:40,766 --> 00:12:41,366
+和
+and
+
+262
+00:12:41,366 --> 00:12:43,933
+他们都可以尝试新的想法
+they all get to try new ideas
+
+263
+00:12:45,166 --> 00:12:46,733
+我们还看到
+we are also seeing
+
+264
+00:12:47,000 --> 00:12:51,733
+previewshayes和volar是vs代码的扩展。
+previewshayes and volar that are vs code extensions
+
+265
+00:12:52,066 --> 00:12:54,666
+但他们在内部使用小麦
+but they use wheat internally
+
+266
+00:12:54,700 --> 00:12:57,866
+来实时预览你所开发的组件
+to preview components in real time what you develop
+
+267
+00:12:58,000 --> 00:13:00,100
+有点像线上故事
+kind of like in line stories
+
+268
+00:13:00,733 --> 00:13:01,366
+和
+and
+
+269
+00:13:01,366 --> 00:13:03,366
+也是为什么框架
+also why frame
+
+270
+00:13:03,533 --> 00:13:04,566
+这给了
+that gives
+
+271
+00:13:05,300 --> 00:13:08,100
+原始的村民自己的故事书
+primitive to vill your own storybook
+
+272
+00:13:08,666 --> 00:13:09,366
+和
+and
+
+273
+00:13:09,366 --> 00:13:12,166
+这对故事书本身有很大的好处
+this has a lot of benefits for a storybook itself
+
+274
+00:13:12,400 --> 00:13:14,800
+因为一个故事书可以看到它
+because a storybook gets to see it
+
+275
+00:13:15,066 --> 00:13:17,999
+别人在做什么，什么是不可行的，而且
+what others are doing and what works are not and
+
+276
+00:13:18,300 --> 00:13:19,800
+他们以后可以采用你
+they can later adopt you
+
+277
+00:13:20,366 --> 00:13:23,166
+故事书现在也在大量使用视频。
+storybook is also using vid a lot now
+
+278
+00:13:27,666 --> 00:13:31,966
+Anvit也有违反其他社区的情况
+anvit also has breaches to other communities that
+
+279
+00:13:32,266 --> 00:13:34,599
+不是直接下游的
+are not directly downstream
+
+280
+00:13:34,600 --> 00:13:36,933
+下游或上游项目
+downstream or upstream projects
+
+281
+00:13:37,266 --> 00:13:40,766
+例如，bmpm有大量的使用。
+for example there is a lot of usage of bmpm
+
+282
+00:13:40,766 --> 00:13:43,099
+和相关项目的使用。
+on with related projects
+
+283
+00:13:43,366 --> 00:13:44,166
+和
+and
+
+284
+00:13:45,000 --> 00:13:49,466
+在bmpm的价值方面有很多的一致性
+there is a lot of alignment in the values of bmpm
+
+285
+00:13:49,466 --> 00:13:51,966
+比如说pmpm是一个非常
+like is a pmpm is a very
+
+286
+00:13:52,166 --> 00:13:54,299
+是一个非常快速和有效的公园灰烬管理器
+fast and efficient park ash manager
+
+287
+00:13:56,300 --> 00:13:57,100
+还有
+also
+
+288
+00:13:57,100 --> 00:13:58,500
+故事是
+story is
+
+289
+00:13:58,533 --> 00:14:00,099
+它可以让你创建
+that lets you create
+
+290
+00:14:00,933 --> 00:14:02,666
+停止应用程序
+the stop applications
+
+291
+00:14:03,133 --> 00:14:06,333
+形成不同的模具，高效安全
+that are various mold and efficient and secure
+
+292
+00:14:06,700 --> 00:14:08,933
+他们内部也在使用小麦
+they are also using wheat internally
+
+293
+00:14:09,700 --> 00:14:12,333
+所以与他们合作是有意义的
+so it makes sense to collaborate with them
+
+294
+00:14:13,733 --> 00:14:17,133
+为游乐场的功能提供了雏形
+staglets for the playground feature
+
+295
+00:14:17,266 --> 00:14:20,333
+他们需要他们的应用程序立即启动
+they need their applications to start right away
+
+296
+00:14:20,533 --> 00:14:22,866
+而v深度服务器的按需使用特性
+and the on demand nature
+
+297
+00:14:23,100 --> 00:14:26,733
+v深度服务器对这种使用情况来说是非常好的。
+of the v depth server is amazing for that use case
+
+298
+00:14:26,866 --> 00:14:28,299
+因为你可以在
+because you get in
+
+299
+00:14:28,866 --> 00:14:29,899
+在一瞬间
+in a split second
+
+300
+00:14:30,266 --> 00:14:31,799
+一个游乐场工作
+a playground working
+
+301
+00:14:32,066 --> 00:14:35,999
+所以我们已经看到很多人采用了 "契约"。
+so we have seen a lot of adoption of deed
+
+302
+00:14:36,200 --> 00:14:38,666
+例如，在文件中尝试
+for example in documenttemptation
+
+303
+00:14:38,866 --> 00:14:40,666
+游乐场和例子
+playgrounds and examples
+
+304
+00:14:40,933 --> 00:14:42,499
+权力，作者：ESTAGLITZ
+power by estaglitz
+
+305
+00:14:42,500 --> 00:14:45,200
+所以你可以在你的浏览器中打开它们
+so you can open them in your browser
+
+306
+00:14:49,466 --> 00:14:50,966
+再如维生素
+again vit
+
+307
+00:14:51,333 --> 00:14:52,966
+是一种发展中的绝缘体
+is a developing insulation
+
+308
+00:14:54,266 --> 00:14:55,699
+坑是一个
+pit is part of a
+
+309
+00:14:56,100 --> 00:15:01,533
+巨大的工具和框架的生态系统的一部分。
+huge ecosystem of tools and frameworks and plaguines
+
+310
+00:15:01,666 --> 00:15:04,666
+所有这些项目一起工作
+and all these projects work together
+
+311
+00:15:05,400 --> 00:15:09,500
+协作并分享想法和模式
+to collaborate and share ideas and patterns
+
+312
+00:15:09,866 --> 00:15:13,399
+我们实际上还没有触及到这个生态系统的表面
+we actually didn't scratch the surface of
+
+313
+00:15:13,666 --> 00:15:16,566
+这个生态系统的范围有多大
+how reach all this ecosystem is
+
+314
+00:15:17,200 --> 00:15:18,000
+而且
+and
+
+315
+00:15:18,866 --> 00:15:22,599
+这又是关于人与人之间的合作
+again this is about people people working together
+
+316
+00:15:22,900 --> 00:15:24,000
+互相帮助
+helping each other
+
+317
+00:15:24,933 --> 00:15:28,166
+而这是很难复制的
+and this is really difficult to replicate
+
+318
+00:15:28,200 --> 00:15:29,400
+一个生态系统
+an ecosystem
+
+319
+00:15:29,900 --> 00:15:34,100
+是一个开源项目的最佳资产之一
+is one of the best assets of an open source project
+
+320
+00:15:37,366 --> 00:15:38,166
+所以
+so
+
+321
+00:15:40,300 --> 00:15:41,100
+同样
+again
+
+322
+00:15:41,666 --> 00:15:42,466
+这个
+this
+
+323
+00:15:44,266 --> 00:15:45,699
+阶段
+stage of wheatcomp
+
+324
+00:15:46,366 --> 00:15:49,499
+的这个阶段对我们来说真的很重要，在这个时候
+is really important for us at this moment
+
+325
+00:15:49,866 --> 00:15:51,299
+我们一直在一起工作
+we have worked together
+
+326
+00:15:51,766 --> 00:15:56,199
+在这段时间里，我非常希望看到
+during all this time and I am eager to see
+
+327
+00:15:56,666 --> 00:16:00,733
+所有的维护者展示他们是如何使用小麦的
+all the maintainers show how they are using wheat
+
+328
+00:16:01,066 --> 00:16:03,966
+以及他们带来了哪些新的想法
+and what new ideas they bring to the table
+
+329
+00:16:04,366 --> 00:16:07,333
+我希望我们能继续合作
+and I hope we can continue to collaborate
+
+330
+00:16:07,533 --> 00:16:08,333
+和
+and
+
+331
+00:16:08,533 --> 00:16:09,333
+分享
+share
+
+332
+00:16:09,966 --> 00:16:12,599
+模式、想法和代码
+patterns and ideas and code
+
+333
+00:16:12,666 --> 00:16:15,366
+并创造一些
+and create something that is bigger
+
+334
+00:16:15,566 --> 00:16:17,333
+比我们每个人的项目都要大。
+than each of our projects
+
+335
+00:16:21,933 --> 00:16:26,333
+我想感谢我们的团队和贡献者们
+I want to thanks a lot the with team and contributors
+
+336
+00:16:26,766 --> 00:16:30,899
+还有Lagins、框架和工具的维护者们
+also the maintainers of lagins and frameworks and tools
+
+337
+00:16:31,133 --> 00:16:34,999
+不断互相帮助的社区
+the communities that are helping each other constantly
+
+338
+00:16:35,600 --> 00:16:36,400
+以及
+and
+
+339
+00:16:36,566 --> 00:16:39,199
+还有vitcom的演讲者和合作者
+also the vitcom speakers and collaborators
+
+340
+00:16:39,200 --> 00:16:42,400
+我知道他们在所有的演讲中付出了多少努力
+I know how much effort they put in all the talks
+
+341
+00:16:42,933 --> 00:16:43,733
+和
+and
+
+342
+00:16:44,100 --> 00:16:45,266
+交错的团队
+the staggered team
+
+343
+00:16:45,266 --> 00:16:48,166
+和社区合作伙伴，使之成为可能
+and community partner for making become possible
+
+344
+00:16:48,166 --> 00:16:51,266
+这真的是一个梦想成真
+this is really a dream come true
+
+345
+00:16:51,700 --> 00:16:54,266
+祝你在接下来的会议中愉快
+and enjoy a lot the rest of the conference
+
+346
+00:16:54,533 --> 00:16:55,799
+我们将在论坛上见
+and see you in discord
+
+347
+00:16:55,800 --> 00:16:58,100
+我们将在那里讨论所有的会谈。
+and we are going to discuss all the talks there
+

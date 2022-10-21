@@ -1,0 +1,2190 @@
+1
+00:00:06,333 --> 00:00:07,133
+你好
+hello
+
+2
+00:00:07,333 --> 00:00:08,199
+我的名字是Logimer
+my name is logimer
+
+3
+00:00:08,200 --> 00:00:08,866
+我是一名前端开发
+I'm a front
+
+4
+00:00:08,866 --> 00:00:11,699
+我是一名前端开发员，目前我在一个峰会上工作。
+end developer and currently I'm working for a summit
+
+5
+00:00:12,100 --> 00:00:14,700
+zamat是一个开源的服务台票务软件
+zamat is an open source help desk ticketing software
+
+6
+00:00:14,700 --> 00:00:17,133
+我们对我们的开源理念感到自豪
+we are proud of our open source philosophy
+
+7
+00:00:17,166 --> 00:00:19,899
+所以每个人都可以在自己的服务器上运行zama
+so everyone can run zama on their own servers
+
+8
+00:00:19,933 --> 00:00:22,266
+为此，我们有一个不断增长的社区
+and to that we have a constantly growing community
+
+9
+00:00:23,000 --> 00:00:25,500
+我也是1
+I am also 1/4 team member in v test
+
+10
+00:00:26,066 --> 00:00:28,133
+null
+test ranul that we also use in zamat
+
+11
+00:00:28,333 --> 00:00:30,166
+null
+and today I'm going to talk about
+
+12
+00:00:30,166 --> 00:00:33,099
+null
+how wheatest improves your developer experience
+
+13
+00:00:34,600 --> 00:00:35,266
+null
+wheatest
+
+14
+00:00:35,266 --> 00:00:38,366
+null
+was originally developed as an alternative to just
+
+15
+00:00:38,366 --> 00:00:39,866
+null
+for wheat applications
+
+16
+00:00:39,966 --> 00:00:41,733
+null
+because just didn't didn't
+
+17
+00:00:41,933 --> 00:00:44,699
+null
+have support for synchrons transforms
+
+18
+00:00:44,733 --> 00:00:46,266
+null
+and many of wheat's API
+
+19
+00:00:46,933 --> 00:00:48,999
+null
+let's build a top of wheat note package
+
+20
+00:00:49,000 --> 00:00:52,400
+null
+which is an ogs run time that use a sweet
+
+21
+00:00:52,866 --> 00:00:55,266
+null
+to transform files before running it
+
+22
+00:00:55,866 --> 00:00:57,899
+null
+but right now the test is
+
+23
+00:00:58,566 --> 00:01:00,199
+null
+fully flash test runner
+
+24
+00:01:00,333 --> 00:01:04,999
+null
+like I adjust our top mocha or any other test runner
+
+25
+00:01:05,466 --> 00:01:06,533
+null
+tries to be feature each
+
+26
+00:01:06,533 --> 00:01:08,733
+null
+without unnecessary configuration
+
+27
+00:01:09,000 --> 00:01:10,333
+null
+it provides esm
+
+28
+00:01:10,333 --> 00:01:13,599
+null
+typescript and gsx support out of the box
+
+29
+00:01:14,266 --> 00:01:16,066
+null
+thanks to vid pure
+
+30
+00:01:16,066 --> 00:01:17,799
+null
+some of the widest features
+
+31
+00:01:17,933 --> 00:01:21,133
+null
+wid test uses vit configuration file
+
+32
+00:01:21,366 --> 00:01:24,266
+null
+including transformers resolvers and plugins
+
+33
+00:01:24,300 --> 00:01:29,533
+null
+so you have the same cod in development production and
+
+34
+00:01:29,866 --> 00:01:33,533
+null
+in testing vitas has smart an instant watch mode
+
+35
+00:01:33,666 --> 00:01:35,533
+null
+in fact it's so so fast
+
+36
+00:01:35,600 --> 00:01:36,533
+null
+that we had to add
+
+37
+00:01:36,533 --> 00:01:38,733
+null
+an artificial delay before displaying result
+
+38
+00:01:38,733 --> 00:01:39,599
+null
+in a terminal
+
+39
+00:01:39,866 --> 00:01:42,966
+null
+it uses sweets module graph to detect imports
+
+40
+00:01:42,966 --> 00:01:44,933
+null
+which makes experience similar
+
+41
+00:01:45,100 --> 00:01:47,466
+null
+to each Mar in your browser
+
+42
+00:01:47,866 --> 00:01:49,066
+null
+you can run v test
+
+43
+00:01:49,133 --> 00:01:52,399
+null
+to test your components using your favorite framework
+
+44
+00:01:52,500 --> 00:01:54,733
+null
+like a view react spelt
+
+45
+00:01:55,000 --> 00:01:55,800
+null
+many more
+
+46
+00:01:56,166 --> 00:01:59,466
+null
+if your framework supports VT it supports v test
+
+47
+00:01:59,466 --> 00:02:02,199
+null
+vitas comes with the Chi built in for assertions
+
+48
+00:02:02,200 --> 00:02:04,133
+null
+it means you can use its assert
+
+49
+00:02:04,166 --> 00:02:07,466
+null
+should or expect apivs with v test
+
+50
+00:02:07,800 --> 00:02:09,933
+null
+but for these immigration we also provide
+
+51
+00:02:10,100 --> 00:02:12,466
+null
+just expect compatible API
+
+52
+00:02:12,466 --> 00:02:15,966
+null
+like to be too equal to much and so on
+
+53
+00:02:16,733 --> 00:02:18,866
+null
+smoke domain piv test provides GS
+
+54
+00:02:18,866 --> 00:02:19,766
+null
+dom and happy dome
+
+55
+00:02:19,766 --> 00:02:22,133
+内置的环境，你也可以扩展
+built in environments that you can also extend
+
+56
+00:02:22,133 --> 00:02:25,533
+为caverage v test提供了一个报告。
+for caverage v test provides a reporting with
+
+57
+00:02:25,966 --> 00:02:27,799
+和伊斯坦布尔的开箱即用的报告
+ch and Istanbul out of the box
+
+58
+00:02:27,800 --> 00:02:30,766
+此外，v测试还具有独特的前台和
+also v test has a unique among front and
+
+59
+00:02:30,866 --> 00:02:32,166
+测试运行器的功能
+test runners feature
+
+60
+00:02:32,366 --> 00:02:34,133
+叫做insores测试
+called insores testing
+
+61
+00:02:34,333 --> 00:02:37,799
+它的灵感来自于Rust的模块测试
+which was inspired by rust's module testing
+
+62
+00:02:38,000 --> 00:02:40,733
+我们还提供了实验性的基准和功能
+and we also provide experimental benchmark and feature
+
+63
+00:02:40,733 --> 00:02:41,866
+的功能。
+via a
+
+64
+00:02:41,933 --> 00:02:43,466
+小板凳包
+tiny bench package
+
+65
+00:02:44,466 --> 00:02:45,266
+所以现在
+so now
+
+66
+00:02:45,733 --> 00:02:49,466
+当你知道什么是机智主义的时候，让我们来看看它的实际应用吧
+when you know what witist is let's see it in action
+
+67
+00:02:50,366 --> 00:02:52,766
+这里我们有一个视图3组件
+here we have a view 3 component
+
+68
+00:02:52,766 --> 00:02:54,466
+使用scrape设置语法
+using scrape setup syntax
+
+69
+00:02:54,800 --> 00:02:55,733
+你可以在这里看到
+as you can see here
+
+70
+00:02:55,933 --> 00:02:59,333
+用一个简单的测试来租借它并检查一些
+with a simple test that renters it and checks some
+
+71
+00:02:59,933 --> 00:03:02,866
+输出，我们可以在快照中看到这个组件
+output this component as we can see in a snapshot
+
+72
+00:03:02,866 --> 00:03:07,333
+有一个div和一个按钮，可以增加它的乘数
+has a div and a button that increases its multiplier
+
+73
+00:03:08,333 --> 00:03:10,333
+这个快照是由vidis生成的
+this snapshot is generated by vidis
+
+74
+00:03:10,333 --> 00:03:12,666
+正如你在这里看到的第一行
+as you can see here in the first line
+
+75
+00:03:12,900 --> 00:03:16,300
+快照功能等同于喷气式快照
+the snapshot feature is equal to jet snapshot
+
+76
+00:03:16,300 --> 00:03:19,766
+所以，如果你是从刚开始的时候迁移过来的，你应该不会有问题。
+so if you are migrating from just you should be fine
+
+77
+00:03:20,200 --> 00:03:21,466
+所以让我们来运行这个
+so let's run this
+
+78
+00:03:23,700 --> 00:03:25,300
+我在运行它时使用了
+I'm running it with
+
+79
+00:03:26,100 --> 00:03:28,266
+UI标志，所以你可以看到如果你的
+UI flag so as you can see if your
+
+80
+00:03:28,266 --> 00:03:30,133
+测试是否提供了漂亮的UI
+test provides your beautiful UI
+
+81
+00:03:30,133 --> 00:03:31,566
+来查看和互动
+to view and interact
+
+82
+00:03:31,600 --> 00:03:32,866
+与你的测试互动
+with your tests
+
+83
+00:03:33,166 --> 00:03:34,766
+正如你所看到的，它并没有
+and as you can see it doesn't
+
+84
+00:03:34,800 --> 00:03:36,500
+显示你的渲染组件
+show you rendered component
+
+85
+00:03:37,066 --> 00:03:38,566
+我们在这里可以看到
+which we can see here
+
+86
+00:03:38,933 --> 00:03:44,199
+因为这个用户界面不是用来做这个的，但是我们有
+because this UI is not meant for this but we have
+
+87
+00:03:45,666 --> 00:03:47,999
+一个叫做vitas浏览器的包
+a package called vitas browser
+
+88
+00:03:48,366 --> 00:03:51,333
+的软件包，可以查看它
+that enables viewing it
+
+89
+00:03:51,466 --> 00:03:54,199
+但它还处于实验阶段，而且
+but it's in an experimental stage and
+
+90
+00:03:54,366 --> 00:03:57,066
+我没有设法让它在这里工作
+I didn't manage to make it work for this
+
+91
+00:03:57,066 --> 00:03:58,366
+遗憾的是
+damn unfortunately
+
+92
+00:03:59,733 --> 00:04:02,566
+但当你看到这个的时候，它可能会
+but by the time you're watching this it will probably
+
+93
+00:04:03,066 --> 00:04:03,866
+工作
+work
+
+94
+00:04:05,166 --> 00:04:05,966
+这个
+this
+
+95
+00:04:07,600 --> 00:04:10,866
+你我为你提供这种方式
+you I provide you with that way
+
+96
+00:04:10,866 --> 00:04:11,666
+来
+to
+
+97
+00:04:12,166 --> 00:04:13,766
+看到一个报告，所以如果这个是
+see a report so if this is
+
+98
+00:04:13,766 --> 00:04:15,999
+如果这有一个错误，你会在这里看到一个错误。
+if this had an error you would see an error here
+
+99
+00:04:16,333 --> 00:04:20,399
+这个用户界面还允许你过滤你的测试
+this UI also allows you to filter your tests
+
+100
+00:04:20,533 --> 00:04:21,333
+以
+to
+
+101
+00:04:22,533 --> 00:04:23,466
+只运行
+run only
+
+102
+00:04:24,400 --> 00:04:27,100
+过滤测试，以过滤
+filter tests to filter
+
+103
+00:04:27,533 --> 00:04:28,299
+本地测试
+local tests
+
+104
+00:04:28,300 --> 00:04:31,333
+你也可以穿上像这样的测试只有一个这样的
+you can also wear like this test only has one so
+
+105
+00:04:31,566 --> 00:04:33,099
+和哪个
+and which
+
+106
+00:04:33,166 --> 00:04:35,999
+我最喜欢的一个功能是模块图
+a feature that I like the most is module graph
+
+107
+00:04:36,800 --> 00:04:39,466
+你可以在这里看到这是一个相当简单的测试
+you can see here this is a quite a simple test
+
+108
+00:04:39,466 --> 00:04:40,933
+所以模块图是相当小的
+so module graph is quite small
+
+109
+00:04:41,000 --> 00:04:44,300
+但对于更大的应用程序来说，它非常有用，可以看到
+but for bigger applications it's very useful to see
+
+110
+00:04:44,366 --> 00:04:46,599
+你的所有文件是如何
+how all your files are
+
+111
+00:04:47,200 --> 00:04:48,700
+彼此之间的关系
+introducting with each other
+
+112
+00:04:48,800 --> 00:04:51,300
+但最好的功能之一
+but one of the best features
+
+113
+00:04:51,366 --> 00:04:52,899
+是你可以
+here is that you can
+
+114
+00:04:52,933 --> 00:04:55,699
+在浏览器中直接编辑你的测试
+edit your tests right in the browser
+
+115
+00:04:56,733 --> 00:05:00,266
+我保存这个，我可以看到发生了一个断言错误
+I save this and I can see an assertion error happened
+
+116
+00:05:01,200 --> 00:05:02,933
+而且我可以看到它发生在哪里
+and I can see where it happened
+
+117
+00:05:03,066 --> 00:05:05,733
+而且我还可以在报告中看到它
+and I can also see it in a report
+
+118
+00:05:05,966 --> 00:05:11,199
+我可以点击打开一个编辑器，它将为我打开这个
+I can click open an editor and it will open this
+
+119
+00:05:13,400 --> 00:05:17,900
+步骤，所以我们可以在这里看到它期望当我们
+step for me so as we can see here it expects when we
+
+120
+00:05:17,933 --> 00:05:18,733
+是
+are
+
+121
+00:05:19,300 --> 00:05:22,866
+在尖端线3乘以2期望6，但这里我们有一个4
+on tipline 3 by 2 expect 6 but here we have a 4
+
+122
+00:05:22,866 --> 00:05:25,333
+乘以2更好，所以让我们
+multiply better by 2 so let's
+
+123
+00:05:26,000 --> 00:05:28,333
+暂时将其恢复为4
+revert this to 4 for now
+
+124
+00:05:29,533 --> 00:05:31,366
+现在我们的测试运行良好
+now our test runs fine
+
+125
+00:05:31,800 --> 00:05:34,966
+因为这个测试是为了解决胸部问题而做的
+since the test was made to fix chest issues
+
+126
+00:05:34,966 --> 00:05:38,866
+我们只提供兼容的API，以便更容易迁移
+we provide just compatible API for easier migration
+
+127
+00:05:39,133 --> 00:05:41,766
+正如你所看到的，我们在这里使用了2个包含
+as you can see here we are using 2 contain
+
+128
+00:05:41,966 --> 00:05:44,333
+和太多的快照匹配器
+and too much snapshot matchers
+
+129
+00:05:44,333 --> 00:05:47,133
+完全与just兼容。
+which are fully compatible with just
+
+130
+00:05:47,133 --> 00:05:51,533
+但我们不仅支持预期的API，还支持
+but not only do we support expect API will also support
+
+131
+00:05:51,933 --> 00:05:52,766
+just API
+just API
+
+132
+00:05:53,266 --> 00:05:56,899
+只是全局变量，如果你曾经写过类似于
+just global variable if you've ever written caught like
+
+133
+00:05:57,133 --> 00:05:57,933
+这个
+this
+
+134
+00:05:58,800 --> 00:06:01,533
+我是说这个小破坏者
+I mean this this little spoiler
+
+135
+00:06:03,166 --> 00:06:04,866
+你可以用同样的方法在
+you can use the same in
+
+136
+00:06:07,066 --> 00:06:07,866
+v test
+v test
+
+137
+00:06:08,600 --> 00:06:12,933
+但我们没有默认，我们没有暴露变量
+but we don't by default we do not expose just variable
+
+138
+00:06:12,933 --> 00:06:14,499
+但我们有自己的
+but we have our own
+
+139
+00:06:14,766 --> 00:06:16,799
+变量，具有相同的API
+variable with the same API
+
+140
+00:06:17,700 --> 00:06:21,100
+公共API，它被称为v或test
+public API it's called v or test
+
+141
+00:06:21,200 --> 00:06:24,933
+你可以使用你最喜欢的那一个，我们通常
+you can use which one you prefer the most we usually
+
+142
+00:06:25,600 --> 00:06:26,666
+建议使用v
+recommend using v
+
+143
+00:06:27,700 --> 00:06:29,700
+所以如果你有
+so if you have
+
+144
+00:06:32,100 --> 00:06:35,000
+如果你想看看你的测试是如何
+if you want to see how your tests are
+
+145
+00:06:35,066 --> 00:06:36,499
+在v测试下的运行情况
+running under v test
+
+146
+00:06:36,500 --> 00:06:38,600
+下运行的情况，但你又不想让你的测试从刚开始就很好。
+but you don't want to make great from just
+
+147
+00:06:38,800 --> 00:06:40,133
+就马上进行
+just right away
+
+148
+00:06:40,466 --> 00:06:43,099
+你可以使用这个小技巧
+you can use this little trick
+
+149
+00:06:43,766 --> 00:06:46,599
+你可以给v指定一个全局的，非常有能力的
+you can assign a global this just very able to v
+
+150
+00:06:46,766 --> 00:06:47,933
+而你的所有
+and all your
+
+151
+00:06:49,100 --> 00:06:50,900
+方法都能正常工作
+methods should work fine
+
+152
+00:06:50,900 --> 00:06:52,466
+如果我们仍然有一些分歧
+if we just still have some differences
+
+153
+00:06:52,466 --> 00:06:56,299
+我们在我们的狗中提供了迁移指南，记录了所有的
+we provide migration guide in our dogs documenting all
+
+154
+00:06:57,066 --> 00:06:58,799
+这些差异
+these differences
+
+155
+00:06:59,533 --> 00:07:02,333
+但在大多数情况下，它应该工作
+but for the most part it should work
+
+156
+00:07:02,933 --> 00:07:06,899
+我们还提供给你，你可以看到这里只是一个风扇
+and we also provide you as you can see here just a fan
+
+157
+00:07:07,733 --> 00:07:09,866
+是一个间谍，所以
+is a spy so
+
+158
+00:07:10,666 --> 00:07:11,799
+维塔斯也
+vitas also
+
+159
+00:07:14,533 --> 00:07:17,699
+有香料，这些香料与
+has spice which are fully compatible with
+
+160
+00:07:18,400 --> 00:07:21,666
+justspice有相同的方法和名称
+justspice with the same methods and the names
+
+161
+00:07:21,666 --> 00:07:23,099
+等等，等等。
+and so on and so forth
+
+162
+00:07:23,333 --> 00:07:26,466
+但V测试的最佳功能可能是它的
+but probably the best feature of a v test is its
+
+163
+00:07:26,466 --> 00:07:27,266
+观察模式
+watch mode
+
+164
+00:07:27,866 --> 00:07:29,133
+让我们删除这个
+let's remove this
+
+165
+00:07:29,766 --> 00:07:31,099
+它只运行
+it runs only
+
+166
+00:07:32,733 --> 00:07:34,099
+有效的测试
+the effective tests
+
+167
+00:07:34,133 --> 00:07:35,399
+因此，例如这里
+so for example here
+
+168
+00:07:35,466 --> 00:07:38,133
+正如你所看到的，它向我展示了重新排列的
+as you can see it showed me rearrange for
+
+169
+00:07:38,600 --> 00:07:42,533
+当我把这个测试弄老时，它将只重新运行这个测试，但
+when I aged this test it will rerun only this test but
+
+170
+00:07:43,000 --> 00:07:45,000
+这并不是它的终点
+this is not where it ends
+
+171
+00:07:45,566 --> 00:07:48,266
+如果我们正在编辑这个组件
+if we are editing this component
+
+172
+00:07:49,166 --> 00:07:52,699
+这个组件，例如，我们可以添加一个新的按钮
+this component here for example we can add a new button
+
+173
+00:07:53,066 --> 00:07:56,299
+增加2的乘数
+that adds multiplier by 2
+
+174
+00:07:56,566 --> 00:07:57,933
+递增2
+incremented by 2
+
+175
+00:07:58,733 --> 00:07:59,966
+现在我们可以看到
+now we can see that
+
+176
+00:08:00,166 --> 00:08:03,766
+我们的任务已经失败了，因为停止拍摄
+our task has failed because stop shot
+
+177
+00:08:05,000 --> 00:08:07,766
+不等于它所产生的快照
+that we have is not equal to the snapshot
+
+178
+00:08:08,266 --> 00:08:09,933
+它现在生成的快照
+that it generates now
+
+179
+00:08:10,400 --> 00:08:12,733
+所以我们现在可以
+so let's for now we can
+
+180
+00:08:13,666 --> 00:08:14,733
+把它注释掉
+comment it out
+
+181
+00:08:15,266 --> 00:08:18,933
+让我们现在来测试一下我们的新按钮
+let's let's now test our new button
+
+182
+00:08:20,400 --> 00:08:21,466
+这里我将添加
+here I will add
+
+183
+00:08:22,500 --> 00:08:23,400
+和你
+and you
+
+184
+00:08:25,700 --> 00:08:27,666
+像这样测试
+test like this
+
+185
+00:08:27,766 --> 00:08:29,066
+我不认为这是
+I don't think this is
+
+186
+00:08:29,466 --> 00:08:30,766
+是最好的方法
+the best way to do it
+
+187
+00:08:30,766 --> 00:08:31,733
+我可能会
+I would probably
+
+188
+00:08:32,266 --> 00:08:35,199
+通过里面的文字得到它
+get it by the text inside
+
+189
+00:08:35,500 --> 00:08:38,300
+但现在我认为这很好
+but for now I think it's fine
+
+190
+00:08:38,566 --> 00:08:39,866
+我们正在触发它
+we're triggering it
+
+191
+00:08:40,300 --> 00:08:42,933
+我们现在触发它，我们期望
+we trigger it now and we expect
+
+192
+00:08:43,366 --> 00:08:44,366
+我认为
+I think
+
+193
+00:08:45,600 --> 00:08:48,766
+4应该被增加2，我们现在有
+4 should be incremented by 2 and we now have
+
+194
+00:08:49,000 --> 00:08:51,466
+6个6，也就是24
+6 6 which is 24
+
+195
+00:08:51,733 --> 00:08:54,533
+我们保存这个测试，它运行良好
+we save this this test and it runs fine
+
+196
+00:08:54,800 --> 00:08:56,166
+顺便说一下，你可以看到
+by the way as you can see
+
+197
+00:08:56,400 --> 00:09:01,900
+测试的实际时间是132,000,000秒
+the actual duration of test is 132,000,000 seconds
+
+198
+00:09:02,733 --> 00:09:04,133
+这是相当快的
+which is quite fast
+
+199
+00:09:05,300 --> 00:09:08,900
+我们认为这种体验是比较好的
+we think that this experience is preferable
+
+200
+00:09:09,166 --> 00:09:11,399
+所以我们默认启用观察模式
+so we enable watch mode by default
+
+201
+00:09:11,400 --> 00:09:13,900
+如果你没有用
+if you don't override it with
+
+202
+00:09:14,066 --> 00:09:14,999
+品牌标志
+brand flag
+
+203
+00:09:15,700 --> 00:09:19,100
+所以我想这是前端部分的全部内容
+so I think this is all for front end part
+
+204
+00:09:19,500 --> 00:09:20,133
+但
+but
+
+205
+00:09:20,133 --> 00:09:23,466
+你不一定要在前端框架中使用v测试
+you don't have to use v test with front end frameworks
+
+206
+00:09:23,466 --> 00:09:25,599
+事实上，我的v test不仅仅是
+in fact I v test is not just
+
+207
+00:09:26,133 --> 00:09:28,133
+一个默认的测试运行器
+a test runner by default
+
+208
+00:09:28,133 --> 00:09:30,066
+所以你可以在这里看到这是一个简单的
+so as you can see here this is a simple
+
+209
+00:09:30,066 --> 00:09:31,466
+无js应用
+nojs application
+
+210
+00:09:31,766 --> 00:09:33,333
+只是一个平方根函数
+just a square root function
+
+211
+00:09:33,333 --> 00:09:37,366
+我们正在测试这里的值是否正确
+we are testing here that the values are correct
+
+212
+00:09:37,966 --> 00:09:40,166
+你可以看到这是配置文件
+this as you can see is the configuration file
+
+213
+00:09:40,166 --> 00:09:41,133
+没有任何配置
+nothing is configured
+
+214
+00:09:41,133 --> 00:09:42,533
+所以这是由defold完成的
+so this is by defold
+
+215
+00:09:43,066 --> 00:09:44,299
+现在我们来运行这个
+now let's run this
+
+216
+00:09:46,666 --> 00:09:48,599
+你可以看到一切都通过了
+and as you can see everything is passing
+
+217
+00:09:49,333 --> 00:09:52,533
+该测试有一个上下文的概念
+the test has a concept of contexts
+
+218
+00:09:52,866 --> 00:09:55,799
+的概念，其灵感来自于playwright的固定装置
+which was inspired by fixtures from playwright
+
+219
+00:09:56,933 --> 00:09:58,099
+上下文是
+context are
+
+220
+00:09:59,066 --> 00:09:59,933
+一个对象
+an object
+
+221
+00:10:01,133 --> 00:10:03,266
+以1的形式传递
+that is passed as 1/1 argument
+
+222
+00:10:03,966 --> 00:10:06,999
+null
+to your test so here we can see that
+
+223
+00:10:07,733 --> 00:10:09,799
+null
+this has a type of test context
+
+224
+00:10:10,300 --> 00:10:12,266
+null
+by default it has
+
+225
+00:10:13,133 --> 00:10:15,266
+null
+meta and expect
+
+226
+00:10:15,333 --> 00:10:17,066
+null
+so you can have local expects
+
+227
+00:10:17,066 --> 00:10:19,399
+null
+this is a useful for concurrent testing
+
+228
+00:10:19,866 --> 00:10:22,266
+null
+if you have for example if you
+
+229
+00:10:22,266 --> 00:10:25,533
+null
+are doing too much snapshot inside a concurrent test
+
+230
+00:10:25,700 --> 00:10:27,900
+null
+but you can put things here
+
+231
+00:10:27,900 --> 00:10:30,666
+null
+for example we can use before each
+
+232
+00:10:31,666 --> 00:10:35,366
+null
+function to put something on the context
+
+233
+00:10:38,000 --> 00:10:38,966
+null
+expect
+
+234
+00:10:39,100 --> 00:10:40,133
+null
+context
+
+235
+00:10:40,866 --> 00:10:41,133
+null
+or
+
+236
+00:10:41,133 --> 00:10:42,766
+null
+sorry context
+
+237
+00:10:43,566 --> 00:10:46,999
+null
+4 to be one not really
+
+238
+00:10:47,133 --> 00:10:49,533
+访问，开始传递
+accessed that start passing
+
+239
+00:10:49,533 --> 00:10:52,166
+但类型蠕变向我们显示了一个错误
+but the types creep shows us an error
+
+240
+00:10:52,200 --> 00:10:56,166
+为了绕过这个错误，我们需要定义一个接口
+to bypass this error we need to define an interface
+
+241
+00:10:58,200 --> 00:10:59,266
+是一个数字
+who is a number
+
+242
+00:11:00,166 --> 00:11:03,366
+我们可以将这个接口作为
+we can pass down this interface as
+
+243
+00:11:04,700 --> 00:11:05,766
+一个通用的
+a generic
+
+244
+00:11:07,300 --> 00:11:09,666
+所以我们需要把它传下去
+so we will need to pass it down
+
+245
+00:11:09,666 --> 00:11:11,366
+为每一个我们需要的测试的上下文
+for each test that we need the context
+
+246
+00:11:12,366 --> 00:11:13,766
+我们还可以
+we can also
+
+247
+00:11:14,166 --> 00:11:15,133
+定义
+define
+
+248
+00:11:16,800 --> 00:11:20,000
+全局定义，例如我们可以这样做
+it globally for example we can do
+
+249
+00:11:20,333 --> 00:11:23,366
+声明模块e测试
+declare module e test
+
+250
+00:11:24,266 --> 00:11:26,599
+接口文本上下文 谢谢你
+interface text context thank you
+
+251
+00:11:26,766 --> 00:11:31,333
+所以现在它知道每个测试都有这个上下文
+so now it knows that every test has this context
+
+252
+00:11:31,966 --> 00:11:36,333
+你的整个套件中的每个测试都会有这个上下文
+every test in your entire suite will have this context
+
+253
+00:11:37,500 --> 00:11:39,900
+有一个更简单的方法
+there is a simpler way
+
+254
+00:11:40,333 --> 00:11:41,499
+使用标签脚本
+with using tab script
+
+255
+00:11:41,500 --> 00:11:41,933
+比如说
+for example
+
+256
+00:11:41,933 --> 00:11:45,999
+你可以做一个完整的测试，就是带有上下文的测试
+you can do a full test is test with context
+
+257
+00:11:46,300 --> 00:11:48,100
+现在我们可以删除这个
+now we can remove this
+
+258
+00:11:49,566 --> 00:11:51,966
+也许应该在这里做
+probably should do it here
+
+259
+00:11:52,000 --> 00:11:53,066
+但现在
+but now
+
+260
+00:11:53,066 --> 00:11:56,466
+我们可以做食品测试，它将有这个上下文
+we can do food test and it will have this context
+
+261
+00:11:56,533 --> 00:11:58,699
+它就会知道这个测试的上下文
+it will know the context of
+
+262
+00:11:59,766 --> 00:12:00,599
+这个测试
+this test
+
+263
+00:12:00,933 --> 00:12:04,399
+注意，这是不相容的，不相容的。
+about beware that thisthis is incompatible incompatible
+
+264
+00:12:04,466 --> 00:12:05,799
+不相容的只是
+incompatible is just
+
+265
+00:12:06,000 --> 00:12:08,666
+我们只是在这里做了一个colbeck。
+we're just had a done colbeck here
+
+266
+00:12:08,766 --> 00:12:11,099
+所以如果你在这里调用这个
+so if you are calling this here
+
+267
+00:12:11,100 --> 00:12:12,733
+你可以看到它已经被废弃了。
+as you can see it's deprecated
+
+268
+00:12:13,133 --> 00:12:14,499
+如果你在这里调用它
+if you are calling it here
+
+269
+00:12:14,500 --> 00:12:15,466
+你会得到
+you will get
+
+270
+00:12:15,666 --> 00:12:17,299
+一个错误 上下文不是
+an error context is not
+
+271
+00:12:17,400 --> 00:12:19,700
+我很抱歉，但你所发现的是
+I'm sorry but just what you find is
+
+272
+00:12:20,800 --> 00:12:21,600
+这里
+here
+
+273
+00:12:22,333 --> 00:12:23,533
+现在设置这个
+set this now
+
+274
+00:12:23,700 --> 00:12:24,600
+如果你在这里调用完成
+if you are calling done here
+
+275
+00:12:24,600 --> 00:12:26,200
+它就会告诉你，它已经被废弃了
+it will call you that it is deprecated
+
+276
+00:12:26,200 --> 00:12:28,066
+而你应该用一个承诺来代替
+and you should use a promise instead
+
+277
+00:12:28,466 --> 00:12:30,766
+所以为了模拟一个
+so to emulate a
+
+278
+00:12:31,600 --> 00:12:34,166
+的回调，你可以像这样返回承诺
+done callback from just you can return the promise
+
+279
+00:12:37,133 --> 00:12:39,933
+就像这样，测试将通过
+like this and the test will pass
+
+280
+00:12:40,900 --> 00:12:41,700
+每个
+each
+
+281
+00:12:42,566 --> 00:12:44,699
+测试都有自己的上下文，所以
+test has its own context so
+
+282
+00:12:45,066 --> 00:12:45,933
+比如说
+for example
+
+283
+00:12:46,000 --> 00:12:49,500
+你不能在所有回调之前访问上下文
+you cannot access context in before all callback
+
+284
+00:12:49,900 --> 00:12:51,500
+没有上下文
+doesn't have a context
+
+285
+00:12:51,500 --> 00:12:52,866
+但它有
+but it does by the way
+
+286
+00:12:52,866 --> 00:12:54,933
+有一个访问当前甜味的
+have an access to sweet current sweet
+
+287
+00:12:55,666 --> 00:12:58,533
+或文件，无论它是什么
+or file whichever it is
+
+288
+00:12:59,966 --> 00:13:02,399
+比如说，他们会访问它的名字
+they're gonna access its name for example
+
+289
+00:13:02,966 --> 00:13:03,999
+我想它有一个
+I think it has a
+
+290
+00:13:04,266 --> 00:13:06,133
+文件路径 是的
+file path yeah
+
+291
+00:13:06,400 --> 00:13:09,100
+我想这就是我想谈的全部内容了
+I think this is all I wanted to talk about
+
+292
+00:13:09,266 --> 00:13:09,966
+与
+with
+
+293
+00:13:09,966 --> 00:13:10,966
+语境
+contexts
+
+294
+00:13:11,900 --> 00:13:16,166
+vitas还有一个很酷的功能
+there is also one cool feature that vitas has
+
+295
+00:13:16,366 --> 00:13:18,399
+它叫做vitas改变
+it's called vitas changed
+
+296
+00:13:18,533 --> 00:13:20,299
+所以你可以在这里看到
+so as you can see here
+
+297
+00:13:20,700 --> 00:13:21,500
+我们
+we
+
+298
+00:13:22,500 --> 00:13:23,800
+编辑了一个文件
+edited one file
+
+299
+00:13:24,400 --> 00:13:25,666
+我们改变了一个文件
+we changed one file
+
+300
+00:13:25,900 --> 00:13:29,166
+一个测试，而且我们不想把整个种子圆起来。
+a test and we don't want to round the whole seeds
+
+301
+00:13:29,900 --> 00:13:31,533
+整个套件的测试
+whole suite tests
+
+302
+00:13:31,600 --> 00:13:35,533
+所以我们可以做的就是运行测试变更
+so we can do what we can do is run test change
+
+303
+00:13:37,333 --> 00:13:40,399
+这就是测试变更的命令
+and this is the test change command
+
+304
+00:13:41,100 --> 00:13:42,933
+它将
+and it will
+
+305
+00:13:43,700 --> 00:13:47,900
+查看所有被修改的文件，并只运行
+see all the files that are changed and run only
+
+306
+00:13:48,166 --> 00:13:50,499
+重要的测试
+tests that are important
+
+307
+00:13:50,866 --> 00:13:55,266
+或重要的测试，或测试本身。
+or important by it or thator the test itself
+
+308
+00:13:55,300 --> 00:13:57,600
+例如，在这里我们编辑了一个测试
+for example here we edited the test
+
+309
+00:13:58,100 --> 00:14:00,566
+我们看到测试被改变了
+and we see the test changed
+
+310
+00:14:00,900 --> 00:14:05,600
+如果我们回滚，我们应该看到没有什么
+if we rolled back we should see nothing
+
+311
+00:14:06,200 --> 00:14:08,533
+变化，没有测试会运行
+changed and no tests will run
+
+312
+00:14:09,400 --> 00:14:11,166
+但最酷的功能是
+but the cool feature is is
+
+313
+00:14:11,200 --> 00:14:14,366
+如果我们在这里添加一个理事会锁，例如
+what if we added here for example a council lock
+
+314
+00:14:14,500 --> 00:14:15,866
+命名为字符串
+pername to string
+
+315
+00:14:16,166 --> 00:14:17,399
+我们现在可以运行
+we can now run
+
+316
+00:14:17,533 --> 00:14:20,199
+测试改变，它将运行一个基本测试，因为
+test changed and it will run a basic test because
+
+317
+00:14:20,366 --> 00:14:22,466
+这个功能很重要
+this function is important
+
+318
+00:14:22,866 --> 00:14:23,666
+这里
+here
+
+319
+00:14:24,533 --> 00:14:25,333
+它是物理的
+which is physical
+
+320
+00:14:26,200 --> 00:14:28,166
+现在让我们来谈谈源码测试
+now let's talk about in source testing
+
+321
+00:14:28,266 --> 00:14:29,799
+这个功能允许你把测试写在
+this feature allows you to write
+
+322
+00:14:29,800 --> 00:14:32,500
+你的测试在你的源代码中
+your tests inside your source code
+
+323
+00:14:33,166 --> 00:14:34,599
+你为什么要这样做
+why would you do that
+
+324
+00:14:35,800 --> 00:14:38,200
+这个功能很有用
+well this feature could be useful
+
+325
+00:14:38,866 --> 00:14:39,933
+对很多事情都有用
+for a number of things
+
+326
+00:14:39,933 --> 00:14:41,766
+例如，用于单元测试
+for example for unit testing
+
+327
+00:14:41,766 --> 00:14:44,099
+小范围的函数或实用程序
+small scope functions or utilities
+
+328
+00:14:44,466 --> 00:14:46,766
+就像幻灯片上的内容
+like here on the slide
+
+329
+00:14:47,300 --> 00:14:50,000
+例如，如果你有一个文件集，其中有一个
+for example if you have a collection of files with a
+
+330
+00:14:50,000 --> 00:14:51,900
+单一函数诶
+single function eh
+
+331
+00:14:52,333 --> 00:14:55,566
+你可以把你的测试放在这个文件里
+you can keep your tests inside that file
+
+332
+00:14:56,166 --> 00:14:57,999
+它对原型设计也很有用
+it's also useful for prototyping
+
+333
+00:14:58,866 --> 00:15:02,699
+如果你在编写程序的同时编写测试，你可以
+if you are writing tests alongside your program you
+
+334
+00:15:02,766 --> 00:15:03,566
+可能
+might
+
+335
+00:15:04,366 --> 00:15:06,333
+更加专注于
+be more focused on the
+
+336
+00:15:07,200 --> 00:15:08,666
+功能本身
+functionality itself
+
+337
+00:15:09,266 --> 00:15:12,299
+你也可以在程序中进行内联断言
+you can also make inline assertions
+
+338
+00:15:13,133 --> 00:15:14,999
+就在你的程序中
+right inside your program
+
+339
+00:15:15,366 --> 00:15:16,366
+例如
+for example
+
+340
+00:15:16,366 --> 00:15:19,966
+你可以在你的函数中测试一个中间值
+you can test an intermediate value in your function
+
+341
+00:15:19,966 --> 00:15:22,933
+在一个私有方法的内部做一个断言也是很有用的。
+it's also useful to make an assertion inside
+
+342
+00:15:23,133 --> 00:15:25,266
+做出断言也很有用，例如
+of a private method for example
+
+343
+00:15:26,766 --> 00:15:29,399
+你不能导出或在构造函数内部
+that you cannot export or inside a constructor
+
+344
+00:15:29,900 --> 00:15:31,200
+这也很有用
+it's also useful
+
+345
+00:15:31,533 --> 00:15:32,566
+测试函数
+to test function
+
+346
+00:15:32,566 --> 00:15:35,666
+也很有用，可以测试你想保留在特定模块内的函数
+that you want to keep inside a specific module
+
+347
+00:15:36,600 --> 00:15:37,700
+而不导出它
+without exporting it
+
+348
+00:15:37,700 --> 00:15:41,366
+例如，如果add函数有某种帮助器
+for example if add function had some kind of a helper
+
+349
+00:15:41,533 --> 00:15:42,999
+它被定义在这里
+it was defined here
+
+350
+00:15:43,100 --> 00:15:44,900
+你可以测试这个辅助器
+you could have tested this helper
+
+351
+00:15:44,900 --> 00:15:46,800
+在这个模型中被孤立地测试
+in isolation right inside this model
+
+352
+00:15:46,800 --> 00:15:49,533
+而不公开导出它
+without exporting it publicly
+
+353
+00:15:50,133 --> 00:15:53,166
+这可能是这里最有用的情况
+which might be the most useful case here
+
+354
+00:15:54,066 --> 00:15:56,199
+但我们确实建议你
+but we do recommend you
+
+355
+00:15:56,466 --> 00:16:00,999
+对更复杂的测试使用单独的测试文件，如
+to use separate test files for more complex tests like
+
+356
+00:16:01,300 --> 00:16:02,300
+组件
+components
+
+357
+00:16:03,066 --> 00:16:04,199
+输入和测试
+enter and testing
+
+358
+00:16:04,200 --> 00:16:07,100
+因为它们通常需要更复杂的设置
+because they usually require more complex setup
+
+359
+00:16:07,133 --> 00:16:09,166
+如使用库交出
+like using libraries surrender
+
+360
+00:16:09,266 --> 00:16:11,066
+设置组件
+set components
+
+361
+00:16:11,933 --> 00:16:13,066
+例如这里
+for example here
+
+362
+00:16:13,400 --> 00:16:15,666
+这段代码将被从你的生产代码中剥离出来
+this code will be stripped out from
+
+363
+00:16:15,700 --> 00:16:18,000
+你的生产代码中剥离出来，因为它是
+your production code because it's
+
+364
+00:16:18,100 --> 00:16:19,733
+被导入所保护
+guarded by import
+
+365
+00:16:19,800 --> 00:16:22,566
+将会是无限制的或虚假的metavitist
+metavitist which will be unsufined or false
+
+366
+00:16:22,600 --> 00:16:23,533
+无论你想要什么
+whichever you want
+
+367
+00:16:23,533 --> 00:16:26,099
+但如果你使用的是某种进口的
+but if you are using some kind of an import
+
+368
+00:16:27,866 --> 00:16:30,266
+屏幕，例如从
+screen for example from
+
+369
+00:16:30,733 --> 00:16:32,466
+测试库
+the testing library
+
+370
+00:16:32,800 --> 00:16:34,800
+测试库
+testing library
+
+371
+00:16:35,466 --> 00:16:36,266
+穹顶
+dome
+
+372
+00:16:36,766 --> 00:16:39,166
+其他单一的圆顶有这个反应
+other single dome has this react
+
+373
+00:16:42,500 --> 00:16:43,966
+这可能
+this might
+
+374
+00:16:44,133 --> 00:16:44,933
+是
+be
+
+375
+00:16:45,066 --> 00:16:47,599
+与你的生产代码捆绑在一起
+bundled with your production code
+
+376
+00:16:49,100 --> 00:16:51,100
+即使你只在这里使用它
+even if you use it only here
+
+377
+00:16:52,666 --> 00:16:53,966
+因为我认为你需要
+because I think you need
+
+378
+00:16:54,600 --> 00:16:55,800
+一个副作用
+a side effect
+
+379
+00:16:56,866 --> 00:16:57,866
+副作用
+side effect
+
+380
+00:16:58,500 --> 00:17:00,300
+适当地在你的软件包和
+appropriately in your packages and
+
+381
+00:17:01,266 --> 00:17:03,399
+在模块本身的打包过程中
+in the packageation of the module itself
+
+382
+00:17:03,533 --> 00:17:06,366
+来说明它可以被安全地删除
+to specify that it can be safely removed
+
+383
+00:17:07,466 --> 00:17:09,366
+我认为这些都是
+I think this is all
+
+384
+00:17:09,533 --> 00:17:10,333
+的内容
+for
+
+385
+00:17:10,933 --> 00:17:13,733
+我有时间向你展示的功能
+features that I had time to show you
+
+386
+00:17:14,366 --> 00:17:18,166
+让我们来讨论一下v测试的下一步是什么
+and let's talk about what is coming next for v test
+
+387
+00:17:19,400 --> 00:17:20,200
+因为
+since
+
+388
+00:17:20,966 --> 00:17:21,766
+v test
+v test
+
+389
+00:17:23,466 --> 00:17:26,199
+在书中提供了类型脚本的支持
+provides type script support out of the books
+
+390
+00:17:26,333 --> 00:17:28,166
+我们认为这将是一个好主意
+we thought it would be a good idea to
+
+391
+00:17:28,600 --> 00:17:32,733
+我们认为应该为类型测试提供支持
+make senseto also provide support for type testing
+
+392
+00:17:33,000 --> 00:17:34,600
+各种各样的开箱即用
+all sorts of out of the box
+
+393
+00:17:35,700 --> 00:17:39,500
+所以我们有一个操作性很强的C，你可以留下评论。
+so we have an operative c which you can leave a comment
+
+394
+00:17:41,266 --> 00:17:43,299
+目前，我们正在考虑
+currently we are thinking about
+
+395
+00:17:43,800 --> 00:17:47,733
+为类型测试提供2个apis，就像你为普通的常规测试所做的那样。
+providing 2 apis for type tasting like you do for
+
+396
+00:17:48,400 --> 00:17:51,666
+常规的常规测试 对不起
+regular regular tasting sorry
+
+397
+00:17:54,500 --> 00:17:56,766
+这就是期望和断言
+which is expect and assert
+
+398
+00:17:58,100 --> 00:18:01,966
+所以会有一个期望类型的
+so there will be an expect type of
+
+399
+00:18:03,200 --> 00:18:04,000
+函数
+function
+
+400
+00:18:04,333 --> 00:18:07,499
+暴露了类似于expect
+which exposes similar to expect
+
+401
+00:18:07,600 --> 00:18:10,000
+匹配器喜欢匹配相等的类型和
+matchers like to match the equal type and
+
+402
+00:18:10,166 --> 00:18:11,566
+等等，并且
+so on and
+
+403
+00:18:12,400 --> 00:18:15,333
+它的灵感来自于期望类型包
+it is inspired by expect type package
+
+404
+00:18:15,400 --> 00:18:17,333
+而我们也认为
+and we also think
+
+405
+00:18:18,266 --> 00:18:19,299
+我们还认为，我们将
+that we will
+
+406
+00:18:20,400 --> 00:18:23,266
+有一个断言类型的函数，它是
+have an assert type function which was
+
+407
+00:18:23,466 --> 00:18:24,799
+它的灵感来自于tsd
+which is inspired by tsd
+
+408
+00:18:26,166 --> 00:18:27,899
+但请继续关注这个问题
+but stay tuned for that
+
+409
+00:18:28,366 --> 00:18:30,566
+它还没有实现，只是一个
+it's not implemented yet it's only an
+
+410
+00:18:30,766 --> 00:18:32,066
+C互联网的阶段
+internet of c stage
+
+411
+00:18:32,133 --> 00:18:35,166
+但已经实现的是基准测试
+but what is implemented is benchmarking
+
+412
+00:18:35,533 --> 00:18:38,166
+它已经实现了，但我们在想
+it's already implemented but we are thinking
+
+413
+00:18:38,700 --> 00:18:40,566
+我们可以做得更好
+that we can do better
+
+414
+00:18:41,266 --> 00:18:41,666
+比如说
+for example
+
+415
+00:18:41,666 --> 00:18:44,299
+目前我们对输出的结果不满意
+currently we are not happy with the result output
+
+416
+00:18:44,300 --> 00:18:45,900
+我们在想
+we are thinking
+
+417
+00:18:47,133 --> 00:18:48,766
+API可以改进
+that API could be improved
+
+418
+00:18:48,900 --> 00:18:51,100
+并在此功能之前实现标准化
+and standardized before this feature
+
+419
+00:18:51,366 --> 00:18:52,966
+失去其实验性标志
+loses its experimental flag
+
+420
+00:18:54,600 --> 00:18:56,066
+最好的办法就是我之前说的
+the best also is I said before
+
+421
+00:18:56,066 --> 00:18:57,966
+提供一个Vita的浏览器包
+provides a vita's browser package
+
+422
+00:18:58,300 --> 00:19:00,900
+用于在浏览器中预览你的测试
+for previewing your tests in browser
+
+423
+00:19:00,900 --> 00:19:03,866
+但目前它不支持在CI中尝试测试
+but currently it doesn't support trying tests in ci
+
+424
+00:19:04,666 --> 00:19:08,066
+但它可以对失败的测试进行处理。
+but it can be useful to jibach your failing tests
+
+425
+00:19:08,200 --> 00:19:10,533
+这个功能还没有准备好用于生产
+this feature is not ready for production use
+
+426
+00:19:10,733 --> 00:19:13,699
+在这个阶段，它甚至可能对你不起作用。
+and it might even not work for you at this stage
+
+427
+00:19:13,900 --> 00:19:16,366
+但我们始终欢迎反馈意见，抱歉
+but we're always welcome feedback feedback sorry
+
+428
+00:19:16,766 --> 00:19:18,533
+所以请随时在
+so feel free to open an issue in
+
+429
+00:19:19,400 --> 00:19:20,400
+关于此功能的问题
+about this feature
+
+430
+00:19:20,600 --> 00:19:23,366
+现在，我们还想改进评论。
+right now we also want to improve the commentation
+
+431
+00:19:23,700 --> 00:19:25,666
+目前评论的状态是，它是在
+the current state of the commentation is that it was
+
+432
+00:19:25,666 --> 00:19:26,899
+写在
+written before the
+
+433
+00:19:27,100 --> 00:19:28,900
+hts离开实验阶段之前写的
+hts left experimental stage
+
+434
+00:19:29,366 --> 00:19:32,766
+而且它更多的关注于迁移和仅仅是API
+and it focuses more on migration and just API
+
+435
+00:19:33,100 --> 00:19:35,300
+并没有帮助新人们
+and doesn't help a new people
+
+436
+00:19:35,700 --> 00:19:38,333
+习惯于胎儿本身
+get accustomed to fetus itself
+
+437
+00:19:39,533 --> 00:19:43,566
+所以这就是我想和你谈的全部内容
+so this is all I wanted to talk to you about
+
+438
+00:19:44,333 --> 00:19:46,099
+谢谢你听我的演讲
+thank you for listening to my talk
+

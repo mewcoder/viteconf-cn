@@ -1,0 +1,4165 @@
+1
+00:00:09,500 --> 00:00:10,933
+大家好，我是Francois
+hi everyone I'm francois
+
+2
+00:00:09,500 --> 00:00:11,000
+大家好，我是Francois
+hi everyone i'm francois
+
+3
+00:00:11,233 --> 00:00:12,833
+非常感谢组织者的受害者
+thanks a lot to the victim of organizers
+
+4
+00:00:11,266 --> 00:00:13,899
+非常感谢维生素C的眼镜邀请我发言
+thanks a lot to the vitcom for glasses for inviting me to speak
+
+5
+00:00:12,833 --> 00:00:14,366
+邀请我今天发言
+for inviting me to speak today
+
+6
+00:00:13,900 --> 00:00:16,666
+今天，我将会谈论特权的问题
+today so i'm going to be talking about privileges
+
+7
+00:00:14,966 --> 00:00:16,666
+所以我将会谈论特权的问题
+so I'm going to be talking about privileges
+
+8
+00:00:16,666 --> 00:00:19,099
+这是我建立的一个工具，让你
+which is a tool that i built that lets you
+
+9
+00:00:16,666 --> 00:00:18,033
+这是一个工具，我建立了
+which is a tool that I built
+
+10
+00:00:18,066 --> 00:00:19,100
+让你
+that lets you
+
+11
+00:00:19,366 --> 00:00:22,433
+直接在你的IDE中阻止你的组件
+prevent your components instantly directly in your IDE
+
+12
+00:00:19,400 --> 00:00:22,400
+直接在你的IDE中防止你的组件
+prevent your components instantly directly in your ide
+
+13
+00:00:23,066 --> 00:00:26,733
+这里有一个来自previewjs com的快速预览。
+so here's a very quick preview from previewjs com
+
+14
+00:00:23,066 --> 00:00:26,733
+这里有一个来自previewjs com的快速预览。
+so here's a very quick preview from previewjs com
+
+15
+00:00:26,933 --> 00:00:27,833
+但我将会
+but I'm going to be
+
+16
+00:00:26,933 --> 00:00:28,599
+但我还会再来看看
+but i'm going to be coming back to it
+
+17
+00:00:27,833 --> 00:00:30,033
+回来的时候，有一个稍微详细的
+coming back to it with a slightly more detailed
+
+18
+00:00:28,600 --> 00:00:30,666
+与一个稍微更详细的概述
+with a slightly more detailed overview
+
+19
+00:00:30,033 --> 00:00:30,833
+概述
+overview
+
+20
+00:00:30,966 --> 00:00:32,999
+首先，我将谈论我为什么要建立它
+at first i'm going to talk about why i built it
+
+21
+00:00:30,966 --> 00:00:33,033
+首先，我要谈一谈我为什么要建立它
+at first I'm going to talk about why I build it
+
+22
+00:00:33,066 --> 00:00:35,100
+以及它如何融入其中
+and how it fits into it
+
+23
+00:00:33,100 --> 00:00:35,133
+以及它是如何融入其中的
+and how it fits into it
+
+24
+00:00:35,100 --> 00:00:36,933
+以及它是如何使其成为可能的，首先
+and how it makes it possible in the first place
+
+25
+00:00:35,133 --> 00:00:36,933
+以及它是如何在第一时间使之成为可能的
+and how it makes it possible in the first place
+
+26
+00:00:38,466 --> 00:00:40,733
+因此，让我们从创建一个反应式应用程序开始
+so let's start by creating a react app
+
+27
+00:00:38,466 --> 00:00:40,733
+所以让我们从创建一个react应用开始
+so let's start by creating a react app
+
+28
+00:00:40,733 --> 00:00:42,399
+我以react为例
+and i'm using react as an example
+
+29
+00:00:40,733 --> 00:00:42,433
+我以react为例
+and I'm using react as an example
+
+30
+00:00:42,933 --> 00:00:45,099
+但它也能与视图和实体一起工作
+but it also works with view and solid
+
+31
+00:00:42,966 --> 00:00:46,899
+但它也适用于视图和实体，所以yarn创建react应用
+but it also works with view and solid so yarn create react app
+
+32
+00:00:45,100 --> 00:00:46,900
+所以yarn创建反应式应用程序
+so yarn create react app
+
+33
+00:00:47,300 --> 00:00:48,100
+食物
+food
+
+34
+00:00:50,433 --> 00:00:51,666
+安装软件包
+installing packages
+
+35
+00:00:50,466 --> 00:00:53,399
+安装软件包 这可能需要几分钟的时间
+installing packages this might take a couple of minutes
+
+36
+00:00:51,666 --> 00:00:53,366
+这可能需要几分钟的时间
+this might take a couple of minutes
+
+37
+00:00:53,400 --> 00:00:55,700
+我没有几分钟的时间了，我要停止这一切。
+i do not have a couple of minutes i'm gonna stop that
+
+38
+00:00:53,433 --> 00:00:54,866
+我没有几分钟的时间
+I do not have a couple of minutes
+
+39
+00:00:54,866 --> 00:00:55,700
+我要停止这一切
+I'm gonna stop that
+
+40
+00:00:55,700 --> 00:00:56,766
+而不是
+and instead of
+
+41
+00:00:56,766 --> 00:00:58,199
+yarn我将使用pnpm
+yarn i'm gonna use pnpm
+
+42
+00:00:56,766 --> 00:00:59,766
+我要用pnpm来代替yarn，这样会快一点
+yarn I'm gonna use pnpm which is a little bit faster
+
+43
+00:00:58,200 --> 00:00:59,800
+这是一个小的速度
+which is a little bit faster
+
+44
+00:01:00,500 --> 00:01:02,600
+它实际上是什么维生素现在使用
+it's actually what vit uses nowadays
+
+45
+00:01:00,500 --> 00:01:02,633
+它实际上是维生素现在使用的东西
+it's actually what vit uses nowadays
+
+46
+00:01:02,966 --> 00:01:04,299
+而不是
+and instead of
+
+47
+00:01:02,966 --> 00:01:04,300
+而不是
+and instead of
+
+48
+00:01:04,466 --> 00:01:07,599
+创建机架式应用，我会使用创建维生素，因为
+create racked app i'm gonna be using create vit because well
+
+49
+00:01:04,466 --> 00:01:07,333
+创建反应应用程序，我会使用创建维生素，因为
+create react app I'm gonna be using creat vit because
+
+50
+00:01:07,333 --> 00:01:09,099
+因为这是Vitcom，所以
+well this is vitcom right so
+
+51
+00:01:07,600 --> 00:01:09,133
+这就是vitcom，对吗？
+this is vitcom right so
+
+52
+00:01:09,533 --> 00:01:12,099
+为什么不在PNPM上创建Vit
+why not pnpm create vit
+
+53
+00:01:09,533 --> 00:01:12,133
+为什么不采用PNP创建Vit
+why not pnpm create vit
+
+54
+00:01:13,933 --> 00:01:16,499
+这是什么，这是超级快的我的签证应用程序
+and this is what this is super fast my visa app
+
+55
+00:01:13,933 --> 00:01:16,499
+这就是我的视频应用，这就是超级快的视频应用。
+and this is what this is super fast my video app
+
+56
+00:01:17,533 --> 00:01:20,499
+完善的反应脚本
+react abscript perfect
+
+57
+00:01:17,566 --> 00:01:20,499
+我的视频应用
+react appscript perfect
+
+58
+00:01:21,100 --> 00:01:22,133
+pmpm store
+pmpm store
+
+59
+00:01:21,100 --> 00:01:22,166
+pmpm安装
+pmpm install
+
+60
+00:01:24,100 --> 00:01:25,166
+嗯呢
+嗯呢
+
+61
+00:01:24,133 --> 00:01:24,933
+和
+and
+
+62
+00:01:27,000 --> 00:01:29,166
+我们做得很好
+we're done cool
+
+63
+00:01:27,033 --> 00:01:29,166
+我们已经完成了
+we're done cool
+
+64
+00:01:29,700 --> 00:01:30,666
+所以现在
+so now
+
+65
+00:01:29,700 --> 00:01:32,300
+所以，现在我们有了这个美丽的代码库，已经
+so now we have this beautiful code base that has been
+
+66
+00:01:30,666 --> 00:01:32,866
+我们有这个美丽的代码库，一直在自动
+we have this beautiful code base that has been automatically
+
+67
+00:01:32,300 --> 00:01:33,300
+自动排出的
+automatically draining
+
+68
+00:01:32,866 --> 00:01:34,366
+为我们生成的
+draining generated for us
+
+69
+00:01:33,300 --> 00:01:34,366
+为我们生成的
+generated for us
+
+70
+00:01:34,933 --> 00:01:36,733
+而它的代码是美丽的
+and it's the code is beautiful
+
+71
+00:01:34,966 --> 00:01:36,733
+它的代码是美丽的，它的代码是美丽的
+and it's the code is beautiful
+
+72
+00:01:36,733 --> 00:01:38,733
+但实际的应用程序也很美
+but the actual app is beautiful as well
+
+73
+00:01:38,733 --> 00:01:40,866
+所以让我们进去运行它
+so let's go in run it
+
+74
+00:01:38,733 --> 00:01:41,899
+所以，让我们去运行它，让我们去piang piang。
+so let's go in run it let's go piang piang
+
+75
+00:01:40,866 --> 00:01:42,333
+让我们开始吧！让我们开始吧！让我们开始吧！让我们开始吧！让我们开始吧！让我们开始吧！
+let's go pm pm dev
+
+76
+00:01:41,900 --> 00:01:42,700
+设计
+dev
+
+77
+00:01:43,566 --> 00:01:44,733
+让我们打开这个
+let's open this
+
+78
+00:01:43,566 --> 00:01:44,733
+让我们打开这个
+let's open this
+
+79
+00:01:46,100 --> 00:01:46,866
+它是美丽的
+and it is beautiful
+
+80
+00:01:46,100 --> 00:01:47,666
+它是美丽的，看看这一切
+and it is beautiful look at all this
+
+81
+00:01:46,866 --> 00:01:48,833
+看看这一切美丽的白色空间
+look at all this beautiful white space
+
+82
+00:01:47,666 --> 00:01:48,799
+美丽的白色空间
+beautiful white space
+
+83
+00:01:49,333 --> 00:01:53,566
+更重要的是，看看视频标志上的悬停效果
+more importantly look at the hover effects on the vid logo
+
+84
+00:01:49,366 --> 00:01:50,100
+更重要的是
+more importantly
+
+85
+00:01:50,100 --> 00:01:53,533
+看看视频标志上的封面效果
+look at the cover effects on the vid logo
+
+86
+00:01:54,333 --> 00:01:54,833
+这就是
+that are
+
+87
+00:01:54,333 --> 00:01:55,533
+以及
+that are as well as
+
+88
+00:01:54,833 --> 00:01:55,633
+以及
+as well as
+
+89
+00:01:55,800 --> 00:01:59,366
+反应的标志，但维生素的标志是更花哨的
+the react logo but the vit logo is even more fancy
+
+90
+00:01:55,833 --> 00:01:59,366
+反应的标志，但维生素的标志是更花哨的
+the react logo but the vit logo is even more fancy
+
+91
+00:01:59,366 --> 00:02:01,566
+我认为有人花了很多时间来调整这个
+i think someone spent a lot of time tweaking this
+
+92
+00:01:59,366 --> 00:02:01,566
+我认为有人花了很多时间来调整这个
+I think someone spent a lot of time tweaking this
+
+93
+00:02:01,566 --> 00:02:02,566
+并使它只是
+and making it just
+
+94
+00:02:01,566 --> 00:02:02,566
+并使它只是
+and making it just
+
+95
+00:02:03,200 --> 00:02:05,300
+完美的火花，无论如何
+perfectly sparkly anyway
+
+96
+00:02:03,233 --> 00:02:04,333
+完美的火花
+perfectly sparkly
+
+97
+00:02:04,700 --> 00:02:06,433
+总之，所以
+anyway so
+
+98
+00:02:05,800 --> 00:02:09,733
+所以我们有这个计数器，这不是用来演示的。
+so we have this counter and this is this is not for demo
+
+99
+00:02:06,900 --> 00:02:09,700
+我们有这个计数器，这不是用于演示的。
+we have this counter and this is this is not for demo
+
+100
+00:02:09,966 --> 00:02:11,366
+我们要做的是
+what we're gonna do is
+
+101
+00:02:09,966 --> 00:02:11,366
+我们要做的是
+what we're gonna do is
+
+102
+00:02:11,366 --> 00:02:13,499
+当你点击计数器的次数过多时
+when you click the counter too many times
+
+103
+00:02:11,366 --> 00:02:13,500
+当你点击计数器的次数过多时
+when you click the counter too many times
+
+104
+00:02:13,500 --> 00:02:14,866
+比方说15次
+let's say fifteen times
+
+105
+00:02:13,500 --> 00:02:14,866
+比方说，15次
+let's say 15 times
+
+106
+00:02:15,100 --> 00:02:18,400
+我们将显示一个警告信息，告诉你，嘿
+we're gonna show a warning message that tells you hey
+
+107
+00:02:15,133 --> 00:02:18,433
+我们将显示一个警告信息，告诉你，嘿
+we're gonna show a warning message that tells you hey
+
+108
+00:02:18,566 --> 00:02:21,166
+也许是时候考虑做别的事情了
+it's maybe time to think about doing something else
+
+109
+00:02:18,566 --> 00:02:21,166
+也许是时候考虑做一些其他的事情了
+it's maybe time to think about doing something else
+
+110
+00:02:21,166 --> 00:02:22,199
+然后点击按钮
+then clicking the button
+
+111
+00:02:21,166 --> 00:02:22,233
+然后点击该按钮
+then clicking the button
+
+112
+00:02:22,633 --> 00:02:23,433
+所以
+so
+
+113
+00:02:22,700 --> 00:02:23,500
+所以
+so
+
+114
+00:02:23,900 --> 00:02:27,366
+让我们在这里说，数到15以上的时候
+let's go in here and say count more than 15
+
+115
+00:02:23,900 --> 00:02:27,366
+让我们在这里说，计数超过15个
+let's go in here and say counts more than fifteen
+
+116
+00:02:27,500 --> 00:02:29,166
+我说我说超过15
+I said I said more than 15
+
+117
+00:02:27,533 --> 00:02:30,699
+我说我说超过15 是的，所以
+i said i said more than fifteen yeah so
+
+118
+00:02:29,166 --> 00:02:30,666
+是的，所以
+yeah so
+
+119
+00:02:31,433 --> 00:02:32,233
+警告
+warning
+
+120
+00:02:31,466 --> 00:02:32,299
+警告
+warning
+
+121
+00:02:33,400 --> 00:02:34,200
+警告
+warning
+
+122
+00:02:33,500 --> 00:02:34,300
+警告
+warning
+
+123
+00:02:35,166 --> 00:02:36,233
+你声称这
+you claim this
+
+124
+00:02:35,266 --> 00:02:36,199
+英国这个
+uk this
+
+125
+00:02:36,533 --> 00:02:37,666
+太多次了
+too many times
+
+126
+00:02:36,533 --> 00:02:39,166
+太多次了，该停下来了
+too many times time to stop
+
+127
+00:02:38,300 --> 00:02:39,133
+是时候停下来了
+time to stop
+
+128
+00:02:41,700 --> 00:02:44,000
+如果我回到我的兄弟身边，当然
+and if i go back to my brother of course
+
+129
+00:02:41,733 --> 00:02:43,366
+如果我回到我哥哥身边
+and if I go back to my brother
+
+130
+00:02:43,366 --> 00:02:45,933
+当然，因为计数是15，它的出现
+of course because the count is 15 it's appearing
+
+131
+00:02:44,000 --> 00:02:46,566
+因为数到15它就出现了 但如果我
+because the count is fifteen it's appearing but if i
+
+132
+00:02:45,933 --> 00:02:48,533
+但如果我的新鲜声音还没有出现的话
+but if I fresh voice is not appearing yet
+
+133
+00:02:46,800 --> 00:02:48,566
+新鲜的声音还没有出现
+fresh voice is not appearing yet
+
+134
+00:02:48,933 --> 00:02:51,333
+所以，我点击了一堆倍，是有
+so I click a bunch of times and is there
+
+135
+00:02:48,966 --> 00:02:51,333
+因此，我点击了一堆倍，是有
+so i click a bunch of times and is there
+
+136
+00:02:52,000 --> 00:02:52,800
+现在
+now
+
+137
+00:02:52,066 --> 00:02:52,866
+现在
+now
+
+138
+00:02:53,066 --> 00:02:56,300
+比方说，我想吃这个警告元素的速率
+let's say I want to eat rate on this warning element
+
+139
+00:02:53,100 --> 00:02:55,200
+让我们说我想在这个警告元素上吃率
+let's say i want to eat rate on this warning
+
+140
+00:02:55,600 --> 00:02:59,466
+元素，我想把它变成红色或类似的东西。
+element i want to make it maybe red or something like that well
+
+141
+00:02:56,500 --> 00:02:59,233
+我想让它变成红色或类似的东西
+I want to make it maybe red or something like that
+
+142
+00:02:59,300 --> 00:03:01,333
+首先，我需要多次点击这个。
+well first I need to click this a bunch of times
+
+143
+00:02:59,466 --> 00:03:02,599
+首先，我需要多次点击这个来显示它
+first i need to click this a bunch of times to show it
+
+144
+00:03:01,466 --> 00:03:04,533
+以显示它，然后我就可以对它进行处理了
+to show it and then I can work on it
+
+145
+00:03:02,766 --> 00:03:04,533
+然后我就可以开始工作了
+and then i can work on it
+
+146
+00:03:05,100 --> 00:03:07,733
+但你可能以前也遇到过这种情况
+but you've probably been in the situation before
+
+147
+00:03:05,100 --> 00:03:07,766
+但你可能已经在之前的情况下
+but you've probably been in the situation before
+
+148
+00:03:07,733 --> 00:03:09,033
+在现实生活中
+where in real life
+
+149
+00:03:07,766 --> 00:03:10,166
+在现实生活中，当你在建设网站时
+where in real life when you're building website
+
+150
+00:03:09,033 --> 00:03:10,766
+当你在建立网站时，你有这些
+when you're building website you have these
+
+151
+00:03:10,166 --> 00:03:10,799
+你有这些
+you have these
+
+152
+00:03:10,800 --> 00:03:13,333
+组件，这些UI元素只出现在像
+components these ui elements that only appear in like
+
+153
+00:03:10,833 --> 00:03:12,233
+组件 这些UI元素
+components these UI elements
+
+154
+00:03:12,233 --> 00:03:14,833
+只有在非常特殊的情况下才会出现
+that only appear in like very specific conditions
+
+155
+00:03:13,333 --> 00:03:16,266
+非常特殊的情况下，比如你是一个管理员或
+very specific conditions like when you're an admin or
+
+156
+00:03:14,833 --> 00:03:16,266
+比如当你是一个管理员或
+like when you're an admin or
+
+157
+00:03:16,666 --> 00:03:18,099
+当你有一个特定的废墟时
+when you have a specific ruin
+
+158
+00:03:16,666 --> 00:03:19,100
+当你有一个特定的废墟时，被设置的数据库
+when you have a specific ruin the database that is set
+
+159
+00:03:18,100 --> 00:03:20,200
+遗憾的是，设置的数据库
+the database that is set and unfortunately
+
+160
+00:03:19,100 --> 00:03:20,233
+和不幸的是
+and unfortunately
+
+161
+00:03:20,200 --> 00:03:22,200
+你的测试数据库没有这个规则
+your test database doesn't have that rule
+
+162
+00:03:20,233 --> 00:03:22,166
+你的测试数据库没有这个规则
+your test database doesn't have that rule
+
+163
+00:03:22,300 --> 00:03:23,133
+所以你需要模拟它
+so you need to mock it
+
+164
+00:03:22,300 --> 00:03:23,500
+所以你需要以某种方式来模拟它
+so you need to mock it somehow
+
+165
+00:03:23,133 --> 00:03:23,933
+某种程度上，等等
+somehow etc
+
+166
+00:03:23,500 --> 00:03:24,300
+等等
+etc
+
+167
+00:03:24,533 --> 00:03:27,099
+而在这里，我们可以做的是，我们可以把它砍掉。
+and and here what we can do is we can just hack it around
+
+168
+00:03:24,533 --> 00:03:27,099
+在这里，我们可以做的是，我们可以随便黑掉它。
+and here what we can do is we can just hack it around
+
+169
+00:03:27,100 --> 00:03:30,266
+所以我们基本上可以改变这里的主要入口点
+so we can basically change the main entry point here
+
+170
+00:03:30,400 --> 00:03:31,300
+为警告
+to be the warning
+
+171
+00:03:30,433 --> 00:03:32,233
+改为警告组件。
+to be the warning component instead
+
+172
+00:03:31,300 --> 00:03:32,200
+组件来代替
+component instead
+
+173
+00:03:32,533 --> 00:03:33,866
+而这是超级黑客的做法
+and this is super hacky
+
+174
+00:03:32,566 --> 00:03:34,366
+而这是超级黑客的做法，让我们不要
+and this is super hacky let's not
+
+175
+00:03:34,466 --> 00:03:36,233
+我们不会真的这样做，但
+we're not gonna actually do this but
+
+176
+00:03:34,600 --> 00:03:38,333
+我们不会真的这样做，但只是为了向你展示这个想法
+we're not gonna actually do this but just to show you the idea
+
+177
+00:03:36,333 --> 00:03:37,299
+只是为了向你展示
+just to show you
+
+178
+00:03:37,466 --> 00:03:38,333
+这个想法
+the idea
+
+179
+00:03:39,100 --> 00:03:39,933
+让我们来做这个吧
+let's let's do that
+
+180
+00:03:39,100 --> 00:03:43,300
+让我们这样做，让我们把这个导出为组件
+let's let's do that so let's export this as components
+
+181
+00:03:39,933 --> 00:03:43,299
+所以让我们把这个导出为组件
+so let's export this as components
+
+182
+00:03:44,566 --> 00:03:46,699
+然后在这里我们要做警告
+and then here we're gonna do warning
+
+183
+00:03:44,566 --> 00:03:46,666
+然后在这里，我们要做警告
+and then here we're gonna do warning
+
+184
+00:03:47,500 --> 00:03:48,900
+然后回到我的浏览器上
+and back to my browser
+
+185
+00:03:49,000 --> 00:03:50,733
+我看到的是 "无限的"（discomfinite）。
+i can see just discomfinite
+
+186
+00:03:49,066 --> 00:03:50,733
+我可以看到只有discomfinite
+I can see just discomfinite
+
+187
+00:03:50,733 --> 00:03:51,166
+这意味着
+which means that
+
+188
+00:03:50,733 --> 00:03:51,333
+这意味着，现在
+which means that now
+
+189
+00:03:51,166 --> 00:03:53,100
+现在我不需要多次点击计数器了
+now I don't need to click the counter a bunch of times
+
+190
+00:03:51,333 --> 00:03:53,099
+我不需要点击计数器很多次
+i don't need to click the counter a bunch of times
+
+191
+00:03:53,100 --> 00:03:53,933
+来看到它出现
+to see it appear
+
+192
+00:03:53,933 --> 00:03:54,933
+或类似的东西
+or anything like that
+
+193
+00:03:55,566 --> 00:03:58,100
+我也可以把它与我的 "我的 "并排放在一起。
+I can also just put that side by side with
+
+194
+00:03:55,600 --> 00:03:58,366
+我也可以把它和我的ID并排放在一起。
+i can also just put that side by side with my
+
+195
+00:03:58,733 --> 00:04:03,299
+我的ID可以很好地看到它的出现
+my id to see it appear nicely
+
+196
+00:03:59,200 --> 00:04:03,300
+我也可以把它和我的名字放在一起，让它看起来很好。
+id to see it appear nicely
+
+197
+00:04:03,766 --> 00:04:06,766
+你知道，现在我可以进入应用程序的css
+and you know now i can go into app that css
+
+198
+00:04:03,766 --> 00:04:06,766
+而你知道现在我可以进入应用的CSS
+and you know now I can go into app that CSS
+
+199
+00:04:07,900 --> 00:04:09,033
+并让我们说
+and let's say
+
+200
+00:04:07,900 --> 00:04:09,066
+和让我们说
+and let's say
+
+201
+00:04:10,100 --> 00:04:11,400
+所以这是警告
+so this is warning
+
+202
+00:04:10,100 --> 00:04:11,466
+所以这是警告
+so this is warning
+
+203
+00:04:12,000 --> 00:04:13,366
+颜色为红色
+color red
+
+204
+00:04:12,066 --> 00:04:13,366
+红色
+color red
+
+205
+00:04:14,333 --> 00:04:15,133
+酷
+cool
+
+206
+00:04:15,900 --> 00:04:18,333
+现在，这是一个可怕的想法，因为
+now this is a terrible idea because
+
+207
+00:04:15,900 --> 00:04:20,666
+现在，这是一个可怕的想法，因为如果有任何机会，错误地
+now this is a terrible idea because if by any chance by mistake
+
+208
+00:04:18,566 --> 00:04:19,833
+如果通过任何改变
+if by any change
+
+209
+00:04:19,833 --> 00:04:23,133
+错了，你最终会把这个变化并入缅因州
+by mistake you end up merging this change into Maine
+
+210
+00:04:20,666 --> 00:04:23,133
+你最终会把这个改动合并到缅因州的
+you end up merging this change into maine
+
+211
+00:04:23,166 --> 00:04:24,899
+到被部署的主分支中去
+into the main branch that gets deployed
+
+212
+00:04:23,166 --> 00:04:24,900
+到被部署的主分支中去
+into the main branch that gets deployed
+
+213
+00:04:25,300 --> 00:04:25,933
+那么显然
+then obviously
+
+214
+00:04:25,933 --> 00:04:26,766
+你的用户会有
+your users are gonna have
+
+215
+00:04:25,933 --> 00:04:27,966
+你的用户会有一个完全破碎的体验
+your users are gonna have a completely broken experience
+
+216
+00:04:26,766 --> 00:04:27,966
+一个完全破碎的体验
+a completely broken experience
+
+217
+00:04:27,966 --> 00:04:29,099
+因为他们所看到的
+because all they're gonna see
+
+218
+00:04:27,966 --> 00:04:30,166
+因为他们所看到的是那个组件
+because all they're gonna see is that component
+
+219
+00:04:29,100 --> 00:04:30,166
+是那个组件
+is that component
+
+220
+00:04:30,166 --> 00:04:32,366
+而不是应该看到的应用
+as opposed to the app that is supposed to see
+
+221
+00:04:30,200 --> 00:04:32,766
+相对于应该看到的应用程序，所以
+as opposed to the app that is supposed to see so
+
+222
+00:04:32,366 --> 00:04:34,533
+因此，让我们把这个和
+so let's refer this and
+
+223
+00:04:32,866 --> 00:04:34,533
+让我们把它变成这样，然后
+let's refer it this and
+
+224
+00:04:34,833 --> 00:04:36,299
+让它回到它应该是的样子
+get it back to what it's supposed to be
+
+225
+00:04:34,866 --> 00:04:36,333
+让它回到它应该有的状态
+get it back to what it's supposed to be
+
+226
+00:04:36,766 --> 00:04:41,266
+并找到另一个解决方案，所以我打算把这个藏起来
+and find another solution instead so i'm gonna hide this
+
+227
+00:04:36,766 --> 00:04:38,666
+并找到另一个解决方案来代替
+and find another solution instead
+
+228
+00:04:38,666 --> 00:04:41,233
+所以我要把它藏起来
+so I'm gonna hide this
+
+229
+00:04:42,500 --> 00:04:44,266
+我打算停止开发，所以我实际上不需要这个。
+I'm going to stop the devs so I don't actually
+
+230
+00:04:42,500 --> 00:04:45,266
+我打算停止开发，所以我实际上不需要这个了
+i'm going to stop the devs so i don't actually need this anymore
+
+231
+00:04:44,266 --> 00:04:45,266
+不再需要这个
+need this anymore
+
+232
+00:04:46,466 --> 00:04:48,366
+而我将使用特权S
+and instead I'm going to use privilege s
+
+233
+00:04:46,500 --> 00:04:48,866
+取而代之的是我要使用特权S，所以
+and instead i'm going to use privilege s so
+
+234
+00:04:48,366 --> 00:04:53,733
+所以现在我们可以回去添加tsx，我已经有了
+so now we can go back to add tsx and I already have
+
+235
+00:04:49,600 --> 00:04:53,733
+现在我们可以回到添加tsx，而且我已经有了
+now we can go back to add tsx and i already have
+
+236
+00:04:53,933 --> 00:04:55,599
+特权S安装在这里
+privilege s installed here
+
+237
+00:04:53,933 --> 00:04:55,633
+特权S安装在这里
+privage s installed here
+
+238
+00:04:56,866 --> 00:04:58,666
+这对VASCO基地来说是可用的
+and this is available for vasco base
+
+239
+00:04:56,866 --> 00:04:58,666
+而这是可以用于VASCO基地的
+and this is available for vasco base
+
+240
+00:04:58,666 --> 00:05:00,533
+也适用于智能网店
+also for intelligent web store
+
+241
+00:04:58,666 --> 00:05:00,500
+也适用于英特尔-简网络商店
+also for Intel a Jane web store
+
+242
+00:05:01,300 --> 00:05:03,766
+现在我可以看到，我有这个
+and now i can see that i have this
+
+243
+00:05:01,300 --> 00:05:03,766
+现在我可以看到，我有这个
+and now I can see that I have this
+
+244
+00:05:04,366 --> 00:05:08,199
+链接在每个组件的顶部，所以在特权S中打开应用程序
+link on top of each of the components so open app in privilege s
+
+245
+00:05:04,366 --> 00:05:06,033
+链接在每一个信心的顶部
+link on top of each of the confidence
+
+246
+00:05:06,033 --> 00:05:08,233
+因此，在特权S中打开应用程序
+so open app in privilege s
+
+247
+00:05:08,400 --> 00:05:11,300
+或在这里在特权S中打开警告
+or here open warning in privilege s
+
+248
+00:05:08,433 --> 00:05:11,299
+或在这里在特权S中打开警告
+or here open warning in privilege s
+
+249
+00:05:11,600 --> 00:05:13,100
+如果我打开并预先拒绝
+if i open up and pre reject
+
+250
+00:05:11,633 --> 00:05:13,099
+如果我打开并预先拒绝
+if I open up and pre reject
+
+251
+00:05:13,100 --> 00:05:15,033
+它要做的就是把它并排打开
+what it's going to do is open it side by side
+
+252
+00:05:13,100 --> 00:05:15,866
+它要做的是在我的ID中并排打开它
+what it's going to do is open it side by side within my id
+
+253
+00:05:15,033 --> 00:05:17,833
+在我的ID内，所以这就像在与代码
+within my id so this is like within vs code
+
+254
+00:05:15,866 --> 00:05:17,799
+所以这就像在VS代码中一样
+so this is like within vs code
+
+255
+00:05:18,700 --> 00:05:20,100
+如果我打开
+and if I open
+
+256
+00:05:18,700 --> 00:05:22,766
+如果我打开警告，它就会向我显示那个自信的
+and if i open warning it will show me just that confident
+
+257
+00:05:20,366 --> 00:05:22,733
+警告，它就会向我显示那个组件
+warning it will show me just that component
+
+258
+00:05:23,300 --> 00:05:24,700
+所以这意味着你可以使用这个
+so that means that you can use that
+
+259
+00:05:23,333 --> 00:05:24,733
+所以这意味着你可以用它来
+so that means that you can use that
+
+260
+00:05:24,700 --> 00:05:26,700
+来测试任何隔离的组件
+to test any component in isolation
+
+261
+00:05:24,733 --> 00:05:27,466
+来测试你想要的任何组件。
+to test any component in isolation that you want
+
+262
+00:05:26,700 --> 00:05:27,500
+你想要的
+that you want
+
+263
+00:05:27,533 --> 00:05:28,733
+而不是必须
+as opposed to having to
+
+264
+00:05:27,533 --> 00:05:30,066
+而不是围绕着不同的
+as opposed to having to hack around the
+
+265
+00:05:28,900 --> 00:05:31,000
+围绕着不同的
+hack around the different
+
+266
+00:05:30,466 --> 00:05:32,933
+不同的入口点或类似的东西
+different the entry point or anything like that
+
+267
+00:05:31,200 --> 00:05:32,933
+入口点或任何类似的东西
+the entry point or anything like that
+
+268
+00:05:33,566 --> 00:05:35,566
+在引擎盖下的特权正在做什么
+under the hood what privileges is doing
+
+269
+00:05:33,566 --> 00:05:34,366
+在引擎盖下
+under the hood
+
+270
+00:05:34,366 --> 00:05:36,900
+特权是什么做的是它的那种模拟
+what privileges is doing is it's kind of simulating
+
+271
+00:05:35,566 --> 00:05:38,266
+是它的那种模拟一个假的入口点
+is it's kind of simulating a fake entry point
+
+272
+00:05:36,900 --> 00:05:38,266
+一个假的进入点
+a fake entry point
+
+273
+00:05:38,466 --> 00:05:40,733
+恰恰是在做黑客攻击你的事
+doing precisely the hack that does strude you
+
+274
+00:05:38,466 --> 00:05:40,733
+恰恰是做了黑客，确实只是给你看
+doing precisely the hack that does just show you
+
+275
+00:05:40,866 --> 00:05:41,666
+但
+but
+
+276
+00:05:40,900 --> 00:05:44,533
+但是，在内存中的方式，不乱用你的文件
+but in memory in a way that doesn't mess with your files
+
+277
+00:05:41,666 --> 00:05:44,533
+在内存中的方式，不乱用你的文件
+in memory in a way that doesn't mess with your files
+
+278
+00:05:45,100 --> 00:05:46,100
+所以现在我可以
+so now I can
+
+279
+00:05:45,100 --> 00:05:47,800
+所以，现在我可以调整这个有点
+so now i can tweak this a bit
+
+280
+00:05:46,900 --> 00:05:47,833
+调整一下
+tweak this a bit
+
+281
+00:05:48,166 --> 00:05:49,333
+可以调整这个
+can tweak this
+
+282
+00:05:48,166 --> 00:05:50,166
+可以稍微调整一下
+can tweak this a little
+
+283
+00:05:49,400 --> 00:05:50,866
+一点点
+little bit
+
+284
+00:05:50,300 --> 00:05:51,100
+一点
+bit
+
+285
+00:05:52,100 --> 00:05:54,200
+你可以看到，它实际上是作为一个类型来更新的
+and you can see that it's actually updating as a type
+
+286
+00:05:52,133 --> 00:05:54,233
+你可以看到它实际上是作为一个类型来更新的
+and you can see that it's actually updating as a type
+
+287
+00:05:54,200 --> 00:05:57,200
+这比起要等到我保存时才更新要好得多。
+which is slightly nicer than having to wait until i save
+
+288
+00:05:54,233 --> 00:05:55,166
+这比要等到我保存
+which is slightly
+
+289
+00:05:55,166 --> 00:05:57,166
+比要等到我保存时才更新要好一些
+nicer than having to wait until I save
+
+290
+00:05:57,400 --> 00:06:01,900
+这是可能的，由于维生素的支持的插件
+and this is possible thanks to vit's support for plugins
+
+291
+00:05:57,433 --> 00:05:59,333
+和这是可能的，由于
+and this is possible thanks to
+
+292
+00:05:59,533 --> 00:06:01,933
+维特对插件的支持
+vit's support for plugins
+
+293
+00:06:02,400 --> 00:06:04,666
+因此，一个特权当然是由维生素提供动力，否则
+so a privileges of course is powered by vit otherwise
+
+294
+00:06:02,433 --> 00:06:04,299
+因此，特权当然是由维生素提供的
+so the privileges of course is powered by vit
+
+295
+00:06:04,300 --> 00:06:06,366
+否则，我不会谈论它在VIDCOFF
+otherwise I wouldn't be talking about it at vidcoff
+
+296
+00:06:04,666 --> 00:06:06,366
+我不会谈论它在vitcoff的
+i wouldn't be talking about it at vitcoff
+
+297
+00:06:06,666 --> 00:06:10,066
+但维生素有这个真正强大的生态系统的插件
+but vit has this really powerful ecosystem of plugins
+
+298
+00:06:06,666 --> 00:06:08,333
+但维生素有这个真正的
+but vit has this really
+
+299
+00:06:08,500 --> 00:06:10,100
+强大的生态系统的插件
+powerful ecosystem of plugins
+
+300
+00:06:10,066 --> 00:06:11,766
+这是在滚筒插件的基础上
+which are based on roller plugins
+
+301
+00:06:10,100 --> 00:06:11,733
+这是以滚筒插件为基础的
+which are based on roller plugins
+
+302
+00:06:12,100 --> 00:06:13,500
+而且你可以实现
+and you can implement
+
+303
+00:06:12,100 --> 00:06:15,066
+你可以实现像一个虚拟农场系统
+and you can implement like a virtual far system
+
+304
+00:06:13,500 --> 00:06:16,300
+像一个虚拟文件系统，即使你想
+like a virtual file system even if you want to
+
+305
+00:06:15,066 --> 00:06:16,299
+即使你想
+even if you want to
+
+306
+00:06:16,400 --> 00:06:17,466
+所以在这种情况下
+so in this case
+
+307
+00:06:16,433 --> 00:06:18,666
+所以在这种情况下，其中一个我正在打字
+so in this case one of them I'm typing
+
+308
+00:06:17,466 --> 00:06:20,266
+其中之一，我打字的每一个键程，我正在做的
+one of them i'm typing on every key stroke that i'm making
+
+309
+00:06:18,666 --> 00:06:20,266
+在我做的每一个按键上
+on every key stroke that I'm making
+
+310
+00:06:20,566 --> 00:06:24,433
+它告诉我，这个虚拟文件已经改变了
+it's telling that hey this virtual file has changed
+
+311
+00:06:20,700 --> 00:06:22,000
+它正在处理嘿
+it's dealing with hey
+
+312
+00:06:22,100 --> 00:06:25,600
+这个虚拟文件已经改变了 现在刷新它
+this virtual file has changed now refresh it
+
+313
+00:06:24,566 --> 00:06:25,566
+现在刷新它
+now refresh it
+
+314
+00:06:25,900 --> 00:06:29,133
+这就是这里发生的事情，因为这个维生素是如此之快
+and that's what is happening here because this vit is so fast
+
+315
+00:06:26,033 --> 00:06:27,433
+这就是发生在这里的事情
+and that's what is happening here
+
+316
+00:06:27,433 --> 00:06:30,299
+因为如果它是如此之快，你实际上并没有看到
+because if it is so fast you don't actually see
+
+317
+00:06:29,133 --> 00:06:33,166
+你实际上没有看到任何滞后之间的我打它和
+you don't actually see any lag between me typing it and the
+
+318
+00:06:30,333 --> 00:06:33,233
+任何滞后，我打字和
+any lag between me typing it and the
+
+319
+00:06:33,500 --> 00:06:35,366
+实际发生的变化
+actual changes happening
+
+320
+00:06:33,533 --> 00:06:35,366
+实际发生的变化
+actual changes happening
+
+321
+00:06:35,600 --> 00:06:36,566
+这就是
+this is
+
+322
+00:06:35,666 --> 00:06:36,566
+这就是
+this is
+
+323
+00:06:37,300 --> 00:06:38,233
+几乎是
+pretty much
+
+324
+00:06:37,333 --> 00:06:38,199
+幾乎是
+pretty much
+
+325
+00:06:39,233 --> 00:06:40,033
+譬喻
+instance
+
+326
+00:06:39,300 --> 00:06:40,100
+譬喻
+instance
+
+327
+00:06:42,200 --> 00:06:43,000
+现在
+now
+
+328
+00:06:42,300 --> 00:06:43,100
+现在
+now
+
+329
+00:06:43,400 --> 00:06:45,166
+我们现在所看到的组件
+the the components that we're looking at right now
+
+330
+00:06:43,466 --> 00:06:45,166
+我们现在所看到的组件
+the components that we're looking at right now
+
+331
+00:06:45,166 --> 00:06:46,299
+是超级简单的
+are super simple
+
+332
+00:06:45,166 --> 00:06:46,300
+是超级简单的
+are super simple
+
+333
+00:06:46,366 --> 00:06:47,299
+它们基本上是
+they're basically the
+
+334
+00:06:46,366 --> 00:06:47,300
+它们基本上是
+they're basically the
+
+335
+00:06:47,300 --> 00:06:48,700
+UI组件的常量
+constants of UI components
+
+336
+00:06:47,333 --> 00:06:50,099
+UI自信的常量，因为它们不需要任何道具
+constants of ui confidence because they don't take any props
+
+337
+00:06:48,700 --> 00:06:50,100
+因为它们不需要任何道具
+because they don't take any props
+
+338
+00:06:50,300 --> 00:06:51,733
+但是，这个......这个需要这个
+but this this takes this
+
+339
+00:06:50,333 --> 00:06:53,133
+但这个让我们做一些更现实的事情吧
+but this let's do something a little bit more realistic
+
+340
+00:06:51,733 --> 00:06:53,133
+做点更现实的事情
+do something a little bit more realistic
+
+341
+00:06:53,133 --> 00:06:54,866
+让我们说，警告组件实际上
+let's say the warning component actually
+
+342
+00:06:53,133 --> 00:06:56,199
+让我们说，警告组件实际上需要一个信息
+let's say the warning component actually takes a message
+
+343
+00:06:54,866 --> 00:06:56,233
+采取一个信息
+takes a message
+
+344
+00:06:56,866 --> 00:06:58,966
+和一个非点击
+and a non click
+
+345
+00:06:56,966 --> 00:06:58,899
+和一个点击时
+and an on click
+
+346
+00:06:59,066 --> 00:06:59,866
+倾听者
+listener
+
+347
+00:06:59,066 --> 00:06:59,866
+倾听者
+listener
+
+348
+00:07:01,766 --> 00:07:04,866
+所以我们不点击等于抓取明星点击
+so we don't click equals grab star click
+
+349
+00:07:01,766 --> 00:07:04,866
+所以我们要做的是，点击等同于道具唐纳德点击
+so we do on click equals props Donald click
+
+350
+00:07:06,200 --> 00:07:08,500
+也许我现在应该为gidhabota试点付钱了
+maybe i should pay for gidhabota pilot now
+
+351
+00:07:06,233 --> 00:07:08,499
+也许我现在应该为github的试点付钱了
+maybe I should pay for github to pilot now
+
+352
+00:07:10,300 --> 00:07:11,733
+道具点信息
+props dot message
+
+353
+00:07:10,333 --> 00:07:11,733
+probstad消息
+probstad message
+
+354
+00:07:12,200 --> 00:07:13,000
+好的
+okay
+
+355
+00:07:12,233 --> 00:07:13,033
+好的
+okay
+
+356
+00:07:13,800 --> 00:07:17,666
+顶级脚本编译器的API是在引擎盖下使用的
+the top script compiler api is used under the hood
+
+357
+00:07:13,833 --> 00:07:16,166
+顶级脚本编译器的API是
+the top script compiler API is
+
+358
+00:07:16,366 --> 00:07:17,666
+在引擎盖下使用
+used under the hood
+
+359
+00:07:17,766 --> 00:07:18,466
+以
+to
+
+360
+00:07:17,766 --> 00:07:19,866
+来自动检测
+to automatically detect
+
+361
+00:07:18,466 --> 00:07:23,099
+自动检测组件的道具是什么，所以如果我
+automatically detect what are the props of the component so if i
+
+362
+00:07:19,966 --> 00:07:22,466
+组件的道具是什么？
+what are the props of the component
+
+363
+00:07:22,466 --> 00:07:23,266
+那么，如果我
+so if I
+
+364
+00:07:23,600 --> 00:07:24,300
+点击这个
+click on this
+
+365
+00:07:23,633 --> 00:07:25,766
+点击这个，它就会自动生成
+click on this it's going to automatically generate
+
+366
+00:07:24,300 --> 00:07:27,000
+它将自动生成消息
+it's going to automatically generate message
+
+367
+00:07:26,266 --> 00:07:29,133
+消息，这是一个有效的属性值
+message which is a valid value for properties
+
+368
+00:07:27,000 --> 00:07:29,133
+这是一个有效的属性值
+which is a valid value for properties
+
+369
+00:07:29,333 --> 00:07:30,499
+而且它实际上并不
+and it doesn't actually
+
+370
+00:07:29,366 --> 00:07:30,499
+而且它实际上并不
+and it doesn't actually
+
+371
+00:07:30,800 --> 00:07:33,733
+显示给你看，但在引擎盖下有一个点击监听器正在
+show you but under the hood is an on click listener being
+
+372
+00:07:30,833 --> 00:07:31,233
+显示你
+show you
+
+373
+00:07:31,233 --> 00:07:33,733
+但在引擎盖下是一个点击监听器被生成
+but under the hood is an on click listener being
+
+374
+00:07:34,300 --> 00:07:35,966
+生成，如果我点击这个
+generated as well if I click on this
+
+375
+00:07:34,300 --> 00:07:36,000
+生成，如果我点击这个
+generated as well if i click on this
+
+376
+00:07:36,300 --> 00:07:39,633
+你可以看到这个弹出函数被打破了
+you can see this pop up function proping broke
+
+377
+00:07:36,300 --> 00:07:39,766
+你可以看到这个弹出式函数被调用了
+you can see this pop up function prop invoked
+
+378
+00:07:40,366 --> 00:07:41,733
+而且每次我点击它的时候
+and like every time i click it
+
+379
+00:07:40,366 --> 00:07:41,733
+和每次我点击它
+and every time I click it
+
+380
+00:07:41,933 --> 00:07:42,866
+让我告诉你
+let me show you
+
+381
+00:07:43,100 --> 00:07:45,066
+稍微高级一些的组件
+slightly more advanced components
+
+382
+00:07:43,100 --> 00:07:45,100
+更高级的组件
+slightly more advanced components
+
+383
+00:07:45,466 --> 00:07:49,899
+来说明一下，这里有这个按钮组件
+to to illustrate so here have this button component
+
+384
+00:07:45,466 --> 00:07:46,700
+来说明
+to illustrate
+
+385
+00:07:46,700 --> 00:07:49,900
+所以这里有这个按钮组件
+so here have this button component
+
+386
+00:07:50,666 --> 00:07:52,933
+它当然也需要子代
+and it takes children of course
+
+387
+00:07:50,666 --> 00:07:52,933
+它当然也需要子代
+and it takes children of course
+
+388
+00:07:53,066 --> 00:07:55,566
+类型大小和取消点击和
+type size and unclick and
+
+389
+00:07:53,066 --> 00:07:54,933
+类型大小和点击
+type size and on click
+
+390
+00:07:55,100 --> 00:07:58,833
+这里的类型实际上是3个值中的一个，对吗？
+and here type is actually one of 3 values right
+
+391
+00:07:55,700 --> 00:07:56,266
+这里
+here
+
+392
+00:07:56,266 --> 00:07:58,799
+类型实际上是三个值中的一个，对吗？
+type is actually one of three values right
+
+393
+00:07:58,933 --> 00:08:01,533
+要么成功，要么错误，要么透明
+either success error or transparent
+
+394
+00:08:02,200 --> 00:08:03,733
+当我打开这个
+when i open this
+
+395
+00:08:02,233 --> 00:08:03,733
+当我打开这个的时候
+when I open this
+
+396
+00:08:04,200 --> 00:08:06,533
+它就会生成一个非常简单的
+it's just going to generate a very very simple
+
+397
+00:08:04,233 --> 00:08:06,499
+它只是要生成一个非常非常简单的
+it's just gonna generate a very very simple
+
+398
+00:08:07,033 --> 00:08:07,666
+的版本
+version of it
+
+399
+00:08:07,066 --> 00:08:08,766
+我实际上可以生成它的版本
+version of it i can actually generate
+
+400
+00:08:07,666 --> 00:08:08,766
+我实际上可以生成
+I can actually generate
+
+401
+00:08:08,866 --> 00:08:10,966
+道具的随机值，就像这样
+random values for the props like this
+
+402
+00:08:08,866 --> 00:08:10,966
+为道具生成的随机值是这样的
+random values for the props like this
+
+403
+00:08:12,766 --> 00:08:16,399
+而且我还可以使用其他的完成方式，所以如果我这样做的话
+and i can also just use the other completes so if i do
+
+404
+00:08:12,766 --> 00:08:16,433
+我也可以使用自动完成，所以如果我做了
+and I can also just use the auto complete so if I do
+
+405
+00:08:16,800 --> 00:08:17,600
+类型
+type
+
+406
+00:08:16,833 --> 00:08:17,633
+类型
+type
+
+407
+00:08:18,133 --> 00:08:19,266
+我实际上有
+I actually have
+
+408
+00:08:18,166 --> 00:08:21,266
+我实际上可以在这些不同的值之间进行选择
+i actually have the choice between these different values
+
+409
+00:08:19,266 --> 00:08:21,233
+在这些不同的值之间进行选择
+the choice between these different values
+
+410
+00:08:22,400 --> 00:08:24,400
+现在，这是免费版本的特权
+now this is the free version of privileges
+
+411
+00:08:22,433 --> 00:08:25,066
+现在，这是免费版本的特权，这是
+now this is the free version of privileges which is
+
+412
+00:08:24,400 --> 00:08:26,266
+这是免费和开放源码的
+which is free and open source
+
+413
+00:08:25,133 --> 00:08:26,266
+免费和开源的
+free and open source
+
+414
+00:08:26,333 --> 00:08:28,366
+也有一个付费的专业版本
+there is also a pro version that is paid
+
+415
+00:08:28,366 --> 00:08:31,066
+而我们的想法是，最好是补贴
+and the idea is to ideally subsidize
+
+416
+00:08:28,366 --> 00:08:31,066
+和想法是理想的补贴
+and the idea is to ideally subsidize
+
+417
+00:08:31,366 --> 00:08:33,733
+补贴特权项目，这样我就可以花费
+the privileges project so that i can spend
+
+418
+00:08:31,366 --> 00:08:33,733
+资助特权项目，这样我就可以把大部分时间花在
+the privileges project so that I can spend
+
+419
+00:08:33,866 --> 00:08:35,599
+我的大部分时间工作在这上面，而不是
+most of my time working on that instead of
+
+420
+00:08:33,866 --> 00:08:35,666
+我的大部分时间工作在这上面，而不是
+most of my time working on that instead of
+
+421
+00:08:35,866 --> 00:08:36,933
+做一份正常的工作
+working a normal job
+
+422
+00:08:35,866 --> 00:08:36,900
+做一份正常的工作
+working a normal job
+
+423
+00:08:38,133 --> 00:08:39,933
+让我告诉你这看起来像什么
+let me show you what that looks like
+
+424
+00:08:38,200 --> 00:08:39,566
+让我告诉你这是什么样子的
+let me show you what that looks
+
+425
+00:08:39,566 --> 00:08:41,966
+有一个稍微高级一点的道具编辑器
+like there's a slightly more advanced props editor
+
+426
+00:08:39,933 --> 00:08:41,966
+有一个稍微高级的道具编辑器
+there's a slightly more advanced props editor
+
+427
+00:08:41,966 --> 00:08:43,166
+因此，启用Curl
+so enable curl
+
+428
+00:08:41,966 --> 00:08:43,166
+启用船员
+so enable crew
+
+429
+00:08:45,000 --> 00:08:46,800
+现在，如果我打开按钮
+now if i open button
+
+430
+00:08:45,033 --> 00:08:46,833
+现在，如果我打开按钮
+now if I open button
+
+431
+00:08:48,133 --> 00:08:48,933
+我有
+i have
+
+432
+00:08:48,266 --> 00:08:50,433
+有了这个结构化的编辑器
+have this editor which is structured
+
+433
+00:08:49,000 --> 00:08:51,600
+这个编辑器是结构化的，与之前的编辑器不同
+this editor which is structured as opposed to the previous one
+
+434
+00:08:50,433 --> 00:08:52,933
+而之前的编辑器是基于代码的
+as opposed to the previous one which is code based
+
+435
+00:08:51,600 --> 00:08:52,900
+这是基于代码的
+which is code based
+
+436
+00:08:53,466 --> 00:08:56,966
+我可以更新 我可以像这样添加任何可选的值
+and i can update i can add any optional value like this
+
+437
+00:08:53,466 --> 00:08:55,333
+并且我可以更新
+and I can update
+
+438
+00:08:55,333 --> 00:08:56,966
+我可以像这样添加任何可选的值
+I can add any optional value like this
+
+439
+00:08:56,966 --> 00:08:57,866
+而且我可以选择
+and i can choose
+
+440
+00:08:56,966 --> 00:08:57,833
+而且我可以选择
+and I can choose
+
+441
+00:08:57,833 --> 00:08:59,666
+在现有的不同价值之间
+between the different values that are available
+
+442
+00:08:57,866 --> 00:08:59,666
+可以在不同的值之间进行选择
+between the different values that are available
+
+443
+00:09:00,333 --> 00:09:03,699
+顺便说一句，像道具编辑器可以支持任何
+and by the way like the props editor can support any
+
+444
+00:09:04,033 --> 00:09:05,666
+类型的复杂性时
+type of type complexity when
+
+445
+00:09:04,066 --> 00:09:05,466
+类型的复杂性
+type of type complexity
+
+446
+00:09:05,800 --> 00:09:09,100
+你知道嵌套类型数组或所有这类东西吗？
+you know nested types arrays or all this kind of stuff
+
+447
+00:09:05,833 --> 00:09:09,099
+你知道嵌套类型数组或所有这类东西
+you know nested types arrays or all this kind of stuff
+
+448
+00:09:09,600 --> 00:09:11,500
+没有真正有任何问题的
+without really having any issues with that
+
+449
+00:09:09,666 --> 00:09:11,500
+没有任何问题的情况下
+without really having any issues with that
+
+450
+00:09:12,300 --> 00:09:15,466
+所以，如果你想获得强大的用户体验的想法
+so if you want the power user experience the ideas
+
+451
+00:09:15,466 --> 00:09:16,999
+我愿意花钱购买私人的JS专业版
+i'd pay for private js pro
+
+452
+00:09:15,466 --> 00:09:16,966
+我愿意为私人js pro付费
+I'd pay for a private js pro
+
+453
+00:09:17,066 --> 00:09:19,666
+但除此之外，我希望大多数人将
+but otherwise i'm hoping that most people will
+
+454
+00:09:17,066 --> 00:09:19,666
+但除此之外，我希望大多数人都能
+but otherwise I'm hoping that most people will
+
+455
+00:09:19,833 --> 00:09:21,499
+能够过得很好
+be able to get get by fine
+
+456
+00:09:19,866 --> 00:09:21,266
+能够得到告别
+be able to get goodbye
+
+457
+00:09:21,266 --> 00:09:23,566
+只用事先的js就可以了，而不必为它付费
+fine with just prior js without having to pay for it
+
+458
+00:09:21,500 --> 00:09:23,566
+只用私人的js而不用付钱
+with just private js without having to pay for it
+
+459
+00:09:24,733 --> 00:09:26,666
+因此，这将使其失去作用。
+so this disable back
+
+460
+00:09:24,733 --> 00:09:26,699
+所以这就不能再使用了
+so this disable back
+
+461
+00:09:27,466 --> 00:09:28,266
+亲
+pro
+
+462
+00:09:27,466 --> 00:09:28,266
+亲
+pro
+
+463
+00:09:29,500 --> 00:09:29,733
+而现在
+and now
+
+464
+00:09:29,500 --> 00:09:32,133
+现在让我告诉你，它也可以在视图中工作。
+and now let me just show you that it does work with view as well
+
+465
+00:09:29,733 --> 00:09:31,766
+让我告诉你，它确实与视图一起工作
+let me just show you that it does work with view
+
+466
+00:09:31,766 --> 00:09:32,733
+也是如此，我
+as well I
+
+467
+00:09:32,133 --> 00:09:34,166
+我它也能与实体一起工作
+i it works with solid as well
+
+468
+00:09:32,833 --> 00:09:34,166
+它也能和实体一起工作
+it works with solid as well
+
+469
+00:09:34,166 --> 00:09:36,333
+但我们没有时间去做所有的事情，所以
+but i we don't have time for everything so
+
+470
+00:09:34,166 --> 00:09:35,866
+但我没有时间去做所有的事情
+but I we don't have time for everything
+
+471
+00:09:35,866 --> 00:09:38,233
+所以让我们去创建另一个应用程序
+so let's go and create another app
+
+472
+00:09:36,500 --> 00:09:38,200
+让我们去创建另一个应用程序
+let's go and create another app
+
+473
+00:09:39,900 --> 00:09:41,200
+这将是一个视图应用程序
+which is gonna be a view app
+
+474
+00:09:39,900 --> 00:09:41,233
+这将是一个视图应用程序
+which is going to be a view app
+
+475
+00:09:41,933 --> 00:09:43,033
+我的视图应用程序
+my view app
+
+476
+00:09:41,933 --> 00:09:43,066
+我的视图应用程序
+my view app
+
+477
+00:09:43,800 --> 00:09:48,066
+这是一个伟大的应用程序名称，我认为没有反应，嘿嘿，坏习惯。
+that's a great app name i think no not react hehe bad habits
+
+478
+00:09:43,833 --> 00:09:45,366
+这是一个伟大的应用程序的名字，我认为
+that's a great app name I think
+
+479
+00:09:45,700 --> 00:09:46,133
+不
+no
+
+480
+00:09:46,133 --> 00:09:48,066
+没有反应的坏习惯
+not react bad habits
+
+481
+00:09:48,533 --> 00:09:51,099
+因此，重新开始我的视图应用程序
+so start again my view app
+
+482
+00:09:52,300 --> 00:09:53,866
+视图标签脚本
+view tab script
+
+483
+00:09:52,333 --> 00:09:53,866
+视图描述
+view descript
+
+484
+00:09:54,666 --> 00:09:57,099
+我将会安装依赖性文件
+and i'm gonna install the depenses
+
+485
+00:09:54,666 --> 00:09:56,966
+我要安装依赖性的东西
+and I'm going to install the dependencies
+
+486
+00:10:01,233 --> 00:10:02,033
+是的
+yeah
+
+487
+00:10:01,266 --> 00:10:02,066
+好的
+yep
+
+488
+00:10:02,933 --> 00:10:04,733
+现在我将打开它
+and now I'm gonna open that
+
+489
+00:10:02,966 --> 00:10:04,733
+现在我要打开它
+and now i'm gonna open that
+
+490
+00:10:07,166 --> 00:10:07,966
+好的
+okay
+
+491
+00:10:07,166 --> 00:10:07,966
+好的
+okay
+
+492
+00:10:08,633 --> 00:10:11,299
+而不是jsx，因为这是一个视图应用程序。
+instead of jsx of course because this is a view app
+
+493
+00:10:08,666 --> 00:10:11,299
+而不是jsx，因为这是一个视图应用程序
+instead of jsx of course because this is a view app
+
+494
+00:10:11,566 --> 00:10:13,133
+我们将有这个视图文件
+we're going to have this view files
+
+495
+00:10:11,566 --> 00:10:13,133
+我们将有这样的视图文件
+we're going to have this view files
+
+496
+00:10:13,500 --> 00:10:15,700
+但它的工作方式是完全一样的
+but the way it works is pretty much exactly the same
+
+497
+00:10:15,700 --> 00:10:17,100
+所以我们在顶部有这个链接
+so we have this link at the top
+
+498
+00:10:17,100 --> 00:10:18,100
+在权限中打开应用程序
+open app in privileges
+
+499
+00:10:17,100 --> 00:10:18,733
+在权限中打开应用程序 我也可以
+open app in privileges i can also
+
+500
+00:10:18,100 --> 00:10:21,300
+我也可以点击这里的按钮来打开
+I can also click on that button here to open
+
+501
+00:10:18,900 --> 00:10:21,300
+点击这里的按钮来打开
+click on that button here to open
+
+502
+00:10:21,466 --> 00:10:23,533
+在特权中打开
+opening in privileges
+
+503
+00:10:21,466 --> 00:10:23,500
+在特权中打开
+opening in privileges
+
+504
+00:10:23,866 --> 00:10:26,766
+你可以看到，它能够向我展示这个页面
+and you can see that it's able to show me the page
+
+505
+00:10:23,866 --> 00:10:26,766
+你可以看到它能够向我展示这个页面
+and you can see that it's able to show me the page
+
+506
+00:10:26,900 --> 00:10:29,100
+就像它出现在开发服务器上一样
+just like it would appear on the dev server
+
+507
+00:10:26,933 --> 00:10:29,099
+就像它出现在开发服务器上一样
+just like it would appear on the dev server
+
+508
+00:10:29,200 --> 00:10:31,333
+你可能想知道以前是如何工作的
+you might be wondering how does previous work
+
+509
+00:10:29,233 --> 00:10:31,299
+你可能想知道特权是如何工作的
+you might be wondering how does privileges work
+
+510
+00:10:31,300 --> 00:10:32,666
+所以我之前提到
+so I mentioned earlier
+
+511
+00:10:31,333 --> 00:10:32,199
+所以我提到
+so i mentioned
+
+512
+00:10:32,200 --> 00:10:35,400
+早些时候，它确实与节拍在引擎盖下工作
+earlier that it does work with beat under the hood
+
+513
+00:10:32,666 --> 00:10:35,433
+它确实在引擎盖下与维生素一起工作
+that it does work with vit under the hood
+
+514
+00:10:36,100 --> 00:10:39,766
+它的作用是，它基本上钉住了
+and what it does is it basically pins up
+
+515
+00:10:40,166 --> 00:10:42,533
+一个视频开发服务器动态地
+a vid dev server dynamically
+
+516
+00:10:40,166 --> 00:10:42,533
+一个动态的视频开发服务器
+a vid dev server dynamically
+
+517
+00:10:43,200 --> 00:10:44,900
+每当你点击打开
+whenever you you click on the open
+
+518
+00:10:43,233 --> 00:10:44,899
+每当你点击打开
+whenever you you click on the open
+
+519
+00:10:45,166 --> 00:10:48,999
+你知道特权中的公司名称，让我进入代码库
+you know company name in privileges let me go into the code base
+
+520
+00:10:45,166 --> 00:10:47,033
+你知道权限中的公司名称
+you know company name in privileges
+
+521
+00:10:47,133 --> 00:10:49,033
+让我进入代码库
+let me go into the code base
+
+522
+00:10:49,700 --> 00:10:52,800
+重要的一点是这个视频管理器
+the the important bit is this vid manager
+
+523
+00:10:49,700 --> 00:10:52,866
+重要的一点是这个视频管理器
+the the important bit is this vid manager
+
+524
+00:10:53,100 --> 00:10:54,300
+我不打算当然
+and i'm not going to of course
+
+525
+00:10:53,133 --> 00:10:54,266
+当然我也不会
+and I am not going to of course
+
+526
+00:10:54,266 --> 00:10:55,700
+解释这一切是如何工作的
+explain how all of this works
+
+527
+00:10:54,300 --> 00:10:55,700
+解释这一切是如何工作的
+explain how all of this works
+
+528
+00:10:55,700 --> 00:10:56,266
+但它只是
+but it's just
+
+529
+00:10:56,266 --> 00:10:58,166
+如果你对代码感兴趣，你想知道
+if you're interested in the code and you want to you know
+
+530
+00:10:56,266 --> 00:10:57,766
+如果你对代码感兴趣，并且你想
+if you're interested in the code and you want to
+
+531
+00:10:57,766 --> 00:10:59,100
+你知道认为她周围
+you know think her around
+
+532
+00:10:58,200 --> 00:10:59,766
+认为她的周围，你可以
+think her around you can
+
+533
+00:10:59,266 --> 00:10:59,766
+你可以
+you can
+
+534
+00:10:59,766 --> 00:11:03,866
+你可以进入齿轮项目，并尝试这样做
+you can go in on the gear project and and try that
+
+535
+00:10:59,766 --> 00:11:03,866
+你可以进入github项目，并尝试一下。
+you can go in on the github project and and try that
+
+536
+00:11:04,166 --> 00:11:04,966
+所以
+so
+
+537
+00:11:04,166 --> 00:11:04,966
+所以
+so
+
+538
+00:11:05,200 --> 00:11:08,500
+这里我们使用的是调用VID创建服务器
+here we're using calling vid create server
+
+539
+00:11:05,233 --> 00:11:06,366
+这里我们使用的是
+here we're using
+
+540
+00:11:06,700 --> 00:11:08,466
+调用 vid dot 创建服务器
+calling vid dot create server
+
+541
+00:11:09,266 --> 00:11:10,699
+而这是
+and this is
+
+542
+00:11:09,266 --> 00:11:10,700
+而这是
+and this is
+
+543
+00:11:10,766 --> 00:11:13,799
+这不是你可能熟悉的Cli版本
+not the cli version of it that you're probably familiar with
+
+544
+00:11:10,766 --> 00:11:11,866
+不是你可能熟悉的cli
+not the cli
+
+545
+00:11:11,866 --> 00:11:13,766
+的版本，你可能熟悉的是
+version of it that you're probably familiar with
+
+546
+00:11:13,900 --> 00:11:14,800
+这就是
+this is
+
+547
+00:11:13,933 --> 00:11:16,899
+这是节点的API
+this is the the node API
+
+548
+00:11:15,466 --> 00:11:16,899
+节点应用程序接口
+the node api
+
+549
+00:11:17,733 --> 00:11:19,399
+我们在这里动态地创建
+where we're dynamically creating
+
+550
+00:11:17,733 --> 00:11:20,566
+在那里我们动态地创建一个开发服务器
+where we're dynamically creating a dev server
+
+551
+00:11:19,666 --> 00:11:23,733
+一个开发服务器，它基本上是通过一个假的配置
+a dev server and it's basically passing a fake configuration
+
+552
+00:11:20,566 --> 00:11:23,733
+它基本上是通过一个假的配置
+and it's basically passing a fake configuration
+
+553
+00:11:24,033 --> 00:11:26,966
+这是为你的项目自动生成的
+that is generated automatically for your project
+
+554
+00:11:24,066 --> 00:11:26,966
+这是为你的项目自动生成的
+that is generated automatically for your project
+
+555
+00:11:27,266 --> 00:11:29,500
+伴随着一系列的插件，这些插件是
+with a bunch of plugins that are
+
+556
+00:11:27,300 --> 00:11:29,200
+与一堆插件，这些插件
+with a bunch of plugins that
+
+557
+00:11:30,466 --> 00:11:33,266
+有助于特权的正常工作
+that are helping privileges to work properly
+
+558
+00:11:30,600 --> 00:11:33,300
+帮助特权正常工作
+are helping privileges to work properly
+
+559
+00:11:33,700 --> 00:11:34,833
+作为该插件的一部分
+as part of this plugins
+
+560
+00:11:33,766 --> 00:11:34,799
+作为这个插件的一部分
+as part of this plugins
+
+561
+00:11:34,800 --> 00:11:37,500
+我之前提到的一件事是虚拟文件系统
+one thing i mentioned earlier is the virtual file system
+
+562
+00:11:34,833 --> 00:11:36,233
+我之前提到的一件事是
+one thing I mentioned earlier is
+
+563
+00:11:36,233 --> 00:11:37,466
+虚拟文件系统
+the virtual file system
+
+564
+00:11:37,466 --> 00:11:39,733
+这使我们能够有即时的更新
+which enables us to have instant updates
+
+565
+00:11:37,500 --> 00:11:39,733
+这使我们能够有即时的更新
+which enables us to have instant updates
+
+566
+00:11:39,766 --> 00:11:41,366
+当你在每一个按键上打字时
+as you type on every keystroke
+
+567
+00:11:39,766 --> 00:11:41,366
+当你在每个按键上打字时
+as you type on every keystroke
+
+568
+00:11:41,533 --> 00:11:43,766
+这就是这里的虚拟插件
+and that's the virtual plugin which is here
+
+569
+00:11:44,466 --> 00:11:46,733
+和它所做的基本上是每当
+and what it does is basically whenever
+
+570
+00:11:44,500 --> 00:11:46,733
+和它所做的基本上是每当
+and what it does is basically whenever
+
+571
+00:11:47,500 --> 00:11:50,433
+维特试图从你的磁盘上加载一个犯规
+vit is trying to load a foul from your disk
+
+572
+00:11:47,500 --> 00:11:50,466
+维特试图从你的磁盘上加载一个犯规时
+vit is trying to load a foul from your disk
+
+573
+00:11:50,433 --> 00:11:52,466
+它就会拦截并说
+it will kind of intercept that and say
+
+574
+00:11:50,466 --> 00:11:52,499
+它将拦截它，并说
+it will kind of intercept that and say
+
+575
+00:11:52,633 --> 00:11:56,866
+看，而不是加载appetal tsx的这个内容
+look instead of loading this content for appetal tsx
+
+576
+00:11:52,666 --> 00:11:56,866
+看，而不是为胃口指数加载这些内容
+look instead of loading this content for appetite tsx
+
+577
+00:11:57,333 --> 00:11:58,933
+这里有这个其他的内容
+here's this other content
+
+578
+00:11:59,166 --> 00:12:01,199
+而只是用它来代替，这就是
+and just use that instead and that's
+
+579
+00:11:59,266 --> 00:12:00,500
+而只是用它来代替
+and just use that instead
+
+580
+00:12:00,500 --> 00:12:02,533
+这几乎是它在做的事情
+and that's pretty much what it's doing
+
+581
+00:12:01,533 --> 00:12:03,733
+几乎是它在做什么，所以在
+pretty much what it's doing so on on
+
+582
+00:12:02,666 --> 00:12:03,733
+所以在
+so on on
+
+583
+00:12:03,966 --> 00:12:07,066
+每一次击键，VS好的扩展都会告诉它
+every keystroke the vs good extension is telling it
+
+584
+00:12:04,000 --> 00:12:07,600
+每一次击键，vs好的扩展都会告诉它，嘿
+every keystroke the vs good extension is telling it hey
+
+585
+00:12:07,100 --> 00:12:08,733
+嘿，这个文件已经改变了
+hey this file has changed
+
+586
+00:12:07,600 --> 00:12:08,700
+这个文件已经改变了
+this file has changed
+
+587
+00:12:08,700 --> 00:12:11,700
+然后，虚拟插件会告诉它嘿嘿
+and then that the virtual plugin is telling it hey
+
+588
+00:12:08,733 --> 00:12:11,699
+然后，虚拟插件会告诉它，嘿
+and then that the virtual plugin is telling it hey
+
+589
+00:12:11,700 --> 00:12:12,766
+我们喜欢这个文件
+we love this file
+
+590
+00:12:11,700 --> 00:12:16,300
+我们喜欢这个文件，而浏览器实际上只是使用了
+we love this file and the browser actually just uses the
+
+591
+00:12:13,033 --> 00:12:16,299
+而浏览器实际上只是使用了
+and the browser actually just uses the
+
+592
+00:12:16,933 --> 00:12:18,499
+esm支持
+the esm supports
+
+593
+00:12:16,933 --> 00:12:20,366
+ESM支持另一个引擎盖，只是重做那一个犯规
+the esm supports another hood to just redo that one foul
+
+594
+00:12:18,533 --> 00:12:20,366
+另一个引擎盖，只是读取它与一个犯规
+another hood to just read it with that one foul
+
+595
+00:12:20,366 --> 00:12:23,666
+并只是做了超级超级快的事项内
+and just do that super super quickly within a matter
+
+596
+00:12:20,366 --> 00:12:22,933
+和只是做，超级超级快
+and just do that super super quickly
+
+597
+00:12:22,933 --> 00:12:24,566
+在许多秒内
+within a matter of many seconds
+
+598
+00:12:23,666 --> 00:12:24,566
+迅速完成。
+of many seconds
+
+599
+00:12:26,333 --> 00:12:26,999
+所以是的
+so yeah
+
+600
+00:12:26,333 --> 00:12:27,033
+所以是的
+so yeah
+
+601
+00:12:27,000 --> 00:12:27,800
+我在这里说的是
+what i'm saying here
+
+602
+00:12:27,033 --> 00:12:29,133
+我在这里说的是，preregis将
+what I'm saying here is that preregis would
+
+603
+00:12:27,800 --> 00:12:31,400
+是，如果没有它，preregis根本不可能实现
+is that preregis would not be possible at all without it
+
+604
+00:12:29,133 --> 00:12:29,966
+不可能的
+not be possible
+
+605
+00:12:29,966 --> 00:12:31,433
+没有它就不可能
+at all without it
+
+606
+00:12:31,966 --> 00:12:34,766
+当然，在一个项目中还有一堆其他的东西。
+there is a bunch of other stuff of course in a project
+
+607
+00:12:31,966 --> 00:12:33,566
+还有一堆其他的东西
+there is a bunch of other stuff
+
+608
+00:12:33,566 --> 00:12:34,766
+当然，在这个项目中
+of course in the project
+
+609
+00:12:35,166 --> 00:12:38,299
+其余大部分的魔法都是关于探测的
+most of the rest of the magic is about detecting
+
+610
+00:12:35,166 --> 00:12:38,300
+其余的大部分魔术都是关于检测
+most of the rest of the magic is about detecting
+
+611
+00:12:39,266 --> 00:12:40,866
+代码库中的组件
+the components in the code base
+
+612
+00:12:39,300 --> 00:12:41,600
+代码库中的组件，这些组件实际上是
+the components in the code base that's actually
+
+613
+00:12:40,900 --> 00:12:41,700
+这实际上是
+that's actually
+
+614
+00:12:42,000 --> 00:12:45,133
+视图时相当容易，因为所有
+fairly easy when it comes to view because all
+
+615
+00:12:42,033 --> 00:12:45,133
+视图时相当容易，因为所有的
+fairly easy when it comes to view because all
+
+616
+00:12:45,366 --> 00:12:47,166
+你所知道的是有一个视图，因此
+you know is that there's a view found therefore
+
+617
+00:12:45,366 --> 00:12:46,900
+你知道的是有一个视图文件
+you know is that there is a view file
+
+618
+00:12:46,900 --> 00:12:48,100
+因此，有一个组件
+therefore there is a component
+
+619
+00:12:47,166 --> 00:12:48,099
+有一个组件
+there's a component
+
+620
+00:12:48,300 --> 00:12:50,933
+但在jsx中，要知道的事情就有点复杂了
+but in jsx it's a little bit more complicated to know
+
+621
+00:12:48,333 --> 00:12:51,366
+但在jsx中，它是一个有点复杂的，知道哦
+but in jsx it's a little bit more complicated to know oh
+
+622
+00:12:51,166 --> 00:12:52,966
+哦，我应该显示这个链接
+oh I should be showing this link
+
+623
+00:12:51,366 --> 00:12:54,199
+我应该显示这个链接 在权限中打开按钮
+i should be showing this link open button in privileges
+
+624
+00:12:52,966 --> 00:12:55,866
+在特权中打开按钮 在这里处置
+open button in privileges here at disposition
+
+625
+00:12:54,200 --> 00:12:55,866
+在这里处置
+here at disposition
+
+626
+00:12:56,266 --> 00:12:57,633
+我确实写了一篇关于这个问题的视频博客文章
+I did write a vlog article on that
+
+627
+00:12:56,300 --> 00:12:58,066
+我确实写了一篇博客文章，我没有
+i did write a blog article on that i'm not
+
+628
+00:12:57,633 --> 00:12:59,933
+我不打算在这里说细节了
+I'm not going to go into the details here
+
+629
+00:12:58,300 --> 00:13:01,066
+但如果你有兴趣的话
+going to go into the details here but if you're interested
+
+630
+00:12:59,933 --> 00:13:01,033
+但如果你有兴趣
+but if you're interested
+
+631
+00:13:01,133 --> 00:13:02,666
+就去fws com
+just go to fws com
+
+632
+00:13:01,133 --> 00:13:02,699
+就去fsws com
+just go to fsws com
+
+633
+00:13:02,666 --> 00:13:04,166
+这就是我的个人网站
+that's what my personal website
+
+634
+00:13:02,700 --> 00:13:04,166
+那是我的个人网站
+that's what my personal website
+
+635
+00:13:04,466 --> 00:13:08,066
+在那里，你可以阅读更多关于如何工作的确切和再次
+where you can read more about how that works exactly and again
+
+636
+00:13:04,466 --> 00:13:07,366
+在那里你可以阅读更多关于如何工作的确切信息
+where you can read more about how that works exactly
+
+637
+00:13:07,366 --> 00:13:08,066
+再说一遍
+and again
+
+638
+00:13:08,066 --> 00:13:10,500
+这是启用了更好的标签脚本编译器API
+this is enabled better tab script compiler API
+
+639
+00:13:08,100 --> 00:13:10,500
+这是启用的更好的标签脚本编译器API
+this is enabled better tab script compiler api
+
+640
+00:13:11,866 --> 00:13:13,500
+现在，我一直在谈论
+now I've been talking about
+
+641
+00:13:11,900 --> 00:13:13,533
+现在，我一直在谈论的是
+now i've been talking about
+
+642
+00:13:13,633 --> 00:13:17,533
+在特定的组件上工作，有一个很大的
+working on specific components and there is a much
+
+643
+00:13:13,666 --> 00:13:17,533
+在特定的组件上工作，并有一个更
+working on specific components and there is a much
+
+644
+00:13:18,466 --> 00:13:19,333
+更加知名的
+much better known
+
+645
+00:13:18,466 --> 00:13:19,333
+知名得多的
+much better known
+
+646
+00:13:19,333 --> 00:13:22,166
+的工具，叫做storybook
+tool to work on individual components called storybook
+
+647
+00:13:22,333 --> 00:13:23,799
+如果你以前没有见过它，让我来告诉你。
+and if you haven't seen it before let me
+
+648
+00:13:22,333 --> 00:13:23,833
+如果你以前没有见过这个工具，让我
+and if you haven't seen it before let me
+
+649
+00:13:23,800 --> 00:13:25,133
+让我告诉你这是什么
+let me show you what it is
+
+650
+00:13:23,833 --> 00:13:25,133
+让我告诉你这是什么
+let me show you what it is
+
+651
+00:13:25,900 --> 00:13:28,633
+所以我还有一个叫匈牙利的应用程序，它是
+so I have this other app called Hungary which is
+
+652
+00:13:25,900 --> 00:13:28,666
+所以，我有这个其他的应用程序叫匈牙利，这是
+so i have this other app called hungary which is
+
+653
+00:13:29,100 --> 00:13:32,066
+基本上是一个订购食物的应用程序，我用于演示
+just basically a food ordering app that I use for demos
+
+654
+00:13:29,133 --> 00:13:32,066
+基本上就是一个我用来做演示的订餐软件
+just basically a food ordering app that i use for demos
+
+655
+00:13:32,166 --> 00:13:34,099
+我可以运行年轻的故事书
+and i can run the young storybook
+
+656
+00:13:32,233 --> 00:13:34,099
+我可以运行年轻的故事书
+and I can run the young storybook
+
+657
+00:13:34,900 --> 00:13:36,266
+这就是故事书
+and so this is storybook
+
+658
+00:13:36,933 --> 00:13:38,533
+这是在向我展示
+this is showing me
+
+659
+00:13:36,933 --> 00:13:41,066
+例如，这显示了我的按钮的不同版本
+this is showing me for example different versions of my button
+
+660
+00:13:38,666 --> 00:13:41,066
+例如，我的按钮的不同版本
+for example different versions of my button
+
+661
+00:13:41,266 --> 00:13:43,666
+我有一个计数器，里面有不同的值
+i have counter with different values in it
+
+662
+00:13:41,266 --> 00:13:43,700
+我有一个计数器，里面有不同的值
+I have counter with different values in its
+
+663
+00:13:43,900 --> 00:13:45,800
+餐馆头等
+restaurant header et cetera
+
+664
+00:13:43,900 --> 00:13:45,833
+餐馆标题等
+restaurant header et cetera
+
+665
+00:13:47,533 --> 00:13:49,066
+如果你在使用故事书
+if you are using storybook
+
+666
+00:13:47,533 --> 00:13:49,166
+如果你正在使用故事书，你
+if you are using storybook you
+
+667
+00:13:49,066 --> 00:13:50,433
+你以前可能经历过
+you might have experienced before
+
+668
+00:13:49,166 --> 00:13:51,666
+之前可能经历过缓慢或故事书的问题
+might have experienced before the slowness or storybook
+
+669
+00:13:50,433 --> 00:13:51,666
+缓慢或故事书
+the slowness or storybook
+
+670
+00:13:51,666 --> 00:13:53,766
+基本上你的公司越多
+basically the more companies you have
+
+671
+00:13:51,666 --> 00:13:53,766
+基本上你的公司越多
+basically the more companies you have
+
+672
+00:13:53,766 --> 00:13:55,266
+故事书的速度就会变慢
+the slower storybook will get
+
+673
+00:13:53,766 --> 00:13:55,266
+故事书的速度会越来越慢
+the slower storybook will get
+
+674
+00:13:56,000 --> 00:13:58,866
+而Krugis就是来改变这种情况的
+and krugis is here to change that
+
+675
+00:13:56,033 --> 00:13:58,866
+Krugis的出现改变了这一点
+and krugis is here to change that
+
+676
+00:13:59,666 --> 00:14:02,666
+如果你想做的事，根本不需要运行故事书。
+instead of having to run storybook at all if all you want to do
+
+677
+00:13:59,666 --> 00:14:01,566
+而不需要运行故事书
+instead of having to run storybook at all
+
+678
+00:14:01,566 --> 00:14:02,666
+如果你想做的是
+if all you want to do
+
+679
+00:14:02,666 --> 00:14:04,933
+只是预览一个特定的故事
+is just preview one specific story
+
+680
+00:14:02,666 --> 00:14:04,933
+就是预览一个特定的故事
+is just preview one specific story
+
+681
+00:14:05,366 --> 00:14:06,566
+你可以直接停止它
+you can just stop it
+
+682
+00:14:05,400 --> 00:14:07,533
+你可以直接停止它，你实际上甚至不需要
+you can just stop it you don't actually even
+
+683
+00:14:06,566 --> 00:14:09,766
+你实际上甚至不需要运行故事书在所有
+you don't actually even need to run storybook at all
+
+684
+00:14:07,900 --> 00:14:09,766
+需要运行故事书
+need to run storybook at all
+
+685
+00:14:10,200 --> 00:14:14,000
+你可以在这里进入你的代码，去看故事
+you can go into your code here going to the stories
+
+686
+00:14:10,233 --> 00:14:14,033
+你可以在这里进入你的代码，进入故事
+you can go into your code here going to the stories
+
+687
+00:14:15,000 --> 00:14:16,566
+你可以简单地看到
+and you can see simply
+
+688
+00:14:15,033 --> 00:14:16,566
+你可以简单地看到
+and you can see simply
+
+689
+00:14:16,666 --> 00:14:18,466
+它实际上允许你
+it actually allows you to
+
+690
+00:14:16,700 --> 00:14:18,466
+它实际上允许你
+it actually allows you to
+
+691
+00:14:18,533 --> 00:14:20,866
+预览你的任何故事，就在那里
+preview any of your stories right there
+
+692
+00:14:20,866 --> 00:14:21,733
+直接在你的ID中
+directly in your id
+
+693
+00:14:20,866 --> 00:14:21,733
+直接在你的ID中
+directly in your id
+
+694
+00:14:22,000 --> 00:14:25,600
+所以你可以看一下默认的证明故事
+so you know you can look at the default proof story
+
+695
+00:14:22,033 --> 00:14:24,499
+所以你知道你可以看一下默认的
+so you know you can look at the default
+
+696
+00:14:24,666 --> 00:14:28,066
+证明故事、成功故事、空中故事等
+proof story the success story the air story etc
+
+697
+00:14:25,600 --> 00:14:26,800
+成功的故事
+the success story
+
+698
+00:14:26,800 --> 00:14:29,200
+空中故事等，你可以
+the air story etc and you can
+
+699
+00:14:28,500 --> 00:14:29,300
+和你可以
+and you can
+
+700
+00:14:29,333 --> 00:14:30,133
+你可以
+you can
+
+701
+00:14:30,200 --> 00:14:32,466
+看到他们的实时更新，以及
+see them update live as well
+
+702
+00:14:30,233 --> 00:14:32,466
+看到他们也在现场更新
+see them update live as well
+
+703
+00:14:32,900 --> 00:14:33,800
+就像这样
+just like that
+
+704
+00:14:32,900 --> 00:14:33,833
+就像这样
+just like that
+
+705
+00:14:34,566 --> 00:14:36,766
+这是我认为相当不错的
+which is i think pretty cool
+
+706
+00:14:34,566 --> 00:14:36,766
+这是我认为非常酷的
+which is I think pretty cool
+
+707
+00:14:37,700 --> 00:14:38,400
+你可以
+you could
+
+708
+00:14:37,700 --> 00:14:38,433
+你可以
+you could
+
+709
+00:14:38,400 --> 00:14:41,933
+你可以再进一步，实际上如果你想
+take it one step further and actually if you wanted to
+
+710
+00:14:38,433 --> 00:14:41,933
+更进一步，实际上如果你想
+take it one step further and actually if you wanted to
+
+711
+00:14:42,100 --> 00:14:42,700
+只是
+just
+
+712
+00:14:42,133 --> 00:14:44,566
+就能看到你所有的故事书
+just see all of your storybook
+
+713
+00:14:42,700 --> 00:14:44,533
+看到你的所有故事书
+see all of your storybook
+
+714
+00:14:44,900 --> 00:14:45,766
+有
+there is
+
+715
+00:14:44,900 --> 00:14:47,466
+有一个功能，我一直在研究
+there is a feature that i've been working on
+
+716
+00:14:46,233 --> 00:14:48,166
+我一直在研究的一个功能，是尚未
+a feature that I've been working on that is not yet
+
+717
+00:14:47,466 --> 00:14:49,199
+还没有上线，虽然到时候
+that is not yet live although by the time
+
+718
+00:14:48,166 --> 00:14:49,766
+虽然到了股票上市的时候
+live although by the time the stock comes
+
+719
+00:14:49,200 --> 00:14:51,066
+证券来了，也许这将是生活
+the stock comes that maybe it will be life
+
+720
+00:14:49,766 --> 00:14:51,066
+也许它将成为生命
+that maybe it will be life
+
+721
+00:14:51,933 --> 00:14:55,099
+这就是Cli Virgin privilege's，可以让你
+which is the cli virgin privilege s that lets you
+
+722
+00:14:55,266 --> 00:14:56,933
+看到你所有的故事
+see all of your stories
+
+723
+00:14:55,266 --> 00:14:56,933
+看到你所有的故事
+see all of your stories
+
+724
+00:14:57,266 --> 00:15:00,266
+我想要的一切，所以让我进入这里
+all i want so let me go into here
+
+725
+00:14:57,266 --> 00:15:00,266
+我想要的一切，所以让我进入这里
+all I want so let me go into here
+
+726
+00:15:00,266 --> 00:15:03,866
+我在cli中，所以我要做pnpm开发。
+and i'm in the cli so i'm gonna do pnpm dev
+
+727
+00:15:00,266 --> 00:15:03,833
+我在cli中，所以我要做pnpm开发。
+and I'm in the cli so I'm gonna do pnpm dev
+
+728
+00:15:05,200 --> 00:15:06,000
+饥饿
+hungry
+
+729
+00:15:05,233 --> 00:15:06,033
+饥饿
+hungry
+
+730
+00:15:06,866 --> 00:15:08,333
+所以这是开发版本的权限
+so this is the dev version of privileges
+
+731
+00:15:06,866 --> 00:15:08,333
+所以这是特权的开发版本
+so this is the dev version of privileges
+
+732
+00:15:08,333 --> 00:15:09,766
+这可能有一些错误
+which probably has a few bugs
+
+733
+00:15:10,966 --> 00:15:16,199
+是的，因为我运行了错误的命令，开发社区。
+yes it does because i ran the wrong command dev community
+
+734
+00:15:10,966 --> 00:15:13,166
+是的，它是的，因为我
+yes it does because I
+
+735
+00:15:13,566 --> 00:15:14,966
+运行了错误的命令
+ran the wrong command
+
+736
+00:15:15,266 --> 00:15:16,266
+开发社区
+dev community
+
+737
+00:15:16,933 --> 00:15:17,866
+这应该是更好的
+that should be better
+
+738
+00:15:16,966 --> 00:15:17,866
+这应该是更好的
+that should be better
+
+739
+00:15:18,400 --> 00:15:21,100
+好了，在这里你可以看到，我
+okay so here you can see that i
+
+740
+00:15:18,433 --> 00:15:19,666
+好的，所以在这里
+okay so here
+
+741
+00:15:19,733 --> 00:15:22,666
+你可以看到，我可以预览任何组件
+you can see that I can preview any of the components
+
+742
+00:15:21,100 --> 00:15:22,666
+可以预览任何组件
+can preview any of the components
+
+743
+00:15:22,666 --> 00:15:25,266
+就像这样，这里有一个初始
+just like that there is an initial
+
+744
+00:15:22,666 --> 00:15:23,366
+就像这样
+just like that
+
+745
+00:15:23,366 --> 00:15:27,100
+有一个最初的加载时间，但之后是
+there is an initial load time but after that is
+
+746
+00:15:25,500 --> 00:15:28,400
+但之后的加载时间就相当快了
+load time but after that is pretty fast
+
+747
+00:15:27,466 --> 00:15:28,433
+相当快
+pretty fast
+
+748
+00:15:30,366 --> 00:15:31,166
+是的
+yeah
+
+749
+00:15:30,400 --> 00:15:31,200
+是的
+yeah
+
+750
+00:15:31,700 --> 00:15:33,733
+当然，如果你更新文件
+and of course if you update the file
+
+751
+00:15:33,866 --> 00:15:36,299
+你知道它将在这里即时更新
+you know it will update here instantly
+
+752
+00:15:33,866 --> 00:15:36,266
+你知道它将在这里即时更新
+you know it will update here instantly
+
+753
+00:15:36,366 --> 00:15:38,566
+我不仅可以显示这些故事
+i can also not only show the stories
+
+754
+00:15:36,366 --> 00:15:38,566
+我也可以不只显示故事
+I can also not only show the stories
+
+755
+00:15:38,566 --> 00:15:40,133
+但如果我点击显示组件
+but if i click show components
+
+756
+00:15:38,566 --> 00:15:41,266
+但如果我点击显示组件，我可以显示
+but if I click show components I can show
+
+757
+00:15:40,133 --> 00:15:41,299
+我可以显示
+i can show
+
+758
+00:15:42,500 --> 00:15:44,333
+我可以单独显示任何组件
+any component individually
+
+759
+00:15:44,333 --> 00:15:46,933
+所以这里有一个按钮，我们之前已经看到了
+so here have the button that we've seen earlier
+
+760
+00:15:47,500 --> 00:15:48,300
+在这里我有
+where i have
+
+761
+00:15:47,500 --> 00:15:48,933
+在这里我可以
+where I have I can
+
+762
+00:15:48,366 --> 00:15:51,866
+我可以改变大小，并以我想要的方式预览它
+i can change the size and just preview it however i want
+
+763
+00:15:49,066 --> 00:15:51,900
+改变大小，并以我想要的方式进行预览
+change the size and just preview it however I want
+
+764
+00:15:52,766 --> 00:15:53,499
+下一件事
+the next thing
+
+765
+00:15:52,766 --> 00:15:54,566
+下一件事，我即将建立
+the next thing I'm about to build
+
+766
+00:15:53,500 --> 00:15:54,566
+我正准备建造
+i'm about to build
+
+767
+00:15:54,566 --> 00:15:56,333
+这可能只在专业版中出现。
+this is probably going to be only in the pro version
+
+768
+00:15:54,566 --> 00:15:56,733
+这可能只在专业版中出现，但
+this is probably gonna be only in the pro version but
+
+769
+00:15:56,333 --> 00:15:57,733
+但你将会有保存的功能
+but you're going to have the save
+
+770
+00:15:56,900 --> 00:15:57,466
+你将会有这个
+you're gonna have this
+
+771
+00:15:57,466 --> 00:15:59,866
+保存按钮，让你创建一个新的故事
+save button that lets you create a new story
+
+772
+00:15:57,733 --> 00:15:59,866
+按钮，让你创建一个新的故事
+button that lets you create a new story
+
+773
+00:15:59,866 --> 00:16:02,299
+或者如果你正在查看一个特定的故事
+or if you're viewing a specific story
+
+774
+00:15:59,866 --> 00:16:02,266
+或者如果你正在浏览一个特定的故事
+or if you're viewing a specific story
+
+775
+00:16:02,333 --> 00:16:03,533
+你就可以将道具连接起来
+you can twig the props
+
+776
+00:16:02,333 --> 00:16:06,366
+你可以将道具连接起来，然后点击保存并添加到故事中。
+you can twig the props and just hit save and add that story so
+
+777
+00:16:03,533 --> 00:16:05,899
+然后点击保存并添加该故事
+and there's just hit save and add that story
+
+778
+00:16:05,900 --> 00:16:09,233
+因此，这个想法是，你不需要
+so the idea being that you don't need to
+
+779
+00:16:06,900 --> 00:16:09,200
+这个想法是，你不需要
+the idea being that you don't need to
+
+780
+00:16:09,200 --> 00:16:11,800
+真正处理的故事文件，将手动了
+really deal with stories files that will manually anymore
+
+781
+00:16:09,233 --> 00:16:10,733
+真正处理的故事文件，
+really deal with stories files that
+
+782
+00:16:10,733 --> 00:16:11,766
+愿意手动处理
+will manually anymore
+
+783
+00:16:11,766 --> 00:16:13,666
+所有你做的是你使用权限来创建
+all you do is you use privileges to create
+
+784
+00:16:11,800 --> 00:16:14,800
+所有你做的是你使用权限来创建他们和管理他们
+all you do is you use privileges to create them and manage them
+
+785
+00:16:13,666 --> 00:16:14,833
+编写和管理它们
+them and manage them
+
+786
+00:16:14,866 --> 00:16:17,866
+而且你再也不用处理这些代码了
+and you just never deal with that code ever again
+
+787
+00:16:14,866 --> 00:16:17,866
+而且你再也不用处理这些代码了
+and you just never deal with that code ever again
+
+788
+00:16:18,200 --> 00:16:20,166
+我认为这应该让你有更多的机会
+which i think should make you quite a bit
+
+789
+00:16:18,233 --> 00:16:19,666
+我认为这应该使你
+which I think should make you
+
+790
+00:16:19,766 --> 00:16:20,733
+相当多的生产力
+quite a bit more productive
+
+791
+00:16:20,166 --> 00:16:22,666
+如果你要处理大量的故事书，就会更有成效。
+more productive if you're dealing with a lot of with storybook
+
+792
+00:16:20,733 --> 00:16:21,733
+如果你要处理大量的
+if you're dealing with a lot of
+
+793
+00:16:21,733 --> 00:16:22,633
+故事书
+with storybook
+
+794
+00:16:23,500 --> 00:16:26,100
+这是即将到来的，希望在今年年底之前
+that's upcoming hopefully before the end of the year
+
+795
+00:16:23,533 --> 00:16:24,533
+这是即将到来的
+that's upcoming
+
+796
+00:16:24,533 --> 00:16:26,099
+希望在今年年底之前
+hopefully before the end of the year
+
+797
+00:16:26,100 --> 00:16:28,966
+但我有一个8个月大的孩子要照顾，所以
+but i do have an eight month old baby to take care of so
+
+798
+00:16:26,100 --> 00:16:28,966
+但我确实有一个8个月大的婴儿需要照顾，所以
+but I do have an 8 month old baby to take care of so
+
+799
+00:16:29,733 --> 00:16:31,566
+时间表是困难的
+timelines are difficult
+
+800
+00:16:29,733 --> 00:16:32,999
+时间表是很难坚持的
+timelines are difficult to stick to
+
+801
+00:16:32,266 --> 00:16:33,066
+坚守
+to stick to
+
+802
+00:16:34,666 --> 00:16:36,933
+这就是关于特权的问题，所以我
+that's about it about privileges so i
+
+803
+00:16:34,666 --> 00:16:36,166
+这就是关于特权的问题
+that's about it about privileges
+
+804
+00:16:36,166 --> 00:16:36,966
+所以我
+so I
+
+805
+00:16:37,133 --> 00:16:40,166
+我很想邀请你去看看特权网
+would love to invite you to check out privileges com
+
+806
+00:16:40,300 --> 00:16:42,666
+尝试一下，了解更多信息
+to try it out and learn a bit more
+
+807
+00:16:42,666 --> 00:16:45,133
+这里有很多你可能需要的配置
+there's quite a bit of configs that you might need
+
+808
+00:16:42,666 --> 00:16:45,133
+有很多你可能需要的配置
+there's quite a bit of configs that you might need
+
+809
+00:16:45,133 --> 00:16:47,199
+所以我给你看的所有的例子都是
+so all of the examples that i've shown you are
+
+810
+00:16:45,133 --> 00:16:47,233
+所以我给你看的所有的例子都是
+so all of the examples that I've shown you are
+
+811
+00:16:47,200 --> 00:16:48,533
+绝对零配置
+absolutely zero config
+
+812
+00:16:47,233 --> 00:16:48,533
+绝对零配置
+absolutely 0 config
+
+813
+00:16:48,900 --> 00:16:49,500
+但这是相当
+but it's quite
+
+814
+00:16:48,900 --> 00:16:50,633
+但很有可能，如果你有一个更多的
+but it's quite likely that if you have a more
+
+815
+00:16:49,500 --> 00:16:51,933
+有可能，如果你有一个更复杂的项目，如它的下一个
+likely that if you have a more complex project like it's next
+
+816
+00:16:50,633 --> 00:16:51,466
+复杂的项目
+complex project
+
+817
+00:16:51,466 --> 00:16:51,933
+像它小于
+like it's less than
+
+818
+00:16:51,933 --> 00:16:53,866
+你正在使用氧化还原或类似的东西
+you're using redox or something like that
+
+819
+00:16:51,933 --> 00:16:53,899
+你在使用氧化还原或类似的东西
+you're using redox or something like that
+
+820
+00:16:54,066 --> 00:16:55,466
+你将需要设置
+you will need to set up
+
+821
+00:16:54,066 --> 00:16:57,233
+你将需要设置像说唱者一样的东西来设置
+you will need to set up like rappers to set up the
+
+822
+00:16:55,566 --> 00:16:58,666
+饶舌的人，以建立你知道的反应背景或
+rappers to set up the you know react context or
+
+823
+00:16:57,366 --> 00:16:58,666
+反应上下文或
+react context or
+
+824
+00:16:58,866 --> 00:17:01,566
+设置别名的所有这些东西，所以
+set up aliases all these kind of stuff so
+
+825
+00:16:58,866 --> 00:17:01,100
+设置别名，所有这些东西
+set up aliases all these kind of stuff
+
+826
+00:17:01,100 --> 00:17:03,533
+所以所有这些都在网站上有记录
+so all of that is documented on the website
+
+827
+00:17:01,600 --> 00:17:03,600
+所有这些在网站上都有记录
+all of that is documented on the website
+
+828
+00:17:04,466 --> 00:17:07,766
+就是这样，谢谢你的聆听。
+that's about it thank you so much for listening and
+
+829
+00:17:04,466 --> 00:17:05,266
+这就是它
+that's about it
+
+830
+00:17:05,300 --> 00:17:07,766
+非常感谢您的收听和
+thank you so much for listening and
+
+831
+00:17:08,000 --> 00:17:09,266
+享受会议的其余部分
+enjoy the rest of the conference
+
+832
+00:17:08,033 --> 00:17:09,266
+享受会议的其余部分
+enjoy the rest of the conference
+
+833
+00:17:09,533 --> 00:17:10,333
+再见
+see ya
+

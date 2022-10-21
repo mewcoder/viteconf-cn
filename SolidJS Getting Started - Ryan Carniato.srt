@@ -1,0 +1,2850 @@
+1
+00:00:04,600 --> 00:00:05,066
+嗨
+hi
+
+2
+00:00:05,066 --> 00:00:06,166
+我是Ryan kernietto
+I'm Ryan kernietto
+
+3
+00:00:06,166 --> 00:00:08,366
+爵士框架 solid js的创造者
+creator of the jazz framework solid js
+
+4
+00:00:08,733 --> 00:00:10,299
+的创造者，我很高兴能在这里参加v
+and I'm excited to be here at v
+
+5
+00:00:10,300 --> 00:00:11,466
+comp上向大家介绍一下。
+comp to tell you about it
+
+6
+00:00:11,466 --> 00:00:13,499
+这场讲座叫做 "入门"。
+this talk is called getting started
+
+7
+00:00:13,666 --> 00:00:15,566
+这是以我们的启动模板的名字命名的
+which plays off the name of our starter template
+
+8
+00:00:15,566 --> 00:00:17,399
+meta framer solid start
+meta framer solid start
+
+9
+00:00:17,900 --> 00:00:20,133
+我不确定我们是否会在这里，如果它被打倒的话
+and I'm not sure we'd be here if it went for beat
+
+10
+00:00:20,900 --> 00:00:21,166
+好吧
+well
+
+11
+00:00:21,166 --> 00:00:23,266
+显然我们不会参加这个会议
+obviously we wouldn't be at this conference
+
+12
+00:00:23,366 --> 00:00:25,999
+但我不知道我是否真的采取了冒险的做法
+but I don't know if I did taken the plunge
+
+13
+00:00:26,166 --> 00:00:27,999
+试图创建这样一个雄心勃勃的项目
+into trying to create such an ambitious project
+
+14
+00:00:28,000 --> 00:00:29,000
+坚实的开始
+to solid start
+
+15
+00:00:29,766 --> 00:00:32,099
+所有的时间、深夜
+all the hours the late nights
+
+16
+00:00:32,100 --> 00:00:34,133
+以及随之而来的维护负担
+and the maintenance burden that comes with it
+
+17
+00:00:34,733 --> 00:00:35,366
+一个孩子
+a kid
+
+18
+00:00:35,366 --> 00:00:37,566
+但说真的，我从来没有想过要做一个元框架
+but seriously I never wanted to make a meta framework
+
+19
+00:00:37,733 --> 00:00:38,799
+如果你在github上看看
+if you look on github
+
+20
+00:00:38,800 --> 00:00:40,333
+有一些几年前的问题
+there are issues from a few years ago
+
+21
+00:00:40,466 --> 00:00:41,499
+我就坐在那里
+where I sit as much
+
+22
+00:00:41,900 --> 00:00:42,600
+曾经
+ever
+
+23
+00:00:42,600 --> 00:00:44,200
+beat改变了一切
+beat changed everything
+
+24
+00:00:44,533 --> 00:00:45,533
+搏击已经能够
+beat has been able
+
+25
+00:00:47,000 --> 00:00:49,733
+在网络平台上开发工具
+to look at developing tools on the web platform
+
+26
+00:00:49,733 --> 00:00:51,399
+这就是我今天要讲的内容
+and that's what I'm going to talk about today
+
+27
+00:00:51,700 --> 00:00:52,766
+但首先
+but first
+
+28
+00:00:53,066 --> 00:00:55,666
+也许应该对solid js做一个简单的介绍
+perhaps a brief introduction to solid js is in order
+
+29
+00:00:55,966 --> 00:00:56,899
+solid是什么？
+what is solid
+
+30
+00:00:57,533 --> 00:01:00,699
+它是一个用于构建用户界面的爵士乐创作工具。
+well it's a jazz crefamer for building user interfaces
+
+31
+00:01:00,733 --> 00:01:02,099
+和之前的很多产品一样
+like so many before it
+
+32
+00:01:03,000 --> 00:01:05,000
+但让我们直接说说房间里的大象吧
+but let's get right to the elephant in the room
+
+33
+00:01:06,366 --> 00:01:08,999
+我为什么要建立另一个javascript框架？
+why would I build another javascript framework
+
+34
+00:01:09,333 --> 00:01:10,699
+这里有一段小历史
+well a little history here
+
+35
+00:01:11,200 --> 00:01:12,766
+开发开始于2006年
+development started back in 2006
+
+36
+00:01:13,400 --> 00:01:16,200
+为了便于理解，这一年spelt也被创建了。
+for context that was the same year spelt was created
+
+37
+00:01:16,700 --> 00:01:19,066
+我的目标是把细粒度的反应性带回来
+my goal was to bring back fine grain reactivity
+
+38
+00:01:19,266 --> 00:01:21,466
+类似于noco js
+similar to noco js
+
+39
+00:01:21,466 --> 00:01:23,299
+我喜欢使用函数的模式
+I love the patterns of using function
+
+40
+00:01:23,300 --> 00:01:25,400
+我喜欢使用函数组件的模式，并通过组成更小的
+components and building uis from composing smaller
+
+41
+00:01:25,400 --> 00:01:26,666
+可重复使用的行为
+reusable behaviors
+
+42
+00:01:27,466 --> 00:01:30,166
+但我从来没有真正地完全转向组件的生命周期。
+never really made the full move to component lifecycles
+
+43
+00:01:30,166 --> 00:01:33,533
+他们让我想起了asp net webforms的太多东西。
+they reminded me too much of asp net webforms
+
+44
+00:01:33,800 --> 00:01:35,666
+老实说，这让我很害怕
+and honestly that terrified me
+
+45
+00:01:36,200 --> 00:01:38,500
+虚拟主机的性能要求让我感到困惑
+the performance claims that the virtual dom confused me
+
+46
+00:01:38,500 --> 00:01:38,933
+也是如此
+as well
+
+47
+00:01:38,933 --> 00:01:41,699
+而我知道反应性就是性能
+and I knew reactivity to be performance
+
+48
+00:01:42,866 --> 00:01:45,066
+也许我们只是需要用不同的方式来攻击它。
+maybe we just needed to attack it a different way
+
+49
+00:01:46,366 --> 00:01:48,133
+所以我就这么做了，而且对所有
+so I did and for all
+
+50
+00:01:48,266 --> 00:01:48,866
+的
+of
+
+51
+00:01:48,866 --> 00:01:51,866
+变得非常清楚的是
+what became abundantly clear was that
+
+52
+00:01:52,400 --> 00:01:53,300
+对于所有的
+for all the
+
+53
+00:01:53,666 --> 00:01:55,733
+组件架构带来的好处
+good that component architectures had brought
+
+54
+00:01:55,733 --> 00:01:58,133
+我的意思是它们在现代
+and I mean they are everywhere in modern
+
+55
+00:01:58,133 --> 00:01:59,266
+前端开发
+front end development
+
+56
+00:01:59,366 --> 00:01:59,733
+我们已经
+we've
+
+57
+00:01:59,733 --> 00:02:02,566
+完成了具有执行生命周期的代码组织
+completed code organization with execution lifecycles
+
+58
+00:02:03,100 --> 00:02:04,133
+几乎所有的框架器
+pretty much every framer
+
+59
+00:02:04,133 --> 00:02:06,566
+组件有运行时的考虑
+components have runtime considerations
+
+60
+00:02:06,566 --> 00:02:08,799
+它们是我们的主要状态管理
+they are our primary state management
+
+61
+00:02:09,333 --> 00:02:11,533
+有渲染器或一切
+there are renderer or everything
+
+62
+00:02:12,200 --> 00:02:14,866
+而且这并不局限于虚拟主机
+and this wasn't limited to the virtual dom
+
+63
+00:02:14,866 --> 00:02:17,699
+这对编译方案和非编译方案都是如此
+it was true for compile solutions as non compile
+
+64
+00:02:18,400 --> 00:02:19,500
+严格的模板字词
+tight template literals
+
+65
+00:02:19,500 --> 00:02:22,766
+2个虚拟域的单文件组件到最热的dsls
+2 v dom single file components to the hottest dsls
+
+66
+00:02:22,866 --> 00:02:24,733
+所有东西都是自上而下运行的
+everything just running top down
+
+67
+00:02:25,600 --> 00:02:28,400
+我明白了，这有一点谁在乎呢？
+I get it there's a bit of who cares
+
+68
+00:02:28,933 --> 00:02:31,799
+但它影响了后面的每一个问题
+but it informs every subsequent question
+
+69
+00:02:32,500 --> 00:02:33,900
+我做什么？
+what do I memoize
+
+70
+00:02:33,933 --> 00:02:37,099
+我什么时候能把我用于全局状态的东西记下来？
+when do I memoize what I use for global state
+
+71
+00:02:37,200 --> 00:02:38,900
+我如何分享反应性
+how do I share reactivity
+
+72
+00:02:38,966 --> 00:02:40,333
+什么时候使用效果
+when to use effect
+
+73
+00:02:40,366 --> 00:02:42,399
+缩略语的区别是什么？
+what's the difference between reduction context
+
+74
+00:02:42,533 --> 00:02:44,099
+为什么会出现两次日志
+why does this log twice
+
+75
+00:02:44,100 --> 00:02:46,900
+为什么这个愚蠢的东西一直在重新渲染
+why does this stupid thing keep re rendering
+
+76
+00:02:48,066 --> 00:02:50,099
+这些都是主导对话的主题
+these are topics that dominate the conversation
+
+77
+00:02:50,166 --> 00:02:52,466
+而实际上我更愿意谈论的是
+and really I'd rather be talking about
+
+78
+00:02:53,400 --> 00:02:54,533
+几乎所有的事情
+pretty much anything
+
+79
+00:02:55,466 --> 00:02:57,599
+有很多东西是可以解锁的
+there are a lot of things that are just unlocked
+
+80
+00:02:57,600 --> 00:02:58,333
+当你改变
+when you change
+
+81
+00:02:58,333 --> 00:02:59,199
+角度
+the perspective
+
+82
+00:02:59,266 --> 00:03:00,199
+一点点
+a little bit
+
+83
+00:03:03,966 --> 00:03:06,099
+我绝对可以用诗意来形容
+and I can definitely wax poetic
+
+84
+00:03:06,100 --> 00:03:07,700
+关于反应性的力量
+about the power of reactivity
+
+85
+00:03:07,700 --> 00:03:09,566
+它是如何声明性的和可组合的
+how it's declarative and composable
+
+86
+00:03:10,200 --> 00:03:11,000
+它是如何帮助产生
+how it helps produce
+
+87
+00:03:11,000 --> 00:03:13,566
+具有可重复使用行为的结构良好的代码
+well structure code with reusable behaviors
+
+88
+00:03:13,666 --> 00:03:16,299
+而且是独立于任何组件系统的
+and that are independent of any component system
+
+89
+00:03:16,366 --> 00:03:18,366
+甚至是如何通过一些基本的打印工具
+even how with a few basic printives
+
+90
+00:03:18,366 --> 00:03:20,466
+你就可以实现你所希望的一切
+you can do everything you could ever wish for
+
+91
+00:03:20,566 --> 00:03:21,766
+包括渲染
+including rendering
+
+92
+00:03:22,100 --> 00:03:23,900
+而且其性能是我们从手工优化的vanilla javascript以来从未见过的
+and with performance we haven't seen
+
+93
+00:03:24,300 --> 00:03:26,766
+的性能，这是自手工优化的vanilla javascript以来从未见过的。
+since hand optimized vanilla javascript
+
+94
+00:03:28,066 --> 00:03:29,599
+但这不是我今天来的原因
+but that's not why I'm here today
+
+95
+00:03:31,100 --> 00:03:33,000
+我在这里要谈的是另一种原始的东西
+I'm here to talk about a different sort of primitive
+
+96
+00:03:33,100 --> 00:03:36,333
+那就是Beat平台上的插件的力量
+and that is the power of plugins in the beat platform
+
+97
+00:03:36,700 --> 00:03:38,500
+以及它们对我来说是如何起到作用的
+and how they are instrumental for me
+
+98
+00:03:38,500 --> 00:03:39,300
+做一个完整的
+doing a complete one
+
+99
+00:03:39,300 --> 00:03:40,500
+80的观点
+80 on my perspective
+
+100
+00:03:41,133 --> 00:03:43,966
+这是一个很大的问题，因为我是一个天生的拆包者
+which is a lot because I am naturally an unbundler
+
+101
+00:03:43,966 --> 00:03:46,399
+我喜欢把东西拆开，改变界限
+I like breaking stuff apart and shifting boundaries
+
+102
+00:03:46,466 --> 00:03:48,099
+我喜欢证明新的概念
+I like proving new concepts
+
+103
+00:03:48,100 --> 00:03:50,466
+我喜欢证明新的概念，并倾向于把它留给别人来做最后的判断。
+and tend to leave it to others to pass the final
+
+104
+00:03:50,466 --> 00:03:51,133
+判断
+judgment on
+
+105
+00:03:51,133 --> 00:03:53,599
+什么是正确的方法，把它放在一起
+what the right approaches to put it all together
+
+106
+00:03:54,000 --> 00:03:54,700
+所以
+so
+
+107
+00:03:54,700 --> 00:03:55,600
+让我们看看为什么
+let's look at why
+
+108
+00:03:55,600 --> 00:03:57,133
+殴打呈现给我的东西，我只是
+beat present to me with something I just
+
+109
+00:03:57,133 --> 00:03:58,666
+不能轻易否定
+couldn't easily dismiss
+
+110
+00:03:59,766 --> 00:04:02,799
+虽然它始于对预期结果的理解
+while it starts with understanding desired outcomes
+
+111
+00:04:03,100 --> 00:04:04,733
+我知道自杀式渲染将是
+I knew suicide rendering was going to be
+
+112
+00:04:04,733 --> 00:04:06,333
+事情走向的关键
+key to where things were heading
+
+113
+00:04:06,566 --> 00:04:08,266
+在这一领域的许多创新
+a lot of innovation in this space
+
+114
+00:04:08,266 --> 00:04:09,599
+是找到如何更好地利用
+is finding how to better leverage
+
+115
+00:04:09,600 --> 00:04:11,266
+服务器与客户之间的差异
+that server client divide
+
+116
+00:04:11,800 --> 00:04:14,466
+所以SSR需要成为软件包的一部分
+so ssr needed to be part of the package
+
+117
+00:04:14,866 --> 00:04:15,666
+但与此同时
+but at the same time
+
+118
+00:04:15,666 --> 00:04:18,333
+我并不愿意将单机版扔到公共汽车上
+I was not willing to throw single pajaps under a bus
+
+119
+00:04:18,766 --> 00:04:21,899
+它需要同时支持两者，而且是无缝的
+it needed to support both and seamlessly
+
+120
+00:04:22,766 --> 00:04:26,333
+从客户机到服务器的移动不应该感觉是一件苦差事
+moving from client server shouldn't feel like a chore
+
+121
+00:04:26,600 --> 00:04:28,100
+当我们在做这件事的时候
+and while we are at it
+
+122
+00:04:28,333 --> 00:04:29,933
+我们应该有所有的好处
+we should have all the niceties
+
+123
+00:04:30,100 --> 00:04:31,866
+像文件系统的路由和
+things like file system routing and
+
+124
+00:04:32,066 --> 00:04:34,666
+更加根深蒂固的数据获取模式和突变模式。
+more ingrained patterns for data fetching a mutation
+
+125
+00:04:35,466 --> 00:04:37,366
+当然，它应该完全利用
+and of course it should fully leverage
+
+126
+00:04:37,366 --> 00:04:39,499
+解决渲染中反应性的独特观点
+solve a unique view of reactivity in rendering
+
+127
+00:04:39,500 --> 00:04:41,533
+并可在任何地方进行部署
+and be deployable anywhere
+
+128
+00:04:43,066 --> 00:04:43,933
+在同一时间
+at the same time
+
+129
+00:04:43,933 --> 00:04:46,099
+有一些事情我不想去处理
+there were things I did not want to deal with
+
+130
+00:04:46,400 --> 00:04:49,000
+必须处理一堆配置，这可不是什么好玩的事。
+having to wrangle a bunch of configuration is no fun
+
+131
+00:04:49,766 --> 00:04:50,566
+还有
+also
+
+132
+00:04:51,566 --> 00:04:53,099
+我不想太有主见。
+I didn't want to be too opinionated
+
+133
+00:04:53,100 --> 00:04:54,400
+好吧，意见可以是好的
+well opinions can be good
+
+134
+00:04:54,700 --> 00:04:57,100
+首先，这需要为所有的事情工作。
+first and foremost this needs to work for everything
+
+135
+00:04:57,600 --> 00:04:59,533
+而且我不想负责任
+and I don't want to be responsible
+
+136
+00:04:59,866 --> 00:05:02,399
+至少要对人们的命运负责。
+well at least that responsible for people's destiny
+
+137
+00:05:02,733 --> 00:05:05,399
+我从来不喜欢也不屑于使用元框架
+I've never liked or bothered with meta frameworks
+
+138
+00:05:05,733 --> 00:05:06,199
+我自己
+myself
+
+139
+00:05:06,200 --> 00:05:08,866
+所以当十亿项目时，我为什么要把它推给别人呢？
+so when billion project why would I try to push that
+
+140
+00:05:09,133 --> 00:05:10,133
+在别人身上
+on someone else
+
+141
+00:05:11,166 --> 00:05:11,666
+类似地
+similarly
+
+142
+00:05:11,666 --> 00:05:13,999
+我不想提出一堆独家的想法
+I didn't want to present a bunch of exclusive ideas
+
+143
+00:05:14,000 --> 00:05:16,600
+就像如果有人选择不使用这个项目
+like if someone chose not to use this project
+
+144
+00:05:16,600 --> 00:05:17,400
+他们不应该觉得
+they shouldn't feel
+
+145
+00:05:17,533 --> 00:05:19,566
+他们没有充分地利用固体
+they aren't fully leveraging solid
+
+146
+00:05:20,066 --> 00:05:22,966
+而这一点真的延伸到了apis和库中
+and this really extends to apis and libraries
+
+147
+00:05:23,133 --> 00:05:24,066
+理想情况下，你只是
+ideally you just
+
+148
+00:05:24,066 --> 00:05:26,699
+使用生态系统中已经存在的所有东西
+use everything that already existed in the ecosystem
+
+149
+00:05:26,766 --> 00:05:27,566
+我已经
+I'd
+
+150
+00:05:27,566 --> 00:05:29,733
+我已经创建了一个嵌套的路由器，具有并行的
+already created a nested router with parallelized
+
+151
+00:05:29,733 --> 00:05:30,999
+数据获取的嵌套式路由器，在我
+data fetching long before I
+
+152
+00:05:31,000 --> 00:05:32,733
+就已经创建了一个具有并行数据获取功能的嵌套式路由器，在我想到要做一个元框架之前
+ever thought of making a meta framework
+
+153
+00:05:33,333 --> 00:05:35,599
+老实说，我不希望有维护的负担
+honestly I don't want the maintenance burden
+
+154
+00:05:36,066 --> 00:05:38,666
+你可以开始明白为什么我不太感兴趣了
+you can start to see why I wasn't too interested
+
+155
+00:05:38,766 --> 00:05:39,899
+我们怎么可能得到
+how do we possibly get
+
+156
+00:05:39,900 --> 00:05:42,166
+所有的好处，而没有坏处
+all the upsides without the downsides
+
+157
+00:05:45,466 --> 00:05:46,199
+结果是这样的
+well as it turns out
+
+158
+00:05:46,200 --> 00:05:48,366
+vitu kunta在一个更好的时机出现了
+vitu kunta come out at a better time
+
+159
+00:05:48,600 --> 00:05:51,133
+最重要的是它提供了一个单一的配置
+the big thing being it offered a single configuration
+
+160
+00:05:51,133 --> 00:05:52,399
+增加SSR
+for adding ssr
+
+161
+00:05:52,866 --> 00:05:54,599
+这是我需要解决的第一个问题
+this was the first problem I needed to solve
+
+162
+00:05:54,600 --> 00:05:56,966
+历史上，捆绑者并不关心
+historically bundlers didn't concern themselves
+
+163
+00:05:57,100 --> 00:05:57,666
+这方面的问题
+with this end
+
+164
+00:05:57,666 --> 00:05:59,199
+虽然你可以做一堆的配置
+while you could make a bunch of configs
+
+165
+00:05:59,200 --> 00:06:00,300
+但这并不容易
+it wasn't as easy
+
+166
+00:06:00,300 --> 00:06:02,533
+并不像运行一个带有标志的捆绑器那么简单
+as just running a bundler with a flag
+
+167
+00:06:03,166 --> 00:06:05,533
+这一点很重要，因为在概念上意味着
+and this is important because the conceptionally meant
+
+168
+00:06:05,866 --> 00:06:07,199
+我们有这种灵活性
+that we had this flexibility
+
+169
+00:06:07,200 --> 00:06:09,100
+现在可以把这些东西放在彼此的上面
+now to lay these things on top of each other
+
+170
+00:06:09,100 --> 00:06:10,566
+不需要额外的布线
+without additional wiring
+
+171
+00:06:11,100 --> 00:06:12,966
+我们不需要对
+we didn't need to be opinionated about
+
+172
+00:06:12,966 --> 00:06:14,533
+客户端与服务器的渲染
+client versus server rendering
+
+173
+00:06:15,500 --> 00:06:17,266
+这一点可以从以下几个方面体现出来
+and this is kind of exemplified
+
+174
+00:06:17,466 --> 00:06:18,066
+在
+on
+
+175
+00:06:18,066 --> 00:06:19,566
+的插件系统中得到了体现。
+the plugin system that beat has
+
+176
+00:06:19,566 --> 00:06:21,766
+它大致上是基于滚动的插件
+it's based roughly on roll up plugins
+
+177
+00:06:22,300 --> 00:06:23,166
+而且你可以编写
+and you can author
+
+178
+00:06:23,166 --> 00:06:24,066
+这些通用插件
+these universal plugins
+
+179
+00:06:24,066 --> 00:06:25,333
+可以在整个平台上使用
+that work across the whole platform
+
+180
+00:06:25,333 --> 00:06:27,299
+现在，魔鬼就在细节中
+now the devil is in the details here
+
+181
+00:06:27,300 --> 00:06:29,800
+很多细微的差别，但V是堆叠的
+a lot of nuance but v was stacked
+
+182
+00:06:29,866 --> 00:06:30,899
+有很多东西
+with a lot of things
+
+183
+00:06:31,900 --> 00:06:32,700
+以使
+to make
+
+184
+00:06:33,733 --> 00:06:34,933
+我们的生活变得更容易
+our lives a lot easier
+
+185
+00:06:35,066 --> 00:06:38,133
+像glob导入来处理动态的文件传递
+things like glob imports to handle dynamic file pass
+
+186
+00:06:38,133 --> 00:06:40,199
+你知道我们可以说是文件系统的路由
+you know can we say file system routing
+
+187
+00:06:41,333 --> 00:06:42,699
+以及几乎是微不足道的能力
+and almost the trivial ability
+
+188
+00:06:42,700 --> 00:06:43,933
+创建虚拟模块
+to create virtual modules
+
+189
+00:06:43,933 --> 00:06:48,099
+以允许自定义编译将我们的模块分开。
+to allow custom compilations to break our modules apart
+
+190
+00:06:48,400 --> 00:06:49,733
+这其中最好的部分
+and the best part of this
+
+191
+00:06:50,166 --> 00:06:52,933
+只是一个共同的基础，只是一个插件
+is just a common base of just a plugin
+
+192
+00:06:53,700 --> 00:06:55,766
+不需要一个实际的元框架
+there's no need for an actual meta framework
+
+193
+00:06:55,966 --> 00:06:57,966
+只是一个V型插件的集合
+just a collection of v plugins
+
+194
+00:07:00,200 --> 00:07:01,000
+和
+and
+
+195
+00:07:01,166 --> 00:07:03,566
+我们意识到它几乎是立即像
+we realize it's almost immediately like
+
+196
+00:07:04,666 --> 00:07:05,999
+我们只需要做这么少的事情
+we had to do so little
+
+197
+00:07:06,100 --> 00:07:07,866
+来利用现有的生态系统
+to leverage and existing ecosystem
+
+198
+00:07:08,000 --> 00:07:09,966
+像CSS这样的东西已经是它的一部分了
+things like CSS were already part of it
+
+199
+00:07:10,000 --> 00:07:10,966
+虽然可能
+and while maybe
+
+200
+00:07:11,266 --> 00:07:13,199
+会有一些坚实的特定功能
+there'd be some solid specific features
+
+201
+00:07:13,200 --> 00:07:15,133
+我们为坚实的开始而建立的任何东西
+anything we built for solid start
+
+202
+00:07:15,533 --> 00:07:17,366
+都可以在任何实体项目中使用
+would work in any solid projects
+
+203
+00:07:17,366 --> 00:07:20,699
+同样，SOLIS tar也可以用于任何实体项目。
+moreso solis tar could be used for any solid project
+
+204
+00:07:20,866 --> 00:07:22,899
+一切都是模块化的，就像现在这样
+everything being modular as it is
+
+205
+00:07:22,900 --> 00:07:26,100
+这就解决了我2个避免清单上的一半事情
+this is addresses half the things on my 2 avoid list
+
+206
+00:07:26,166 --> 00:07:27,699
+没有做任何事情
+without doing anything
+
+207
+00:07:28,733 --> 00:07:30,966
+如果我们想让fossis从路由中出来，并与固体路由器一起工作
+if we want fossis from routing that worked with
+
+208
+00:07:30,966 --> 00:07:31,499
+solid router
+solid router
+
+209
+00:07:31,500 --> 00:07:33,800
+那就没有必要让solid start router成为现实。
+there is no point in making solid start router
+
+210
+00:07:33,800 --> 00:07:35,866
+我们只需要把它作为一个v插件来构建
+we'd just build it as a v plugin
+
+211
+00:07:36,666 --> 00:07:38,599
+我们把solid start作为源文件，而不是
+we shift solid start as source instead of
+
+212
+00:07:38,600 --> 00:07:39,466
+预先建立
+being pre built
+
+213
+00:07:39,466 --> 00:07:41,299
+而且它可以随处滑入。
+and it just slides in everywhere
+
+214
+00:07:41,300 --> 00:07:43,200
+对可维护性来说是一个巨大的胜利
+a huge win for maintainability
+
+215
+00:07:44,366 --> 00:07:46,399
+当然，这只是直接的好处。
+but of course that's just the direct benefit
+
+216
+00:07:46,733 --> 00:07:49,599
+我们所发现的，因为它甚至比这更好
+what we found since it is even better than that
+
+217
+00:07:51,266 --> 00:07:52,866
+有了这样一个模块化的方法
+with such a modular approach
+
+218
+00:07:52,866 --> 00:07:54,999
+我们已经能够迅速测试各种想法
+we've been able to test ideas rapidly
+
+219
+00:07:55,266 --> 00:07:57,799
+只需要再写一个V的插件就可以了
+it's just a matter of writing another v plug in
+
+220
+00:07:58,300 --> 00:07:59,800
+而这种实验性的工作
+and this sort of experimentation
+
+221
+00:07:59,800 --> 00:08:01,066
+对我们来说真的很重要
+is really important to us
+
+222
+00:08:01,500 --> 00:08:02,666
+让我给你举个例子
+let me give you an example
+
+223
+00:08:05,300 --> 00:08:07,300
+我们希望卖掉的是相同的客户端和服务器
+we want sold to work the same client and server
+
+224
+00:08:07,300 --> 00:08:08,600
+并使用相同的库
+and use the same libraries
+
+225
+00:08:08,600 --> 00:08:09,700
+就像固体船舵一样
+like solids rudder
+
+226
+00:08:09,766 --> 00:08:10,533
+但是
+but
+
+227
+00:08:10,533 --> 00:08:13,566
+肯定会有服务器的特定功能
+there is definitely for server specific features
+
+228
+00:08:14,100 --> 00:08:16,400
+诸如获得自杀式道具和下一个或
+things like get suicide props and next or
+
+229
+00:08:16,400 --> 00:08:17,466
+装载器和重混
+loaders and remix
+
+230
+00:08:17,500 --> 00:08:19,400
+但我们并不想妥协
+but we didn't want to compromise
+
+231
+00:08:19,566 --> 00:08:20,499
+而且我们想保留
+and we wanted to keep
+
+232
+00:08:20,500 --> 00:08:21,966
+我们希望保留我们所期望的所有好处
+all the benefits we'd come to desire
+
+233
+00:08:21,966 --> 00:08:23,666
+模块化和可组合的好处
+from being modular and composable
+
+234
+00:08:24,200 --> 00:08:25,366
+Solid的模式
+the pattern for solid
+
+235
+00:08:25,600 --> 00:08:27,333
+在过去的几年里，我们的模式是
+the past several years has been
+
+236
+00:08:27,366 --> 00:08:28,733
+找到一个数据函数
+to find a data function
+
+237
+00:08:28,733 --> 00:08:30,999
+附带给每个嵌套的路由部分
+that has attached to each nested route section
+
+238
+00:08:31,200 --> 00:08:33,300
+并与拆分的代码平行运行
+and runs in parallel to the code splitting
+
+239
+00:08:34,266 --> 00:08:36,099
+这让我们可以设置我们的资源
+this lets us set up our resources
+
+240
+00:08:36,100 --> 00:08:36,500
+这就是
+which are
+
+241
+00:08:36,500 --> 00:08:38,866
+基本上是一个特殊的信号，需要一个承诺
+basically a special signal that takes a promise
+
+242
+00:08:40,366 --> 00:08:42,199
+并对其进行并行处理
+and handle it in parallel
+
+243
+00:08:42,766 --> 00:08:43,699
+而这种
+and this
+
+244
+00:08:43,766 --> 00:08:45,866
+机制工作得非常好，因为如果不去管它
+mechanism worked really well because if left alone
+
+245
+00:08:45,866 --> 00:08:48,333
+它将在最初的ssr期间在服务器上获取信息
+it will fetch on the server during initial ssr
+
+246
+00:08:48,333 --> 00:08:49,133
+然后
+and then
+
+247
+00:08:49,300 --> 00:08:52,300
+在随后的导航中再次从浏览器中获取
+again from the browser on subsequent navigation
+
+248
+00:08:54,533 --> 00:08:55,666
+但是，如果
+but what if
+
+249
+00:08:56,100 --> 00:08:58,300
+我想总是在服务器上获取
+I want to always fetch on the server
+
+250
+00:09:01,333 --> 00:09:03,166
+我们有一个想法，如果一个函数
+well we had an idea what if a function
+
+251
+00:09:03,333 --> 00:09:03,966
+可以是
+could be
+
+252
+00:09:03,966 --> 00:09:05,666
+在圆圈上，我是说任何函数
+on the circle I mean any function
+
+253
+00:09:05,800 --> 00:09:07,066
+这并不是一个新的想法
+this isn't a new idea
+
+254
+00:09:07,066 --> 00:09:09,366
+我们已经在blitz js中看到了这样的东西
+we've seen stuff like this in blitz js
+
+255
+00:09:09,400 --> 00:09:10,466
+但如果我们能
+but what if we could
+
+256
+00:09:10,566 --> 00:09:12,733
+利用节拍插件系统来实现这种
+leverage beats plug in system to make this
+
+257
+00:09:12,733 --> 00:09:14,499
+遥远的选择行为
+distant opt in behavior
+
+258
+00:09:14,566 --> 00:09:15,933
+就像文件系统的路由一样
+like file system routing
+
+259
+00:09:15,933 --> 00:09:18,699
+我们可以测试一个想法，看看它是如何运作的
+we could just test an idea and see how it would sit
+
+260
+00:09:18,933 --> 00:09:20,966
+立即看到这意味着我们可以保留
+immediately saw that meant we could preserve
+
+261
+00:09:21,000 --> 00:09:22,566
+类型跨越边界
+types across the boundary
+
+262
+00:09:22,566 --> 00:09:24,299
+这真的很不错
+and this was really quite nice
+
+263
+00:09:24,966 --> 00:09:26,799
+我们可以在任何地方定义一个函数
+we could just define a function anywhere
+
+264
+00:09:26,966 --> 00:09:28,333
+而你不需要担心
+and you didn't need to worry
+
+265
+00:09:28,800 --> 00:09:30,000
+担心的问题。
+both a url
+
+266
+00:09:30,100 --> 00:09:31,066
+或API
+or API
+
+267
+00:09:33,400 --> 00:09:34,700
+网址也是
+the url is also
+
+268
+00:09:34,700 --> 00:09:36,966
+可以作为该函数的一个属性
+available as a property of that function
+
+269
+00:09:37,100 --> 00:09:39,700
+所以你可以在为处理url而设计的apis中使用它
+so you can use it in apis designed to handle urls
+
+270
+00:09:39,700 --> 00:09:40,533
+我们实际上已经用这个
+we've actually used this
+
+271
+00:09:40,533 --> 00:09:42,666
+来连接网络套接字等东西
+to wire up things like web sockets
+
+272
+00:09:42,666 --> 00:09:44,166
+和服务器百分比防御
+and server cent defense
+
+273
+00:09:44,166 --> 00:09:46,166
+但我们的收获是，我们突然有了
+but the takeaway is suddenly we had
+
+274
+00:09:46,300 --> 00:09:47,266
+一个原始的方法来做
+a primitive to do
+
+275
+00:09:47,266 --> 00:09:50,966
+以一种安全的方式进行网络通信，并且
+network communication in a type safe way and
+
+276
+00:09:51,500 --> 00:09:52,666
+我们可以在任何地方使用它
+we could use it anywhere
+
+277
+00:09:53,000 --> 00:09:55,400
+我们可以在任何文件中放置我们想要的服务器功能
+we could put as many server functions we wanted in
+
+278
+00:09:55,400 --> 00:09:56,300
+任何文件
+any file
+
+279
+00:09:58,666 --> 00:09:59,499
+因此，事实证明
+so it turns out
+
+280
+00:09:59,900 --> 00:10:00,933
+我们可以直接把
+we can just plug
+
+281
+00:10:01,166 --> 00:10:03,499
+这也是我们的资源
+this right into our resources as well
+
+282
+00:10:03,500 --> 00:10:03,933
+突然间
+suddenly
+
+283
+00:10:03,933 --> 00:10:06,299
+我们现在有了一个总是在服务器上运行的函数
+we have a function now that always runs on the server
+
+284
+00:10:07,366 --> 00:10:09,466
+这很好，因为信条是这样构成的
+it's nice how crematives compose like that
+
+285
+00:10:10,933 --> 00:10:12,966
+我们可以写一个包装器，把它清理一下
+and we can write a wrapper to clean it up a little bit
+
+286
+00:10:12,966 --> 00:10:14,966
+当我们在工作时
+and while we're in business
+
+287
+00:10:16,300 --> 00:10:18,800
+它比一个简单的水槽或加载器要大一些。
+well it's a little bulkier than a simple a sink
+
+288
+00:10:19,500 --> 00:10:20,566
+函数或加载器
+function or loader
+
+289
+00:10:20,766 --> 00:10:23,133
+我们在这里得到一些很酷的东西
+we get a couple cool things here
+
+290
+00:10:24,000 --> 00:10:25,866
+比如我们资源的第一个参数
+like the first argument to our resource
+
+291
+00:10:25,866 --> 00:10:27,799
+的第一个参数作为一个现金无效键
+acting as a cash invalidation key
+
+292
+00:10:29,100 --> 00:10:31,566
+所以我们可以细化地使这些东西失效
+so we can granularly invalidate these things
+
+293
+00:10:31,600 --> 00:10:33,166
+就像在图书馆里一样
+the way one would with the libraries
+
+294
+00:10:33,166 --> 00:10:34,199
+参加该查询
+attend to that query
+
+295
+00:10:34,466 --> 00:10:37,099
+我们还可以创建尽可能多的这些
+we also can create as many of these
+
+296
+00:10:37,166 --> 00:10:39,466
+服务器数据或资源，只要我们想
+server data or resources as we want
+
+297
+00:10:39,533 --> 00:10:40,666
+在给定的路线上
+on the given route
+
+298
+00:10:40,666 --> 00:10:42,566
+并独立处理它们
+and handle them all independently
+
+299
+00:10:45,400 --> 00:10:46,366
+而在另一边
+and on the other side
+
+300
+00:10:46,766 --> 00:10:49,266
+我们希望对突变的行动
+we wanted actions for mutations
+
+301
+00:10:49,600 --> 00:10:50,400
+和
+and
+
+302
+00:10:50,900 --> 00:10:51,533
+同样
+again
+
+303
+00:10:51,533 --> 00:10:51,966
+如果
+if
+
+304
+00:10:51,966 --> 00:10:54,599
+使用这种服务器机制，我们可以在任何文件中划分它们
+using this server mechanism we could divine them in
+
+305
+00:10:54,666 --> 00:10:58,166
+任何文件中的行动，只要我们愿意，任何文件中的行动都可以。
+any file as many actions in any file as we wanted
+
+306
+00:11:00,766 --> 00:11:01,899
+我们基本上可以
+we could basically
+
+307
+00:11:02,200 --> 00:11:04,733
+用这些来跟踪我们的突变的进展
+use these to track the progress
+
+308
+00:11:04,800 --> 00:11:06,933
+我们的突变和管理
+of our mutations and manage
+
+309
+00:11:07,166 --> 00:11:08,566
+乐观的更新
+optimistic updates
+
+310
+00:11:09,333 --> 00:11:10,299
+默认情况下
+by default
+
+311
+00:11:10,533 --> 00:11:11,866
+他们将只是刷新所有的日期
+they'll just refresh all of the date
+
+312
+00:11:11,866 --> 00:11:12,966
+在当前路线上的所有日期
+on the current route
+
+313
+00:11:13,066 --> 00:11:13,866
+但是
+but
+
+314
+00:11:14,100 --> 00:11:15,266
+因为它们是细化的
+because they're granular
+
+315
+00:11:15,300 --> 00:11:18,466
+它们也可以触发自己的失效键
+they can also trigger their own invalidation keys
+
+316
+00:11:20,933 --> 00:11:21,299
+和
+and
+
+317
+00:11:21,300 --> 00:11:22,100
+我有没有提到
+did I mention
+
+318
+00:11:22,100 --> 00:11:24,066
+他们是逐步增强的表单专家，可以在
+they expert progressively enhanced forms that work
+
+319
+00:11:24,066 --> 00:11:25,133
+不使用javascript
+with no javascript
+
+320
+00:11:26,900 --> 00:11:28,866
+这一切都只是堆积在彼此的上面
+this all just piles on top of each other
+
+321
+00:11:28,933 --> 00:11:29,733
+对
+right
+
+322
+00:11:32,100 --> 00:11:32,600
+你可以定义
+you can define
+
+323
+00:11:32,600 --> 00:11:34,600
+你可以在一个文件中定义任意多的这些动作
+as many of these actions as you want in a file
+
+324
+00:11:34,600 --> 00:11:35,966
+因为它们只是服务器函数
+as they are just server functions
+
+325
+00:11:35,966 --> 00:11:38,099
+而不觉得有什么限制，必须遵守
+and not feel the restrictions of having to adhere
+
+326
+00:11:38,200 --> 00:11:39,300
+文件为基础的
+to a file based
+
+327
+00:11:39,500 --> 00:11:42,166
+的API的限制，也不用担心无效时的过度获取。
+API for local mutations or worrying about over
+
+328
+00:11:42,500 --> 00:11:43,400
+无效时的过度获取
+fetching on invalidation
+
+329
+00:11:43,400 --> 00:11:45,533
+这有点像
+it's sort of like a marriage between
+
+330
+00:11:46,100 --> 00:11:49,500
+某种程度上来说，它就像是remix和tanstack query之间的结合。
+something like remix and tanstack query
+
+331
+00:11:52,466 --> 00:11:53,399
+我最喜欢的部分
+my favorite part
+
+332
+00:11:53,400 --> 00:11:54,600
+我最喜欢的部分是，它
+of the story is that it
+
+333
+00:11:54,600 --> 00:11:56,733
+是从一个原始的实验开始的
+started from an experiment with a primitive
+
+334
+00:11:56,966 --> 00:11:59,066
+这基本上就是我们如何开发和巩固
+that's basically how we develop and solid
+
+335
+00:11:59,066 --> 00:12:00,099
+我们创建一个基元
+we create a primitive
+
+336
+00:12:00,100 --> 00:12:01,466
+并试着看它如何被使用
+and try to see how it can be used
+
+337
+00:12:01,466 --> 00:12:03,133
+以确定其在世界的地位
+to determine its place in the world
+
+338
+00:12:03,533 --> 00:12:04,766
+有时有明显的需要
+sometimes there is obvious need
+
+339
+00:12:04,766 --> 00:12:06,099
+只能在核心部分处理
+that can only be handled in the core
+
+340
+00:12:06,100 --> 00:12:06,933
+而它最终被
+and it ends up
+
+341
+00:12:07,333 --> 00:12:09,999
+但在其他时候，我们会将几个月来的想法在我们的solid primeters repo中测试。
+in the core but other times we test ideas from months
+
+342
+00:12:10,066 --> 00:12:11,699
+在我们的solid primeters repo中测试想法，然后
+in our solid primeters repo and
+
+343
+00:12:12,700 --> 00:12:13,500
+你知道
+you know
+
+344
+00:12:13,566 --> 00:12:15,899
+然后我们就会学到我们需要学习的东西
+then we learn what the lessons we need to learn
+
+345
+00:12:17,366 --> 00:12:19,866
+人们一直在做一些不可思议的事情
+people have been doing incredible things with
+
+346
+00:12:20,166 --> 00:12:22,899
+咿咿呀呀的，感觉就像编纂的一样。
+babble with solid getting felt like compilations
+
+347
+00:12:22,900 --> 00:12:25,133
+和尝试新的dsl想法，因为
+and try new dsl ideas because of how
+
+348
+00:12:25,166 --> 00:12:26,566
+因为它可以很容易地在上面构建
+easy it's to build on top of
+
+349
+00:12:26,800 --> 00:12:29,533
+对我来说，当我看到维生素时
+and for me the second I saw vit
+
+350
+00:12:30,133 --> 00:12:30,899
+我知道我们是
+I knew we were
+
+351
+00:12:30,900 --> 00:12:32,000
+进入更多相同的东西
+into more of the same
+
+352
+00:12:34,766 --> 00:12:36,399
+但如果你不相信的话
+but if you aren't convinced
+
+353
+00:12:36,500 --> 00:12:37,600
+再举一个例子
+one more example
+
+354
+00:12:38,133 --> 00:12:38,766
+想给你看一个
+want to show you an
+
+355
+00:12:38,766 --> 00:12:40,366
+我们现在正在进行的实验
+experiment we are working on right now
+
+356
+00:12:40,400 --> 00:12:42,700
+在此向Nikilseiroff致以崇高的敬意
+a huge shoutout to nikilseiroff here
+
+357
+00:12:42,700 --> 00:12:45,066
+他把这些东西放在一起，使这个演示成为可能
+who put together the pieces make this demo possible
+
+358
+00:12:45,766 --> 00:12:47,199
+我将演示一个应用程序
+I'm going to demo an app
+
+359
+00:12:47,266 --> 00:12:49,199
+我太熟悉了
+that I am all too familiar with
+
+360
+00:12:49,566 --> 00:12:51,099
+老黑客新闻演示
+the old hacker news demo
+
+361
+00:12:53,300 --> 00:12:55,600
+如果你还没有看到坚实的开始
+and if you haven't seen solid start
+
+362
+00:12:55,766 --> 00:12:57,133
+它基本上是
+it's essentially
+
+363
+00:12:57,700 --> 00:12:58,666
+只是一个V项目
+just a v project
+
+364
+00:12:58,666 --> 00:13:01,166
+你看，这里有一个V的配置，我们只是
+you see there's a v config right here and we just
+
+365
+00:13:01,400 --> 00:13:02,400
+插上我们的
+plug in our
+
+366
+00:13:02,866 --> 00:13:03,799
+实体插件
+solid plug in
+
+367
+00:13:04,733 --> 00:13:05,466
+和
+and
+
+368
+00:13:05,466 --> 00:13:06,599
+我们非常
+we were very
+
+369
+00:13:06,866 --> 00:13:09,566
+我们很容易就能把它倒在
+easily able to actually just pour it over
+
+370
+00:13:09,600 --> 00:13:10,733
+当我们现有的
+when our existing
+
+371
+00:13:10,900 --> 00:13:13,200
+的客户端模板
+v templates for client side
+
+372
+00:13:13,666 --> 00:13:15,299
+因为我们所需要做的就是
+because all we need to do really was
+
+373
+00:13:15,300 --> 00:13:16,800
+把存在于我们read项目中的索引HTML
+take the index HTML
+
+374
+00:13:17,133 --> 00:13:19,166
+存在于我们的阅读项目中
+that exists in our read project
+
+375
+00:13:19,166 --> 00:13:21,166
+并将其转换为这个gsx的东西
+and convert it to this gsx thing
+
+376
+00:13:21,166 --> 00:13:22,733
+这里有一些细节
+there's some details here
+
+377
+00:13:22,900 --> 00:13:23,700
+比如
+like
+
+378
+00:13:23,766 --> 00:13:25,166
+我们的路由器使用
+our router uses
+
+379
+00:13:25,166 --> 00:13:26,266
+一个路由文件来
+a file of routes to
+
+380
+00:13:26,266 --> 00:13:28,166
+暗示它要使用文件系统路由
+suggest that it wants to use file system routing
+
+381
+00:13:28,266 --> 00:13:29,533
+一旦到位
+once in place
+
+382
+00:13:30,766 --> 00:13:32,666
+我们基本上就有了一个路由器
+we basically just have a router
+
+383
+00:13:32,800 --> 00:13:36,366
+而我们唯一需要做的其他小调整是
+and the only other little tweak we had to do really was
+
+384
+00:13:37,966 --> 00:13:40,199
+我们的数据功能以前是在单独的文件中的
+our data functions which used to be in separate files
+
+385
+00:13:40,200 --> 00:13:42,600
+现在可以直接放在文件的顶部了
+can now be just at the top of the file
+
+386
+00:13:42,933 --> 00:13:46,099
+这与我们之前所看到的非常相似
+and this is very similar to what we were looking at
+
+387
+00:13:46,200 --> 00:13:47,000
+在
+on the
+
+388
+00:13:47,166 --> 00:13:48,366
+前面的幻灯片
+previous slides
+
+389
+00:13:49,966 --> 00:13:52,266
+所以让我们来试试我们的例子
+so let's try our example in action
+
+390
+00:13:52,966 --> 00:13:54,199
+开始我们的服务器
+start off our server
+
+391
+00:13:54,566 --> 00:13:57,399
+这只是一个典型的黑客新闻应用
+and this is just your typical hacker news app
+
+392
+00:13:57,400 --> 00:13:59,566
+我们只是在它的客户端进行导航
+we just navigate around its client rendered
+
+393
+00:14:00,066 --> 00:14:01,166
+客户端导航的
+client navigated
+
+394
+00:14:01,400 --> 00:14:04,933
+基本上有一些故事列表页面
+and there's basically some story listing pages
+
+395
+00:14:04,933 --> 00:14:06,866
+然后你可以进入具体的故事
+and then you can go into the specific story
+
+396
+00:14:06,900 --> 00:14:08,733
+如果你愿意的话，还可以折叠评论
+and collapse the comments if you wish
+
+397
+00:14:09,800 --> 00:14:12,500
+为了向你展示它是由客户端渲染的
+and just to show you that it's client rendered
+
+398
+00:14:13,666 --> 00:14:14,966
+让我们看一下网络标签
+let's look at the network tab
+
+399
+00:14:14,966 --> 00:14:16,599
+当我加载这个时，你会看到
+when I load this what you'll see
+
+400
+00:14:16,800 --> 00:14:17,600
+是
+is
+
+401
+00:14:17,900 --> 00:14:20,800
+初始HTML加载一些javascript和CSS
+initial HTML loading some javascript and CSS
+
+402
+00:14:20,800 --> 00:14:24,166
+然后你会看到，故事和
+and then you'll see that the storiesand the
+
+403
+00:14:24,466 --> 00:14:26,799
+数据API领同时发生
+data API collar getting happening at the same time
+
+404
+00:14:26,800 --> 00:14:27,900
+然后它的客户端渲染
+and then it client renders
+
+405
+00:14:27,900 --> 00:14:30,400
+事实上，你可以看到，HTML bcent
+and in fact you can actually see that the HTML bcent
+
+406
+00:14:30,466 --> 00:14:31,499
+有一个空的主体
+has an empty body
+
+407
+00:14:31,500 --> 00:14:33,533
+它是一个非常典型的单页应用程序
+and it's a pretty typical single page app
+
+408
+00:14:34,100 --> 00:14:34,900
+从那里
+from there
+
+409
+00:14:35,300 --> 00:14:37,933
+当我们导航到一个新的页面时
+when we navigate to a new page
+
+410
+00:14:38,466 --> 00:14:41,133
+我们将看到的基本上是
+what we'll see is essentially
+
+411
+00:14:41,766 --> 00:14:45,099
+新的javascript和对数据的抓取
+the new javascript and the fetch for the data
+
+412
+00:14:45,133 --> 00:14:46,899
+并行进行的
+sue that page happening in parallel
+
+413
+00:14:46,900 --> 00:14:48,700
+这都要归功于solidsrider。
+and this is all thanks to solidsrider
+
+414
+00:14:48,700 --> 00:14:49,966
+这里没有什么新东西
+there's nothing new here
+
+415
+00:14:50,566 --> 00:14:51,366
+但是
+but
+
+416
+00:14:51,500 --> 00:14:55,133
+但如果能在服务器上渲染这个页面，使之成为一个新的页面，那就更好了。
+perhaps it would be nice to
+
+417
+00:14:56,800 --> 00:14:58,733
+服务器渲染这个页面，所以
+server render this page so
+
+418
+00:15:00,166 --> 00:15:02,166
+我只是要进入我们的节拍配置
+I'm just going to go into our beat config
+
+419
+00:15:02,166 --> 00:15:03,533
+为我们的插件和迪斯科
+for our plug in and disco
+
+420
+00:15:05,500 --> 00:15:06,566
+服务器 ssr
+server ssr
+
+421
+00:15:06,566 --> 00:15:07,366
+true
+true
+
+422
+00:15:09,100 --> 00:15:09,900
+而现在
+and now
+
+423
+00:15:10,800 --> 00:15:12,066
+快速建立
+with a quick build
+
+424
+00:15:12,200 --> 00:15:13,133
+而我正在做
+and I'm doing
+
+425
+00:15:13,300 --> 00:15:14,533
+在这里进行生产构建
+the production build here
+
+426
+00:15:14,533 --> 00:15:15,999
+而不是只做开发模式
+instead of just doing dev mode
+
+427
+00:15:16,000 --> 00:15:18,600
+因为我真的想展示一下这些资源
+because I actually want to show off the resources
+
+428
+00:15:19,000 --> 00:15:20,600
+beat有很好的hmr
+beat has great hmr
+
+429
+00:15:21,566 --> 00:15:23,299
+我们可以看到当我重新加载页面时
+we can see when I reload the page
+
+430
+00:15:23,500 --> 00:15:24,300
+这
+that
+
+431
+00:15:24,400 --> 00:15:25,700
+现在大部分的工作
+now the majority of the work
+
+432
+00:15:25,700 --> 00:15:26,700
+实际上发生在服务器上
+actually happens on the server
+
+433
+00:15:26,700 --> 00:15:27,866
+当它获取数据的时候
+while it fetches the data
+
+434
+00:15:27,933 --> 00:15:30,099
+然后所有其余的javascript
+and then all the rest of the javascript
+
+435
+00:15:30,400 --> 00:15:31,200
+加载和并行
+loads and parallel
+
+436
+00:15:31,200 --> 00:15:32,933
+我们实际上可以看到，当我们看一看
+and we can actually see when we look at the
+
+437
+00:15:32,933 --> 00:15:33,799
+渲染的页面
+rendered page
+
+438
+00:15:33,866 --> 00:15:35,666
+现在我们有一个完整的页面
+and now we have a full page
+
+439
+00:15:35,700 --> 00:15:37,766
+包含我们所有的故事列表
+that contains all our story listings
+
+440
+00:15:38,200 --> 00:15:39,000
+和
+and
+
+441
+00:15:39,500 --> 00:15:41,400
+序列化的Jason，我们需要显示它们
+serialized Jason that we need to display them
+
+442
+00:15:42,533 --> 00:15:43,999
+但同样从这里
+but again from here
+
+443
+00:15:44,466 --> 00:15:45,499
+当我们浏览的时候
+when we navigate around
+
+444
+00:15:45,500 --> 00:15:47,466
+这也是我们已经习惯的客户端路由。
+this is the same client side routing that we've
+
+445
+00:15:48,133 --> 00:15:49,533
+我们已经习惯了
+come to accustom to
+
+446
+00:15:49,533 --> 00:15:51,099
+而这是一个非常典型的
+and this is a pretty typical
+
+447
+00:15:51,100 --> 00:15:52,766
+你在大多数元框架中都能找到
+that you find in most meta frameworks
+
+448
+00:15:53,666 --> 00:15:54,466
+但
+but
+
+449
+00:15:54,966 --> 00:15:56,166
+我们认为
+we thought well
+
+450
+00:15:56,266 --> 00:15:58,099
+为什么要停在这里
+why stop here
+
+451
+00:15:58,966 --> 00:16:00,166
+我已经看到了非常酷的事情
+I've been seeing really cool things
+
+452
+00:16:00,166 --> 00:16:00,933
+在框架中做的事情
+being done in framers
+
+453
+00:16:00,933 --> 00:16:02,533
+像Astro和Fresh
+like astro and fresh
+
+454
+00:16:02,533 --> 00:16:03,333
+所以我们就想
+so we're like
+
+455
+00:16:03,500 --> 00:16:05,366
+会发生什么，如果我们
+what happens if we
+
+456
+00:16:06,566 --> 00:16:07,699
+试图使
+tried to make
+
+457
+00:16:07,800 --> 00:16:10,766
+它是一个多页的应用程序，有互动的岛屿，而不是
+it a multi page app with interactive islands instead
+
+458
+00:16:10,766 --> 00:16:12,899
+所以这是一个例子，我们只是玩了一下
+so this an example of us just playing around
+
+459
+00:16:12,900 --> 00:16:14,566
+这是个例子，我们只是在玩一个B型插件，看看我们能做什么。
+with a b plug and seeing what we could do
+
+460
+00:16:14,566 --> 00:16:15,366
+所以
+so
+
+461
+00:16:15,933 --> 00:16:17,566
+我们需要做什么来使这些
+what we need to do to make those
+
+462
+00:16:17,566 --> 00:16:20,366
+评论崩溃仍然是互动的，只是
+comment collapsing still interactive is just
+
+463
+00:16:21,766 --> 00:16:23,699
+有一种方式将他们定义为一个岛屿
+have a way of defining them as an island
+
+464
+00:16:23,700 --> 00:16:25,400
+并作为一种实验
+and kind of as an experiment
+
+465
+00:16:25,400 --> 00:16:27,166
+再次使用这个v插件
+again using this v plugin
+
+466
+00:16:27,533 --> 00:16:30,066
+我们意识到，如果我们能将
+we realized what if we could just
+
+467
+00:16:31,100 --> 00:16:31,966
+导入
+import
+
+468
+00:16:34,333 --> 00:16:35,199
+我们的组件
+our component
+
+469
+00:16:35,200 --> 00:16:37,900
+有点类似于我们导入懒人组件的方式
+kind of similar to how we import lazy components
+
+470
+00:16:40,500 --> 00:16:41,100
+而其中一个是
+and which one is
+
+471
+00:16:41,100 --> 00:16:42,100
+它是一个切换器
+it's a toggle
+
+472
+00:16:42,466 --> 00:16:43,266
+和
+and
+
+473
+00:16:43,700 --> 00:16:46,100
+将其定义为一个岛
+define it as an island
+
+474
+00:16:46,100 --> 00:16:47,300
+而我们实际上在这里做的是
+and what we're actually doing here is
+
+475
+00:16:47,300 --> 00:16:48,066
+我们正在寻找这个
+we're looking for this
+
+476
+00:16:48,066 --> 00:16:49,799
+而实际上我们正在做一个编译器交换
+and actually we're doing a compiler swap
+
+477
+00:16:49,800 --> 00:16:51,000
+这影响了构建过程
+that affects the build process
+
+478
+00:16:51,000 --> 00:16:51,900
+再次感谢
+again thanks to
+
+479
+00:16:52,400 --> 00:16:54,866
+如果我现在运行这个
+and if I run this now
+
+480
+00:16:56,133 --> 00:16:56,933
+和
+and
+
+481
+00:16:58,200 --> 00:16:59,000
+启动
+start
+
+482
+00:17:00,200 --> 00:17:02,933
+之前我们看到的是
+previously we were looking at
+
+483
+00:17:04,466 --> 00:17:07,733
+在我们的页面上有大约15千字节的JavaScript
+about 15 kilobytes of javascript on our page
+
+484
+00:17:07,766 --> 00:17:10,133
+以便基本上加载
+in order to basically load
+
+485
+00:17:10,366 --> 00:17:12,666
+所有的交互性并进行渲染
+all the interactivity and do the rendering
+
+486
+00:17:13,000 --> 00:17:16,200
+这在客户端和服务器上的渲染是一样的
+and this is the same on client and server rendering
+
+487
+00:17:16,366 --> 00:17:19,566
+但在这个新的岛屿模式中，当我们刷新页面时
+but in this new islands mode when we refresh the page
+
+488
+00:17:20,333 --> 00:17:22,666
+我们就不需要那么多的JavaScript了
+we don't need nearly as much javascript
+
+489
+00:17:22,666 --> 00:17:24,899
+而当我们进入我们的故事时
+and when we go into our story
+
+490
+00:17:25,500 --> 00:17:29,133
+只需要5kB的javascript就足够了
+it's literally just 5kB of javascript just enough
+
+491
+00:17:29,600 --> 00:17:31,100
+来触发我们的岛屿的水化
+to trigger the hydration of our islands
+
+492
+00:17:31,100 --> 00:17:32,900
+正如你所看到的，这仍然有效
+and as you can see this still works
+
+493
+00:17:34,133 --> 00:17:36,766
+所以我们有同样的互动性和同样的体验
+so we have the same interactivity and same experience
+
+494
+00:17:37,066 --> 00:17:40,499
+在大约1
+at about 1/3 of the cost in javascript
+
+495
+00:17:42,266 --> 00:17:43,533
+null
+but again
+
+496
+00:17:44,300 --> 00:17:46,500
+null
+we have this whole platform available to us
+
+497
+00:17:46,500 --> 00:17:47,700
+null
+what else can we do
+
+498
+00:17:47,700 --> 00:17:48,766
+null
+well we thought
+
+499
+00:17:48,933 --> 00:17:51,933
+null
+wouldn't it be cool if we could do islands and
+
+500
+00:17:52,466 --> 00:17:53,399
+null
+still have
+
+501
+00:17:54,066 --> 00:17:54,866
+null
+maybe
+
+502
+00:17:54,900 --> 00:17:56,000
+null
+quiet side routing
+
+503
+00:17:57,166 --> 00:17:59,933
+null
+because sorry I didn't show it off here with the island
+
+504
+00:17:59,933 --> 00:18:01,799
+null
+as you navigate around you can see this refresh
+
+505
+00:18:01,800 --> 00:18:03,500
+null
+it's a full page refresh
+
+506
+00:18:03,800 --> 00:18:05,466
+null
+can just show this really easily
+
+507
+00:18:05,500 --> 00:18:07,500
+null
+we expand out some elements here
+
+508
+00:18:07,500 --> 00:18:10,400
+null
+we navigate it's re rendering the whole page
+
+509
+00:18:10,933 --> 00:18:13,966
+null
+this is fine and we still get the benefitsof being
+
+510
+00:18:13,966 --> 00:18:16,199
+null
+having less javascript and great page
+
+511
+00:18:16,200 --> 00:18:16,766
+null
+little performance
+
+512
+00:18:16,766 --> 00:18:19,066
+null
+but so again just
+
+513
+00:18:19,500 --> 00:18:21,000
+null
+through v plugins
+
+514
+00:18:21,333 --> 00:18:22,499
+null
+what if we could
+
+515
+00:18:23,800 --> 00:18:27,000
+null
+kind of try to see if we could get the best
+
+516
+00:18:27,133 --> 00:18:28,299
+null
+but both worlds
+
+517
+00:18:32,333 --> 00:18:33,133
+null
+and
+
+518
+00:18:33,733 --> 00:18:34,166
+null
+yeah
+
+519
+00:18:34,166 --> 00:18:37,166
+null
+we could load maybe 5kB of javascript initially
+
+520
+00:18:37,466 --> 00:18:38,266
+null
+but
+
+521
+00:18:38,333 --> 00:18:41,199
+null
+now when we go into our story
+
+522
+00:18:42,733 --> 00:18:43,266
+null
+we
+
+523
+00:18:43,266 --> 00:18:44,899
+null
+get the extra javascript for that toggle
+
+524
+00:18:44,900 --> 00:18:46,400
+null
+which still works but
+
+525
+00:18:46,400 --> 00:18:48,166
+null
+but as I'm navigating around
+
+526
+00:18:48,900 --> 00:18:51,366
+null
+we're just fixed at 6kB of javascript
+
+527
+00:18:52,266 --> 00:18:55,799
+而我们得到的是客户端的路由，整个
+and we were getting client side routing the whole
+
+528
+00:18:55,933 --> 00:18:58,699
+实际上，这里发生的事情是，我们正在换掉
+what's actually happening here is we're swapping out
+
+529
+00:18:58,766 --> 00:19:00,266
+变化的那部分页面
+the portion of the page that changes
+
+530
+00:19:00,266 --> 00:19:01,666
+头部永远不会重新呈现
+the header never rerenders
+
+531
+00:19:02,066 --> 00:19:03,099
+所以当我们到这里时
+so when we go here
+
+532
+00:19:04,000 --> 00:19:05,133
+我们只是把它换掉了
+we're just swapping it out
+
+533
+00:19:05,133 --> 00:19:06,366
+这是一个嵌套的
+this is a nested
+
+534
+00:19:07,200 --> 00:19:09,000
+服务器渲染的客户端路由器
+server rendered client router
+
+535
+00:19:11,000 --> 00:19:11,800
+老实说
+honestly
+
+536
+00:19:12,566 --> 00:19:14,766
+这里有很多可以玩的东西
+there's just so much here to play with
+
+537
+00:19:14,900 --> 00:19:16,533
+我很兴奋
+that I'm pretty excited
+
+538
+00:19:16,533 --> 00:19:18,066
+我的意思是，我不能等到有人
+I mean I can't wait till someone
+
+539
+00:19:18,333 --> 00:19:20,199
+认识到有了服务器功能
+realizes that with server functions
+
+540
+00:19:20,200 --> 00:19:21,300
+它可以做一个
+it can kind of do a
+
+541
+00:19:21,333 --> 00:19:23,199
+坚实的起步阶段
+solid start inception
+
+542
+00:19:24,366 --> 00:19:25,733
+老实说
+honestly the
+
+543
+00:19:26,333 --> 00:19:27,966
+这里的界限似乎是无止境的
+the boundaries seem endless here
+
+544
+00:19:29,166 --> 00:19:30,899
+这就是我要说的全部内容
+so that's what all I have to say
+
+545
+00:19:31,700 --> 00:19:34,200
+我太懒了，没有再做一张幻灯片
+I was too lazy to make another slide
+
+546
+00:19:34,366 --> 00:19:34,933
+但
+but
+
+547
+00:19:34,933 --> 00:19:37,366
+主要是因为它真的很难超越这一张
+mostly because it's really hard to top this one
+
+548
+00:19:37,966 --> 00:19:38,533
+以同样的方式
+in the same way
+
+549
+00:19:38,533 --> 00:19:39,966
+坚实的开端将是基础
+solid start is going to be the foundation
+
+550
+00:19:39,966 --> 00:19:41,699
+为未来的坚实应用打下基础
+for solid applications in the future
+
+551
+00:19:41,766 --> 00:19:43,666
+节拍在使
+beat has been instrumental in making
+
+552
+00:19:43,666 --> 00:19:45,166
+坚实的开始成为现实
+solid start a reality
+
+553
+00:19:45,966 --> 00:19:48,299
+我本来想告诉你这是一个疯狂的尝试
+I would have told you it would be crazy to take this on
+
+554
+00:19:48,300 --> 00:19:49,266
+之前，但
+before but
+
+555
+00:19:49,366 --> 00:19:50,466
+现在我无法想象
+now I can't picture
+
+556
+00:19:50,466 --> 00:19:51,533
+不能够给人们
+not being able to give people
+
+557
+00:19:51,533 --> 00:19:54,133
+这样有价值的工具来帮助他们制作最好的网络应用程序。
+such valuable tools to help them making the best web
+
+558
+00:19:54,133 --> 00:19:55,099
+应用
+applications
+
+559
+00:19:57,700 --> 00:19:59,866
+我想这个讲座不能被称为入门
+I suppose this talk can't be called getting started
+
+560
+00:19:59,866 --> 00:20:00,366
+讲座
+without
+
+561
+00:20:00,366 --> 00:20:02,166
+向大家展示如何开始使用这一切
+showing you all how to get started with all this
+
+562
+00:20:02,166 --> 00:20:02,966
+开始
+start
+
+563
+00:20:03,333 --> 00:20:04,466
+mpm和knit
+mpm and knit
+
+564
+00:20:04,466 --> 00:20:05,266
+固体
+solid
+
+565
+00:20:05,800 --> 00:20:06,600
+就是这样
+that's it
+
+566
+00:20:07,133 --> 00:20:07,733
+你就可以
+and you'll be
+
+567
+00:20:07,733 --> 00:20:08,533
+就可以在创建
+on your way to creating
+
+568
+00:20:08,533 --> 00:20:10,866
+下一代的网站和应用程序
+the next generation of websites and applications
+
+569
+00:20:11,200 --> 00:20:12,166
+谢谢你，V
+so thank you v
+
+570
+00:20:12,466 --> 00:20:13,733
+并感谢你们所有人
+and thank you all
+

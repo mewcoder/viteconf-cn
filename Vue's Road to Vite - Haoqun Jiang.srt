@@ -1,0 +1,1860 @@
+1
+00:00:01,900 --> 00:00:05,566
+大家好，我是来自ugs团队的Hautchington。
+hi everyone I'm hautchington from the ugs team
+
+2
+00:00:06,333 --> 00:00:09,799
+今天我演讲的题目是 "通往小麦的道路"。
+today my talk title is fills road to wheat
+
+3
+00:00:09,900 --> 00:00:11,366
+我将会谈论
+and I'm going to talk
+
+4
+00:00:11,366 --> 00:00:14,366
+关于新的ugs开发经验
+about the new ugs developing experience
+
+5
+00:00:14,766 --> 00:00:16,499
+以小麦为中心
+centered around wheat
+
+6
+00:00:18,666 --> 00:00:21,333
+首先让我快速介绍一下自己
+let me quickly introduce myself first
+
+7
+00:00:22,266 --> 00:00:25,333
+我是view和vit两个团队的成员。
+I'm a member of both the view and vit
+
+8
+00:00:25,766 --> 00:00:29,199
+卡团队的成员，是一名全职的开放歌曲开发者
+card teams as a full time open songs developer
+
+9
+00:00:29,900 --> 00:00:33,266
+我的主要工作是为vgs开发曲子。
+my main focus is on the tulings for vgs
+
+10
+00:00:33,300 --> 00:00:33,766
+所以
+so
+
+11
+00:00:33,766 --> 00:00:37,399
+我维护并参与了几个与vgs项目有关的项目
+I maintain and contribute to several projects related
+
+12
+00:00:37,400 --> 00:00:40,600
+我的主要工作是为vgs做准备，所以我维护和贡献了几个与vgs项目脚手架和捆绑有关的项目。
+to vgs project scaffolding and bundling
+
+13
+00:00:40,800 --> 00:00:44,866
+最明显的是view cri fit和create view。
+most notably view cri fit and create view
+
+14
+00:00:45,566 --> 00:00:47,966
+我的礼物用户名是在苏打茶
+my gift username is at soda tea
+
+15
+00:00:47,966 --> 00:00:50,266
+我的微博账号是我的手机号
+and my twitter handle is my phone name
+
+16
+00:00:50,266 --> 00:00:51,666
+在hotchinjang
+at hotchinjang
+
+17
+00:00:53,800 --> 00:00:54,966
+今年早些时候
+earlier this year
+
+18
+00:00:55,266 --> 00:00:58,899
+我们把好的老家的coi项目
+we put the good oldville coi project
+
+19
+00:00:58,966 --> 00:01:00,333
+进入维护模式
+into maintenance mode
+
+20
+00:01:00,400 --> 00:01:02,866
+意味着我们将不再
+meaning that we will no longer
+
+21
+00:01:03,100 --> 00:01:05,500
+积极为其添加新功能
+actively add new features to it
+
+22
+00:01:05,500 --> 00:01:07,500
+但它只是运回了一些修复功能
+but it's only shipped back fixes
+
+23
+00:01:08,366 --> 00:01:10,399
+现在的官方建议是
+now the official recommendation
+
+24
+00:01:10,533 --> 00:01:13,666
+是使用下面的命令来创建新的
+is to use the following command to create new
+
+25
+00:01:13,966 --> 00:01:16,866
+project mpm create view at 3
+projects mpm create view at 3
+
+26
+00:01:17,933 --> 00:01:20,733
+它比UCI要轻巧得多
+it is much more lightweight than UCI
+
+27
+00:01:20,733 --> 00:01:22,533
+不需要额外的
+requires no additional
+
+28
+00:01:22,700 --> 00:01:26,466
+全局安装工具，接受mpm和node
+global installation of tools acceptful mpm and node
+
+29
+00:01:26,666 --> 00:01:28,999
+而且它一直是最新的
+and it is always up to date
+
+30
+00:01:33,333 --> 00:01:36,799
+呃，最近我们还设法将其纳入
+uh recently we also managed to incorporate it
+
+31
+00:01:36,866 --> 00:01:38,766
+纳入官方饲料模板
+into the official feed templates
+
+32
+00:01:38,766 --> 00:01:40,966
+所以现在当你运行
+so now when you run the
+
+33
+00:01:41,200 --> 00:01:43,900
+mpn create vitad latest 命令
+mpn create vitad latest command
+
+34
+00:01:44,066 --> 00:01:47,499
+你就可以看到 呃
+you will you can also see the uh
+
+35
+00:01:48,400 --> 00:01:51,333
+一个自定义的创建视图选项
+a customized with create view option
+
+36
+00:01:51,466 --> 00:01:54,399
+旁边还有两个简约的
+in the job John alongside the 2 minimalistic
+
+37
+00:01:54,500 --> 00:01:57,133
+模板。
+templates provided by create wit
+
+38
+00:01:57,333 --> 00:02:00,933
+它将创建一个完全相同的项目
+it will create the exact same project
+
+39
+00:02:01,100 --> 00:02:03,100
+和创建视图命令一样
+as the create view command
+
+40
+00:02:03,200 --> 00:02:05,666
+和基于小麦的空载
+and the airborne based on wheat
+
+41
+00:02:08,800 --> 00:02:10,533
+所以在今天的谈话中
+so in today's talk
+
+42
+00:02:10,533 --> 00:02:13,099
+我将尝试为你回答这些问题
+I'll try to answer these questions for you
+
+43
+00:02:14,066 --> 00:02:16,666
+首先，为什么我们的视图团队
+first why do we the view team
+
+44
+00:02:17,666 --> 00:02:19,266
+决定从
+decide to switch from
+
+45
+00:02:20,366 --> 00:02:23,299
+vapac到创建view和vit
+vapac to create view and vit
+
+46
+00:02:24,100 --> 00:02:26,700
+究竟有哪些不同的方法？
+exactly what are the different approaches
+
+47
+00:02:26,700 --> 00:02:28,733
+视图调整生态系统所采取的方法
+the view tuning ecosystem is taken
+
+48
+00:02:28,733 --> 00:02:30,066
+在其中的一个领域
+in an area of it
+
+49
+00:02:31,533 --> 00:02:34,499
+我们可以期待什么更有趣的新功能
+what more interesting new features can we expect
+
+50
+00:02:34,533 --> 00:02:36,366
+在不久的将来，在
+in the near future in the
+
+51
+00:02:36,766 --> 00:02:37,999
+视图生态系统
+view ecosystem
+
+52
+00:02:40,766 --> 00:02:43,133
+第一个也是最显著的变化
+the first and most notable change
+
+53
+00:02:43,200 --> 00:02:45,166
+是将我们的生态系统
+is to turn our ecosystem
+
+54
+00:02:45,300 --> 00:02:46,600
+摆脱网络包的束缚
+away from web pack
+
+55
+00:02:47,400 --> 00:02:49,966
+我不得不说，这需要一些勇气
+I have to say that it takes some courage
+
+56
+00:02:49,966 --> 00:02:51,266
+和挣扎，我们
+and struggle for us
+
+57
+00:02:51,266 --> 00:02:52,733
+做出这个决定
+to make this decision
+
+58
+00:02:53,100 --> 00:02:55,066
+因为这样做，我们是在
+because by doing so we are
+
+59
+00:02:55,200 --> 00:02:56,533
+基本上放弃了
+essentially dropping
+
+60
+00:02:56,533 --> 00:02:59,799
+我们以前在网络包方面所做的大量努力
+lots of our previous efforts devoted to the web pack
+
+61
+00:02:59,800 --> 00:03:00,766
+生态系统
+ecosystem
+
+62
+00:03:01,600 --> 00:03:02,500
+但
+but the
+
+63
+00:03:02,700 --> 00:03:06,133
+但现在维生素生态系统已经越来越成熟了
+vit ecosystem is now getting more and more mature
+
+64
+00:03:06,133 --> 00:03:08,299
+我们相信这是值得的
+and we believe it's worth it
+
+65
+00:03:09,500 --> 00:03:13,733
+效益是非常明显的，令人印象深刻
+the benefits are very obvious and impressive
+
+66
+00:03:15,733 --> 00:03:16,899
+我们都知道
+we all know that
+
+67
+00:03:17,133 --> 00:03:20,133
+合适的步骤服务器比白包快得多
+fit step server is way faster than white packs
+
+68
+00:03:20,366 --> 00:03:23,366
+准确地说，是完全公平地结束
+to be precise to end completely fair
+
+69
+00:03:23,733 --> 00:03:26,266
+好吧，这实际上是可能的
+well it is actually possible
+
+70
+00:03:26,933 --> 00:03:28,699
+获得
+to get the
+
+71
+00:03:28,766 --> 00:03:31,866
+几乎相同的性能，因为适合与湿包
+nearly the same performance as fit with wet pack
+
+72
+00:03:32,300 --> 00:03:33,766
+只要你有
+as long as you have
+
+73
+00:03:34,366 --> 00:03:35,599
+配置了
+configured the
+
+74
+00:03:36,000 --> 00:03:40,666
+原生的比较工具，如swc或BS build
+native comparison tools such as swc or BS build
+
+75
+00:03:40,966 --> 00:03:43,399
+而且你有一个非常好的
+and you have a very good
+
+76
+00:03:43,666 --> 00:03:47,199
+现金考虑，而且是温暖的启动
+cash considerations and it is a warm startup
+
+77
+00:03:49,666 --> 00:03:52,866
+然而，要获得所有这些配置是非常困难的
+however it is extremely hard to get all these
+
+78
+00:03:52,866 --> 00:03:54,266
+配置的正确性
+configurations right
+
+79
+00:03:54,266 --> 00:03:56,099
+而且它还会有大量的
+and it will quite tons of
+
+80
+00:03:56,866 --> 00:03:57,899
+辩护
+defendancies
+
+81
+00:03:59,133 --> 00:04:00,799
+同时，在适合
+meanwhile in fit
+
+82
+00:04:01,700 --> 00:04:04,566
+良好的性能是开箱即用的
+the good performance is out of the box
+
+83
+00:04:05,066 --> 00:04:07,533
+你不需要额外配置任何东西
+you don't have to configure anything additionally
+
+84
+00:04:09,500 --> 00:04:12,733
+此外，当它涉及到热模型的更换
+besides when it comes to the hot model replacement
+
+85
+00:04:12,733 --> 00:04:14,066
+功能时，时间
+feature the time
+
+86
+00:04:14,066 --> 00:04:17,733
+访问执行的复杂性是恒定的
+complexity of the visit implementation is constant
+
+87
+00:04:17,966 --> 00:04:21,566
+而网络黑客是专业的身体帐户
+while web hacks is professional to the body account
+
+88
+00:04:21,566 --> 00:04:23,299
+因此，当项目增长的
+so when the project grows the
+
+89
+00:04:24,766 --> 00:04:26,766
+部分现代替换在网络包
+part modern replacement in web pack
+
+90
+00:04:27,333 --> 00:04:30,933
+变得更慢，而这是设计上的问题
+gets slower and this is by design
+
+91
+00:04:30,933 --> 00:04:33,999
+这意味着web pack永远无法赶上它。
+meaning that web pack can never catch up with it
+
+92
+00:04:36,300 --> 00:04:39,466
+它的另一个好处是它的简单性
+another benefit of it is its simplicity
+
+93
+00:04:40,900 --> 00:04:45,300
+它的配置格式是简单而直观的
+the configuration format of it is easy and intuitive
+
+94
+00:04:45,733 --> 00:04:49,366
+这样我们就不需要另一个抽象层了
+so that we don't need another layer of abstraction
+
+95
+00:04:49,500 --> 00:04:53,066
+像web pack链一样，让用户轻松
+like web pack chain to let the users easily
+
+96
+00:04:53,166 --> 00:04:56,066
+获得他们想要的配置，以适应
+get their desired configurations in fit
+
+97
+00:04:57,133 --> 00:05:00,266
+甚至对于生态系统包的提供
+and even for ecosystem package offers
+
+98
+00:05:00,300 --> 00:05:03,333
+它更容易从vitcom中扩展
+it is easier to extend from the vitcom
+
+99
+00:05:03,666 --> 00:05:04,933
+比从wetpack
+than from the wetpack
+
+100
+00:05:04,933 --> 00:05:05,733
+车
+car
+
+101
+00:05:05,800 --> 00:05:07,966
+例如，它是一个
+for example it is a
+
+102
+00:05:08,400 --> 00:05:12,566
+例如，在wetpack中，普遍承认的设计PT是
+universally acknowledged design PT in wetpack that
+
+103
+00:05:13,066 --> 00:05:17,266
+它不应该在API中同时有负载和插头
+it shouldn't have both the load and plug in API
+
+104
+00:05:19,200 --> 00:05:23,066
+因为这带来了两个问题
+because this brings 2 problems
+
+105
+00:05:23,066 --> 00:05:23,866
+第一
+first
+
+106
+00:05:24,733 --> 00:05:28,966
+用户可能不知道该使用哪个API
+users might not know which API to use
+
+107
+00:05:29,333 --> 00:05:30,966
+有时他们甚至可能
+sometimes they might even
+
+108
+00:05:31,466 --> 00:05:34,099
+一开始就选错了
+have chosen the wrong one at first
+
+109
+00:05:35,100 --> 00:05:38,766
+比如es linksof loader
+like the es linksof loader
+
+110
+00:05:39,066 --> 00:05:42,499
+后来被变成了es inter webpack pagan
+was later turned into es inter webpack pagan
+
+111
+00:05:42,600 --> 00:05:46,266
+因为autos发现plagan的apis
+because the autos found that the plagan apis
+
+112
+00:05:46,400 --> 00:05:49,700
+更适合于我们的使用情况和
+are more suitable for the use case of usand
+
+113
+00:05:52,066 --> 00:05:53,199
+而有时
+and sometimes
+
+114
+00:05:54,133 --> 00:05:56,666
+我们可能同时需要负载和
+we may need both loads and
+
+115
+00:05:56,666 --> 00:05:59,366
+插件apis来实现一个单一的
+the plugin apis to achieve one single
+
+116
+00:05:59,400 --> 00:06:00,666
+功能
+functionality
+
+117
+00:06:01,133 --> 00:06:03,133
+这就是视图加载器的情况
+that's the case for view loader
+
+118
+00:06:03,366 --> 00:06:07,133
+尽管它的名字里有世界加载器的字样
+even though it has the world loader in its name
+
+119
+00:06:08,500 --> 00:06:11,100
+用户仍然需要使用视图加载器
+users still have to use the view loader
+
+120
+00:06:11,300 --> 00:06:13,933
+攻击同一软件包中的出口
+attacking export from the same package
+
+121
+00:06:13,933 --> 00:06:15,899
+与视图加载器一起
+together with the view loader
+
+122
+00:06:16,366 --> 00:06:20,699
+来制作一个导出视图的单文件组件
+to make an export view single file component
+
+123
+00:06:22,733 --> 00:06:24,133
+这些都不再是
+these are no longer
+
+124
+00:06:24,133 --> 00:06:26,966
+在Viet和角色上的问题，因为
+problems in Viet and the role up because
+
+125
+00:06:26,966 --> 00:06:30,099
+他们只有一种方式可以从时钟上扩展
+they only have one way to extend from the clock
+
+126
+00:06:30,400 --> 00:06:32,100
+那就是插件系统
+that's the plugin system
+
+127
+00:06:34,600 --> 00:06:36,066
+最后，关于小麦
+lastly as of wheat
+
+128
+00:06:36,400 --> 00:06:38,733
+小麦的第三大创造
+the 3rd major creation of wheat
+
+129
+00:06:39,100 --> 00:06:41,200
+我们相信，小麦已经足够成熟
+we believe that wheat is mature
+
+130
+00:06:41,200 --> 00:06:44,966
+我们相信小麦已经足够成熟，并且已经为严肃的用例做好了准备
+enough and more than ready for serious use cases
+
+131
+00:06:45,766 --> 00:06:48,733
+因为尽管它很简单
+because with all its simplicity
+
+132
+00:06:48,800 --> 00:06:51,466
+它仍然有足够的力量调用
+it still has a power enough call
+
+133
+00:06:52,266 --> 00:06:56,199
+它已准备好与许多内置的集成系统一起使用
+it is ready for use with many built integrations
+
+134
+00:06:57,333 --> 00:06:59,766
+它使用滚动的战斗测试
+it uses roll up the battle test
+
+135
+00:07:01,666 --> 00:07:03,333
+用于生产捆绑
+for production bundling
+
+136
+00:07:03,900 --> 00:07:05,933
+当然，还有
+and of course
+
+137
+00:07:06,966 --> 00:07:10,766
+超级性能的债务服务器是它的一个
+the super performance debt server is one of its
+
+138
+00:07:11,866 --> 00:07:14,999
+最具代表性的功能
+most iconic feature
+
+139
+00:07:17,133 --> 00:07:17,866
+嘿
+hey
+
+140
+00:07:17,866 --> 00:07:22,799
+而且它默认启用了静态资产处理功能
+and it has static assets handling enabled by default
+
+141
+00:07:23,100 --> 00:07:26,400
+不需要额外的用户考虑
+no extra user consideration is required
+
+142
+00:07:26,933 --> 00:07:29,966
+所以这使得feat更像wetpack
+so this makes feat more like wetpack
+
+143
+00:07:30,266 --> 00:07:32,999
+更像stui而不是webpack
+more like stui than webpack
+
+144
+00:07:36,666 --> 00:07:36,799
+而
+the
+
+145
+00:07:36,800 --> 00:07:39,966
+这也是我们改用feed的另一个原因
+that's another reason for us to switch to feed
+
+146
+00:07:39,966 --> 00:07:43,866
+而不是创建另一个层
+directly instead of creating another layer
+
+147
+00:07:44,300 --> 00:07:47,200
+而不是创建另一层，即卡片式的feed cri或其他东西
+card feed cri or something else
+
+148
+00:07:48,533 --> 00:07:51,699
+而对于更复杂的用例
+and for more sophisticated use cases
+
+149
+00:07:51,700 --> 00:07:54,500
+如兄弟的兼容性问题
+such as brother compatibility issues
+
+150
+00:07:54,500 --> 00:07:56,733
+和单元测试解决方案
+and unit testing solutions
+
+151
+00:07:56,966 --> 00:08:00,866
+Fitz已经有了一个丰富的生态系统
+Fitz has already has a rich ecosystem
+
+152
+00:08:00,866 --> 00:08:03,566
+它有第一方插件
+it has first party plugins
+
+153
+00:08:04,400 --> 00:08:08,733
+为圣经转述，它有第三方旅游
+for bible transpiration and it has 3rd party tours
+
+154
+00:08:08,733 --> 00:08:10,499
+像适合测试的
+like fit test for
+
+155
+00:08:11,100 --> 00:08:12,600
+单元测试
+unit testings
+
+156
+00:08:13,400 --> 00:08:17,466
+因此，菲茨现在的功能是与
+so fit is now in feature parity with
+
+157
+00:08:17,700 --> 00:08:19,600
+感受你的眼睛，主要是
+feels your eye mostly
+
+158
+00:08:19,733 --> 00:08:20,599
+而且
+and
+
+159
+00:08:21,133 --> 00:08:24,866
+这使我们对转换更有信心
+that makes us more confident in a switching
+
+160
+00:08:28,200 --> 00:08:31,466
+这是一个混合的祝福，它是一个
+it is a mixed blessing that it is a
+
+161
+00:08:31,566 --> 00:08:35,133
+它是一个全新一代的网络工具
+completely new generation of web tools
+
+162
+00:08:37,000 --> 00:08:40,000
+我们可以利用这个机会采取不同的
+we can take the opportunity to take a different
+
+163
+00:08:40,166 --> 00:08:42,566
+我们可以借此机会采取不同的方法来解决一些问题，而这些问题
+approach of some of the issues that
+
+164
+00:08:43,933 --> 00:08:45,066
+是不可能的
+wasn't possible
+
+165
+00:08:46,600 --> 00:08:50,300
+以前在pcl和y pack中是不可能的
+previously in pcl and y pack
+
+166
+00:08:52,200 --> 00:08:56,466
+我们放弃了对许多反模式的关注
+we dropped spot for many anti patterns
+
+167
+00:08:57,200 --> 00:08:58,266
+例如
+for example
+
+168
+00:08:59,366 --> 00:09:04,499
+esm和cgs代码不再被允许混合使用
+esm and cgs code are no longer allowed to be mixed
+
+169
+00:09:04,866 --> 00:09:06,199
+在用户项目中
+in user projects
+
+170
+00:09:07,533 --> 00:09:08,966
+你不能使用模块
+you cannot use module
+
+171
+00:09:09,133 --> 00:09:12,699
+输出和导入语句在同一模块中使用。
+exports and import statements in the single
+
+172
+00:09:13,100 --> 00:09:14,333
+在同一个模块中使用
+in the same module
+
+173
+00:09:15,400 --> 00:09:19,866
+当然，只允许使用cgs代码的依赖性
+of course cgs only code are allowed in dependence
+
+174
+00:09:20,866 --> 00:09:21,666
+但
+but
+
+175
+00:09:23,300 --> 00:09:27,000
+你的项目代码会因为这个限制而变得更干净
+your project code will be cleaner with this limitation
+
+176
+00:09:28,533 --> 00:09:30,966
+至于视图的困扰
+as of the view plaguing of it
+
+177
+00:09:31,200 --> 00:09:32,333
+我们现在强制要求
+we now force
+
+178
+00:09:33,000 --> 00:09:37,466
+明确的扩展，当你从一个
+explicit extensionswhen you import from a
+
+179
+00:09:38,000 --> 00:09:41,766
+的时候，我们会强制使用明确的扩展名，因为这样可以使
+few single file components because that makes the
+
+180
+00:09:43,866 --> 00:09:46,299
+与其他工具的整合更容易
+integration with other tools easier
+
+181
+00:09:46,933 --> 00:09:50,966
+要求，并且类型脚本可以识别
+asking towards and the type script can recognize the
+
+182
+00:09:51,466 --> 00:09:53,799
+识别少数单一文件的组件
+few single file components earlier
+
+183
+00:09:54,200 --> 00:09:57,966
+这在将来会减少问题。
+and that would be less problematic in the future
+
+184
+00:09:58,800 --> 00:10:00,266
+适合不仅是
+fit does not only
+
+185
+00:10:00,400 --> 00:10:03,133
+在技术问题上采取了不同的方法
+take a different approach on technical issues
+
+186
+00:10:03,133 --> 00:10:07,133
+它还在许多层面上改善了项目的管理
+it also improves the project management on many levels
+
+187
+00:10:08,466 --> 00:10:11,399
+它现在有一个可预测的发布套件
+it now has a predictable release kit
+
+188
+00:10:11,933 --> 00:10:12,733
+这就是
+that is
+
+189
+00:10:12,733 --> 00:10:16,899
+每年至少有一个主要的版本，这就是它的形状
+it's what shapes at least one major version every year
+
+190
+00:10:17,166 --> 00:10:20,066
+以便与注释js版本保持一致
+to be in line with note js versions
+
+191
+00:10:22,933 --> 00:10:26,933
+因此，每年都会有一个生命末期的版本出现。
+so every year this would drop a spot for end of life
+
+192
+00:10:27,533 --> 00:10:29,066
+而不是js版本
+not js versions
+
+193
+00:10:29,466 --> 00:10:32,899
+今年，Fitz jobs fit 3被删除
+this year Fitz jobs fit 3 dropped
+
+194
+00:10:33,100 --> 00:10:34,900
+非礼服的位置12
+spots for non dress 12
+
+195
+00:10:35,100 --> 00:10:37,266
+而明年的2023年
+and next year 2023
+
+196
+00:10:37,933 --> 00:10:40,533
+适合非礼服14的下降支持
+fits what dropped support for non dress 14
+
+197
+00:10:42,800 --> 00:10:44,966
+小规模的频繁和
+the small frequent and
+
+198
+00:10:45,700 --> 00:10:48,566
+可预测的发布节奏
+predictable release cadence
+
+199
+00:10:49,733 --> 00:10:50,899
+也使得
+also makes
+
+200
+00:10:51,200 --> 00:10:54,933
+每个主要版本的迁移路径更加顺畅
+the migration path of each major version smoother
+
+201
+00:10:55,900 --> 00:10:57,966
+它将有更少的
+it will have fewer
+
+202
+00:10:58,166 --> 00:11:00,999
+破坏性变化
+breaking changes in each major releases
+
+203
+00:11:01,000 --> 00:11:03,100
+所以你不会再看到
+so you will no longer see
+
+204
+00:11:04,266 --> 00:11:05,999
+一长串的
+the long list of
+
+205
+00:11:06,900 --> 00:11:10,200
+迁移指南中的一长串破坏性变化
+breaking changes in the migration guide
+
+206
+00:11:10,666 --> 00:11:11,766
+而且这种
+and this
+
+207
+00:11:11,766 --> 00:11:14,666
+迁移的便利性也得到了维塔公司的保证。
+ease of migration is also guaranteed by the vita
+
+208
+00:11:14,666 --> 00:11:17,399
+生态系统cip库
+ecosystem cip repository
+
+209
+00:11:18,133 --> 00:11:19,733
+每一个版本
+with every release
+
+210
+00:11:19,900 --> 00:11:22,966
+适应性是通过所有主要参与者的测试
+fit is tested with all is the major players
+
+211
+00:11:22,966 --> 00:11:24,133
+的主要参与者进行测试。
+in the ecosystem
+
+212
+00:11:24,133 --> 00:11:26,199
+如果你正在使用vita
+and if you are using vita
+
+213
+00:11:26,766 --> 00:11:30,766
+与一个包装器或一个隐喻或其他东西
+with a wrapper or a metaphor or something else
+
+214
+00:11:31,500 --> 00:11:32,866
+它们将被
+they will be
+
+215
+00:11:33,300 --> 00:11:36,500
+保证在发布前可以使用
+guaranteed to be useable before the release
+
+216
+00:11:37,866 --> 00:11:41,199
+所以迁移的路径会更顺畅
+so the migration pathis smoother
+
+217
+00:11:42,966 --> 00:11:45,666
+在从Bill CIA到Vita的过渡中
+in a transition from Bill CIA to veet
+
+218
+00:11:45,933 --> 00:11:47,966
+我们还利用这个机会
+we've also taken this opportunity
+
+219
+00:11:47,966 --> 00:11:50,466
+解除了一些复杂的功能
+to decapo some complex features
+
+220
+00:11:50,766 --> 00:11:52,499
+从主工具中分离出来
+from the main tool
+
+221
+00:11:54,866 --> 00:11:55,999
+在View Cri
+in view cri
+
+222
+00:11:56,133 --> 00:11:59,199
+我们过去有概念性的颜色生成器
+we used to have the concept color generators
+
+223
+00:11:59,333 --> 00:12:02,966
+是特殊的插件，用于
+which are special plugins used to
+
+224
+00:12:03,533 --> 00:12:06,666
+创建或修改用户项目中的文件
+create or modify files in a user project
+
+225
+00:12:08,200 --> 00:12:09,766
+这些生成器通常是
+these generators are often
+
+226
+00:12:09,766 --> 00:12:11,666
+彼此紧密结合在一起
+tightly coupled with each other
+
+227
+00:12:12,466 --> 00:12:16,166
+例如，类型脚本 begin
+for example the type script begin
+
+228
+00:12:16,866 --> 00:12:17,999
+是用来
+is used to
+
+229
+00:12:18,666 --> 00:12:19,466
+修改
+modify
+
+230
+00:12:20,266 --> 00:12:24,466
+从coi服务包中创建的javascript文件
+javascript files created from the coi service package
+
+231
+00:12:24,733 --> 00:12:27,533
+创建的javascript文件，但对
+but has special handling for
+
+232
+00:12:28,366 --> 00:12:30,333
+创建的文件进行特殊处理。
+files created from the
+
+233
+00:12:30,966 --> 00:12:32,133
+路由器插件
+router plugin
+
+234
+00:12:33,566 --> 00:12:35,699
+所以这使得这些
+so that makes these
+
+235
+00:12:36,000 --> 00:12:39,366
+生成器难以长期维护
+generators hard to maintain in the long run
+
+236
+00:12:42,700 --> 00:12:43,533
+现在
+now that
+
+237
+00:12:44,266 --> 00:12:45,799
+我们正在创建新的工具
+we are creating new tools
+
+238
+00:12:45,800 --> 00:12:49,533
+所以我们决定创建一个专门的脚手架工具
+so we decided to create a dedicated scaffolding tools
+
+239
+00:12:49,533 --> 00:12:51,566
+为每一个用例创建一个专门的脚手架工具
+for each of these use cases
+
+240
+00:12:52,466 --> 00:12:54,366
+我们已经创建了一个视图
+we have created a view
+
+241
+00:12:55,100 --> 00:12:56,366
+其中我有所有的
+which I have all the
+
+242
+00:12:56,966 --> 00:12:59,733
+视图项目的基本必需品
+basic necessities for our view project
+
+243
+00:13:00,166 --> 00:13:00,966
+和
+and
+
+244
+00:13:01,066 --> 00:13:04,099
+对于那些使用自己的模板的人来说，他们使用的是
+for those who are using their own templates are using
+
+245
+00:13:04,100 --> 00:13:09,066
+所有基于网络包的项目
+all the web pack based projects
+
+246
+00:13:09,533 --> 00:13:11,166
+我们有几个
+we have thefew
+
+247
+00:13:11,933 --> 00:13:16,133
+斜线在冲突包中创建，用于
+slash creates in the conflict package that are used
+
+248
+00:13:16,500 --> 00:13:20,500
+只用于为你创建我们的链接配置
+for only creating the us link configurations for you
+
+249
+00:13:20,866 --> 00:13:24,733
+如果你想拥有自己的项目模板
+and if you want to have your own project template
+
+250
+00:13:25,400 --> 00:13:28,533
+我认为这是一个不错的选择
+I think it is a good choice to
+
+251
+00:13:28,566 --> 00:13:32,333
+如果你想拥有你自己的项目模板，我认为这是一个很好的选择，创建github仓库作为模板并使用
+create github repositories as templates and use
+
+252
+00:13:33,066 --> 00:13:36,333
+门来为你下载这些模板。
+the gates to download these templates for you
+
+253
+00:13:37,166 --> 00:13:41,499
+视图服务中的另一种类型的插件服务插件
+another type of plugin in view service service plugins
+
+254
+00:13:41,500 --> 00:13:45,400
+这些都是用来扩展web back的插件。
+these are plugins used to extend the web back
+
+255
+00:13:45,400 --> 00:13:46,800
+冲突，从
+conflict from the
+
+256
+00:13:48,300 --> 00:13:52,300
+调用coi服务和coi插件
+call coi service and coi plugins
+
+257
+00:13:53,100 --> 00:13:57,266
+现在，这个节拍更容易配置和扩展了
+now that beat is easier to configure and extend from
+
+258
+00:13:57,566 --> 00:14:02,299
+呃，我们不再需要另一个抽象层了，所以
+uh we no longer need another layer of abstractions so
+
+259
+00:14:04,133 --> 00:14:06,366
+我们不再需要另一个抽象层，因此，不再需要封一个服务园
+no more seal a service park in
+
+260
+00:14:07,766 --> 00:14:11,499
+你可以只在项目中使用普通的珠子。
+you can just use plain bead bargains in a project
+
+261
+00:14:14,900 --> 00:14:18,766
+好了，现在让我们仔细看看每个珊瑚的
+okay now let's take a closer look at each of the coral
+
+262
+00:14:19,100 --> 00:14:21,766
+填补coi插件，看看
+fill coi plugins and see
+
+263
+00:14:22,166 --> 00:14:24,999
+我们在脚下的生态系统里有什么？
+what we've got in the feet ecosystem
+
+264
+00:14:25,866 --> 00:14:29,133
+首先让我们从Yes Clint插件开始
+first let's start with the yes Clint plugin
+
+265
+00:14:30,800 --> 00:14:34,566
+yeastint pagan是用来帮助用户
+the yeastint pagan was used to help users
+
+266
+00:14:34,700 --> 00:14:36,533
+配置yeastint
+configure yeastints
+
+267
+00:14:37,000 --> 00:14:39,166
+在他们的项目中，并
+in their projects and
+
+268
+00:14:39,966 --> 00:14:41,133
+在项目编译过程中链接
+linked the
+
+269
+00:14:41,933 --> 00:14:45,133
+文件在项目编译过程中
+files during project compilation
+
+270
+00:14:45,866 --> 00:14:47,699
+为配置路径
+for the configuration path
+
+271
+00:14:47,866 --> 00:14:50,699
+我们已经创建了一个新的旅游，你可以调用
+we've created a new tour and you can call the
+
+272
+00:14:51,366 --> 00:14:55,199
+创建一些斜线的小配置。
+mpn create a few slash yes little config
+
+273
+00:14:56,200 --> 00:15:00,733
+来帮助你在面试项目中配置是的
+to help youconfigure yes in interview projects
+
+274
+00:15:00,966 --> 00:15:03,366
+呃，包括配合
+uh that includes fits
+
+275
+00:15:04,166 --> 00:15:07,466
+不仅在配合项目中，而且在
+not only in fit projects but also in
+
+276
+00:15:07,600 --> 00:15:10,333
+网络包项目和或在
+web pack projects and or in
+
+277
+00:15:10,800 --> 00:15:12,800
+uh 一些ci项目
+uh few ci projects
+
+278
+00:15:14,333 --> 00:15:19,333
+至于项目编译过程中的链接部分
+as for the linking during project compilation parts
+
+279
+00:15:20,066 --> 00:15:20,999
+我们现在发现
+we now find
+
+280
+00:15:21,000 --> 00:15:25,066
+我们现在发现，这并不是一个理想的链接方式，因为
+that it is not the ideal way to do linking because
+
+281
+00:15:25,400 --> 00:15:28,533
+它损害了编译性能
+it hurts the compilation performance
+
+282
+00:15:29,266 --> 00:15:30,066
+和
+and
+
+283
+00:15:31,266 --> 00:15:34,066
+大多数想法和编辑
+most ideas and editors
+
+284
+00:15:34,600 --> 00:15:37,366
+在停车位上有，所以
+have yes in the parking so
+
+285
+00:15:38,733 --> 00:15:41,866
+我们不建议你只使用你的id
+we not recommend you to just use your id
+
+286
+00:15:41,966 --> 00:15:43,899
+或编辑功能
+or editor feature
+
+287
+00:15:44,066 --> 00:15:46,366
+来使用升级，而不是
+to use the escalate instead of
+
+288
+00:15:46,666 --> 00:15:48,099
+使用捆绑的插件
+use a bundle of plugin
+
+289
+00:15:50,333 --> 00:15:53,499
+而至于顶部的脚本则是
+and as for the top script bargain
+
+290
+00:15:54,333 --> 00:15:56,166
+的转换
+transformation of
+
+291
+00:15:56,366 --> 00:16:00,666
+TS文件是默认支持的，在适合
+TS files are supported by default in fit
+
+292
+00:16:01,500 --> 00:16:03,600
+在es build的帮助下
+with help of es build
+
+293
+00:16:04,700 --> 00:16:06,933
+如果你想进行类型检查
+if you want type checking
+
+294
+00:16:07,700 --> 00:16:11,100
+我们也建议你使用你的
+we also recommend you to use the integrations of your
+
+295
+00:16:11,100 --> 00:16:12,000
+编辑器或
+editors or
+
+296
+00:16:12,000 --> 00:16:14,266
+和IGES
+iges and
+
+297
+00:16:15,333 --> 00:16:18,966
+如果你想在命令行中进行类型检查，那么
+if you want to do the type check in command line then
+
+298
+00:16:19,333 --> 00:16:21,699
+你可以安装votsc
+you can install the votsc
+
+299
+00:16:22,066 --> 00:16:23,466
+包。
+package separately
+
+300
+00:16:25,533 --> 00:16:28,133
+当然，如果你确实想看到
+of course if you do want to see the
+
+301
+00:16:28,366 --> 00:16:30,599
+链接和类型检查的结果
+linking and types checking results
+
+302
+00:16:30,966 --> 00:16:34,533
+在你的浏览器页面上实时显示
+in your browser page in real time
+
+303
+00:16:34,666 --> 00:16:36,099
+有1个
+there is 1/3 party
+
+304
+00:16:36,100 --> 00:16:38,400
+null
+plugin called wheat plugging checker
+
+305
+00:16:38,533 --> 00:16:40,299
+null
+that runs these tools
+
+306
+00:16:40,300 --> 00:16:41,533
+null
+in our walker thread
+
+307
+00:16:41,766 --> 00:16:43,299
+null
+which is non blocking
+
+308
+00:16:43,400 --> 00:16:46,000
+null
+and the result will be shown in the
+
+309
+00:16:46,866 --> 00:16:48,933
+null
+plaza era of a lake
+
+310
+00:16:50,266 --> 00:16:54,466
+null
+just like what we've got in the UCI in the past
+
+311
+00:16:57,933 --> 00:17:01,133
+null
+as for the unit's testing solutions
+
+312
+00:17:01,133 --> 00:17:04,699
+null
+actually we are not satisfied with any of our
+
+313
+00:17:04,733 --> 00:17:06,666
+null
+previous solutions
+
+314
+00:17:07,733 --> 00:17:09,566
+null
+Jesse is a great tool
+
+315
+00:17:10,300 --> 00:17:11,900
+null
+um but the biggest
+
+316
+00:17:11,900 --> 00:17:14,533
+null
+problem of it is that it doesn't
+
+317
+00:17:14,533 --> 00:17:16,666
+null
+share confusions with the bandala
+
+318
+00:17:16,666 --> 00:17:19,266
+null
+it has its own ecosystem of
+
+319
+00:17:20,400 --> 00:17:22,533
+null
+transformers and resolves
+
+320
+00:17:22,566 --> 00:17:23,166
+null
+and
+
+321
+00:17:23,166 --> 00:17:26,299
+null
+users have to maintain a standard long configuration
+
+322
+00:17:26,300 --> 00:17:29,133
+null
+files just for just itself
+
+323
+00:17:29,400 --> 00:17:32,166
+null
+and the testing environment might
+
+324
+00:17:32,300 --> 00:17:35,333
+null
+end up not the same as the project
+
+325
+00:17:35,533 --> 00:17:37,299
+null
+execution context
+
+326
+00:17:37,300 --> 00:17:39,400
+null
+so that's not ideal
+
+327
+00:17:42,500 --> 00:17:44,333
+null
+mocha is another great tool
+
+328
+00:17:44,466 --> 00:17:46,466
+null
+but it is tedious
+
+329
+00:17:46,533 --> 00:17:49,966
+null
+to configure mocha to make it work with other bundles
+
+330
+00:17:50,800 --> 00:17:51,966
+null
+the mocha pack
+
+331
+00:17:53,733 --> 00:17:54,866
+null
+mostly used
+
+332
+00:17:56,133 --> 00:17:58,599
+null
+mocha integration with web pack
+
+333
+00:17:58,800 --> 00:18:01,100
+null
+takes much time to
+
+334
+00:18:01,766 --> 00:18:03,066
+null
+upgrade to web pack
+
+335
+00:18:03,566 --> 00:18:08,099
+null
+and it still hasn't upgraded to mocha 10 yet
+
+336
+00:18:09,533 --> 00:18:12,966
+null
+luckily we now have v test which is a feat based
+
+337
+00:18:13,300 --> 00:18:15,933
+null
+unit testing tool so it's fast
+
+338
+00:18:16,733 --> 00:18:18,933
+null
+by default and the
+
+339
+00:18:19,166 --> 00:18:21,466
+null
+configurations of v test
+
+340
+00:18:21,466 --> 00:18:24,333
+null
+is derived from the vs configuration
+
+341
+00:18:24,466 --> 00:18:29,666
+null
+so the users runs other codes in a similar environment
+
+342
+00:18:30,000 --> 00:18:31,600
+null
+and most importantly
+
+343
+00:18:31,600 --> 00:18:32,966
+null
+it is well maintained
+
+344
+00:18:32,966 --> 00:18:35,099
+null
+by people who are familiar with vit
+
+345
+00:18:35,100 --> 00:18:39,733
+所以更容易升级到新的Vit版本
+so it's easier to upgrade to new vit versions
+
+346
+00:18:39,933 --> 00:18:43,866
+而且它也是维生素生态系统的一部分。
+and it is also part of the vit ecosystem ci
+
+347
+00:18:47,700 --> 00:18:49,266
+如此多的生态系统
+so much for the ecosystem
+
+348
+00:18:49,566 --> 00:18:52,533
+展望细节整合的未来
+looking into the future of detail integration
+
+349
+00:18:52,600 --> 00:18:55,933
+我们仍有许多令人兴奋的新闻计划
+we still have many exciting news things planned
+
+350
+00:18:56,866 --> 00:19:00,399
+例如，这是一个常见的错误来源，即可能有多个视图副本。
+for example it is a common source of bug that there
+
+351
+00:19:00,500 --> 00:19:03,133
+可能会有一个以上的视图副本
+may be more than one view copies
+
+352
+00:19:03,600 --> 00:19:05,766
+在同一个笔记模块中
+in the same note modules
+
+353
+00:19:05,900 --> 00:19:09,700
+所以我们想默认推导出视图包
+so we want to deduce the view package by default
+
+354
+00:19:09,700 --> 00:19:12,166
+并只保留一个副本
+and keep only one copy of it
+
+355
+00:19:13,166 --> 00:19:17,533
+我们希望在Daryl测试之后再推出这个功能。
+we'd like to ship this feature after Daryl testing
+
+356
+00:19:18,300 --> 00:19:20,933
+这是另一个潜在的改进
+and here's another potential improvement
+
+357
+00:19:21,300 --> 00:19:25,466
+仿佛它鼓励尽可能地使用是的模块
+as though it encourages yes modules whenever possible
+
+358
+00:19:25,466 --> 00:19:28,533
+可能有一些遗留的包
+there may be some legacy packages
+
+359
+00:19:28,966 --> 00:19:32,166
+是以山寨版的格式发货的
+that were shipped in the cottage s format
+
+360
+00:19:32,166 --> 00:19:34,899
+而它们甚至可能需要
+and they might even require the
+
+361
+00:19:35,900 --> 00:19:40,733
+视图的普通版本，所以我们要改进这种
+common dress version of view so we want to improve that
+
+362
+00:19:41,133 --> 00:19:42,399
+种包
+kind of package
+
+363
+00:19:42,400 --> 00:19:46,266
+是一个可中断的新包
+is an interruptability with newer packages
+
+364
+00:19:46,400 --> 00:19:48,766
+而且我们想在视图插件中做一些事情
+and we want to do something
+
+365
+00:19:49,733 --> 00:19:53,099
+在视图插件中帮助改善这种情况
+in a view plugin to help improve this situation
+
+366
+00:19:53,100 --> 00:19:56,066
+我们希望在视图插件中做一些事情来帮助改善这种情况，因为它已经非常快了。
+slove it is already very fast
+
+367
+00:19:56,166 --> 00:19:59,099
+总是有改进的余地
+there is always room for improvement
+
+368
+00:19:59,400 --> 00:20:02,766
+而且我们不会停止寻找方法来
+and we won't stop looking for ways to
+
+369
+00:20:03,166 --> 00:20:05,366
+进一步加快脚步
+speed up feet even further
+
+370
+00:20:05,966 --> 00:20:07,799
+我的演讲到此结束
+so that's it for my talk
+
+371
+00:20:08,500 --> 00:20:09,866
+谢谢你的聆听
+thank you for listening
+
+372
+00:20:09,900 --> 00:20:13,966
+希望你喜欢用视图和壮举进行编码，谢谢
+hope you enjoy coding with view and feat thanks
+
