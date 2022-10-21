@@ -1,4 +1,4 @@
-# ⚡viteconf2022-中英字幕
+# ⚡ViteConf2022-中英字幕
 
 <p align="center">
   <a href="https://viteconf.org" target="_blank" rel="noopener noreferrer">
